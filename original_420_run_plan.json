@@ -1,0 +1,198 @@
+{
+  "status": "FROZEN_BEFORE_TRAINING",
+  "purpose": "ARCHIVAL_SURROGATE_RESEARCH_V08",
+  "acknowledge_legacy_target_not_corrected_capacity": true,
+  "scientific_scope": "Emulate an explicitly defined historical numerical scalar-envelope reference; no claim of independent physical-capacity qualification.",
+  "target_version": "archive-scalar-running-min-interp61-v1",
+  "feature_version": "fe-global-v2-prescribed-archive-time-v1",
+  "manifest_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\manifest.json",
+  "manifest_sha256": "7712ad86ab48f185c53a9ae276a9a7b2f6e6673a5d5faf6fc69b0f1bbb3dcdaf",
+  "protocols": {
+    "iid997": {
+      "split_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\iid997.json",
+      "split_sha256": "1a9405cc3bab2cd58776d537771ee14f8ad13017b11a7cb1d552f15b8c3d0505",
+      "counts": {
+        "train": 693,
+        "validation": 144,
+        "test": 160
+      }
+    },
+    "lcro_9_15": {
+      "split_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\lcro_9_15.json",
+      "split_sha256": "dbf9620ae4d56ace506fa2b6c949ff4018989c916c0b7850fa3924369d1f6f6a",
+      "counts": {
+        "train": 620,
+        "validation": 113,
+        "test": 264
+      }
+    },
+    "loco_iso834": {
+      "split_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_iso834.json",
+      "split_sha256": "63416c567ffc3781aea4d3f9ab58a5beb94eca2e32640ef8c4c687bbf538bc9d",
+      "counts": {
+        "train": 709,
+        "validation": 130,
+        "test": 158
+      }
+    },
+    "loco_astm_e119": {
+      "split_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_astm_e119.json",
+      "split_sha256": "86d7beafadd5eb6b3cc8862fd9e53208fb0691f84339368fad809d20037a5c80",
+      "counts": {
+        "train": 763,
+        "validation": 139,
+        "test": 95
+      }
+    },
+    "loco_perturbed_iso": {
+      "split_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_perturbed_iso.json",
+      "split_sha256": "212869a2a9026a605a505a3cabfe950985d0568de5efb72266a6f9d07f57ccf7",
+      "counts": {
+        "train": 749,
+        "validation": 137,
+        "test": 111
+      }
+    },
+    "loco_plateau": {
+      "split_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_plateau.json",
+      "split_sha256": "579cbc1c51ae4b88e6d082c9cbce13be469eb08123de2660fd014299b9259c47",
+      "counts": {
+        "train": 756,
+        "validation": 138,
+        "test": 103
+      }
+    },
+    "loco_decay": {
+      "split_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_decay.json",
+      "split_sha256": "f0006a5bf445186c7062b5093d17ccdc232d2defb937248445f4e35636bddfbd",
+      "counts": {
+        "train": 747,
+        "validation": 137,
+        "test": 113
+      }
+    },
+    "loco_log_variant": {
+      "split_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_log_variant.json",
+      "split_sha256": "d54470aebeddc2dd8dda1561147a8c0755a4b7b900cf73969e7b611b37249d39",
+      "counts": {
+        "train": 785,
+        "validation": 143,
+        "test": 69
+      }
+    },
+    "loco_external_fire": {
+      "split_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_external_fire.json",
+      "split_sha256": "519d312c4af25ec3e92f73bd5339052477876c9a0f98750ac3ff1bb0e4c72962",
+      "counts": {
+        "train": 802,
+        "validation": 146,
+        "test": 49
+      }
+    },
+    "loco_bilinear": {
+      "split_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_bilinear.json",
+      "split_sha256": "8946917a1984748d1631571ec03fb5816c9b7cd30a3d11787acdafaac4a5cbda",
+      "counts": {
+        "train": 778,
+        "validation": 142,
+        "test": 77
+      }
+    },
+    "loco_linear": {
+      "split_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_linear.json",
+      "split_sha256": "6007a97faf5d91a463f0209a8572a9784dbd77f90482836c414ed0de7e869350",
+      "counts": {
+        "train": 737,
+        "validation": 135,
+        "test": 125
+      }
+    },
+    "loco_smoldering": {
+      "split_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_smoldering.json",
+      "split_sha256": "c856660731341ad101b11903f18a0b1efaebca19f8aecf7347ff76408223abdc",
+      "counts": {
+        "train": 761,
+        "validation": 139,
+        "test": 97
+      }
+    }
+  },
+  "models": [
+    "fire_only",
+    "global_stats",
+    "deepsets",
+    "capacity_matched_deepsets",
+    "gnn",
+    "gnn_zero_edge_features",
+    "gnn_mean"
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "runs_root": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420",
+  "source_sha256": {
+    "SCI_Manuscript/experiments/research_v08/research_runner.py": "c1fe6b1d6ebcf0b11a9694f69077a16cefe1556a67631732fe2844cf926875f0",
+    "SCI_Manuscript/experiments/research_v08/prepare997.py": "66666a7dcbc97d54398bf51f7c917e03901e075745233c7951f98d0723292011",
+    "SCI_Manuscript/experiments/research_v08/make_plan.py": "8ac6d7fadf7ae8316209b6902441fb254f05136809d8afde4d66a58b0d24e031",
+    "SCI_Manuscript/experiments/research_v08/run_queue.py": "314b72203f33ea3bf6bc68beff866f44ee8fc2451cc13f1203e1ed84eedc8166",
+    "SCI_Manuscript/experiments/models.py": "0a96098f2d7b96e081f1ebe99a839007d56383d8cc1d6b5fe27331cc06426444",
+    "SCI_Manuscript/experiments/physical_features.py": "34452607a30b06fc7598e127c3cbce64ff2f7ae9882fd23bcec5f1d7aaab49cb",
+    "SCI_Manuscript/experiments/capacity_matched_set.py": "612eb2799536fcd149673ffda67c1d58cf4241627b5cf4a6c732b6d92b685adc",
+    "SCI_Manuscript/experiments/run_readiness.py": "62b702acebef6e150847e65bb4f590aeadc93f3d78effa22d1c8be6b53023abd",
+    "SCI_Manuscript/experiments/qualified_data.py": "bf429d1b161cba78c2297ea262ee4f70c4d755d4e9d6293667589143c60a50b3",
+    "SCI_Manuscript/figures_v06/topology/topology_extension.py": "18ff231f7bb8cd9010277582294953c3fd6de51b193cd4853dd40320342fe8c7",
+    "1_代码/src/data/dataset.py": "c303b9bb0c406bd14019080661ad0ac124b946fc4cd9774fe4438b76ff4f855f",
+    "1_代码/src/gnn/model.py": "808bf7c8d31ae4c76fc5e07c37244ddb18af54e84304603c06da2ec76ffd6752"
+  },
+  "training_configuration": {
+    "device": "cuda",
+    "threads": 4,
+    "epochs_max": 300,
+    "batch_size": 32,
+    "patience": 50,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "optimizer": "AdamW",
+    "scheduler": "CosineAnnealingLR(T_max=epochs_max)",
+    "grad_clip_norm": 1.0,
+    "loss": "equal_case_time_mean_squared_error",
+    "validation_selection": "Earliest minimum validation MSE",
+    "deterministic_algorithms": true
+  },
+  "tuning_budget": {
+    "trials_per_model_protocol": 1,
+    "parameter_search": "None; architecture and training settings fixed before outcomes.",
+    "shared_training_budget": true,
+    "test_based_tuning": false
+  },
+  "primary_metric": "equal_case_MAE",
+  "primary_contrast": [
+    "capacity_matched_deepsets",
+    "gnn"
+  ],
+  "secondary_contrast": [
+    "gnn",
+    "gnn_mean"
+  ],
+  "claim_rule": "Report paired effect and uncertainty whether favorable, inconclusive or unfavorable; no post-hoc pass threshold.",
+  "statistics": "Five matched seeds, per-case errors, geometry-cluster/seed paired bootstrap; no timepoint pseudoreplication.",
+  "topology": {
+    "training_rule": "complete directed without loops",
+    "same_checkpoint_test_views": [
+      "complete",
+      "radius",
+      "symmetric_knn"
+    ],
+    "sparse_view_refit": false,
+    "radius_fit": "training geometries only; median within-geometry distance median",
+    "knn_k": 3,
+    "interpretation": "Representation-connectivity stress test distinct from new physical geometry or FE mesh transfer."
+  },
+  "legacy_subset_policy": "Report retained911/restored86 only as prespecified strata within the997 test split; not extra independent datasets.",
+  "publication_interpretation": "Software smoke establishes no accuracy. New predictions must carry this target/feature version. Neither FE convergence nor journal acceptance is inferred.",
+  "created_utc": "2026-09-07T02:48:29Z"
+}
