@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this metadata, please cite the associated manuscript and this repository."
+title: "CrackFireNet study metadata"
+type: dataset
+authors:
+  - family-names: Zheng
+    given-names: Xiuzhi
+  - family-names: Peng
+    given-names: Bo
+  - family-names: Zhu
+    given-names: Shaojun
+    email: zhushaojun@tongji.edu.cn
+license: CC-BY-4.0
+abstract: "Metadata and aggregate integrity records for crack-graph thermal-response screening of fire-exposed timber beams."
+keywords:
+  - fire-exposed timber beams
+  - graph neural networks
+  - inductive learning
+  - surrogate modelling
+repository-code: "https://github.com/percyzhu/crackfire-net-metadata"
