@@ -1,0 +1,3 @@
+# Research evidence is bound to byte-level checksums, including text line endings.
+# Preserve the supplied bytes on every platform and in downloadable archives.
+reproducibility-v08/** -text
