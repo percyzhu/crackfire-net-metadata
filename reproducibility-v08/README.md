@@ -12,6 +12,14 @@ The finite-element meshes, ODBs, full temperature fields and raw experimental re
 
 ## Quick start
 
+On Windows, use a short checkout directory or enable Git long-path support when cloning:
+
+```text
+git clone -c core.longpaths=true https://github.com/percyzhu/crackfire-net-metadata.git
+```
+
+The repository preserves the exact bytes of this release, including text line endings, so that checksum verification is consistent across platforms.
+
 Create a compatible Python environment with the versions recorded in `base/environment.json`, then run from this directory:
 
 ```text
