@@ -1,0 +1,155 @@
+{
+  "status": "RENDERED_PENDING_INDEPENDENT_AND_VISUAL_REVIEW",
+  "dimensions_mm": [
+    183,
+    154
+  ],
+  "minimum_text_pt": 8.0,
+  "plotted_values": 56,
+  "raw_latency_records": 14355,
+  "axes_limits": {
+    "cpu": {
+      "single_latency_xlim": [
+        0.0,
+        3.5153679066570467
+      ],
+      "batch_throughput_xlim": [
+        0.0,
+        19765.827430728823
+      ]
+    },
+    "cuda": {
+      "single_latency_xlim": [
+        0.0,
+        5.941986342251766
+      ],
+      "batch_throughput_xlim": [
+        0.0,
+        61628.65951392043
+      ]
+    }
+  },
+  "source_sha256": {
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\audit_inference_timing.py": "cfb768af7addf6cf89095dd5f9a6e7ff2a5331238caf4cb3ee329a54310278f3",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\timing_plan.json": "e44ab414c6f7c56a8a400292d6c460bdfb90ba5d2b3636f76ff353575c5eb5a7",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\summary.json": "7fff40c8a951671de4c5f68f431505c9be293e7fe9c6be7953b1206820536666",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\raw_timings.csv": "73d6e336d92c2500c27f251e7f73348660ae04bbffa48b1f37374ee58065b4fb",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\training_costs_420.csv": "758306e68a7f0873c913525702b3e4ebb5a751a4e757770d2bd543f4716820dd",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\environment.json": "e5573a2a6db910e3d18eb37f644b0caa761cef2ee206b54d013b10b76787dbb5",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\premeasurement_artifact_binding.json": "080f15fc36dfed53776622ade66f6e17e9d4de892810699b1d42ec84b6065956",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\readiness_at_completion.json": "0692b1f8d5dd5b69b7868bfe0bc0e80cdba05a2be3957b006dd1c1c4887da1a6",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\comparison_plan_v08_420.json": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\benchmark_inference.py": "aad7de1e3e332a119adf5ea97f2813bf47dd8d3fe4d136a4ba60cb096f96bcf9",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\report.json": "534efdd6a569a675ddbfedbdcd32b6c4fc40f8ad09edcd51587b122d5e94e499",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\run_integrity.json": "ce4ebdc61f1626321aa115deb8a731f3ed7e241c32ec3dfdd69fe8e90b4d6cdb",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\manifest.json": "7712ad86ab48f185c53a9ae276a9a7b2f6e6673a5d5faf6fc69b0f1bbb3dcdaf",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\inference_timing_independent_audit.json": "0a3e53dde147f0a562d529e273df1bd3db3ae185f493e836c2c2a5b157f4cf30",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\inference_efficiency\\figure_contract.md": "6b89bcdda0abcb21af6acbbc4e52103e7920ad6d17f3406c8bcee5513bd64287",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\inference_efficiency\\caption_en.tex": "cea827902b73d39fdaca3a9bd4e1f5e623b029beb0e8b0c245eca82df7031d7e",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\inference_efficiency\\draw_inference_efficiency_v08.py": "2b8b89f85a11312014e25814452d29e07b14135661a477682aed81c8d96b24b5",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\inference_efficiency\\audit_inference_figure.py": "a1e97010736967cb70023dbb797dc630677bd067fce53212e708bbcd6b187d21"
+  },
+  "source_snapshot": [
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\audit_inference_timing.py",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\audit_inference_timing.py",
+      "sha256": "cfb768af7addf6cf89095dd5f9a6e7ff2a5331238caf4cb3ee329a54310278f3"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\timing_plan.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\timing_plan.json",
+      "sha256": "e44ab414c6f7c56a8a400292d6c460bdfb90ba5d2b3636f76ff353575c5eb5a7"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\summary.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\summary.json",
+      "sha256": "7fff40c8a951671de4c5f68f431505c9be293e7fe9c6be7953b1206820536666"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\raw_timings.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\raw_timings.csv",
+      "sha256": "73d6e336d92c2500c27f251e7f73348660ae04bbffa48b1f37374ee58065b4fb"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\training_costs_420.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\training_costs_420.csv",
+      "sha256": "758306e68a7f0873c913525702b3e4ebb5a751a4e757770d2bd543f4716820dd"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\environment.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\environment.json",
+      "sha256": "e5573a2a6db910e3d18eb37f644b0caa761cef2ee206b54d013b10b76787dbb5"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\premeasurement_artifact_binding.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\premeasurement_artifact_binding.json",
+      "sha256": "080f15fc36dfed53776622ade66f6e17e9d4de892810699b1d42ec84b6065956"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\readiness_at_completion.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\readiness_at_completion.json",
+      "sha256": "0692b1f8d5dd5b69b7868bfe0bc0e80cdba05a2be3957b006dd1c1c4887da1a6"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\comparison_plan_v08_420.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\comparison_plan_v08_420.json",
+      "sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\benchmark_inference.py",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\benchmark_inference.py",
+      "sha256": "aad7de1e3e332a119adf5ea97f2813bf47dd8d3fe4d136a4ba60cb096f96bcf9"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\report.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\report.json",
+      "sha256": "534efdd6a569a675ddbfedbdcd32b6c4fc40f8ad09edcd51587b122d5e94e499"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\run_integrity.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\run_integrity.json",
+      "sha256": "ce4ebdc61f1626321aa115deb8a731f3ed7e241c32ec3dfdd69fe8e90b4d6cdb"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\manifest.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\archive997\\manifest.json",
+      "sha256": "7712ad86ab48f185c53a9ae276a9a7b2f6e6673a5d5faf6fc69b0f1bbb3dcdaf"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\inference_timing_independent_audit.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\inference_timing_independent_audit.json",
+      "sha256": "0a3e53dde147f0a562d529e273df1bd3db3ae185f493e836c2c2a5b157f4cf30"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\inference_efficiency\\figure_contract.md",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\figures_v08\\inference_efficiency\\figure_contract.md",
+      "sha256": "6b89bcdda0abcb21af6acbbc4e52103e7920ad6d17f3406c8bcee5513bd64287"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\inference_efficiency\\caption_en.tex",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\figures_v08\\inference_efficiency\\caption_en.tex",
+      "sha256": "cea827902b73d39fdaca3a9bd4e1f5e623b029beb0e8b0c245eca82df7031d7e"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\inference_efficiency\\draw_inference_efficiency_v08.py",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\figures_v08\\inference_efficiency\\draw_inference_efficiency_v08.py",
+      "sha256": "2b8b89f85a11312014e25814452d29e07b14135661a477682aed81c8d96b24b5"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\inference_efficiency\\audit_inference_figure.py",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\figures_v08\\inference_efficiency\\audit_inference_figure.py",
+      "sha256": "a1e97010736967cb70023dbb797dc630677bd067fce53212e708bbcd6b187d21"
+    }
+  ],
+  "measured_GPU": "NVIDIA GeForce RTX 3060 Ti",
+  "CPU_threads": 4,
+  "derived_artifact_sha256": {
+    "plotted_values.csv": "15365623ed6d0502f4d65849eb9dea73aff6ef3267b5e8e7bf2b3ab45d510332",
+    "companion_summaries.json": "7fff40c8a951671de4c5f68f431505c9be293e7fe9c6be7953b1206820536666",
+    "inference_efficiency_v08.pdf": "9bd4246a0e3361da27d0da01effc960fdaa313aa4071f85ada56c26b4fa23787",
+    "inference_efficiency_v08.svg": "77180f812afd4eb8e35360d7f92081487174b83a3183a3c11dac153504992193",
+    "inference_efficiency_v08.png": "a4f805ebc89bdcefb92b04f290f7bff2a04933906a709d5272cbdf4cf1ea9515"
+  },
+  "visual_QA_passed": false,
+  "scientific_manuscript_or_submission_pass": false
+}

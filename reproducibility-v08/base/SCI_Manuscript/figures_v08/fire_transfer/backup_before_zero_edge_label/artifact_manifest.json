@@ -1,0 +1,151 @@
+{
+  "status": "ACTUAL_ARTIFACTS_GENERATED_AND_STANDALONE_QA_PASSED",
+  "created_utc": "2026-09-07T08:44:40.301762+00:00",
+  "files": [
+    {
+      "path": "actual_QA.md",
+      "bytes": 1036,
+      "sha256": "7382f5fdd181dc9d8a3d25bfffc136d1f7db195483349eb458c05e249cb2959d"
+    },
+    {
+      "path": "audit_fire_transfer_results.py",
+      "bytes": 4483,
+      "sha256": "5f421f251fecab2ac4ab16a707eeb9590fbabd9929c670f0333dbfaf74893f48"
+    },
+    {
+      "path": "audit_pdf_export.py",
+      "bytes": 1443,
+      "sha256": "8a30edc776c288a70ac3071350fdb1620af3f310b75721823c18794ef0a4364e"
+    },
+    {
+      "path": "caption_en.tex",
+      "bytes": 1607,
+      "sha256": "1fdf4556c1df28198b4b9ca04cf05efbff64ebc758bd261d7aff5236a32cb82c"
+    },
+    {
+      "path": "cross_holdout_descriptive_seed_means.csv",
+      "bytes": 8166,
+      "sha256": "b0bae7506049451eb7f71f41905b9798bf59c4acc5e2754d0271c4713fb06ea9"
+    },
+    {
+      "path": "draw_fire_transfer_v08.py",
+      "bytes": 22780,
+      "sha256": "650a4e002615230ae3739ec084ac5ddab06aebc82bb113ad9f11bcd30ba2ef87"
+    },
+    {
+      "path": "engineering_examples_plan_review.json",
+      "bytes": 1480,
+      "sha256": "0ab53597bfec100691df06ed1d2f988e123b61f6779897c940cf5fbfbccdfa2e"
+    },
+    {
+      "path": "family_model_seed_mae.csv",
+      "bytes": 29817,
+      "sha256": "29ed861b2014d642e857dbc7e4d941ea54231c9352939b4f90ad4414e9ab8eb4"
+    },
+    {
+      "path": "figure_contract.md",
+      "bytes": 3399,
+      "sha256": "de1679a42795e7b29115a55bb7cad7f3cdcc6ce4200717b9822c40216e627b92"
+    },
+    {
+      "path": "figure_qa.json",
+      "bytes": 346,
+      "sha256": "100ebfae794b811efaa190efe8fc382d26a5f5658ceb72230ac710ae19e67f35"
+    },
+    {
+      "path": "finalize_actual_artifact_QA.py",
+      "bytes": 6892,
+      "sha256": "ef66379bb9e83e18473c6584a3621a679c6006f7d6a1c43ce9356d0dc07b59d6"
+    },
+    {
+      "path": "fire_transfer_v08.pdf",
+      "bytes": 71997,
+      "sha256": "995817d32ead4519c54b32f24ef28e1d0a5b5b0e156c5740f60458e5bed5b0f2"
+    },
+    {
+      "path": "fire_transfer_v08.png",
+      "bytes": 411123,
+      "sha256": "69b7644213cd2386e67bb7551c4a482991f896cf3aaf5cbdca1f6a58ffefd7be"
+    },
+    {
+      "path": "fire_transfer_v08.svg",
+      "bytes": 129230,
+      "sha256": "069bea85ad61089ff8a451d3e9adddef77c945621f0682e4a64df001c78b3660"
+    },
+    {
+      "path": "gate_status.json",
+      "bytes": 2703,
+      "sha256": "0354513156972c83fba47ee447074059393f9fd9642aa235e440a8911fd99d9e"
+    },
+    {
+      "path": "gate_test.json",
+      "bytes": 1051,
+      "sha256": "f2523affd9c690bd4205f21c4e11bdd565c8467cb9ff39e89af7e994a942c752"
+    },
+    {
+      "path": "generation_status.json",
+      "bytes": 3974,
+      "sha256": "9ca3ffd3ffcb09f0fb50327eb8d6ee27014a5c2e15a3975ca7d1602f1f8c9ee9"
+    },
+    {
+      "path": "independent_arithmetic_QA.json",
+      "bytes": 482,
+      "sha256": "203431dda3ab6cd7a378a306b3858fa5c4a66918674a270a8913a921c8b00242"
+    },
+    {
+      "path": "paired_contrasts_source.csv",
+      "bytes": 5048,
+      "sha256": "f5c4a112b104f7ae061fd95e7b140be5dd411553abd17fa8c2b2fe6d3b168283"
+    },
+    {
+      "path": "pdf_export_QA.json",
+      "bytes": 352,
+      "sha256": "d585459052025919de3e2411a9939baab254c4ac720e4a525a3f03bf7e52fd21"
+    },
+    {
+      "path": "pdf_final_QA.png",
+      "bytes": 169020,
+      "sha256": "d9a0958e554b8f205bb30afb17051453aab18d1d25d881063558cbbfaef5160f"
+    },
+    {
+      "path": "plotted_heatmap.csv",
+      "bytes": 3894,
+      "sha256": "25570710c7861dae59bc604a5d7cf47f3285e29a148ac304dff893ae5f3fb21e"
+    },
+    {
+      "path": "preparation_manifest.json",
+      "bytes": 1373,
+      "sha256": "b005fdc6c5acfb8c922ebf6ae3ba57b7ff7a6467c242ab7f0cffad8431590f26"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 13945,
+      "sha256": "b74fd9bd4317c05f6ece976bce2ea5ef303834e5cdd53542a3735c2dc270129b"
+    },
+    {
+      "path": "QA.md",
+      "bytes": 1311,
+      "sha256": "2159f9a9a7219e926187165c9cb466cdc522c4dc192265249d2c58902f153065"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2464,
+      "sha256": "b8c3b12a40cdd1f00d97855edff785e2be1902cd94c98e38fc2fbc84cd9a5802"
+    },
+    {
+      "path": "smoldering_subgroup_seed_mae.csv",
+      "bytes": 5314,
+      "sha256": "8f0bb6685e98f3a0809572bf773af191ded1c59eb0088b3fd0395c9cc532276c"
+    },
+    {
+      "path": "visual_QA.json",
+      "bytes": 1527,
+      "sha256": "4b973e4a961cd419e3a80784dc7face66e23319654414cc5e82ea8aafd786d01"
+    }
+  ],
+  "external_code": [],
+  "source_binding": "The provenance or generation_manifest file binds the complete source snapshots and review evidence; nested snapshots are not duplicated in this top-level artifact list.",
+  "frozen_training_modified": false,
+  "timing_executed": false,
+  "manuscript_placement_checked": false
+}

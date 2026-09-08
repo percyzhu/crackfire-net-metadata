@@ -1,0 +1,519 @@
+{
+  "status": "DEVELOPMENT_RESULTS_REVIEW_COMPLETE_WITH_SCOPE_LIMITS",
+  "submission_pass": false,
+  "numerical_review_passed": true,
+  "created_utc": "2026-09-07T11:27:24.124732+00:00",
+  "epistemic_status": "AFTER_ORIGINAL_TEST_RESULTS_REVIEW_EXPLORATORY",
+  "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79",
+  "report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+  "run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+  "extension_plan_sha256": "8d21e13af116dc97556b37060daaf86afed5f7ba645a5bdae18e3d4ffb3b05a9",
+  "source_formatter_sha256": "f5b6533c5e6f2f45bcdd72eee2dc4580bad71448c1af3f011014cf3b2f46b0e0",
+  "markdown_sha256": "48fb7fc271b1be40dd3078da192568dabaaf9a8dd00a159adfc28be57dd18c10",
+  "units": "Raw dimensionless archival response; markdown table multiplies all errors and differences by1000.",
+  "effect_sign": "comparator_minus_set_attention; positive favors set_attention for MAE",
+  "primary_intervals": "5000 paired two-way bootstrap; exploratory, no multiplicity correction",
+  "rows": [
+    {
+      "protocol": "iid997",
+      "independent_geometries": 160,
+      "attention_equal_case_MAE": {
+        "mean": 0.009173536656887681,
+        "sample_sd": 0.0002273212868898793
+      },
+      "effects": {
+        "attention_vs_matched_set": {
+          "point": -0.000670590152635743,
+          "paired_seed_effects": [
+            -0.001043412822764367,
+            -0.0007293298634410393,
+            -0.0006931191962975703,
+            -0.0003575997362218675,
+            -0.0005294891444538704
+          ],
+          "two_way95": [
+            -0.001111697253820746,
+            -0.0002750912495539525
+          ],
+          "positive_favors": "set_attention"
+        },
+        "attention_vs_sum_GNN": {
+          "point": -0.00047466858855036445,
+          "paired_seed_effects": [
+            -0.0005629478663694664,
+            -0.0005410664136613122,
+            -0.0009809148852850814,
+            0.00010222420229988752,
+            -0.0003906379797358493
+          ],
+          "two_way95": [
+            -0.0009423532049566675,
+            1.7765405860758733e-06
+          ],
+          "positive_favors": "set_attention"
+        }
+      },
+      "source_summary_sha256": "24e50d44753ad4318a590682dca1c92dee2ea26a911475010a5936ff6017e7a6"
+    },
+    {
+      "protocol": "lcro_9_15",
+      "independent_geometries": 264,
+      "attention_equal_case_MAE": {
+        "mean": 0.011775828142449112,
+        "sample_sd": 0.0004795884053690752
+      },
+      "effects": {
+        "attention_vs_matched_set": {
+          "point": 8.706519147959492e-06,
+          "paired_seed_effects": [
+            -7.070594509324202e-06,
+            0.0006894563560471702,
+            -0.0010171886238556816,
+            1.6049805786173807e-05,
+            0.00036228565227145956
+          ],
+          "two_way95": [
+            -0.0006242982589810211,
+            0.0006506338775305046
+          ],
+          "positive_favors": "set_attention"
+        },
+        "attention_vs_sum_GNN": {
+          "point": -0.0006367610605554798,
+          "paired_seed_effects": [
+            -0.000999420082267842,
+            -0.00022908888680428264,
+            -0.0011986157161975256,
+            -0.0007894763519910664,
+            3.2795734483317496e-05
+          ],
+          "two_way95": [
+            -0.001214507855057982,
+            -7.922272508460158e-06
+          ],
+          "positive_favors": "set_attention"
+        }
+      },
+      "source_summary_sha256": "749abdf6d490ae9e96fda132fafc086b52f367312bba85a08f27ddfbf866422b"
+    },
+    {
+      "protocol": "loco_iso834",
+      "independent_geometries": 158,
+      "attention_equal_case_MAE": {
+        "mean": 0.008682842890790549,
+        "sample_sd": 0.0003765157132835103
+      },
+      "effects": {
+        "attention_vs_matched_set": {
+          "point": -0.0002876130126155395,
+          "paired_seed_effects": [
+            -0.0005876974560804302,
+            -0.0006281941685408916,
+            2.1248786070703603e-05,
+            0.0003563677047540301,
+            -0.0005997899292811093
+          ],
+          "two_way95": [
+            -0.0007231748994987928,
+            0.00016895278672177303
+          ],
+          "positive_favors": "set_attention"
+        },
+        "attention_vs_sum_GNN": {
+          "point": -0.0003147779400942607,
+          "paired_seed_effects": [
+            0.0002497525761627908,
+            -0.0005807942372804164,
+            -0.00011582760413570209,
+            -0.00043336684350020965,
+            -0.0006936535917177663
+          ],
+          "two_way95": [
+            -0.0007425435950767391,
+            0.0001062563680012636
+          ],
+          "positive_favors": "set_attention"
+        }
+      },
+      "source_summary_sha256": "7fe8059e69bad90de678f9498e23ad4a33ffd600afa71dbcd120ae5dd253b143"
+    },
+    {
+      "protocol": "loco_astm_e119",
+      "independent_geometries": 95,
+      "attention_equal_case_MAE": {
+        "mean": 0.008223186912620964,
+        "sample_sd": 0.0003920384013381419
+      },
+      "effects": {
+        "attention_vs_matched_set": {
+          "point": -4.688820543733523e-05,
+          "paired_seed_effects": [
+            -0.00020373098044378988,
+            -0.0008655043796180547,
+            7.332620420673984e-05,
+            0.00040050735496260974,
+            0.00036096077370581894
+          ],
+          "two_way95": [
+            -0.0005798440400745666,
+            0.00043525680773943634
+          ],
+          "positive_favors": "set_attention"
+        },
+        "attention_vs_sum_GNN": {
+          "point": -0.00038400943226295876,
+          "paired_seed_effects": [
+            -0.0006147149111352366,
+            -0.0006215807702954829,
+            8.982445038630084e-05,
+            -0.0006072013856677583,
+            -0.00016637454460261718
+          ],
+          "two_way95": [
+            -0.0008076530058640823,
+            4.79182408346347e-05
+          ],
+          "positive_favors": "set_attention"
+        }
+      },
+      "source_summary_sha256": "1a6be76808559210392e966166dde1ccf31d907355d8999cdd786eae13d842d2"
+    },
+    {
+      "protocol": "loco_perturbed_iso",
+      "independent_geometries": 111,
+      "attention_equal_case_MAE": {
+        "mean": 0.00920881838885056,
+        "sample_sd": 0.0005005917619973661
+      },
+      "effects": {
+        "attention_vs_matched_set": {
+          "point": -0.0004014247562117317,
+          "paired_seed_effects": [
+            -0.0003000760563471665,
+            -0.0012144851654420277,
+            -4.8961224654210024e-05,
+            -0.0004520607971094013,
+            8.459462494146565e-06
+          ],
+          "two_way95": [
+            -0.0009403712016653713,
+            8.93665403248709e-05
+          ],
+          "positive_favors": "set_attention"
+        },
+        "attention_vs_sum_GNN": {
+          "point": -0.0004837319279083244,
+          "paired_seed_effects": [
+            -5.810108933151612e-05,
+            -0.0014636937532699933,
+            5.336629542884013e-05,
+            -0.0007564733961654581,
+            -0.00019375769620349472
+          ],
+          "two_way95": [
+            -0.001155266560841885,
+            0.00013190205918005746
+          ],
+          "positive_favors": "set_attention"
+        }
+      },
+      "source_summary_sha256": "d02eaafb9581fdbe5aef5e8bab127b1a39b126f4c686fc666085ccd8c8e41f20"
+    },
+    {
+      "protocol": "loco_plateau",
+      "independent_geometries": 103,
+      "attention_equal_case_MAE": {
+        "mean": 0.010970245072769025,
+        "sample_sd": 0.0004115689583354456
+      },
+      "effects": {
+        "attention_vs_matched_set": {
+          "point": -0.0011738096809270522,
+          "paired_seed_effects": [
+            -0.001772652688336452,
+            -0.0016437244979383347,
+            -0.0001598433959774391,
+            -0.0011204517263099113,
+            -0.0011723760960731238
+          ],
+          "two_way95": [
+            -0.001834996064483631,
+            -0.0005164716382527713
+          ],
+          "positive_favors": "set_attention"
+        },
+        "attention_vs_sum_GNN": {
+          "point": -0.001642687188097669,
+          "paired_seed_effects": [
+            -0.0014320117269217088,
+            -0.0021206895134051706,
+            -0.0016885616090406607,
+            -0.0017415087242595487,
+            -0.001230664366861257
+          ],
+          "two_way95": [
+            -0.0023748579544295234,
+            -0.0010253034896772711
+          ],
+          "positive_favors": "set_attention"
+        }
+      },
+      "source_summary_sha256": "f0b2ae907140b061dd61558976e048d3a67857600353c2150e33ebce9d0a7178"
+    },
+    {
+      "protocol": "loco_decay",
+      "independent_geometries": 113,
+      "attention_equal_case_MAE": {
+        "mean": 0.01304649831952783,
+        "sample_sd": 0.001167143810875723
+      },
+      "effects": {
+        "attention_vs_matched_set": {
+          "point": 0.000811811173695465,
+          "paired_seed_effects": [
+            0.0009902663011172506,
+            0.0007120624679656466,
+            0.0014493271684708868,
+            0.0004204829348702226,
+            0.0004869169960533191
+          ],
+          "two_way95": [
+            8.45163251924166e-05,
+            0.0015248681416246764
+          ],
+          "positive_favors": "set_attention"
+        },
+        "attention_vs_sum_GNN": {
+          "point": 0.0017797384244098936,
+          "paired_seed_effects": [
+            -0.00018828337257907686,
+            0.003660169075409768,
+            0.0009952890517126054,
+            0.0031166072714904655,
+            0.0013149100960157059
+          ],
+          "two_way95": [
+            0.0003858257091786439,
+            0.0034101398217162263
+          ],
+          "positive_favors": "set_attention"
+        }
+      },
+      "source_summary_sha256": "faddd904e00d6068dbc1f687dc2a5e04259a1dd809c7af847c585c8e2f3adec2"
+    },
+    {
+      "protocol": "loco_log_variant",
+      "independent_geometries": 69,
+      "attention_equal_case_MAE": {
+        "mean": 0.014631686982218364,
+        "sample_sd": 0.001210901652789841
+      },
+      "effects": {
+        "attention_vs_matched_set": {
+          "point": -0.000861641068261999,
+          "paired_seed_effects": [
+            -0.0006473521680085896,
+            -0.002592769437056875,
+            0.0012653368512152152,
+            -0.0014839007393725836,
+            -0.0008495198480871632
+          ],
+          "two_way95": [
+            -0.0021448828672924265,
+            0.0003456221107591759
+          ],
+          "positive_favors": "set_attention"
+        },
+        "attention_vs_sum_GNN": {
+          "point": -0.0008023498135108397,
+          "paired_seed_effects": [
+            -0.0013788159061325052,
+            -0.00272973758463028,
+            4.205124903657038e-05,
+            -0.0008809948771533505,
+            0.0009357480513253666
+          ],
+          "two_way95": [
+            -0.002080091920425289,
+            0.0004579676945916601
+          ],
+          "positive_favors": "set_attention"
+        }
+      },
+      "source_summary_sha256": "84bd08a426e13aaf9ea506826420eabc412676f6beba6985412f9f7a3e654c2f"
+    },
+    {
+      "protocol": "loco_external_fire",
+      "independent_geometries": 49,
+      "attention_equal_case_MAE": {
+        "mean": 0.010880600322285956,
+        "sample_sd": 0.0009654980816411535
+      },
+      "effects": {
+        "attention_vs_matched_set": {
+          "point": -0.00035424736101278767,
+          "paired_seed_effects": [
+            -0.0006706969231097904,
+            -0.0028306104868461002,
+            0.0008169516856234063,
+            0.000833797974305713,
+            7.932094496283162e-05
+          ],
+          "two_way95": [
+            -0.0018204406941513343,
+            0.0009250330858682853
+          ],
+          "positive_favors": "set_attention"
+        },
+        "attention_vs_sum_GNN": {
+          "point": -0.0006275948023628573,
+          "paired_seed_effects": [
+            -0.0004892273017418111,
+            -0.00244391596149784,
+            0.0001581635122994749,
+            -8.974891615855165e-05,
+            -0.0002732453447155585
+          ],
+          "two_way95": [
+            -0.0017187325637968297,
+            0.0003988617928321637
+          ],
+          "positive_favors": "set_attention"
+        }
+      },
+      "source_summary_sha256": "0a25252519ebf8c96264e8328dd41624964d22e46d6aa82860dc62c88bea2cad"
+    },
+    {
+      "protocol": "loco_bilinear",
+      "independent_geometries": 77,
+      "attention_equal_case_MAE": {
+        "mean": 0.027889808854740527,
+        "sample_sd": 0.0016316986955971112
+      },
+      "effects": {
+        "attention_vs_matched_set": {
+          "point": 0.0037127525305935796,
+          "paired_seed_effects": [
+            0.0007658079266548157,
+            -0.00047341536842357966,
+            0.004605190307758502,
+            0.0019308343888192016,
+            0.011735345398158958
+          ],
+          "two_way95": [
+            -0.0005862925051913153,
+            0.008992850845713348
+          ],
+          "positive_favors": "set_attention"
+        },
+        "attention_vs_sum_GNN": {
+          "point": 0.0031136207173092455,
+          "paired_seed_effects": [
+            0.009826145035131243,
+            0.00036849156069659195,
+            0.00952443779181084,
+            0.0018993551147499308,
+            -0.00605032591584238
+          ],
+          "two_way95": [
+            -0.002298255622520176,
+            0.008764381707031877
+          ],
+          "positive_favors": "set_attention"
+        }
+      },
+      "source_summary_sha256": "a1243e0931b3d74950d58027bf179a7cf60570a16cefce31eead0d6863caf402"
+    },
+    {
+      "protocol": "loco_linear",
+      "independent_geometries": 125,
+      "attention_equal_case_MAE": {
+        "mean": 0.03467548538837277,
+        "sample_sd": 0.012092381230128305
+      },
+      "effects": {
+        "attention_vs_matched_set": {
+          "point": -0.008382555963172285,
+          "paired_seed_effects": [
+            -0.004727113373944016,
+            -0.0016681849976054957,
+            0.003990437247714059,
+            -0.006995590811870137,
+            -0.03251232788015585
+          ],
+          "two_way95": [
+            -0.020801865417419886,
+            0.0003894820676524073
+          ],
+          "positive_favors": "set_attention"
+        },
+        "attention_vs_sum_GNN": {
+          "point": -0.009337556823550678,
+          "paired_seed_effects": [
+            -0.00823977749855792,
+            -0.018843761129457442,
+            0.0025616454403908527,
+            0.007769224407242948,
+            -0.029935115337371827
+          ],
+          "two_way95": [
+            -0.021435370654908355,
+            0.0018956897547792147
+          ],
+          "positive_favors": "set_attention"
+        }
+      },
+      "source_summary_sha256": "51e8bfa25b710dd059e0096428dcfd5d85064cfdb93f2fe9ec3ed21b00060887"
+    },
+    {
+      "protocol": "loco_smoldering",
+      "independent_geometries": 97,
+      "attention_equal_case_MAE": {
+        "mean": 0.01251656816520259,
+        "sample_sd": 0.002467442393620278
+      },
+      "effects": {
+        "attention_vs_matched_set": {
+          "point": -0.0004114020590002881,
+          "paired_seed_effects": [
+            -0.002198073647202361,
+            6.067988557027547e-06,
+            0.00028478557321697716,
+            -0.00095123032450132,
+            0.0008014401149282354
+          ],
+          "two_way95": [
+            -0.001478629837230349,
+            0.0005233896373997311
+          ],
+          "positive_favors": "set_attention"
+        },
+        "attention_vs_sum_GNN": {
+          "point": -0.0009132711835380579,
+          "paired_seed_effects": [
+            0.0017318184842768404,
+            -0.0034680557811060764,
+            -0.0005547786173998596,
+            0.0022033940039314455,
+            -0.004478734007392639
+          ],
+          "two_way95": [
+            -0.0033518719767343563,
+            0.0014334557302521555
+          ],
+          "positive_favors": "set_attention"
+        }
+      },
+      "source_summary_sha256": "545c72c450fb5da781c549a6b785495884b8b706de0dac20adebb9c069e9b1ca"
+    }
+  ],
+  "blocking_numerical_issues": [],
+  "manuscript_required_boundaries": [
+    "No universal attention superiority; preserve IID negative, LCRO negative against sum, Plateau negative, Decay positive, and all crossing intervals.",
+    "LCRO is compound count/source shift, not isolated causal topology benefit.",
+    "Retain threshold FN/FP/recross and model-specific conditional event coverage.",
+    "Smoldering 86flat/11nonflat, single0.8 event and no0.6 reference events; preserve NA.",
+    "No transfer of old7 budget/timing values to new8th model.",
+    "No whole-manuscript or journal submission PASS."
+  ]
+}

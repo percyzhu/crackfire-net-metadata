@@ -1,0 +1,20 @@
+{
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.4.4",
+    "torch": "2.5.1+cu124"
+  },
+  "dependencies_bundled": false,
+  "inference_requires": [
+    "numpy",
+    "torch"
+  ],
+  "optional_review_and_figure_library_versions": {
+    "pandas": "3.0.1",
+    "matplotlib": "3.10.9",
+    "scipy": "1.17.1",
+    "PyMuPDF": "1.27.2.2"
+  },
+  "GPU_identity_scope": "Original CUDA backend may be necessary for exact replay; other hardware equivalence is not asserted."
+}

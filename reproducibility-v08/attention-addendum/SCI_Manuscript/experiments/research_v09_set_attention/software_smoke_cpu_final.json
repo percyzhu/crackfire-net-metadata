@@ -1,0 +1,58 @@
+{
+  "status": "SHORT_CPU_SOFTWARE_SMOKE_PASSED_NOT_PLAN_OR_TRAINING_AUTHORIZATION",
+  "created_utc": "2026-09-07T09:15:48.540538+00:00",
+  "parameters": 194273,
+  "GNN_parameters": 194177,
+  "parameter_delta": 96,
+  "relative_parameter_delta": 0.0004943942897459535,
+  "selected_training_geometry_ids": [
+    "b004_0025",
+    "b004_0021",
+    "b004_0009",
+    "b005_0183"
+  ],
+  "crack_counts": [
+    1,
+    3,
+    8,
+    15
+  ],
+  "shape": [
+    4,
+    61,
+    1
+  ],
+  "invariance_tolerance": 1e-06,
+  "maximum_absolute_differences": {
+    "batch_vs_single": 8.940696716308594e-08,
+    "batch_order": 8.940696716308594e-08,
+    "node_permutation": 8.940696716308594e-08,
+    "edge_removal": 0.0
+  },
+  "padding_invariance_max_abs": 0.0,
+  "nonzero_cross_node_attention_gradient": 0.2288520336151123,
+  "finite_forward_backward": true,
+  "all_trainable_parameters_received_gradients": true,
+  "scope_rejections": [
+    0,
+    16
+  ],
+  "selection_earliest_tied_minimum_verified": true,
+  "nonfinite_validation_rejected": true,
+  "original_output_path_rejected": true,
+  "optimizer_steps": 0,
+  "scientific_prediction_scores_read": false,
+  "matched_set_common_branch_initial_states_equal_seed42": {
+    "temporal_head.": true,
+    "decoder.": true,
+    "structure_head.global_encoder.": true,
+    "structure_head.global_update.": true
+  },
+  "GPU_initialized": false,
+  "full_plan_and_authorization_gate_still_pending": true,
+  "source_sha256": {
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\attention_model.py": "4a08211c2c429231dfefab67307a12bb8463632b5eedc5234ad92cbde0ece7f6",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\run_extension.py": "b44f7aa2d2be33d21ab91b3fb6199e9f51ec3c8fe91c89aa43a3d97425de5d0a",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\smoke_cpu.py": "f48d1b456d7710c14bdc8f83f8b144981cda0f07edb80baa331636bc59fc8af5"
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "status": "REAL_INCOMPLETE_MATRIX_MAIN_GUARD_PASSED_WITH_PERFORMANCE_PROBES",
+  "created_utc": "2026-09-07T09:37:11.639120+00:00",
+  "candidate_sha256": "aa06a3280fed95be571f1b39677c84c20d193804897d4f4d55ec7a99053a2e7a",
+  "probe_sha256": "82aeccf664fc37556c50f6f0994fae88fc3fdfb6c31a1eaba4bd4b21633d2fb0",
+  "real_main_returncode": 2,
+  "supplied_replay_authorization_and_output": true,
+  "prohibited_calls_during_main": {
+    "result_payload_reads": 0,
+    "numpy_array_loads": 0,
+    "torch_tensor_loads": 0,
+    "model_constructions": 0,
+    "prediction_calls": 0,
+    "dataset_loads": 0
+  },
+  "output_directory_created": false,
+  "returned_gate": {
+    "status": "WAITING_FOR_ALL60_COMPLETE",
+    "expected_runs": 60,
+    "completed_metadata_runs": 9,
+    "missing_cells": [
+      [
+        "lcro_9_15",
+        "set_attention",
+        46
+      ],
+      [
+        "loco_astm_e119",
+        "set_attention",
+        42
+      ],
+      [
+        "loco_astm_e119",
+        "set_attention",
+        43
+      ],
+      [
+        "loco_astm_e119",
+        "set_attention",
+        44
+      ],
+      [
+        "loco_astm_e119",
+        "set_attention",
+        45
+      ],
+      [
+        "loco_astm_e119",
+        "set_attention",
+        46
+      ],
+      [
+        "loco_bilinear",
+        "set_attention",
+        42
+      ],
+      [
+        "loco_bilinear",
+        "set_attention",
+        43
+      ],
+      [
+        "loco_bilinear",
+        "set_attention",
+        44
+      ],
+      [
+        "loco_bilinear",
+        "set_attention",
+        45
+      ],
+      [
+        "loco_bilinear",
+        "set_attention",
+        46
+      ],
+      [
+        "loco_decay",
+        "set_attention",
+        42
+      ],
+      [
+        "loco_decay",
+        "set_attention",
+        43
+      ],
+      [
+        "loco_decay",
+        "set_attention",
+        44
+      ],
+      [
+        "loco_decay",
+        "set_attention",
+        45
+      ],
+      [
+        "loco_decay",
+        "set_attention",
+        46
+      ],
+      [
+        "loco_external_fire",
+        "set_attention",
+        42
+      ],
+      [
+        "loco_external_fire",
+        "set_attention",
+        43
+      ],
+      [
+        "loco_external_fire",
+        "set_attention",
+        44
+      ],
+      [
+        "loco_external_fire",
+        "set_attention",
+        45
+      ],
+      [
+        "loco_external_fire",
+        "set_attention",
+        46
+      ],
+      [
+        "loco_iso834",
+        "set_attention",
+        42
+      ],
+      [
+        "loco_iso834",
+        "set_attention",
+        43
+      ],
+      [
+        "loco_iso834",
+        "set_attention",
+        44
+      ],
+      [
+        "loco_iso834",
+        "set_attention",
+        45
+      ],
+      [
+        "loco_iso834",
+        "set_attention",
+        46
+      ],
+      [
+        "loco_linear",
+        "set_attention",
+        42
+      ],
+      [
+        "loco_linear",
+        "set_attention",
+        43
+      ],
+      [
+        "loco_linear",
+        "set_attention",
+        44
+      ],
+      [
+        "loco_linear",
+        "set_attention",
+        45
+      ],
+      [
+        "loco_linear",
+        "set_attention",
+        46
+      ],
+      [
+        "loco_log_variant",
+        "set_attention",
+        42
+      ],
+      [
+        "loco_log_variant",
+        "set_attention",
+        43
+      ],
+      [
+        "loco_log_variant",
+        "set_attention",
+        44
+      ],
+      [
+        "loco_log_variant",
+        "set_attention",
+        45
+      ],
+      [
+        "loco_log_variant",
+        "set_attention",
+        46
+      ],
+      [
+        "loco_perturbed_iso",
+        "set_attention",
+        42
+      ],
+      [
+        "loco_perturbed_iso",
+        "set_attention",
+        43
+      ],
+      [
+        "loco_perturbed_iso",
+        "set_attention",
+        44
+      ],
+      [
+        "loco_perturbed_iso",
+        "set_attention",
+        45
+      ],
+      [
+        "loco_perturbed_iso",
+        "set_attention",
+        46
+      ],
+      [
+        "loco_plateau",
+        "set_attention",
+        42
+      ],
+      [
+        "loco_plateau",
+        "set_attention",
+        43
+      ],
+      [
+        "loco_plateau",
+        "set_attention",
+        44
+      ],
+      [
+        "loco_plateau",
+        "set_attention",
+        45
+      ],
+      [
+        "loco_plateau",
+        "set_attention",
+        46
+      ],
+      [
+        "loco_smoldering",
+        "set_attention",
+        42
+      ],
+      [
+        "loco_smoldering",
+        "set_attention",
+        43
+      ],
+      [
+        "loco_smoldering",
+        "set_attention",
+        44
+      ],
+      [
+        "loco_smoldering",
+        "set_attention",
+        45
+      ],
+      [
+        "loco_smoldering",
+        "set_attention",
+        46
+      ]
+    ],
+    "result_performance_payloads_read": 0,
+    "prediction_arrays_read": 0,
+    "queue_status": "RUNNING_EXPLORATORY_EXTENSION",
+    "plan_sha256": "8d21e13af116dc97556b37060daaf86afed5f7ba645a5bdae18e3d4ffb3b05a9"
+  },
+  "full60_statistics_or_replay_executed": false,
+  "submission_pass": false
+}

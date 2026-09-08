@@ -1,0 +1,70 @@
+{
+  "decision": "COMPLETE_PROTOCOL_DEVELOPMENT_REVIEW_RECONCILED_WITH_SUBSTANTIAL_ENGINEERING_LIMITATIONS",
+  "protocol": "loco_smoldering",
+  "created_utc": "2026-09-07T08:35:04.059804+00:00",
+  "runs": 35,
+  "independent_geometries": 97,
+  "flat_reference_cases": 86,
+  "nonflat_reference_cases": 11,
+  "primary_contrasts": {
+    "graph_vs_capacity_matched": {
+      "point": 0.00050186912453777,
+      "seed_effects": [
+        -0.003929892131479201,
+        0.0034741237696631036,
+        0.0008395641906168368,
+        -0.0031546243284327645,
+        0.005280174122320874
+      ],
+      "two_way95": [
+        -0.0026381838538768786,
+        0.0036140001727778376
+      ],
+      "candidate_better_seeds": 3,
+      "relative_candidate_MAE_reduction": 0.041459086156663986
+    },
+    "mean_vs_sum": {
+      "point": -0.0008823567515030409,
+      "seed_effects": [
+        -0.002561907279082442,
+        -0.0015172806164088916,
+        0.000534080322759466,
+        0.0020929691012654735,
+        -0.0029596452860488113
+      ],
+      "two_way95": [
+        -0.0025785968325136885,
+        0.0008790159895348741
+      ],
+      "candidate_better_seeds": 2,
+      "relative_candidate_MAE_reduction": -0.07604362388529194
+    }
+  },
+  "all_primary_two_way_CI_include_zero": true,
+  "four_secondary_endpoint_J_CI_independently_recomputed": true,
+  "additional_crossing_rate_and_NA_point_checks": 70,
+  "q0.8_reference_events": 1,
+  "q0.8_reference_censored": 96,
+  "q0.8_common_valid_event_bootstrap_replicates": 617,
+  "q0.6_reference_events": 0,
+  "q0.6_reference_censored": 97,
+  "q0.6_FPR": 0,
+  "q0.6_recall_balanced_accuracy_reference_coverage_and_timing": "NA",
+  "all_predictions_below_or_equal_reference": true,
+  "response_underprediction_is_reduction_overprediction_not_evidence_of_safety": true,
+  "rank_reference_tie_exclusion_fraction": 0.7850085910652921,
+  "raw_frozen_metrics_unchanged": true,
+  "source_files_sha256": {
+    "loco_smoldering_results_development_review_zh.md": "19ce05e3c82adfdf30b66e18f9462f181d6d3cc7d99474abde206765cfb1a7f2",
+    "loco_smoldering_independent_results_audit_v2.json": "a85409102ce52830c68c79bbb2b012a18d53ffe81b94de2f341c8b800e52c61a",
+    "loco_smoldering_same_weight_topology_audit.json": "11a4cc2f1bc42f3173fcff2f39b7a5018d5d6f396078a2fadcf17cdb7a68a78a",
+    "loco_smoldering_snapshot_binding_review.json": "517e0d91c094eeb3fad5f1f0cc16d55ae1957f47e55041416c966c4fde93d759",
+    "loco_smoldering_constant_strata_audit.json": "c54217458c56c67b6d96283f69dd9d8de074e7f70784309a1253148ccd83f140",
+    "final_matrix_420_independent_binding_review.json": "ad1d2f3b04faac3cef2980cb081df36a501e279d7c0b394c7c5f8ff7b2e71710"
+  },
+  "all12_arithmetic_and_topology_audits_complete": true,
+  "full_matrix_identity_review_complete": true,
+  "eligible_for_gated_complete_matrix_figure_generation": true,
+  "manuscript_training_workflow_existing_package_modified": false,
+  "submission_pass": false
+}

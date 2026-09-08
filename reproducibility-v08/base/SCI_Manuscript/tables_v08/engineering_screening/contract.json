@@ -1,0 +1,37 @@
+{
+  "status": "PREPARED_BEFORE_COMPLETE12_TABLE_READS_NOT_A_RESULT",
+  "version": "engineering-screening-tables-v08-v1",
+  "training_plan_sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068",
+  "protocols": ["iid997", "lcro_9_15", "loco_iso834", "loco_astm_e119", "loco_perturbed_iso", "loco_plateau", "loco_decay", "loco_log_variant", "loco_external_fire", "loco_bilinear", "loco_linear", "loco_smoldering"],
+  "models": ["fire_only", "global_stats", "deepsets", "capacity_matched_deepsets", "gnn", "gnn_zero_edge_features", "gnn_mean"],
+  "seeds": [42, 43, 44, 45, 46],
+  "thresholds": [0.8, 0.6],
+  "table_models": ["capacity_matched_deepsets", "gnn"],
+  "scope": "Frozen archival thermal-response indicator; not verified physical capacity or fire resistance.",
+  "table_1": {
+    "rows": 12,
+    "columns": ["protocol", "independent_test_geometries", "matched_set_minus_sum_GNN_final_MAE_and_secondary_CI", "matched_set_minus_sum_GNN_time_average_MAE_and_secondary_CI"],
+    "display_multiplier": 1000,
+    "display_decimals": 3,
+    "positive_difference_favors": "sum_GNN",
+    "J_definition": "Trapezoidal time integral of the61-point response divided by3600s; compute absolute scalar error per geometry, average cases within seed, then average five seeds.",
+    "CI": "Existing1000-replicate crossed geometry-by-seed percentile95 interval; no new resampling and no multiple-comparison adjustment. No inference from rounded signs."
+  },
+  "table_2": {
+    "rows": 24,
+    "reference": "E reference first-grid events and C right-censored cases by3600s; E+C=N, identical across all models/seeds.",
+    "event": "First recorded response at or below q on0:60:3600s; no temporal interpolation, clipping, or prediction envelope.",
+    "errors": "Separate maximum single-seed false-negative and false-positive counts over five seeds; not totals over5N and not necessarily the same checkpoint.",
+    "coverage": "Minimum both_event_count over seeds, displayed as n_common/E. n_common is the intersection of reference and that model's event set within one seed. E=0 yields NA. It is not a two-model intersection or a cohort shared across seeds.",
+    "seed_extrema": "MaxFN, maxFP and minimum coverage can arise in different seeds; cannot be combined into one worst checkpoint.",
+    "NA": "Undefined class-denominator rates, event coverage, or conditional times remainNA. A valid zero count is not a claim of a zero rate with no eligible class."
+  },
+  "CSV_rows": {"scalar_by_seed": 420, "screening_by_seed": 840, "scalar_model_summary": 84, "screening_model_summary": 168, "matched_set_vs_sum_gnn_secondary_ci": 24},
+  "CSV_NA_token": "NA",
+  "cross_protocol_dependence": "IID, countOOD and LOCO evaluation populations overlap; never sum their N as independent cases.",
+  "ranking_metrics_exported": false,
+  "external_fire_precision_note": "No rho is exported. Tiny floating-point differences under identical fire-only inputs do not demonstrate geometric ranking capability; retain frozen ranking results and the separate precision note elsewhere.",
+  "layout": "Two compact supplementary tables; aim for one A4 page with readable small text. Do not force one page by illegible scaling. Main manuscript may cite these tables.",
+  "release_gate": "All12 protocols each35 actual results plus final full420 replay and complete CI/independent review metadata; then bind source hashes before reading/deriving score payloads.",
+  "not_completed": ["full-data generation branch", "independent generated-table arithmetic audit", "actual LaTeX compilation", "page/overflow/readability inspection"]
+}

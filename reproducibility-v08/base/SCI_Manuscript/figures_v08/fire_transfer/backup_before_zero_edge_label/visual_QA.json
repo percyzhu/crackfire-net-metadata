@@ -1,0 +1,27 @@
+{
+  "status": "PASSED_ACTUAL_STANDALONE_VISUAL_AND_SOURCE_ARITHMETIC_QA",
+  "reviewed_utc": "2026-09-07T08:44:40.301762+00:00",
+  "reviewer": "/root/engineering_validation_v08",
+  "inspection": "Agent inspected the rasterized final PDF at original image detail; vector and source arithmetic were separately checked.",
+  "pdf_sha256": "995817d32ead4519c54b32f24ef28e1d0a5b5b0e156c5740f60458e5bed5b0f2",
+  "inspected_render_sha256": "d9a0958e554b8f205bb30afb17051453aab18d1d25d881063558cbbfaef5160f",
+  "source_generator_modified_in_actual_generation": false,
+  "manuscript_placement_QA": "Pending integration; this record is standalone artifact QA, not manuscript acceptance.",
+  "size_mm": [
+    183,
+    190
+  ],
+  "minimum_font_PDF_pt": 8.0,
+  "checks": [
+    "All 84 heatmap cells and seven model labels are legible.",
+    "The 20 primary intervals share a symmetric axis and are all included without clipping.",
+    "The percentage-point scale and 86/97 smoldering flat-case annotation are explicit.",
+    "No overlapping labels, clipped marks, or raster objects were observed.",
+    "Wide linear/bilinear intervals compress small effects near zero; the shared scale is retained faithfully."
+  ],
+  "arithmetic_evidence": "independent_arithmetic_QA.json",
+  "limits": [
+    "The descriptive case-weighted and equal-family aggregates have no invented confidence interval.",
+    "All 20 family-specific primary intervals cross zero; this figure does not establish uniform model superiority."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "status": "COMPLETE_EXPLORATORY_60_NEW_PLUS120_REUSED_MATRIX",
+  "new_runs": 60,
+  "reused_runs": 120,
+  "output": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\evaluation_complete60_v1",
+  "report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341"
+}

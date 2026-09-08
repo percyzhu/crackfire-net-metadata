@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering\small
+\caption{Exploratory three-model MAE ($\times10^{-3}$): five-seed mean $\pm$ sample SD. The independent test geometry count is $n$.}
+\label{tab:exploratory_attention_mae}
+\begin{tabular}{lrrrr}
+\toprule
+Protocol & $n$ & Matched set & Sum GNN & Set attention \\
+\midrule
+IID & 160 & $8.503 \pm 0.107$ & $8.699 \pm 0.398$ & $9.174 \pm 0.227$ \\
+LCRO (9--15) & 264 & $11.785 \pm 0.615$ & $11.139 \pm 0.352$ & $11.776 \pm 0.480$ \\
+\midrule
+ISO 834 & 158 & $8.395 \pm 0.333$ & $8.368 \pm 0.374$ & $8.683 \pm 0.377$ \\
+ASTM E119 & 95 & $8.176 \pm 0.198$ & $7.839 \pm 0.337$ & $8.223 \pm 0.392$ \\
+Perturbed ISO & 111 & $8.807 \pm 0.071$ & $8.725 \pm 0.205$ & $9.209 \pm 0.501$ \\
+Plateau & 103 & $9.796 \pm 0.492$ & $9.328 \pm 0.337$ & $10.970 \pm 0.412$ \\
+Decay & 113 & $13.858 \pm 0.818$ & $14.826 \pm 2.245$ & $13.046 \pm 1.167$ \\
+Log variant & 69 & $13.770 \pm 0.431$ & $13.829 \pm 0.926$ & $14.632 \pm 1.211$ \\
+External fire & 49 & $10.526 \pm 0.593$ & $10.253 \pm 0.154$ & $10.881 \pm 0.965$ \\
+Bilinear & 77 & $31.603 \pm 5.587$ & $31.003 \pm 5.287$ & $27.890 \pm 1.632$ \\
+Linear & 125 & $26.293 \pm 7.775$ & $25.338 \pm 6.719$ & $34.675 \pm 12.092$ \\
+Smoldering & 97 & $12.105 \pm 3.371$ & $11.603 \pm 1.341$ & $12.517 \pm 2.467$ \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,68 @@
+{
+  "status": "SNAPSHOT_BOUND_TO_INDEPENDENT_COMPLETE_PROTOCOL_AUDIT",
+  "protocol": "loco_astm_e119",
+  "created_utc": "2026-09-07T05:01:51.149589+00:00",
+  "snapshot_sha256": "9b0a6d97a8c005b42a6d01cddd2507cb3ac0ba273c31eb43026548a5ca297760",
+  "snapshot_files_checked": [
+    {
+      "name": "report.json",
+      "sha256": "5c3b1fc42071b044360a067552610bee7b3eb9da4ce6ddf3bb62c621146ee900",
+      "bytes": 24032
+    },
+    {
+      "name": "run_integrity.json",
+      "sha256": "294c7188279efab84a7944a236a3042f62a3e3fe36c70c544fe6911e8e5ba659",
+      "bytes": 411965
+    },
+    {
+      "name": "per_case_metrics.csv",
+      "sha256": "9be75ec38d6df02ac701836cf53ceba38e7bf41e86988eeaac6e64359f6a9835",
+      "bytes": 697964
+    },
+    {
+      "name": "strata_by_seed.csv",
+      "sha256": "a5d282dfca11e51398005449c0d053b06cb7db9e864c941460c86e6b324e6363",
+      "bytes": 253994
+    },
+    {
+      "name": "summary.json",
+      "sha256": "102bead09a30a73470cea0cd6b2113fb28aec19de3753f44d790fa365ea155a8",
+      "bytes": 40551
+    },
+    {
+      "name": "time_metrics.csv",
+      "sha256": "89e2e687e2d731f5974020c4818e2c4ad445564139f2c30a737ced28060c450e",
+      "bytes": 211583
+    },
+    {
+      "name": "topology_by_seed.csv",
+      "sha256": "76e0b8270afbf99908036b27a75530a6a33ee44e873bc3a3fb48fd3cbc35361a",
+      "bytes": 15266
+    },
+    {
+      "name": "loco_astm_e119_engineering_proxy_ci.json",
+      "sha256": "e35deb7c03b4f052ce83fba26b8f487768aa6e28100e33b64947151ee30c72e4",
+      "bytes": 265473
+    },
+    {
+      "name": "loco_astm_e119_engineering_proxy_ci.csv",
+      "sha256": "35daac32cd11b7e08a767fc757dac506d6c670b1befce1dc868b5cd30efc3109",
+      "bytes": 11592
+    }
+  ],
+  "all7_protocol_outputs_identical_to_audited_live_files": true,
+  "current12_frozen_sources_plan_wrapper_amendment_match_seal": true,
+  "complete_runs": 35,
+  "primary_and_sparse_replay_calls": 65,
+  "replay_status_counts": {
+    "CPU_REPLAY_WITHIN_ORIGINAL_TOLERANCE": 65
+  },
+  "max_CPU_replay_difference": 2.384185791015625e-07,
+  "other_family_prediction_scores_read": false,
+  "manuscript_or70run_package_modified": false,
+  "review_files_sha256": {
+    "loco_astm_e119_independent_results_audit_v2.json": "d5fc221229cdbf212eaefd2395d2c6b24029c7c7ff850a51584d35e594d6a58e",
+    "loco_astm_e119_same_weight_topology_audit.json": "988af2933f5a9a2e88280964fdf1692ae5fbb66e8cdec4fb1faf5c9ff795861c"
+  },
+  "submission_pass": false
+}

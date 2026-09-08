@@ -1,0 +1,16 @@
+{
+  "adopted_local": "2026-09-07T10:51:19.9155729+08:00",
+  "source": "review/eaai_editor/research_v08/engineering_proxy_evaluation_prespecification.md",
+  "secondary_metrics": [
+    "final_response_MAE_and_bias",
+    "trapezoidal_mean_response_MAE_and_bias",
+    "grid_crossing_q_0.8",
+    "grid_crossing_q_0.6",
+    "censoring_confusion_and_conditional_timing",
+    "ranking_within_supported_fire_families"
+  ],
+  "primary_metric_unchanged": true,
+  "results_inspected_by_root": false,
+  "result_files_already_exist": true,
+  "timing_description": "Adopted after training launch but before review of scores or predictions; not a pretraining registration"
+}

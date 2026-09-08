@@ -1,0 +1,33 @@
+{
+  "status": "PLAN_REVIEW_PASSED_WITH_SEMANTIC_CLARIFICATIONS",
+  "reviewed_utc": "2026-09-07T05:10:31.905356+00:00",
+  "plan_path": "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\engineering_examples_selection_plan.json",
+  "before_sha256": "ccc2410a5f2e8c281869e1de6ab4e4a0bef10a08d584bfda0fe4bd4b36f10e03",
+  "after_sha256": "1850acfce80828fa7db4cd7fc751e9c86b8c47f8366fa3c91cc24135ce5d8c1e",
+  "unchanged_design": [
+    "997 unique out-of-family cases",
+    "candidate gnn and baseline capacity_matched_deepsets",
+    "five seeds 42-46",
+    "rank floor(996*q), q=0.5/0.95/1.0",
+    "exact-score lexicographic tie rule",
+    "largest remaining mean positive peak",
+    "actual seed42 traces",
+    "full-completion and review prerequisite"
+  ],
+  "clarifications": [
+    "GNN-conditioned MAE labels, not generic maximum peak error",
+    "explicit max(prediction-reference,0) and all-zero remainder handling",
+    "own-family checkpoint binding and separate model envelopes",
+    "first stored response <= q, no interpolation or envelope-event marker",
+    "five-seed selection score versus displayed-seed MAE and positive peak",
+    "183 mm, >=8 pt, shared legend and aligned temperature strips"
+  ],
+  "read_sources": [
+    "selection plan",
+    "engineering_proxy_metrics.py",
+    "engineering_proxy_evaluation_prespecification.md"
+  ],
+  "prediction_files_read": false,
+  "figure_generated": false,
+  "model_or_training_change": false
+}

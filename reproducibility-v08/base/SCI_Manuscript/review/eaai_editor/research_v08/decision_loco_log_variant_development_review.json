@@ -1,0 +1,56 @@
+{
+  "decision": "COMPLETE_PROTOCOL_DEVELOPMENT_REVIEW_RECONCILED_WITH_LIMITATIONS",
+  "protocol": "loco_log_variant",
+  "created_utc": "2026-09-07T07:05:59.128900+00:00",
+  "runs": 35,
+  "independent_geometries": 69,
+  "primary_contrasts": {
+    "graph_vs_capacity_matched": {
+      "point": -5.929125475115938e-05,
+      "seed_effects": [
+        0.0007314637381239157,
+        0.0001369681475734055,
+        0.0012232856021786448,
+        -0.0006029058622192331,
+        -0.0017852678994125298
+      ],
+      "two_way95": [
+        -0.0012770523926865836,
+        0.0010112840231476154
+      ],
+      "candidate_better_seeds": 3,
+      "relative_candidate_MAE_reduction": -0.004305813874670227
+    },
+    "mean_vs_sum": {
+      "point": 0.0007171731774117041,
+      "seed_effects": [
+        -0.00047800975815647705,
+        0.0011795995361796748,
+        -0.0013671777686637438,
+        0.002006471726178669,
+        0.002244982151520397
+      ],
+      "two_way95": [
+        -0.0005833244298727036,
+        0.0020665861386584485
+      ],
+      "candidate_better_seeds": 3,
+      "relative_candidate_MAE_reduction": 0.051858825094994086
+    }
+  },
+  "all_primary_two_way_CI_include_zero": true,
+  "four_secondary_endpoint_J_CI_independently_recomputed": true,
+  "secondary_classification_FPR_and_balanced_accuracy": "NA: no reference non-events for either threshold",
+  "same_checkpoint_sparse_views_do_not_establish_arbitrary_physical_topology_transfer": true,
+  "raw_frozen_metrics_unchanged": true,
+  "external_fire_only_rank_precision_interpretation_required": false,
+  "source_files_sha256": {
+    "loco_log_variant_results_development_review_zh.md": "79f6496e3c131638576de8e1700084712e6aa75065476d28ff64172d9f21cb14",
+    "loco_log_variant_independent_results_audit_v2.json": "0c8079e3643105ee5b194586d304623a13b4122415492b35334e1fc241efb3e8",
+    "loco_log_variant_same_weight_topology_audit.json": "19eff9b372f249df0fb6a3f4175f3962a5d270c3e2c4b8d0fb77dc21ddf0defc",
+    "loco_log_variant_snapshot_binding_review.json": "251fc19e3d744710645da53ce143f9756061b4118aeda65651fc59595b3f9f89"
+  },
+  "uncompleted_family_scores_inspected": false,
+  "manuscript_training_workflow_existing_package_modified": false,
+  "submission_pass": false
+}

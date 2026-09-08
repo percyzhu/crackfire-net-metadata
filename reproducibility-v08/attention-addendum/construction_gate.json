@@ -1,0 +1,12 @@
+{
+  "status": "READY_INDEPENDENTLY_REVIEWED_ADDENDUM",
+  "extension_plan_sha256": "8d21e13af116dc97556b37060daaf86afed5f7ba645a5bdae18e3d4ffb3b05a9",
+  "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+  "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79",
+  "base_manifest_sha256": "157f84f2dab43b4f4070f0266232ac4b3f38588f5a5c887a411f61efa69432f6",
+  "additional_runs": 60,
+  "reused_runs_in_base": 120,
+  "performance_outputs_read": true,
+  "package_created": false,
+  "scientific_submission_pass": false
+}

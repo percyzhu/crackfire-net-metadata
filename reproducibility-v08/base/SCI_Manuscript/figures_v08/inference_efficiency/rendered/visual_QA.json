@@ -1,0 +1,28 @@
+{
+  "status": "PASSED_ACTUAL_TIMING_FIGURE_VISUAL_AND_SOURCE_QA",
+  "reviewed_utc": "2026-09-07T09:13:49.478606+00:00",
+  "reviewer": "/root/engineering_validation_v08",
+  "inspection": "Actual final PDF rendering inspected at original image detail.",
+  "pdf_sha256": "9bd4246a0e3361da27d0da01effc960fdaa313aa4071f85ada56c26b4fa23787",
+  "preview_sha256": "ea3ed057432652fce6780bf960aa61f3790dec975aaf8301761f27afbfed994d",
+  "dimensions_mm": [
+    183,
+    154
+  ],
+  "minimum_text_PDF_pt": 8,
+  "raster_objects": 0,
+  "checks": [
+    "All seven models retained in frozen order in both device columns.",
+    "Single-query median-to-p95 segments are quantiles, not confidence intervals.",
+    "Throughput is sum(cases)/sum(elapsed time) at batch size 32.",
+    "No clipped values, overlapping labels, or out-of-canvas text.",
+    "Zero edge features is labelled explicitly; graph connectivity is retained.",
+    "CPU four-thread and measured RTX 3060 Ti hardware labels match sources."
+  ],
+  "generator_revision": "The first real render stopped before output because an automatic tick 70000 lay outside the canvas. The locator now uses at most three intervals and removes ticks outside the fixed axes. Scores and all measured values are unchanged; zero-edge-feature label clarified.",
+  "independent_raw_audit": "14,355 measurements, 58 summary groups, 174 round groups, 420 training identities passed.",
+  "independent_figure_audit": "56 plotted values independently recomputed from retained raw records; 18 source bindings checked.",
+  "timing_rerun_performed": false,
+  "manuscript_placement_QA": "Pending integration",
+  "scientific_manuscript_or_submission_pass": false
+}

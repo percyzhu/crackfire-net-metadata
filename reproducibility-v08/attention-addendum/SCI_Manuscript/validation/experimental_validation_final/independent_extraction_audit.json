@@ -1,0 +1,38 @@
+{
+  "status": "PASS_INDEPENDENT_ARCHIVED_CURVE_EXTRACTION_AND_ARITHMETIC",
+  "created_utc": "2026-09-07T11:48:34.698673+00:00",
+  "source_visual_inspection": "Source PDF preview confirms three nominal-depth panels, green dash-dot FEM20mm legend, both a/b experiments and their black mean.",
+  "independent_axis_method": "All15 long horizontal grids with printed0/200/400/600/800 ticks; each panel0..60min; separate endpoint linear map agrees with reported least-squares axis to1e-4C.",
+  "original_vector_curves": 23,
+  "FE_curves": 14,
+  "observation_vector_curves": 9,
+  "main20mm_rows": 1083,
+  "native_observation_rows": 361,
+  "metric_comparisons_checked": 42,
+  "maximum_observation_vector_reconstruction_difference_C": 0.8518131023183741,
+  "main20mm_time_weighted_RMS_to_observation_mean_C": {
+    "15": 35.47083052524127,
+    "30": 43.27433611299336,
+    "40": 39.98609367553838
+  },
+  "no_time_extrapolation": true,
+  "no_new_solver_or_measurement": true,
+  "no_curve_or_physics_calibration": true,
+  "scope_limitations": [
+    "Nominal20mm identity is supplied by the original vector legend and archived plotting source, not inferred by best fit.",
+    "Both a/b are recorded observations; exact specimen/TC correspondence is unresolved.",
+    "FE trajectories are recovered plotted polylines; observation recovery differences do not rigorously bound FE simplification error.",
+    "The comparison is archival experimental-route evidence, not newly regenerated sensor-matched validation, no997target revalidation, no grid convergence claim."
+  ],
+  "source_sha256": {
+    "D:\\Work\\Abstract\\SCI_Manuscript\\validation\\experimental_validation_final\\independent_curve_audit.py": "b6bd8d2d176f8b401054a85ea2b8b20caaac77c39ca3ec57f181567e6a80e424",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\validation\\experimental_validation_final\\extract_archived_comparison.py": "e9ab8a660286ebcf1164ff20bb70ace338bea75e4888aa962aaaed0dff3e829b",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\validation\\experimental_validation_final\\extraction_report.json": "7248a42d99d07a64e62a7d6ba50a500692f61ba3eb827533748c7971f8c26a3f",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\validation\\experimental_validation_final\\main_20mm_comparison.csv": "8fdce486d87aae310f4fa1e31c357ba5403a0ec4c51c07529d1e2655e024e31f",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\validation\\experimental_validation_final\\recovered_curve_error_metrics.csv": "ad682116ca4e1e68637419aa1da18626c1016251869a598fa986a9c7d6fd5d98",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\validation\\experimental_validation_final\\all_original_vector_curves.csv": "fad12f09794b4566a02aae3c3edaed3cd13bbda2cf6c28a01c579bd819ff281f",
+    "D:\\Work\\Abstract\\3_最终成果\\论文\\LaTeX源码\\cn\\figures\\mesh_sensitivity.pdf": "2901d844e4722e89626fff161ee3fea5a769eeb8b73145543d8aa14739961b81",
+    "D:\\Work\\Abstract\\1_代码\\src\\data\\T-t_experimental_curve.xlsx": "3a4632f3c5a8570a64a5fbf06bba74c2a9b1db863467423cea6a4382f30d116a"
+  },
+  "submission_pass": false
+}

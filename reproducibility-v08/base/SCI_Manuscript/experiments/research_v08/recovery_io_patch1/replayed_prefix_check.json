@@ -1,0 +1,14 @@
+{
+  "status": "IDENTICAL_NUMERICAL_TRAINING_PREFIX",
+  "prior_epochs": 156,
+  "compared_columns": [
+    "epoch",
+    "train_mse",
+    "validation_mse",
+    "learning_rate"
+  ],
+  "excluded_wall_clock_column": true,
+  "differences": [],
+  "recovery_reason": "Windows JSON sharing violation at epoch156, not scientific outcome.",
+  "same_seed_configuration_data_split_and_frozen_training_code": true
+}

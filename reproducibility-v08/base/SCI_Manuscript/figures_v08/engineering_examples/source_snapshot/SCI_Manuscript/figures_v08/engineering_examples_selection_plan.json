@@ -1,0 +1,35 @@
+{
+  "status": "DECLARED_DURING_TRAINING_AFTER_IID_LCRO_ISO_ASTM_RESULTS_BEFORE_FULL_LOCO_MATRIX",
+  "date": "2026-09-07",
+  "purpose": "Source-backed engineering trajectory and error-direction examples for the completed fire-family holdouts",
+  "training_plan_sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068",
+  "prerequisite": "All ten LOCO protocols have 35 completed runs, completed independent predictive replay, complete paired engineering statistics and independent arithmetic reviews. No partial-family prediction scores may be read to make this figure.",
+  "population": "Exactly 997 unique cases, each appearing once in its own fire-family test set. IID and crack-count test predictions are excluded.",
+  "candidate_model": "gnn",
+  "baseline_model": "capacity_matched_deepsets",
+  "seeds": [42, 43, 44, 45, 46],
+  "case_selection_score": "For each case, the arithmetic mean over five seeds of the mean absolute error over all 61 times, using the sum-message GNN only.",
+  "quantile_examples": [
+    {"label": "GNN median case MAE", "order_statistic_fraction": 0.5},
+    {"label": "GNN 95th-percentile case MAE", "order_statistic_fraction": 0.95},
+    {"label": "GNN maximum mean case MAE", "order_statistic_fraction": 1.0}
+  ],
+  "quantile_rule": "Select the score at zero-based rank floor((997-1)*fraction). For equal scores, choose the lexicographically smallest sample_id at that score, excluding an already selected case when available.",
+  "fourth_example": "Among cases not already selected, maximize the sum-message GNN score mean_over_seeds(max_over_61_times(max(prediction-reference, 0))). Break exact ties by lexicographically smallest sample_id. Label this example Largest remaining mean positive peak. If every remaining score is zero, retain the deterministic selection and explicitly state that no remaining positive-error case exists; do not describe it as an overprediction failure.",
+  "selection_scope": "All four cases are selected using GNN errors, so median and tail labels refer only to that model's five-seed mean case-error distribution. The matched-DeepSets curves provide paired context, not a representative sample of that baseline's typical/tail cases or an unbiased estimate of model advantage. Preserve the fixed display order: median, 95th percentile, maximum mean case MAE, largest remaining mean positive peak.",
+  "checkpoint_binding": "For each selected case, use its own held-out fire-family protocol and the frozen checkpoint for each declared model/seed. The two seed42 curves and each model's five-seed envelope must come from that same protocol, geometry, target and 61-time grid. Examples from different fire families may use different independently trained checkpoints.",
+  "curves": "Reference and the actual predictions from seed42 for both primary models. Show each model's pointwise minima/maxima across the five trained seeds as training-variation envelopes; never label them 95% confidence or prediction intervals.",
+  "displayed_metrics": "Clearly distinguish the case-selection score averaged over seed errors from the MAE of each displayed seed42 trajectory. For the fourth example, also distinguish its five-seed mean positive-peak selection score from the positive peak of each displayed seed42 trajectory; seed42 need not be the worst seed. Show fire family, source batch, crack count, sample ID and constant/restored status.",
+  "threshold_markers": "Retain both declared thresholds 0.8 and 0.6. For the reference and each displayed seed42 curve, use the first stored time t=60k seconds with response <= threshold, matching engineering_proxy_metrics.event_arrays. A crossing at 3600 seconds is an event only if the stored response reaches the threshold there; otherwise retain right censoring beyond the horizon. Lines may connect stored samples for display, but do not interpolate event times or mark the extrema envelope as though it were a trained trajectory. Preserve all recrossings.",
+  "exposure_context": "Use the recorded prescribed fire history for the selected case, with temperature and response on separate axes or aligned panels. No claim of verified realized FE amplitude is introduced.",
+  "interpretation": "Descriptive examples selected by explicit error rules, not new hypothesis tests or proof of full domain coverage. All-family results remain in the fire-transfer figure. Error sign describes the archived index, not a verified structural safety limit.",
+  "readability_contract": "At a final width of 183 mm, retain at least 8 pt labels and one shared model/seed-envelope legend. Use four case panels with aligned prescribed-temperature strips and response axes rather than a dual-y-axis temperature/response overlay. Keep metadata and the two distinct score types in compact aligned annotations; move extensive hashes and detailed metrics to the source table/caption instead of reducing font size. Each model's band is its own observed pointwise five-seed minimum/maximum; it provides no calibrated simultaneous confidence or prediction coverage for a new case or future training run. All actual reference/prediction/envelope values must remain within the displayed limits.",
+  "prohibited_adaptations": [
+    "Selecting only families with graph gains",
+    "Changing checkpoints or smoothing prediction curves",
+    "Using mean ensemble predictions as though they were the reported single-model metrics",
+    "Dropping constant responses or recrossings",
+    "Replacing a censored event with a horizon event"
+  ],
+  "outputs_required": ["selected_cases.csv", "all_candidate_scores.csv", "curve_data.csv", "vector PDF and SVG", "source/checkpoint hashes", "caption", "visual and numerical QA"]
+}

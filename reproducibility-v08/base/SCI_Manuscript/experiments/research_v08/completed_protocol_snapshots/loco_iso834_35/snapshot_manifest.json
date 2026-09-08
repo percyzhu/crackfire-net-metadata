@@ -1,0 +1,59 @@
+{
+  "purpose": "COMPLETE_PROTOCOL_AND_FULL_CURRENT_AUDIT_SNAPSHOT",
+  "protocol": "loco_iso834",
+  "protocol_runs": 35,
+  "all_current_audited_runs": 107,
+  "checked_utc": "2026-09-07T04:13:05Z",
+  "plan_sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068",
+  "files": [
+    {
+      "name": "report.json",
+      "sha256": "d2be40f353b31c62b8732dfe8f0ddc13f754fb2e2668458dd9346e02f8ac12ff",
+      "bytes": 28840
+    },
+    {
+      "name": "run_integrity.json",
+      "sha256": "a5df6565b688a8eb0771b49e15269fb4b716bec1d072570809c0ecf6e4d407ba",
+      "bytes": 262530
+    },
+    {
+      "name": "per_case_metrics.csv",
+      "sha256": "a7feecd1b509d9417af8cdb5a12ed5ce97a7961ad8af45cb818f397271a6f145",
+      "bytes": 1126968
+    },
+    {
+      "name": "strata_by_seed.csv",
+      "sha256": "0d31a1585aeac9f61ba7072c1068ea7cf8abc416c5e57e0d9d67fa9786cdead6",
+      "bytes": 252580
+    },
+    {
+      "name": "summary.json",
+      "sha256": "616f8c18d352948051cbdb4f7abf7237042586843bbf8330d91d523b10e1f1bf",
+      "bytes": 50644
+    },
+    {
+      "name": "time_metrics.csv",
+      "sha256": "4e571f57277267b2b20f5a2a7eaccc4c6ab2ef4e77b1aeb530bbe020df3e7ce9",
+      "bytes": 205102
+    },
+    {
+      "name": "topology_by_seed.csv",
+      "sha256": "3419bcf70cd6df215742490804f751cc4b525386494db315838754bf9f3925d7",
+      "bytes": 15199
+    },
+    {
+      "name": "loco_iso834_engineering_proxy_ci.json",
+      "sha256": "84fa79687f162eeeee7e6bc7b26d799532ce7f64ebcd5f2df9080ff6f287ec2d",
+      "bytes": 272470
+    },
+    {
+      "name": "loco_iso834_engineering_proxy_ci.csv",
+      "sha256": "c5b2a5cd34dfe502e7b6ea5177f826943456c0186dad390f99be78512979acd2",
+      "bytes": 11454
+    }
+  ],
+  "does_not_summarize_incomplete_later_families": true,
+  "engineering_CI_status": "COMPLETE_35_RUN_PAIRED_ENGINEERING_PROXY_CI",
+  "engineering_CI_source": "review/eaai_editor/research_v08/loco_iso834_engineering_proxy_ci.json",
+  "complete_protocol_only": true
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASSED_INDEPENDENT_FIGURE_ARITHMETIC_AND_EXPORT_PENDING_VISUAL_QA",
+  "plotted_values_checked": 56,
+  "raw_records_preserved": 14355,
+  "timed_models_executed": 0,
+  "single_query_unit": "ms per full 61-time trajectory",
+  "p95_is_confidence_interval": false,
+  "throughput_definition": "sum(cases) / sum(elapsed_seconds)",
+  "all_plotted_values_inside_axes": true,
+  "snapshot_sources_checked": 18,
+  "dimensions_mm": [
+    183.00000559488933,
+    153.99999923706054
+  ],
+  "minimum_pdf_font_pt": 8.0,
+  "raster_objects": 0,
+  "pdf_sha256": "9bd4246a0e3361da27d0da01effc960fdaa313aa4071f85ada56c26b4fa23787",
+  "visual_QA_passed": false,
+  "remaining": "Inspect actual PDF at final size and the embedded manuscript page."
+}

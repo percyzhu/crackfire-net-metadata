@@ -1,0 +1,27 @@
+{
+  "status": "PASSED_ACTUAL_STANDALONE_VISUAL_AND_SOURCE_ARITHMETIC_QA",
+  "reviewed_utc": "2026-09-07T08:44:40.301762+00:00",
+  "reviewer": "/root/engineering_validation_v08",
+  "inspection": "Agent inspected the rasterized final PDF at original image detail; vector and source arithmetic were separately checked.",
+  "pdf_sha256": "3f9893f309a024fc0a4604e6d1d7079f6a327b04f66592ddacc28aa5424a3cb4",
+  "inspected_render_sha256": "b12f11a3961a76090cdeb9b5505b62dc7f728fb00e9c278647a243901d1d4be9",
+  "source_generator_modified_in_actual_generation": false,
+  "manuscript_placement_QA": "Pending integration; this record is standalone artifact QA, not manuscript acceptance.",
+  "size_mm": [
+    183,
+    200
+  ],
+  "minimum_font_PDF_pt": 8.0,
+  "checks": [
+    "The four response panels and aligned prescribed-fire strips are readable and separated.",
+    "All raw seed predictions and five-seed ranges fit inside the displayed axes [-0.04, 1.04].",
+    "The real seed-42 traces, five-seed min-max bands (not confidence intervals), and fixed selection scores are distinguished.",
+    "No label overlap, clipping, or raster objects were observed; bottom annotations remain inside the page."
+  ],
+  "arithmetic_evidence": "independent_QA.json",
+  "limits": [
+    "The selection is conditioned on the sum-GNN error across the complete 997-case cross-holdout population.",
+    "The archived response index is not a validated structural capacity or safety criterion.",
+    "Three adverse bilinear-fire cases emerged from the fixed selection rule; the examples are not a controlled causal comparison."
+  ]
+}

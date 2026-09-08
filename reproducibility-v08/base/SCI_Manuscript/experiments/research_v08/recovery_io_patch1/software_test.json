@@ -1,0 +1,7 @@
+{
+  "status": "PASSED_REAL_WINDOWS_SHARING_VIOLATION",
+  "held_target_handle_without_delete_sharing_s": 0.2,
+  "replacement_retried_same_bytes": true,
+  "optimizer_updates": 0,
+  "patch_sha256": "3e863d1c6f9e71cada06dd6ef9274e9c35343f7802faf4b70ad35320f9636566"
+}

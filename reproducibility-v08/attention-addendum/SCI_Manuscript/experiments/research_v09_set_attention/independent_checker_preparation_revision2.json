@@ -1,0 +1,34 @@
+{
+  "status": "REVISED_INDEPENDENT_CHECKER_PREPARED_NO_FULL_RESULT_BRANCH_EXECUTED",
+  "created_utc": "2026-09-07T11:13:06.947378+00:00",
+  "previous_checker_sha256": "9a42ca6e8dbc00bb39055db13928a7fd5a7aa736d81519e1b271d732e8e73902",
+  "checker_sha256": "6757565747f31bf30f599aff2f2fe7c12b3762d9bedfbcf225783e8fa5f24165",
+  "revision_scope": [
+    "Reject aggregate/failure.json",
+    "Reject unregistered result.json paths",
+    "Independently enforce secondary bootstrap repetitions, valid fraction, status and finite ordered CI endpoints"
+  ],
+  "statistics_changed": false,
+  "analytic_tests_child_exitcode": 0,
+  "analytic_result": {
+    "status": "ANALYTIC_SIGN_CROSSED_RESAMPLING_CENSORING_TIE_TESTS_PASSED",
+    "actual_extension_performance_used": false
+  },
+  "incomplete_gate_child_exitcode": 2,
+  "incomplete_gate": {
+    "status": "WAITING_FOR_ALL60_COMPLETE",
+    "completed_metadata_runs": 59,
+    "required_new_runs": 60,
+    "aggregate_directory": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\evaluation_complete60_v1",
+    "partial_performance_read": false,
+    "counters": {
+      "performance_JSON_reads": 0,
+      "prediction_array_loads": 0,
+      "tensor_array_loads": 0,
+      "model_inference": 0
+    }
+  },
+  "full60_branch_executed": false,
+  "independent_review_PASS_file_exists": false,
+  "submission_pass": false
+}

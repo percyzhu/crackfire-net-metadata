@@ -1,0 +1,104 @@
+{
+  "original_extension_plan_sha256": "8d21e13af116dc97556b37060daaf86afed5f7ba645a5bdae18e3d4ffb3b05a9",
+  "original_plan_modified": false,
+  "extension_directory": "SCI_Manuscript/experiments/research_v09_set_attention",
+  "aggregate_directory": "SCI_Manuscript/experiments/research_v09_set_attention/evaluation_complete60_v1",
+  "fields": {
+    "manifest_path": {
+      "owner": "base",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\manifest.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/manifest.json"
+    },
+    "runs_root": {
+      "owner": "addendum",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\runs_set_attention_60",
+      "relative": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60"
+    },
+    "protocols.iid997.split_path": {
+      "owner": "base",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\iid997.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/iid997.json"
+    },
+    "protocols.lcro_9_15.split_path": {
+      "owner": "base",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\lcro_9_15.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/lcro_9_15.json"
+    },
+    "protocols.loco_iso834.split_path": {
+      "owner": "base",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_iso834.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/loco_iso834.json"
+    },
+    "protocols.loco_astm_e119.split_path": {
+      "owner": "base",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_astm_e119.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/loco_astm_e119.json"
+    },
+    "protocols.loco_perturbed_iso.split_path": {
+      "owner": "base",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_perturbed_iso.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/loco_perturbed_iso.json"
+    },
+    "protocols.loco_plateau.split_path": {
+      "owner": "base",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_plateau.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/loco_plateau.json"
+    },
+    "protocols.loco_decay.split_path": {
+      "owner": "base",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_decay.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/loco_decay.json"
+    },
+    "protocols.loco_log_variant.split_path": {
+      "owner": "base",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_log_variant.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/loco_log_variant.json"
+    },
+    "protocols.loco_external_fire.split_path": {
+      "owner": "base",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_external_fire.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/loco_external_fire.json"
+    },
+    "protocols.loco_bilinear.split_path": {
+      "owner": "base",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_bilinear.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/loco_bilinear.json"
+    },
+    "protocols.loco_linear.split_path": {
+      "owner": "base",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_linear.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/loco_linear.json"
+    },
+    "protocols.loco_smoldering.split_path": {
+      "owner": "base",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_smoldering.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/loco_smoldering.json"
+    }
+  },
+  "source_files": [
+    {
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\attention_model.py",
+      "owner": "addendum",
+      "relative": "SCI_Manuscript/experiments/research_v09_set_attention/attention_model.py",
+      "sha256": "4a08211c2c429231dfefab67307a12bb8463632b5eedc5234ad92cbde0ece7f6"
+    },
+    {
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\run_extension.py",
+      "owner": "addendum",
+      "relative": "SCI_Manuscript/experiments/research_v09_set_attention/run_extension.py",
+      "sha256": "b44f7aa2d2be33d21ab91b3fb6199e9f51ec3c8fe91c89aa43a3d97425de5d0a"
+    },
+    {
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\smoke_cpu.py",
+      "owner": "addendum",
+      "relative": "SCI_Manuscript/experiments/research_v09_set_attention/smoke_cpu.py",
+      "sha256": "f48d1b456d7710c14bdc8f83f8b144981cda0f07edb80baa331636bc59fc8af5"
+    },
+    {
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\prepare_extension.py",
+      "owner": "addendum",
+      "relative": "SCI_Manuscript/experiments/research_v09_set_attention/prepare_extension.py",
+      "sha256": "dce5f6b65b6657645ecd6804e0bd340ef8fd02af9bf7527c70999214ea14ceef"
+    }
+  ]
+}

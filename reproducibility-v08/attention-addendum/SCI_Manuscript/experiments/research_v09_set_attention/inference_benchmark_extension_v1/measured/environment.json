@@ -1,0 +1,19 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "torch": "2.5.1+cu124",
+  "cuda": "12.4",
+  "numpy": "2.4.4",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "pid": 42468,
+  "CPU": "{\"Name\":\"13th Gen Intel(R) Core(TM) i5-13600KF\",\"NumberOfCores\":14,\"NumberOfLogicalProcessors\":20}",
+  "GPU": "NVIDIA GeForce RTX 3060 Ti",
+  "CPU_threads": 4,
+  "cudnn_allow_tf32": true,
+  "matmul_allow_tf32": false,
+  "deterministic_algorithms": true,
+  "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+  "authorization_sha256": "198570b650f75fdd2c997458517fb6e17380cdcb9e3533c6df20fd829ba815a1",
+  "premeasurement_artifact_binding_sha256": "e709e8b946cc6a326ffd9e4109645ec8ebb56b28fdb01e503ef930aa25ec0ed0",
+  "old7_measurements_pooled": false,
+  "stage_units": "one entire61-point response trajectory per case, float32 outputs; seconds per measured batch"
+}

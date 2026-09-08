@@ -1,0 +1,311 @@
+{
+  "status": "COMPLETE_60_EXPLORATORY_EXTENSION",
+  "pid": 43364,
+  "plan_sha256": "8d21e13af116dc97556b37060daaf86afed5f7ba645a5bdae18e3d4ffb3b05a9",
+  "planned_runs": 60,
+  "completed": [
+    {
+      "protocol": "iid997",
+      "model": "set_attention",
+      "seed": 42
+    },
+    {
+      "protocol": "iid997",
+      "model": "set_attention",
+      "seed": 43
+    },
+    {
+      "protocol": "iid997",
+      "model": "set_attention",
+      "seed": 44
+    },
+    {
+      "protocol": "iid997",
+      "model": "set_attention",
+      "seed": 45
+    },
+    {
+      "protocol": "iid997",
+      "model": "set_attention",
+      "seed": 46
+    },
+    {
+      "protocol": "lcro_9_15",
+      "model": "set_attention",
+      "seed": 42
+    },
+    {
+      "protocol": "lcro_9_15",
+      "model": "set_attention",
+      "seed": 43
+    },
+    {
+      "protocol": "lcro_9_15",
+      "model": "set_attention",
+      "seed": 44
+    },
+    {
+      "protocol": "lcro_9_15",
+      "model": "set_attention",
+      "seed": 45
+    },
+    {
+      "protocol": "lcro_9_15",
+      "model": "set_attention",
+      "seed": 46
+    },
+    {
+      "protocol": "loco_iso834",
+      "model": "set_attention",
+      "seed": 42
+    },
+    {
+      "protocol": "loco_iso834",
+      "model": "set_attention",
+      "seed": 43
+    },
+    {
+      "protocol": "loco_iso834",
+      "model": "set_attention",
+      "seed": 44
+    },
+    {
+      "protocol": "loco_iso834",
+      "model": "set_attention",
+      "seed": 45
+    },
+    {
+      "protocol": "loco_iso834",
+      "model": "set_attention",
+      "seed": 46
+    },
+    {
+      "protocol": "loco_astm_e119",
+      "model": "set_attention",
+      "seed": 42
+    },
+    {
+      "protocol": "loco_astm_e119",
+      "model": "set_attention",
+      "seed": 43
+    },
+    {
+      "protocol": "loco_astm_e119",
+      "model": "set_attention",
+      "seed": 44
+    },
+    {
+      "protocol": "loco_astm_e119",
+      "model": "set_attention",
+      "seed": 45
+    },
+    {
+      "protocol": "loco_astm_e119",
+      "model": "set_attention",
+      "seed": 46
+    },
+    {
+      "protocol": "loco_perturbed_iso",
+      "model": "set_attention",
+      "seed": 42
+    },
+    {
+      "protocol": "loco_perturbed_iso",
+      "model": "set_attention",
+      "seed": 43
+    },
+    {
+      "protocol": "loco_perturbed_iso",
+      "model": "set_attention",
+      "seed": 44
+    },
+    {
+      "protocol": "loco_perturbed_iso",
+      "model": "set_attention",
+      "seed": 45
+    },
+    {
+      "protocol": "loco_perturbed_iso",
+      "model": "set_attention",
+      "seed": 46
+    },
+    {
+      "protocol": "loco_plateau",
+      "model": "set_attention",
+      "seed": 42
+    },
+    {
+      "protocol": "loco_plateau",
+      "model": "set_attention",
+      "seed": 43
+    },
+    {
+      "protocol": "loco_plateau",
+      "model": "set_attention",
+      "seed": 44
+    },
+    {
+      "protocol": "loco_plateau",
+      "model": "set_attention",
+      "seed": 45
+    },
+    {
+      "protocol": "loco_plateau",
+      "model": "set_attention",
+      "seed": 46
+    },
+    {
+      "protocol": "loco_decay",
+      "model": "set_attention",
+      "seed": 42
+    },
+    {
+      "protocol": "loco_decay",
+      "model": "set_attention",
+      "seed": 43
+    },
+    {
+      "protocol": "loco_decay",
+      "model": "set_attention",
+      "seed": 44
+    },
+    {
+      "protocol": "loco_decay",
+      "model": "set_attention",
+      "seed": 45
+    },
+    {
+      "protocol": "loco_decay",
+      "model": "set_attention",
+      "seed": 46
+    },
+    {
+      "protocol": "loco_log_variant",
+      "model": "set_attention",
+      "seed": 42
+    },
+    {
+      "protocol": "loco_log_variant",
+      "model": "set_attention",
+      "seed": 43
+    },
+    {
+      "protocol": "loco_log_variant",
+      "model": "set_attention",
+      "seed": 44
+    },
+    {
+      "protocol": "loco_log_variant",
+      "model": "set_attention",
+      "seed": 45
+    },
+    {
+      "protocol": "loco_log_variant",
+      "model": "set_attention",
+      "seed": 46
+    },
+    {
+      "protocol": "loco_external_fire",
+      "model": "set_attention",
+      "seed": 42
+    },
+    {
+      "protocol": "loco_external_fire",
+      "model": "set_attention",
+      "seed": 43
+    },
+    {
+      "protocol": "loco_external_fire",
+      "model": "set_attention",
+      "seed": 44
+    },
+    {
+      "protocol": "loco_external_fire",
+      "model": "set_attention",
+      "seed": 45
+    },
+    {
+      "protocol": "loco_external_fire",
+      "model": "set_attention",
+      "seed": 46
+    },
+    {
+      "protocol": "loco_bilinear",
+      "model": "set_attention",
+      "seed": 42
+    },
+    {
+      "protocol": "loco_bilinear",
+      "model": "set_attention",
+      "seed": 43
+    },
+    {
+      "protocol": "loco_bilinear",
+      "model": "set_attention",
+      "seed": 44
+    },
+    {
+      "protocol": "loco_bilinear",
+      "model": "set_attention",
+      "seed": 45
+    },
+    {
+      "protocol": "loco_bilinear",
+      "model": "set_attention",
+      "seed": 46
+    },
+    {
+      "protocol": "loco_linear",
+      "model": "set_attention",
+      "seed": 42
+    },
+    {
+      "protocol": "loco_linear",
+      "model": "set_attention",
+      "seed": 43
+    },
+    {
+      "protocol": "loco_linear",
+      "model": "set_attention",
+      "seed": 44
+    },
+    {
+      "protocol": "loco_linear",
+      "model": "set_attention",
+      "seed": 45
+    },
+    {
+      "protocol": "loco_linear",
+      "model": "set_attention",
+      "seed": 46
+    },
+    {
+      "protocol": "loco_smoldering",
+      "model": "set_attention",
+      "seed": 42
+    },
+    {
+      "protocol": "loco_smoldering",
+      "model": "set_attention",
+      "seed": 43
+    },
+    {
+      "protocol": "loco_smoldering",
+      "model": "set_attention",
+      "seed": 44
+    },
+    {
+      "protocol": "loco_smoldering",
+      "model": "set_attention",
+      "seed": 45
+    },
+    {
+      "protocol": "loco_smoldering",
+      "model": "set_attention",
+      "seed": 46
+    }
+  ],
+  "active": null,
+  "epistemic_status": "AFTER_ORIGINAL_TEST_RESULTS_REVIEW_EXPLORATORY",
+  "updated_utc": "2026-09-07T11:14:59Z"
+}

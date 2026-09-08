@@ -1,0 +1,15 @@
+{
+  "status": "GENERATED_PENDING_VISUAL_QA",
+  "size_mm": [
+    183,
+    190
+  ],
+  "minimum_font_pt": 8.0,
+  "overflow": [],
+  "complete_audited_family_runs": 350,
+  "heatmap_cells": 84,
+  "paired_intervals": 20,
+  "family_seed_values": 350,
+  "no_incomplete_family_read_before_gate": true,
+  "no_aggregate_CI_fabricated": true
+}

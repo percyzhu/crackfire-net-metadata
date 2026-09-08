@@ -1,0 +1,103 @@
+{
+  "status": "CODE_AND_REAL_SOURCE_API_REVIEW_PASSED_AFTER_FIXES_NOT_FULL_DATA_OR_VISUAL_QA",
+  "reviewed_utc": "2026-09-07T07:00:59.708361+00:00",
+  "generator_before_sha256": "99dbb43e93a12794dd325e7e32943efd282ef5703836ebd0dffebfcbb6043bcc",
+  "audit_before_sha256": "b174ca879581b6711afb02186fc91639e79846573a5bef7133eff2fb64d6ac2e",
+  "generator_after_sha256": "0e12515ea72fd34c95335db3c8c7a2548c2d47138ab3e7bdffcc2f82efcccb5e",
+  "audit_after_sha256": "272fdd68763b34dbb1eb4eda03bc7db4ea19bf2dc6878f2a481e44b29de36e8e",
+  "fixes": [
+    "Explicit UTF-8 for all independent-audit JSON reads, including Chinese source paths.",
+    "Source snapshots reuse CI/review hashes captured at validation and check both copied and current originals.",
+    "Independent QA checks selected metadata/ranks/scores, exactly once held-out split coverage, own-family model/seed checkpoint paths, event identities, and source-bound derived CSV hashes."
+  ],
+  "complete_protocol_used_for_schema_only": "loco_iso834",
+  "complete_protocol_API_checks": {
+    "CI_complete_35": true,
+    "independent_audit_complete_35": true,
+    "CI_review_seeds": true,
+    "case_grid_rows": true,
+    "CI_source_code_hashes": true,
+    "CI_prespec_hash": true,
+    "CI_review_prediction_hash_dictionary": true,
+    "CI_review_hash": true,
+    "summary_review_hash": true,
+    "primary_bootstrap_schema": true,
+    "secondary_bootstrap_schema": true
+  },
+  "NPZ_header_shapes_only": {
+    "sample_ids.npy": {
+      "shape": [
+        158
+      ],
+      "dtype": "<U9",
+      "fortran_order": false
+    },
+    "time_s.npy": {
+      "shape": [
+        61
+      ],
+      "dtype": "float64",
+      "fortran_order": false
+    },
+    "truth.npy": {
+      "shape": [
+        158,
+        61
+      ],
+      "dtype": "float32",
+      "fortran_order": false
+    },
+    "predictions.npy": {
+      "shape": [
+        158,
+        61
+      ],
+      "dtype": "float32",
+      "fortran_order": false
+    }
+  },
+  "prediction_array_payloads_read": 0,
+  "partially_complete_family_performance_read": 0,
+  "examples_selected": 0,
+  "formal_graphics_generated": 0,
+  "frozen_input_cases_reproduced_exactly": 997,
+  "frozen_target_shape": [
+    61
+  ],
+  "frozen_time_shape": [
+    61
+  ],
+  "frozen_graph_time_input_shape": [
+    61,
+    4
+  ],
+  "all_LOCO_split_union_unique_cases": 997,
+  "quantile_ranks_zero_based": [
+    498,
+    946,
+    996
+  ],
+  "source_bindings": {
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\comparison_plan_v08_420.json": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\manifest.json": "7712ad86ab48f185c53a9ae276a9a7b2f6e6673a5d5faf6fc69b0f1bbb3dcdaf",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\tensors.pt": "330dc711c675cbbf912811002d54d237b7f89757c73057972d6aca95e76b0320",
+    "D:\\Work\\Abstract\\1_代码\\src\\gnn\\model.py": "808bf7c8d31ae4c76fc5e07c37244ddb18af54e84304603c06da2ec76ffd6752",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_iso834_engineering_proxy_ci.json": "84fa79687f162eeeee7e6bc7b26d799532ce7f64ebcd5f2df9080ff6f287ec2d",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_iso834_independent_results_audit_v2.json": "dd8cc0f45b61cd2b08e398dd1fd7f2c2cbe13463b39e13a6764f3b412e1c469e",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_iso834\\summary.json": "616f8c18d352948051cbdb4f7abf7237042586843bbf8330d91d523b10e1f1bf",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\gnn\\seed_42\\test_predictions.npz": "7ac6bb428d9a45ab9946056493b8ed146626bbbc7c9e35c2a9db803265f606a3",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\gnn\\seed_42\\best.pt": "1c299f7161b1e956bd6928ded83967e65c161b72abe46daaf4fc4e1cb0af724f"
+  },
+  "statistical_semantics_review": [
+    "GNN five-seed mean of per-case 61-time MAE; no timepoint pooling in case selection.",
+    "Fourth score is mean_seed(max_time(max(prediction-reference,0))), remaining cases only, lexical exact ties and all-zero label.",
+    "Actual seed42 traces from own LOCO protocol plus separate model-specific five-seed min/max bands; no ensemble-as-seed or CI claim.",
+    "Response axes encompass reference, both seed42 curves and both min/max bands with padding; thresholds do not clip or transform curves."
+  ],
+  "limitations": [
+    "Complete 350-run prediction loading, deterministic selection, materialization and rendering remain unexecuted.",
+    "Independent generated-table/export audit and visual inspection remain pending.",
+    "NPZ archive header and digest were inspected, never prediction array values.",
+    "This review does not confer manuscript or journal acceptance."
+  ]
+}

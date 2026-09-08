@@ -1,0 +1,52 @@
+{
+  "status": "PREPARED_GATE_TESTED_AND_COMPLETE_BRANCH_CODE_REVIEWED_NO_FORMAL_FIGURE",
+  "prepared_utc": "2026-09-07T07:01:40.288629+00:00",
+  "selection_plan_sha256": "1850acfce80828fa7db4cd7fc751e9c86b8c47f8366fa3c91cc24135ce5d8c1e",
+  "generator_sha256": "0e12515ea72fd34c95335db3c8c7a2548c2d47138ab3e7bdffcc2f82efcccb5e",
+  "audit_sha256": "272fdd68763b34dbb1eb4eda03bc7db4ea19bf2dc6878f2a481e44b29de36e8e",
+  "files": {
+    "audit_engineering_examples.py": {
+      "sha256": "272fdd68763b34dbb1eb4eda03bc7db4ea19bf2dc6878f2a481e44b29de36e8e",
+      "bytes": 9419
+    },
+    "caption_en.tex": {
+      "sha256": "c98c975768671d440d9ff79982471357ff1b7c16b8ae256484b92e6077c68843",
+      "bytes": 1882
+    },
+    "complete_branch_code_review.json": {
+      "sha256": "ff4d767974eaf3d8d84ee01eb3c5d4c49366d282b14097d1fc1e83e38b37387b",
+      "bytes": 5029
+    },
+    "complete_branch_code_review.md": {
+      "sha256": "33b3a795d2723bd78d47e1dc7ed1dc8a672d93260971b53d0832077310d21910",
+      "bytes": 2402
+    },
+    "draw_engineering_examples_v08.py": {
+      "sha256": "0e12515ea72fd34c95335db3c8c7a2548c2d47138ab3e7bdffcc2f82efcccb5e",
+      "bytes": 24438
+    },
+    "figure_contract.md": {
+      "sha256": "ab0ad41a3a645ae572da962439810e4f181be63c5359f0b980cfa30ea2f92827",
+      "bytes": 2492
+    },
+    "gate_status.json": {
+      "sha256": "4af8d12b47289002cb7f9791439f8835d482fb051472937f1b82327b9826e985",
+      "bytes": 2962
+    },
+    "gate_test.json": {
+      "sha256": "7650f756e7465170188c3ba4af83ff031b6c3bbde4a5d308935b1cca7fe65f1f",
+      "bytes": 1323
+    },
+    "QA.md": {
+      "sha256": "b5b6befa125284b41efd93f32f9c822602b11ceeb4f40863fbbc95fc4329d7ec",
+      "bytes": 2586
+    },
+    "README.md": {
+      "sha256": "77413aae56d3d20a6ffe95ffe318c753b1b73b2418ae5d4b0dd9be919437d006",
+      "bytes": 3935
+    }
+  },
+  "formal_figure_generated": false,
+  "full_data_execution_tested": false,
+  "visual_QA_passed": false
+}

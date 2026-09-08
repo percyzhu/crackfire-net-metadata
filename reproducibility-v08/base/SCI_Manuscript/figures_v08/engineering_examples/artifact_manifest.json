@@ -1,0 +1,151 @@
+{
+  "status": "ACTUAL_ARTIFACTS_GENERATED_AND_STANDALONE_QA_PASSED",
+  "created_utc": "2026-09-07T08:44:40.301762+00:00",
+  "files": [
+    {
+      "path": "actual_QA.md",
+      "bytes": 1150,
+      "sha256": "4ee8b2ae117fb3294c809d7b44e24a176a3cdb492670bfaebd333fad0f326f8a"
+    },
+    {
+      "path": "all_candidate_scores.csv",
+      "bytes": 162799,
+      "sha256": "0bf73999b4c55a6531af42e004e1b5227d92c96d67f8789c274ae900e4865a42"
+    },
+    {
+      "path": "all_seed_curves.csv",
+      "bytes": 138461,
+      "sha256": "940e15e8bc03b779647335e34c76e7f6324bc116cbd6adb5373a194eb69e5553"
+    },
+    {
+      "path": "audit_engineering_examples.py",
+      "bytes": 9419,
+      "sha256": "272fdd68763b34dbb1eb4eda03bc7db4ea19bf2dc6878f2a481e44b29de36e8e"
+    },
+    {
+      "path": "caption_en.tex",
+      "bytes": 1882,
+      "sha256": "c98c975768671d440d9ff79982471357ff1b7c16b8ae256484b92e6077c68843"
+    },
+    {
+      "path": "complete_branch_code_review.json",
+      "bytes": 5029,
+      "sha256": "ff4d767974eaf3d8d84ee01eb3c5d4c49366d282b14097d1fc1e83e38b37387b"
+    },
+    {
+      "path": "complete_branch_code_review.md",
+      "bytes": 2402,
+      "sha256": "33b3a795d2723bd78d47e1dc7ed1dc8a672d93260971b53d0832077310d21910"
+    },
+    {
+      "path": "curve_data.csv",
+      "bytes": 40610,
+      "sha256": "018b34c1f73ec08d2d6684000be933520c5ce359abce57dd3ea21c58ad2d35f1"
+    },
+    {
+      "path": "draw_engineering_examples_v08.py",
+      "bytes": 24438,
+      "sha256": "0e12515ea72fd34c95335db3c8c7a2548c2d47138ab3e7bdffcc2f82efcccb5e"
+    },
+    {
+      "path": "engineering_examples_v08.pdf",
+      "bytes": 65974,
+      "sha256": "3f9893f309a024fc0a4604e6d1d7079f6a327b04f66592ddacc28aa5424a3cb4"
+    },
+    {
+      "path": "engineering_examples_v08.png",
+      "bytes": 395037,
+      "sha256": "b16787a2b22c4e96240181ae545be5ba2c1859f8d8487daee9e9535461480477"
+    },
+    {
+      "path": "engineering_examples_v08.svg",
+      "bytes": 95374,
+      "sha256": "e621e110124c47eec910d9a6a247071c1ab65b7d45fa05c5f4a58aaa4a3986df"
+    },
+    {
+      "path": "figure_contract.md",
+      "bytes": 2492,
+      "sha256": "ab0ad41a3a645ae572da962439810e4f181be63c5359f0b980cfa30ea2f92827"
+    },
+    {
+      "path": "figure_qa.json",
+      "bytes": 364,
+      "sha256": "c91a224f9e2bdeaf8f51196c8b05ecf554a27eaace9b3f03785aa5283084f504"
+    },
+    {
+      "path": "gate_status.json",
+      "bytes": 3399,
+      "sha256": "5e0f5b8e919cf5fa5b95878e3457572102ec3857e792eb921f567eef96ad1004"
+    },
+    {
+      "path": "gate_test.json",
+      "bytes": 1323,
+      "sha256": "7650f756e7465170188c3ba4af83ff031b6c3bbde4a5d308935b1cca7fe65f1f"
+    },
+    {
+      "path": "generation_status.json",
+      "bytes": 15510,
+      "sha256": "a64b2d4bf7180db7ba20f3868d41bb27d67b751750328898b49e6cb21146095d"
+    },
+    {
+      "path": "independent_QA.json",
+      "bytes": 1042,
+      "sha256": "4f3415ce49cf2c02e7321d0012d9612b510b7a154e9f05d1fb4999644c6b2b89"
+    },
+    {
+      "path": "pdf_final_QA.png",
+      "bytes": 164025,
+      "sha256": "b12f11a3961a76090cdeb9b5505b62dc7f728fb00e9c278647a243901d1d4be9"
+    },
+    {
+      "path": "preparation_manifest.json",
+      "bytes": 1998,
+      "sha256": "d22173efae5a73cdb7b56644ac3752220586fa2d7f735550365512c5964805d4"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 95758,
+      "sha256": "a0b14d520ebe388232ec1ccd98968c43342e19f4b9d859378f7208fb4b239db1"
+    },
+    {
+      "path": "QA.md",
+      "bytes": 2586,
+      "sha256": "b5b6befa125284b41efd93f32f9c822602b11ceeb4f40863fbbc95fc4329d7ec"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3935,
+      "sha256": "77413aae56d3d20a6ffe95ffe318c753b1b73b2418ae5d4b0dd9be919437d006"
+    },
+    {
+      "path": "selected_cases.csv",
+      "bytes": 1631,
+      "sha256": "2fca81f77daecb215784a0f53bba87400088b09beb6df7d0d915799c74e3550b"
+    },
+    {
+      "path": "selected_fire_parameters.json",
+      "bytes": 1533,
+      "sha256": "8514dc4465e6b7f64824e225b314ee55785f46fefa257154bf472b0f70465809"
+    },
+    {
+      "path": "selection_score_components.csv",
+      "bytes": 338265,
+      "sha256": "106b4499588bc65838c7bf170b8b71656063099f5a068cfbe465cb602f15e577"
+    },
+    {
+      "path": "threshold_events.csv",
+      "bytes": 1714,
+      "sha256": "44cddffc7614af8aa88c1c69ef5041745b1750e495ac7f70ba37d3583a0e32a5"
+    },
+    {
+      "path": "visual_QA.json",
+      "bytes": 1630,
+      "sha256": "eb86ab99eaa7b90e005248f07befe9a4e9fc2be70076f446502840171bf42da8"
+    }
+  ],
+  "external_code": [],
+  "source_binding": "The provenance or generation_manifest file binds the complete source snapshots and review evidence; nested snapshots are not duplicated in this top-level artifact list.",
+  "frozen_training_modified": false,
+  "timing_executed": false,
+  "manuscript_placement_checked": false
+}

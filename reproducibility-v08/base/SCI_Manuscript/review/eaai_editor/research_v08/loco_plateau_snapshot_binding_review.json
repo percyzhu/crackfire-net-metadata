@@ -1,0 +1,69 @@
+{
+  "status": "SNAPSHOT_BOUND_TO_INDEPENDENT_COMPLETE_PROTOCOL_AUDIT",
+  "protocol": "loco_plateau",
+  "created_utc": "2026-09-07T06:04:19.919631+00:00",
+  "snapshot_sha256": "12bc5f3d1df624e89e260735bbf20af9ea57961de035f6afde8a64aaeafcd153",
+  "snapshot_files_checked": [
+    {
+      "name": "report.json",
+      "sha256": "cbc7a9a446324f03a43f2ce082677a2e08e41d453003322ae5608067eca0fff9",
+      "bytes": 17416
+    },
+    {
+      "name": "run_integrity.json",
+      "sha256": "bb2b508629020d13e1ce38044ddc36ae2a0b286298ad17bc91b3e59a254d7fe6",
+      "bytes": 636959
+    },
+    {
+      "name": "per_case_metrics.csv",
+      "sha256": "00fa03924d906bb91b70a6bc94bd3772d5dc55c1867e2103f8be374398d66a01",
+      "bytes": 741595
+    },
+    {
+      "name": "strata_by_seed.csv",
+      "sha256": "f73a705fb85c526e8d33164eecfa82ec273a013fc00b880239dc02471aa43a55",
+      "bytes": 265739
+    },
+    {
+      "name": "summary.json",
+      "sha256": "81c41ec5b9ea601a0933255af828445779c457a04826187f1caa92b73352e594",
+      "bytes": 41835
+    },
+    {
+      "name": "time_metrics.csv",
+      "sha256": "053a07296a63c6897eddf1190a595d41b5e0d53e8232abfe841032a3fdf74d82",
+      "bytes": 206674
+    },
+    {
+      "name": "topology_by_seed.csv",
+      "sha256": "86335ef4c9dce1585aafc2d7f7b4af2ae18d285becc44022dca162103babf75d",
+      "bytes": 15228
+    },
+    {
+      "name": "loco_plateau_engineering_proxy_ci.json",
+      "sha256": "f5c2f1ce6a69036acaea55b11f673d65c3fd2e46b83aa47192716b5dcf3b7baf",
+      "bytes": 267360
+    },
+    {
+      "name": "loco_plateau_engineering_proxy_ci.csv",
+      "sha256": "2086fbdc2e1543598bfd7d720403b8b87a9bd2e06e86762e79ddafca18fd667b",
+      "bytes": 11519
+    }
+  ],
+  "all7_protocol_outputs_identical_to_audited_live_files": true,
+  "current12_frozen_sources_plan_wrapper_amendment_verified": true,
+  "complete_runs": 35,
+  "primary_and_sparse_replay_calls": 65,
+  "replay_status_counts": {
+    "GPU_IDENTITY_EXACT_CPU_BACKEND_VARIATION_RECORDED": 65
+  },
+  "max_CPU_replay_difference": 0.00010269880294799805,
+  "unique_prescribed_fire_parameter_objects": 66,
+  "other_family_prediction_scores_inspected": false,
+  "manuscript_or70run_package_modified": false,
+  "review_files_sha256": {
+    "loco_plateau_independent_results_audit_v2.json": "d469eb0595a4ffa85897621599ee4a9960014c7df0b3028820f062770faf5930",
+    "loco_plateau_same_weight_topology_audit.json": "098ae6c0b4b4fd13f631a126c7ae7c4b6820d72d71fd8346c759a9c9423bfd6a"
+  },
+  "submission_pass": false
+}

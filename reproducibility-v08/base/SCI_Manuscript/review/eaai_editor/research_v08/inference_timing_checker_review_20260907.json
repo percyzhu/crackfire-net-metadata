@@ -1,0 +1,43 @@
+{
+  "status": "INDEPENDENT_CHECKER_SOURCE_REVIEWED_REAL_MEASUREMENT_AUDIT_STILL_PENDING",
+  "reviewed_utc": "2026-09-07T06:08:28.307786+00:00",
+  "checker_sha256": "cfb768af7addf6cf89095dd5f9a6e7ff2a5331238caf4cb3ee329a54310278f3",
+  "syntax_passed": true,
+  "actual_missing_measurement_gate": {
+    "status": "WAITING_FOR_COMPLETE_REAL_TIMINGS",
+    "latency_records_read": 0,
+    "has_failure_record": false,
+    "summary_status": null,
+    "checked_utc": "2026-09-07T06:08:28.282986+00:00"
+  },
+  "declared_coverage": {
+    "raw_rows": 14355,
+    "overall_groups": 58,
+    "round_groups": 174,
+    "single_query_N_groups": 435
+  },
+  "actual_complete_protocol_replay_state_records_checked": 455,
+  "negative_replay_fixtures_rejected": 2,
+  "repairs": [
+    "Require final COMPLETE_420_RUN_MATRIX and replay enabled plus exact420 audit/artifact identities before latency CSV reading",
+    "Check actual artifact SHA/status/result/metadata/epoch/runtime chain and frozen code/data/splits against premeasurement binding and final audit",
+    "Bind selected checkpoint paths/parameters and training-cost rows to those actual artifacts",
+    "Handle absent or noncomplete measured summary/failure with WAITING and zero latency rows",
+    "Bind environment/readiness/final audit/source files in any eventual real-timing review output"
+  ],
+  "validated_arithmetic": [
+    "14355 raw rows =3rounds*29interfaces*(160single+5batch32)",
+    "58 overall groups and174 per-round groups",
+    "N-stratum keys match the frozen benchmark API; all15 crack counts covered",
+    "Seconds to milliseconds, amortized whole61-point-curve latency, throughput and ddof1 training-cost SD match benchmark API"
+  ],
+  "limitations": [
+    "No measured directory exists, so no real timing arithmetic success report was produced.",
+    "The full420 positive source gate and raw-duration arithmetic await actual completed measurements.",
+    "Inspection of recorded process gates is not proof that unrelated OS or anonymous jobs were idle."
+  ],
+  "benchmark_source_unchanged_sha256": "aad7de1e3e332a119adf5ea97f2813bf47dd8d3fe4d136a4ba60cb096f96bcf9",
+  "timing_plan_unchanged_sha256": "e44ab414c6f7c56a8a400292d6c460bdfb90ba5d2b3636f76ff353575c5eb5a7",
+  "latency_records_read": 0,
+  "formal_timing_executed": false
+}

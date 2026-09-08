@@ -1,0 +1,67 @@
+0
+10
+20
+30
+40
+50
+60
+min
+0
+200
+400
+600
+800
+°C
+ = 15 mm
+ a
+ b
+FEM 50 mm
+d=15 mm
+FEM 30 mm
+d=15 mm
+FEM 20 mm
+d=15 mm
+FEM 15 mm
+d=15 mm
+FEM 10 mm
+d=15 mm
+0
+10
+20
+30
+40
+50
+60
+min
+ = 30 mm
+ a
+ b
+FEM 30 mm
+d=30 mm
+FEM 20 mm
+d=30 mm
+FEM 15 mm
+d=30 mm
+FEM 10 mm
+d=30 mm
+0
+10
+20
+30
+40
+50
+60
+min
+ = 40 mm
+ a
+ b
+FEM 50 mm
+d=40 mm
+FEM 30 mm
+d=40 mm
+FEM 20 mm
+d=40 mm
+FEM 15 mm
+d=40 mm
+FEM 10 mm
+d=40 mm

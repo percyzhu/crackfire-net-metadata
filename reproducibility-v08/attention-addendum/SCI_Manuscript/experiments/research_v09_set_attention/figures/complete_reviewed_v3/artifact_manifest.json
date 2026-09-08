@@ -1,0 +1,75 @@
+{
+  "status": "GENERATED_FROM_COMPLETE_INDEPENDENTLY_REVIEWED_EXTENSION_VISUAL_QA_PENDING",
+  "created_utc": "2026-09-07T11:29:50.905165+00:00",
+  "epistemic_status": "AFTER_ORIGINAL_TEST_RESULTS_REVIEW_EXPLORATORY",
+  "gate": {
+    "plan_sha256": "8d21e13af116dc97556b37060daaf86afed5f7ba645a5bdae18e3d4ffb3b05a9",
+    "expected_new_runs": 60,
+    "queue_completed_metadata_count": 60,
+    "performance_payloads_read": 0,
+    "prediction_arrays_read": 0,
+    "plotting_backend_loaded": false,
+    "figures_created": 0,
+    "status": "READY_COMPLETE_AND_INDEPENDENTLY_REVIEWED",
+    "audit_dir": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\evaluation_complete60_v1",
+    "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+    "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+    "independent_review_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\independent_full_matrix_review.json",
+    "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+  },
+  "protocols": [
+    "iid997",
+    "lcro_9_15",
+    "loco_iso834",
+    "loco_astm_e119",
+    "loco_perturbed_iso",
+    "loco_plateau",
+    "loco_decay",
+    "loco_log_variant",
+    "loco_external_fire",
+    "loco_bilinear",
+    "loco_linear",
+    "loco_smoldering"
+  ],
+  "models": [
+    "capacity_matched_deepsets",
+    "gnn",
+    "set_attention"
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "table_and_plot_units": "dimensionless archived-response MAE multiplied by1000; not percent improvement",
+  "primary420_evidence_replaced": false,
+  "new_training_runs": 60,
+  "reused_comparator_runs": 120,
+  "independent_geometries_not_multiplied_by_seeds": true,
+  "source_sha256": {
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\figures\\generate_extension_figures_v3.py": "0b53d4011a01655df3f53f50422ae52c7b76409725222e6f4d88764c762bfeca",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\figures\\FIGURE_CONTRACT.md": "e52a85e605b73cd72e7d9135e483f4db1366dfa95f07b70e47648a79599aa6a4",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\figures\\captions_extension_v3_en.tex": "55287627aecb7fe1f0e05d3cffaec305a51481b2f2e31b26dd03f777a2aa5e17",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\figures\\methods_extension_draft.tex": "1ff6c9665813d6e117501335d2a4c0d2735dd5c22939a0dcf7c4d064859fe553",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\figures\\render_revision_v3.md": "cc517c11d78e48c83b72ac12ce81dabf5e8898c26465b0d69247134f717c7fde"
+  },
+  "outputs_sha256": {
+    "extension_effects.pdf": "bd7ff3214409923dad8892e485572f9742d296cd5b1c1cc67fd96b5b90b409af",
+    "extension_effects.png": "66a7c6101fecca1fcc62cb25cc50a8c5c17f0f4b7362f1a70cbef86e60127bf1",
+    "extension_effects.svg": "33a48706ff3b509021d72c9e87c8441eb8eb5be6d3ebe38c323b03fc1ffd77c0",
+    "extension_mae.pdf": "fe470a20165ded03e5b6336d4bfc2bb329025a0bbe2a344f6d2859a4367a95d5",
+    "extension_mae.png": "0acf551d514e0459cd8a59d2e2a9688423eba66db2084567a6fa2b4ca3467e26",
+    "extension_mae.svg": "fd39b4ab890b572b8cb95dbbee52c48acb368926e0f230528301133b0e2761c5",
+    "plotted_model_MAE.csv": "bf69526bdda202ae6f8b4b8e05dc40f438c4771ce7bd03b86a04fb0ae28f8524",
+    "plotted_paired_effects.csv": "ea400f4c449283924523c3fa4c430e3460153931a9f5a96fc16deb872ed21a3b",
+    "plotted_seed_MAE.csv": "28f531735a91b115ee1aa07cd552c0df597025074c7f9e430083f8df44280410",
+    "render_QA.json": "05073d3ff0337fa0f80aa66b23f8da4df399f1fe5e6311625e3eeebdf55147e6",
+    "table_extension_effects.tex": "45e5b63126b7b98f6d613efca4df2276b958f56fb9f0dbe973706c1ff6635c12",
+    "table_extension_mae.tex": "041704239126bdd5216ac2a51cb7cb00eed6f7fef769b3b01b38bde23b6d907f"
+  },
+  "visual_QA_pass": false,
+  "LaTeX_compile_tested": false,
+  "submission_pass": false
+}

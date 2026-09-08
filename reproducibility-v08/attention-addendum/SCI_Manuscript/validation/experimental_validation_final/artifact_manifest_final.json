@@ -1,0 +1,121 @@
+{
+  "status": "PASS_VECTOR_DIMENSIONS_FONTS_AND_ACTUAL_VISUAL_REVIEW",
+  "files": {
+    "actual_visual_QA.json": {
+      "sha256": "538d63dbb2b669e859ea88c72a2b6b7376adda20e730a1d4bf9a813d8eab8484",
+      "bytes": 4462
+    },
+    "all_original_vector_curves.csv": {
+      "sha256": "fad12f09794b4566a02aae3c3edaed3cd13bbda2cf6c28a01c579bd819ff281f",
+      "bytes": 87598
+    },
+    "all_workbook_Abaqus_native.csv": {
+      "sha256": "3c21bfd0c2265761bd5ad8d2adf7d4142f4d13371b725fc080e35784c88eba4c",
+      "bytes": 781740
+    },
+    "draw_experimental_validation.py": {
+      "sha256": "6c262c667210cbddf89d424e2a70faa428cdae99fda3f8bae41f93a8f5885bcf",
+      "bytes": 6139
+    },
+    "experimental_native.csv": {
+      "sha256": "93bf664d741786a2ac8ebe95a33e680dc4eba4b3509bb62d789cc0b513d5b0fa",
+      "bytes": 21622
+    },
+    "experimental_validation_final.pdf": {
+      "sha256": "ec41f139076866f1d76215e1c1f65f165f63c7c0552c06686816b84c01f59f96",
+      "bytes": 73152
+    },
+    "experimental_validation_final.png": {
+      "sha256": "79974cee0d3373c34227c6123a90f9c46e9db57786cda14f9241c7bd3c103178",
+      "bytes": 282324
+    },
+    "experimental_validation_final.svg": {
+      "sha256": "4b5f6928328138e6dfaa8455801889859fe557a2ca059a903bab23e4dcf1521e",
+      "bytes": 104445
+    },
+    "experimental_validation_pdf_QA.png": {
+      "sha256": "42d5c055424e75d70aead50b9d0483063c122b20bfb717d27b7883ecb8371279",
+      "bytes": 103497
+    },
+    "extraction_report.json": {
+      "sha256": "7248a42d99d07a64e62a7d6ba50a500692f61ba3eb827533748c7971f8c26a3f",
+      "bytes": 15907
+    },
+    "extract_archived_comparison.py": {
+      "sha256": "e9ab8a660286ebcf1164ff20bb70ace338bea75e4888aa962aaaed0dff3e829b",
+      "bytes": 7970
+    },
+    "figure_contract.md": {
+      "sha256": "e144b368d1fe8bab4ea5db0ebc2632bfa4ba2bcff8d8397b4f380b126c22af15",
+      "bytes": 1696
+    },
+    "figure_manifest.json": {
+      "sha256": "2a79c398e620b33f3665160915c3449a5d649b480fc8626d6a170ad19abae3c0",
+      "bytes": 1235
+    },
+    "finalize_visual_QA.py": {
+      "sha256": "abc5cf4265547bfff0472f15d4fcdee0764e8627c41f4c60ae4b7cd36a5d6168",
+      "bytes": 3069
+    },
+    "independent_curve_audit.py": {
+      "sha256": "b6bd8d2d176f8b401054a85ea2b8b20caaac77c39ca3ec57f181567e6a80e424",
+      "bytes": 9245
+    },
+    "independent_extraction_audit.json": {
+      "sha256": "3053343d0c601caa066a9b3993abfafc465b55bd24523b0cbc84cbca3b5a093e",
+      "bytes": 3053
+    },
+    "independent_extraction_review_zh.md": {
+      "sha256": "a12c3d765d8932a8f0210905cae91ee78c3aef64ad46bdbad9ce1edd192ea21b",
+      "bytes": 1041
+    },
+    "inspect_sources.py": {
+      "sha256": "6b3ec79ebb5b5a10ccee4d2274c72ba05c0e65688f569dfc2669ee2e63967d61",
+      "bytes": 1852
+    },
+    "integration_note_zh.md": {
+      "sha256": "c39644dd2f26d7e2a02e6bbf4c9d4fd201fea3972a8081cf09306d8ffb4356b0",
+      "bytes": 2033
+    },
+    "main_20mm_comparison.csv": {
+      "sha256": "8fdce486d87aae310f4fa1e31c357ba5403a0ec4c51c07529d1e2655e024e31f",
+      "bytes": 65342
+    },
+    "main_validation_section.tex": {
+      "sha256": "9997ea1e86327baee23e7406ef9be20fbe2d75f41145dbad263e85ccf8966be1",
+      "bytes": 2496
+    },
+    "original_mesh_validation.png": {
+      "sha256": "38367a743713a85d816363b88394f68fb5408f3cc1e9120cb124adeb10b4a55d",
+      "bytes": 143157
+    },
+    "original_pdf_drawing_inventory.json": {
+      "sha256": "4dc079c1d07f39c14568270a90d171d316d7cf5d4d9bd5d6eb8f84ecf525d760",
+      "bytes": 144271
+    },
+    "original_pdf_text.txt": {
+      "sha256": "3a41b65daa7bae4bb722c0177979c5ab54d8fbf69a3882fd093be71ce224cc97",
+      "bytes": 458
+    },
+    "PDF_experimental_curve_crosscheck.csv": {
+      "sha256": "b19ef84e4bdba6105fe8c6806ce40598ec5bfc776e9858c230b5ecfaabe0420a",
+      "bytes": 657
+    },
+    "recovered_curve_error_metrics.csv": {
+      "sha256": "ad682116ca4e1e68637419aa1da18626c1016251869a598fa986a9c7d6fd5d98",
+      "bytes": 6323
+    },
+    "source_mesh_preview.png": {
+      "sha256": "60eac64aff7e60538197166e16da440a48b0814493a1357ea50faad6f839349c",
+      "bytes": 104513
+    },
+    "source_workbook_headers.json": {
+      "sha256": "41a99733c7cea2c4d753a0144a320b706cd09b60870cb05386c6679e843a9021",
+      "bytes": 1898
+    },
+    "supplement_minimal_update.tex": {
+      "sha256": "ac7818032a56c0b4d560caee6ecba44aeb93de5d833d0d78df59e730284a8c2e",
+      "bytes": 1997
+    }
+  }
+}

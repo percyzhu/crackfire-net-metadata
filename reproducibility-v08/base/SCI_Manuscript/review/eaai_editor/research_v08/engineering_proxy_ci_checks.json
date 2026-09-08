@@ -1,0 +1,16 @@
+{
+  "purpose": "ANALYTIC_CHECK_ONLY_NOT_TRAINED_OUTCOMES",
+  "status": "PASS",
+  "checks": [
+    "Individual modelMAE intervals are wide because case/seed errors vary together.",
+    "The paired graph-vs-set final/timeaverageMAE differences are exactly.05 in every resample.",
+    "The paired mean-vs-sum final/timeaverageMAE differences are exactly.02 in every resample.",
+    "Higher-is-better scores and signed biases do not inherit the MAE effect-direction interpretation."
+  ],
+  "real_predictions_read": false,
+  "code_sha256": {
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\check_engineering_proxy_ci.py": "8e3aad6fa8075583341b86b8a6694c5d3296486d0ced4e7dd6c03933ac2feb61",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\engineering_proxy_ci.py": "46dda9666d32996ab1b38f77b3aaa7bdf321c8882521242c20896615f1b702a3",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\engineering_proxy_metrics.py": "290d81078de1fa408ed8251690ab81e425e8a785bfd61bbffb1357f967a253bc"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "status": "ACTUAL_FULL_MATRIX_RENDERED_PENDING_INDEPENDENT_FIGURE_AND_VISUAL_QA",
+  "created_utc": "2026-09-07T09:40:36.688442+00:00",
+  "source_snapshot": [
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\results\\analysis_report.json",
+      "snapshot_path": "source_snapshot/SCI_Manuscript/experiments/research_v08/engineering_budget_priority_v1/results/analysis_report.json",
+      "sha256": "05710bae8a35daa8cf11913637526d4aea0d757bc07eb5bde4350e34b2a637a9"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\results\\independent_arithmetic_audit.json",
+      "snapshot_path": "source_snapshot/SCI_Manuscript/experiments/research_v08/engineering_budget_priority_v1/results/independent_arithmetic_audit.json",
+      "sha256": "b4330870aa10ebc621f7ea07ee1ad98afe5e19b6fb04d26d5cf722becb61569a"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\independent_code_review.json",
+      "snapshot_path": "source_snapshot/SCI_Manuscript/experiments/research_v08/engineering_budget_priority_v1/independent_code_review.json",
+      "sha256": "d5a45f1ea3d7b314356832690d0f846497fd3c8de2c79edf866d19d27cc10c8e"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\budget_priority.py",
+      "snapshot_path": "source_snapshot/SCI_Manuscript/experiments/research_v08/engineering_budget_priority_v1/budget_priority.py",
+      "sha256": "ef67d81d988545f3fd93ddc715901691a4daa5ff7ea908d3d33ae3d69be6fa32"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\input_equivalence_gate.json",
+      "snapshot_path": "source_snapshot/SCI_Manuscript/experiments/research_v08/engineering_budget_priority_v1/input_equivalence_gate.json",
+      "sha256": "838044dbe05a341e61d3700d1f90c1735441676fd0b8de8a91decaedaae892a5"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\adoption_record.json",
+      "snapshot_path": "source_snapshot/SCI_Manuscript/experiments/research_v08/engineering_budget_priority_v1/adoption_record.json",
+      "sha256": "4262917aece6c56e6f90f146f69e1c81b00174236539f16d32b87a1d16e0c498"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\audit_budget_arithmetic.py",
+      "snapshot_path": "source_snapshot/SCI_Manuscript/experiments/research_v08/engineering_budget_priority_v1/audit_budget_arithmetic.py",
+      "sha256": "5082905572d964e6ead95f7cd80540f385da49b04af93d76ee0bba72ef4b4d3d"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\independent_code_review.md",
+      "snapshot_path": "source_snapshot/SCI_Manuscript/experiments/research_v08/engineering_budget_priority_v1/independent_code_review.md",
+      "sha256": "18bc42d1d615088a8b59a5a8add667824546878619c62df3d1eeac9a894b527a"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\engineering_budget_priority_protocol.md",
+      "snapshot_path": "source_snapshot/SCI_Manuscript/review/eaai_editor/research_v08/engineering_budget_priority_protocol.md",
+      "sha256": "77a8c53efe548b3cfde9620e81b36c089558e9a0e52cc7c86dddb152d12ba24d"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\engineering_budget_priority_protocol.json",
+      "snapshot_path": "source_snapshot/SCI_Manuscript/review/eaai_editor/research_v08/engineering_budget_priority_protocol.json",
+      "sha256": "efeaf945c10c7f7563b460f34c82bf7658cb11ff01df1467f1e2c71685d4257d"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\results\\model_seed_utility.csv",
+      "snapshot_path": "source_snapshot/SCI_Manuscript/experiments/research_v08/engineering_budget_priority_v1/results/model_seed_utility.csv",
+      "sha256": "e1f5793978af5364475d89813985abf64f775ce7222eea354e52b970e2592a22"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\results\\model_five_seed_summary.csv",
+      "snapshot_path": "source_snapshot/SCI_Manuscript/experiments/research_v08/engineering_budget_priority_v1/results/model_five_seed_summary.csv",
+      "sha256": "87d8fd6b63daa1d819835a938149c24a2c7b8e1ed3cb799929e0c886ea20a41b"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\results\\reference_budgets.csv",
+      "snapshot_path": "source_snapshot/SCI_Manuscript/experiments/research_v08/engineering_budget_priority_v1/results/reference_budgets.csv",
+      "sha256": "a1eec92fa302e299d7170e482841f458ed4f687101f667288cabb7f465c74baf"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\results\\paired_seed_contrasts.csv",
+      "snapshot_path": "source_snapshot/SCI_Manuscript/experiments/research_v08/engineering_budget_priority_v1/results/paired_seed_contrasts.csv",
+      "sha256": "90d8e698aed670984eee3325205d1449214110bf22f2cdacaf1eb65960b5f2dd"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\results\\paired_five_seed_summary.csv",
+      "snapshot_path": "source_snapshot/SCI_Manuscript/experiments/research_v08/engineering_budget_priority_v1/results/paired_five_seed_summary.csv",
+      "sha256": "8088d8965043eeea22991fc91946074493581edcaa87453d0a32aebd1cf91c98"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\results\\raw_uncanonicalized_baseline_diagnostics.csv",
+      "snapshot_path": "source_snapshot/SCI_Manuscript/experiments/research_v08/engineering_budget_priority_v1/results/raw_uncanonicalized_baseline_diagnostics.csv",
+      "sha256": "4b6cf5b58a0e9475605f7ea1bc16c6b9ec1510e1c05a7a96f68a8c029a055dff"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\results\\analytic_identity_checks.json",
+      "snapshot_path": "source_snapshot/SCI_Manuscript/experiments/research_v08/engineering_budget_priority_v1/results/analytic_identity_checks.json",
+      "sha256": "1ef87b2b618cab3c5b3cd6e63a09b00346c616350780d63431734b3b430ac53d"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\priority_budget\\figure_contract.md",
+      "snapshot_path": "source_snapshot/SCI_Manuscript/figures_v08/priority_budget/figure_contract.md",
+      "sha256": "d251f5b2ed23893ad4b8973c088a48612c87be38b581c09a5c8beb4595f5bf24"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\priority_budget\\caption_en.tex",
+      "snapshot_path": "source_snapshot/SCI_Manuscript/figures_v08/priority_budget/caption_en.tex",
+      "sha256": "d499b7b1a7c51f6a7ee482567d012e934ca6e4cc02ac80332daf370aa41a145c"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\priority_budget\\draw_priority_budget_v08.py",
+      "snapshot_path": "source_snapshot/SCI_Manuscript/figures_v08/priority_budget/draw_priority_budget_v08.py",
+      "sha256": "0ebdf87446059fe545ec347e0b780e0244569f31b3077a0f77dea2939e92519e"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\priority_budget\\audit_priority_budget_figure.py",
+      "snapshot_path": "source_snapshot/SCI_Manuscript/figures_v08/priority_budget/audit_priority_budget_figure.py",
+      "sha256": "658a2f4c5bbb17f1516e6a35ce1212c852a0302a9bee349168f4beaf0fde4753"
+    }
+  ],
+  "source_sha256": {
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\results\\analysis_report.json": "05710bae8a35daa8cf11913637526d4aea0d757bc07eb5bde4350e34b2a637a9",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\results\\independent_arithmetic_audit.json": "b4330870aa10ebc621f7ea07ee1ad98afe5e19b6fb04d26d5cf722becb61569a",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\independent_code_review.json": "d5a45f1ea3d7b314356832690d0f846497fd3c8de2c79edf866d19d27cc10c8e",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\budget_priority.py": "ef67d81d988545f3fd93ddc715901691a4daa5ff7ea908d3d33ae3d69be6fa32",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\input_equivalence_gate.json": "838044dbe05a341e61d3700d1f90c1735441676fd0b8de8a91decaedaae892a5",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\adoption_record.json": "4262917aece6c56e6f90f146f69e1c81b00174236539f16d32b87a1d16e0c498",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\audit_budget_arithmetic.py": "5082905572d964e6ead95f7cd80540f385da49b04af93d76ee0bba72ef4b4d3d",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\independent_code_review.md": "18bc42d1d615088a8b59a5a8add667824546878619c62df3d1eeac9a894b527a",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\engineering_budget_priority_protocol.md": "77a8c53efe548b3cfde9620e81b36c089558e9a0e52cc7c86dddb152d12ba24d",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\engineering_budget_priority_protocol.json": "efeaf945c10c7f7563b460f34c82bf7658cb11ff01df1467f1e2c71685d4257d",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\results\\model_seed_utility.csv": "e1f5793978af5364475d89813985abf64f775ce7222eea354e52b970e2592a22",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\results\\model_five_seed_summary.csv": "87d8fd6b63daa1d819835a938149c24a2c7b8e1ed3cb799929e0c886ea20a41b",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\results\\reference_budgets.csv": "a1eec92fa302e299d7170e482841f458ed4f687101f667288cabb7f465c74baf",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\results\\paired_seed_contrasts.csv": "90d8e698aed670984eee3325205d1449214110bf22f2cdacaf1eb65960b5f2dd",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\results\\paired_five_seed_summary.csv": "8088d8965043eeea22991fc91946074493581edcaa87453d0a32aebd1cf91c98",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\results\\raw_uncanonicalized_baseline_diagnostics.csv": "4b6cf5b58a0e9475605f7ea1bc16c6b9ec1510e1c05a7a96f68a8c029a055dff",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\engineering_budget_priority_v1\\results\\analytic_identity_checks.json": "1ef87b2b618cab3c5b3cd6e63a09b00346c616350780d63431734b3b430ac53d",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\priority_budget\\figure_contract.md": "d251f5b2ed23893ad4b8973c088a48612c87be38b581c09a5c8beb4595f5bf24",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\priority_budget\\caption_en.tex": "d499b7b1a7c51f6a7ee482567d012e934ca6e4cc02ac80332daf370aa41a145c",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\priority_budget\\draw_priority_budget_v08.py": "0ebdf87446059fe545ec347e0b780e0244569f31b3077a0f77dea2939e92519e",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\priority_budget\\audit_priority_budget_figure.py": "658a2f4c5bbb17f1516e6a35ce1212c852a0302a9bee349168f4beaf0fde4753"
+  },
+  "model_order": [
+    "fire_only",
+    "capacity_matched_deepsets",
+    "gnn"
+  ],
+  "protocol_order": [
+    "iid997",
+    "lcro_9_15",
+    "loco_iso834",
+    "loco_astm_e119",
+    "loco_perturbed_iso",
+    "loco_plateau",
+    "loco_decay",
+    "loco_log_variant",
+    "loco_external_fire",
+    "loco_bilinear",
+    "loco_linear",
+    "loco_smoldering"
+  ],
+  "column_order": [
+    [
+      "terminal",
+      "10%"
+    ],
+    [
+      "terminal",
+      "25%"
+    ],
+    [
+      "terminal",
+      "50%"
+    ],
+    [
+      "J",
+      "10%"
+    ],
+    [
+      "J",
+      "25%"
+    ],
+    [
+      "J",
+      "50%"
+    ]
+  ],
+  "cells": 216,
+  "actual_raw_percent_range": [
+    -1.2880685368451417e-12,
+    100.00000000000537
+  ],
+  "color_limits": [
+    -1.2880685368451417e-12,
+    100.00000000000537
+  ],
+  "undefined_cells": 0,
+  "negative_raw_cells": 8,
+  "meaningful_negative_cells": 0,
+  "display_rounding": "one decimal; rounded negative zero printed 0.0; raw retained",
+  "size_mm": [
+    183,
+    150
+  ],
+  "minimum_font_pt": 8,
+  "raster_objects_expected": 0,
+  "out_of_canvas_text": [],
+  "timing_or_model_execution": false,
+  "all7_companion_rows": 504,
+  "manuscript_or_submission_pass": false
+}

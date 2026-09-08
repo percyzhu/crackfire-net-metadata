@@ -1,0 +1,10 @@
+{
+  "status": "ANALYTIC_IDENTITY_CHECKS_PASSED",
+  "cutoff_tie_expected_U": 0.4,
+  "cutoff_tie_oracle_regret": 0.1,
+  "cutoff_tie_random_improvement": 0.225,
+  "random_without_replacement_all_subsets_checked": 6,
+  "constant_predictions_equal_random": true,
+  "constant_truth_zero_regret_gain_and_NA_fraction": true,
+  "negative_gain_retained": true
+}

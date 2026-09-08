@@ -1,0 +1,19 @@
+{
+  "status": "PASSED_ACTUAL_ABSENT_REAL_MEASUREMENT_GATE",
+  "tested_utc": "2026-09-07T07:06:59.257937+00:00",
+  "generator_command": "draw_inference_efficiency_v08.py --render",
+  "generator_exit_code": 2,
+  "independent_audit_command": "audit_inference_figure.py",
+  "independent_audit_exit_code": 2,
+  "raw_latency_records_read": 0,
+  "model_execution_or_timing_started": false,
+  "rendered_directory_created": false,
+  "source_sha256": {
+    "draw_inference_efficiency_v08.py": "f3fd22b7b032f7517393f57ef841ebeb55e9004ad18cdd6ee17ec73b932b189f",
+    "audit_inference_figure.py": "a1e97010736967cb70023dbb797dc630677bd067fce53212e708bbcd6b187d21"
+  },
+  "reasons": [
+    "Missing review\\eaai_editor\\research_v08\\inference_timing_independent_audit.json",
+    "Missing experiments\\research_v08\\inference_benchmark_v1\\measured\\summary.json"
+  ]
+}

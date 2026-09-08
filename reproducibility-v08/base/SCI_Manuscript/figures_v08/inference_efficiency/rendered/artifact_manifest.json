@@ -1,0 +1,56 @@
+{
+  "status": "ACTUAL_TIMING_FIGURE_GENERATED_AND_STANDALONE_QA_PASSED",
+  "files": {
+    "actual_QA.md": {
+      "sha256": "6f1b5894998265ae8a4d66848ad0c2172897458771154dc9a63e42ec7a3185f6",
+      "bytes": 727
+    },
+    "all_model_timing_readout.csv": {
+      "sha256": "e6704187f99b7a6a904bfc3fe40e24730c3146340b98bc59302d327f180a341c",
+      "bytes": 4230
+    },
+    "companion_summaries.json": {
+      "sha256": "7fff40c8a951671de4c5f68f431505c9be293e7fe9c6be7953b1206820536666",
+      "bytes": 264734
+    },
+    "figure_qa.json": {
+      "sha256": "7b025fe7d8cf9a8addc697d5eeea53dde165eee140f45c515871abf3db9c6818",
+      "bytes": 10992
+    },
+    "independent_figure_QA.json": {
+      "sha256": "f08bae0673126a7796a05f20731c388647699f54a03ffaca3502537ad026b1ee",
+      "bytes": 760
+    },
+    "inference_efficiency_v08.pdf": {
+      "sha256": "9bd4246a0e3361da27d0da01effc960fdaa313aa4071f85ada56c26b4fa23787",
+      "bytes": 53202
+    },
+    "inference_efficiency_v08.png": {
+      "sha256": "a4f805ebc89bdcefb92b04f290f7bff2a04933906a709d5272cbdf4cf1ea9515",
+      "bytes": 143034
+    },
+    "inference_efficiency_v08.svg": {
+      "sha256": "77180f812afd4eb8e35360d7f92081487174b83a3183a3c11dac153504992193",
+      "bytes": 32457
+    },
+    "pdf_final_QA.png": {
+      "sha256": "ea3ed057432652fce6780bf960aa61f3790dec975aaf8301761f27afbfed994d",
+      "bytes": 93143
+    },
+    "plotted_values.csv": {
+      "sha256": "15365623ed6d0502f4d65849eb9dea73aff6ef3267b5e8e7bf2b3ab45d510332",
+      "bytes": 6474
+    },
+    "visual_QA.json": {
+      "sha256": "227467c2e56e5402161c462dc522b1bb03e0a5c125c9fa87579511ece2ff40e3",
+      "bytes": 1706
+    }
+  },
+  "source_code": {
+    "draw_inference_efficiency_v08.py": "2b8b89f85a11312014e25814452d29e07b14135661a477682aed81c8d96b24b5",
+    "audit_inference_figure.py": "a1e97010736967cb70023dbb797dc630677bd067fce53212e708bbcd6b187d21",
+    "finalize_actual_QA.py": "c81f066bf8a350d6ef8f487f4b7b883651ae44aa3d5f7125d95a175703ef76b7"
+  },
+  "nested_snapshot_binding": "figure_qa.json binds all copied source files; original records are retained.",
+  "submission_ready_claim": false
+}

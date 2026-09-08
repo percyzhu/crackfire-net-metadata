@@ -1,0 +1,37 @@
+{
+  "status": "PASSED_INDEPENDENT_NUMERICAL_AND_VECTOR_CHECKS_PENDING_VISUAL_REVIEW",
+  "selection_population": 997,
+  "selection_score_components": 4985,
+  "ranks": [
+    498,
+    946,
+    996
+  ],
+  "selected_cases": [
+    "b005_0291",
+    "b005_0622",
+    "b005_0621",
+    "b005_0568"
+  ],
+  "curve_rows": 244,
+  "individual_seed_curve_rows": 2440,
+  "event_records": 24,
+  "seed42_is_actual_trace": true,
+  "pointwise_extrema_recomputed": true,
+  "events_recomputed_without_interpolation": true,
+  "right_censoring_preserved": true,
+  "all_raw_response_extrema_inside_axes": true,
+  "response_axis_limits": [
+    -0.04,
+    1.04
+  ],
+  "size_mm": [
+    183.00000559488933,
+    200.0000015258789
+  ],
+  "minimum_pdf_font_pt": 8.0,
+  "raster_objects": 0,
+  "pdf_sha256": "3f9893f309a024fc0a4604e6d1d7079f6a327b04f66592ddacc28aa5424a3cb4",
+  "full_temperature_payload_read": false,
+  "remaining": "Inspect pdf_final_QA.png at final size; inspect caption in manuscript; create final artifact manifest."
+}

@@ -1,0 +1,14 @@
+{
+  "status": "LAUNCHED_AUTHORIZED_EXPLORATORY_60",
+  "created_utc": "2026-09-07T09:23:17.8700140Z",
+  "pid": 43364,
+  "planned_runs": 60,
+  "plan_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\plan_set_attention_60_v1.json",
+  "plan_sha256": "8d21e13af116dc97556b37060daaf86afed5f7ba645a5bdae18e3d4ffb3b05a9",
+  "authorization_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\execution_authorization_root.json",
+  "authorization_sha256": "9c56cea3a2310b0956ea7e6429ee1ec6a23f940d3af1b58842129043e6448908",
+  "runner_sha256": "b44f7aa2d2be33d21ab91b3fb6199e9f51ec3c8fe91c89aa43a3d97425de5d0a",
+  "stdout": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\worker_stdout_v1.log",
+  "stderr": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\worker_stderr_v1.log",
+  "automatic_retries": false
+}

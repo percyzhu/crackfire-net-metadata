@@ -1,0 +1,52 @@
+{
+  "decision": "DEVELOPMENT_REVIEW_IID_INCREMENT_NUMERICALLY_CONSISTENT",
+  "date_utc": "2026-09-07T03:45:19.991360+00:00",
+  "scope": "Only new IID Results prose/table/Figure 3/caption and Peng thesis attribution. Not the remaining protocols or full manuscript submission decision.",
+  "submission_or_final_paper_pass": false,
+  "reviewed_runs": 35,
+  "independent_geometries": 160,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "verified": {
+    "all_seven_table_rows_and_mean_SD_RMSE_scaling": true,
+    "plotted_seed_values": 35,
+    "plotted_case_ECDF_rows": 1120,
+    "ECDF_is_seed_mean_error_not_ensemble_prediction_error": true,
+    "plotted_primary_contrasts_equal_audited_two_way_intervals": true,
+    "table_and_all_figure_panels_error_units_times_100": true,
+    "conditional_events_60_second_grid_and_censoring_explained": true,
+    "primary_and_mean_vs_sum_superiority_not_claimed": true,
+    "saturated_classification_endpoint_set_advantage_and_within_family_rank_limit_retained": true,
+    "secondary_unadjusted_comparison_labeled": true,
+    "bachelor_thesis_cover_title_and_rendered_bibliography_match": true,
+    "prior_RMSE_source_explicitly_thesis_reported": true,
+    "visual_PDF_preview_inspected": true
+  },
+  "recommendations": [],
+  "ongoing_evidence_limits": [
+    "Full count and fire-family matrix pending; no partial protocol inspected in this review.",
+    "IID statistics do not establish graph advantage, physical-capacity validity, unrestricted topology transfer, or final EAAI suitability.",
+    "No model selection or training changes authorized by the observed IID results."
+  ],
+  "source_sha256": {
+    "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\05_results.tex": "ad1fff7f3e5ae6e2bac04e560befa3a03fda4ed3bafa70f85066b901ffdd5b06",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\02_engineering_data.tex": "efd72227016f9c9bc16aceec02bec7f1e80bf86efb396cc2e238c5e7b766b813",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\references.bib": "cd60543b1bfb5425b8cd932b0a0c58055409d0b0976a7ca2fe28313ee2b502ab",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\build\\main.bbl": "55d18277b9b9a3796858605079b10a91b77152fb575b3a691fc251e88b32bd72",
+    "D:\\Work\\Abstract\\3_最终成果\\论文\\LaTeX源码\\cn\\chapters\\frontcover.tex": "0727815b0b0746b70891940d6aaa11829861df35e0a75f2927f002c76ab45fc1",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\iid_results\\caption_en.tex": "b894370d88930e1ebfcd2b1d4c128a3919c8d06b8bd59c6273a91437c15df793",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\iid_results\\iid_results_v08.pdf": "7768cad41d6f1803d82ba23062b98c00a61c98cce6bb4434c3b6082c47dd83c2",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\iid_results\\pdf_final_QA.png": "cbe79e9827756a4444d40b11e799a0f26f1bebf28bb5cd5f48bb581b1abdef1d",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\iid_results\\draw_iid_results_v08.py": "73970a667df4ea95faa9035ffffb9f304921a72f91e1d27222dfc3b18f3fddff",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\iid_results\\source_summary.json": "584d10fe9ef276477ab05ae1315803508314f6c2c2ba79629bc4602ff2861aae",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\iid_results\\source_per_case_metrics.csv": "5418463ad70d424782c3dcedf24a5aea44676e3c685c2e67c419062b25c4bc33",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\iid997_independent_results_audit.json": "58db138bea4547ae84d825a6e97a52d263224f89188b24dbd2efaefa8b70f0c6",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\iid997_engineering_proxy_ci.json": "7b055f9ba9a2d719f19ac405df0a67249ecbbf93938db3f44167b6019c518561",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\figures\\iid_results_v08.pdf": "7768cad41d6f1803d82ba23062b98c00a61c98cce6bb4434c3b6082c47dd83c2"
+  }
+}

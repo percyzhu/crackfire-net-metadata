@@ -1,0 +1,68 @@
+{
+  "status": "SUPPLEMENTARY_FLOATING_POINT_RANKING_DIAGNOSTIC_NOT_CHANGED_METRICS",
+  "protocol": "loco_external_fire",
+  "fire_only_time_features_bitwise_identical_for_all49": true,
+  "frozen_metrics_unchanged": true,
+  "source": {
+    "model": "SCI_Manuscript/experiments/models.py:110 fire_only structure returns zeros",
+    "time_features": "prepare997.py prescribed61-grid feature creation"
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "prediction_sha256": "de4edb0ea69dc22e81b87eb78f50ee402b16b9b02f01d2bf7035aa8a198088e2",
+      "max_between_case_range_any_time": 2.6047229766845703e-05,
+      "final_range": 3.337860107421875e-06,
+      "J_range": 5.328406890214854e-06,
+      "final_unique_values": 2,
+      "J_unique_values": 2,
+      "reference_final_range": 0.06388488411903381,
+      "reference_J_range": 0.05229667599002519
+    },
+    {
+      "seed": 43,
+      "prediction_sha256": "644f1c1d745778c860faa50fb07d4f2848ba7bbdfdff52a923028b2c98189d99",
+      "max_between_case_range_any_time": 3.463029861450195e-05,
+      "final_range": 3.978610038757324e-06,
+      "J_range": 5.213543772697449e-06,
+      "final_unique_values": 2,
+      "J_unique_values": 2,
+      "reference_final_range": 0.06388488411903381,
+      "reference_J_range": 0.05229667599002519
+    },
+    {
+      "seed": 44,
+      "prediction_sha256": "88c8a306b6caac696a3f254c5abd74165dd8045ab35af24cbb1467561ce8c115",
+      "max_between_case_range_any_time": 2.092123031616211e-05,
+      "final_range": 1.9028782844543457e-05,
+      "J_range": 4.712119698491168e-06,
+      "final_unique_values": 2,
+      "J_unique_values": 2,
+      "reference_final_range": 0.06388488411903381,
+      "reference_J_range": 0.05229667599002519
+    },
+    {
+      "seed": 45,
+      "prediction_sha256": "98e5c3c2dda1c36107e3180238487814341820adc9b31f316873490c9c1e8b7b",
+      "max_between_case_range_any_time": 3.8504600524902344e-05,
+      "final_range": 8.13603401184082e-06,
+      "J_range": 1.3394157091783931e-05,
+      "final_unique_values": 2,
+      "J_unique_values": 2,
+      "reference_final_range": 0.06388488411903381,
+      "reference_J_range": 0.05229667599002519
+    },
+    {
+      "seed": 46,
+      "prediction_sha256": "c4ffde214aad23a50c7996fb9106c66ce237265d08608632b417053370051111",
+      "max_between_case_range_any_time": 1.806020736694336e-05,
+      "final_range": 9.685754776000977e-07,
+      "J_range": 3.655875722541335e-06,
+      "final_unique_values": 2,
+      "J_unique_values": 2,
+      "reference_final_range": 0.06388488411903381,
+      "reference_J_range": 0.05229667599002519
+    }
+  ],
+  "interpretation": "With identical prescribed fire inputs and the zero structural head, fire_only has no mathematical geometry discrimination. Nonzero exact-float ranks from tiny between-case output differences must not be interpreted as learnt geometric ranking. Preserve frozen exact-tie metrics, disclose this precision limit; do not retroactively round results or compare such fire-only ranks as meaningful."
+}

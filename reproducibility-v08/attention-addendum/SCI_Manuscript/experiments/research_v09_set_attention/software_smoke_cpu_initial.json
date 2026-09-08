@@ -1,0 +1,52 @@
+{
+  "status": "SHORT_CPU_SOFTWARE_SMOKE_PASSED_NOT_PLAN_OR_TRAINING_AUTHORIZATION",
+  "created_utc": "2026-09-07T08:57:37.397530+00:00",
+  "parameters": 194273,
+  "GNN_parameters": 194177,
+  "parameter_delta": 96,
+  "relative_parameter_delta": 0.0004943942897459535,
+  "selected_training_geometry_ids": [
+    "b004_0025",
+    "b004_0021",
+    "b004_0009",
+    "b005_0183"
+  ],
+  "crack_counts": [
+    1,
+    3,
+    8,
+    15
+  ],
+  "shape": [
+    4,
+    61,
+    1
+  ],
+  "invariance_tolerance": 1e-06,
+  "maximum_absolute_differences": {
+    "batch_vs_single": 8.940696716308594e-08,
+    "batch_order": 8.940696716308594e-08,
+    "node_permutation": 8.940696716308594e-08,
+    "edge_removal": 0.0
+  },
+  "padding_invariance_max_abs": 0.0,
+  "nonzero_cross_node_attention_gradient": 0.2288520336151123,
+  "finite_forward_backward": true,
+  "all_trainable_parameters_received_gradients": true,
+  "scope_rejections": [
+    0,
+    16
+  ],
+  "selection_earliest_tied_minimum_verified": true,
+  "nonfinite_validation_rejected": true,
+  "original_output_path_rejected": true,
+  "optimizer_steps": 0,
+  "scientific_prediction_scores_read": false,
+  "GPU_initialized": false,
+  "full_plan_and_authorization_gate_still_pending": true,
+  "source_sha256": {
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\attention_model.py": "4a08211c2c429231dfefab67307a12bb8463632b5eedc5234ad92cbde0ece7f6",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\run_extension.py": "9b1c91940c05b8dfe08fe68717c8f72f74f2879fd3d22731d86cdb89ec071e77",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\smoke_cpu.py": "6ffb098aefb348b481db25165f780d477f694816cb2bceee82a1e2c231aa1c34"
+  }
+}

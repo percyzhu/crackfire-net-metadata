@@ -1,0 +1,13 @@
+{
+  "status": "ROOT_APPROVED_EXECUTION_AFTER_ORIGINAL_SEVEN_MODEL_ISOLATED_TIMING_COMPLETED",
+  "authorization_recorded_utc": "2026-09-07T09:12:58Z",
+  "timestamp_interpretation": "UTC time of recording the received root authorization, not a claim of exact message-send timestamp",
+  "authority": "Root task follow-up explicitly approved the fixed protocol and reported original seven-model timing exit 0 / 14355",
+  "approved_protocol_md_sha256": "77a8c53efe548b3cfde9620e81b36c089558e9a0e52cc7c86dddb152d12ba24d",
+  "approved_protocol_json_sha256": "efeaf945c10c7f7563b460f34c82bf7658cb11ff01df1467f1e2c71685d4257d",
+  "additional_preutility_input_gate": "For each test population, confirm no distinct cases share the permutation-invariant canonical node-feature multiset plus global and time features, with verified complete connectivity. If duplicates exist, stop before reading predictions and ask root to apply a uniform input-equivalence score policy to all affected models.",
+  "study_phase": "post-review exploratory; original420 accuracy and engineering outcomes were known",
+  "new_training_inference_or_FE": false,
+  "original420_records_modified": false,
+  "possible_future_eighth_model": "Excluded from this fixed seven-model analysis. A later separately planned extension cannot rewrite the current results."
+}

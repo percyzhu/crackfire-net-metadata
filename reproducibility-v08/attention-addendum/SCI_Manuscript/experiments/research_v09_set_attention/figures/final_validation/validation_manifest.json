@@ -1,0 +1,54 @@
+{
+  "status": "STATISTICS_EXPORTED_AND_ACTUAL_TABLES_COMPILED_VISUAL_REVIEW_PENDING",
+  "created_utc": "2026-09-07T11:31:47.393544+00:00",
+  "gate": {
+    "plan_sha256": "8d21e13af116dc97556b37060daaf86afed5f7ba645a5bdae18e3d4ffb3b05a9",
+    "expected_new_runs": 60,
+    "queue_completed_metadata_count": 60,
+    "performance_payloads_read": 0,
+    "prediction_arrays_read": 0,
+    "plotting_backend_loaded": false,
+    "figures_created": 0,
+    "status": "READY_COMPLETE_AND_INDEPENDENTLY_REVIEWED",
+    "audit_dir": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\evaluation_complete60_v1",
+    "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+    "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+    "independent_review_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\independent_full_matrix_review.json",
+    "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+  },
+  "rows": 36,
+  "protocols": 12,
+  "models": [
+    "capacity_matched_deepsets",
+    "gnn",
+    "set_attention"
+  ],
+  "LaTeX_compile_passed": true,
+  "overfull_boxes": 0,
+  "compiled_table_pages": [
+    {
+      "page": 1,
+      "text_characters": 848
+    },
+    {
+      "page": 2,
+      "text_characters": 930
+    }
+  ],
+  "visual_review_pending": true,
+  "source_sha256": "59af93f29cd0eb6c574f2974a3fc35d9d6e44aa968f13778daa1018bedb734c3",
+  "outputs_sha256": {
+    "extension_effects_PDF_preview.png": "cd642c16f12e7878f4860e70c3086e89b17d1ab427e10565c52e96dd0547c35f",
+    "extension_mae_PDF_preview.png": "a9bfaac69780c492456e8e6d586425487433203b7c0987d72006e0a6cc462fbf",
+    "pdflatex_run1.log": "3532167ad74102a7cbf48752a87962aedd57d518ed854c72911c2ead9ab99bba",
+    "pdflatex_run2.log": "cee138f55aafe5dfdeab07b1bb499e1d90a329da4382d085eb631bcb2bbc26e8",
+    "tables_compile.aux": "1613efdf8ad1f3a2cee9462fa9fc37f0b08e1cecc1cb3d1303220df445d061a0",
+    "tables_compile.log": "f8470d075fbdf8e4993247ca993a2d0c8e128f563227a40c4074b0c53620d762",
+    "tables_compile.pdf": "5576b26b50167f4141d407b5e9c07de94c8284334a12efef2dd55bf05f314f4d",
+    "tables_compile.tex": "b7ebb52ab4a8141f47ed978441b0a0df7192003fdaa03b2cdb167f1426736eb6",
+    "tables_page1.png": "4f4ccf9f6a34b520e6157c17899a8ea40467ddf7818d0fc966d50a97846a48df",
+    "tables_page2.png": "a75008c1d6591081e24bf3b7e0681b295bf61a882e2aca484508cd37b15e1c60",
+    "three_model_12_protocol_statistics.csv": "82fed381d1aa3662cd7a0e14b49175666de8e3ddc099acf9f2dd8ddb3fdb764f",
+    "three_model_12_protocol_statistics.md": "74f8dbfce99705a730c449ec630a88abdf778299ae0535e354c9c96d3707077f"
+  }
+}

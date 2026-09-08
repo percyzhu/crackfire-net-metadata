@@ -1,0 +1,11 @@
+# Inference efficiency figure contract
+
+Question: what are the measured query latency and batch throughput of the seven frozen models under one common engineering input interface?
+
+This is a quantitative grid in the existing Python/matplotlib workflow. No speed ordering or numerical conclusion is declared before measurement. Panels a/b show CPU/CUDA single-query median and p95 latency from in-memory geometry and prescribed-fire parameters to a host prediction. Panels c/d show CPU/CUDA batch-32 throughput for resident-input forward evaluation and the full common interface. Every query is a complete 61-time trajectory. A median-to-p95 segment describes observed timings, not a confidence interval. Three rounds reuse the same 160 cases and seed42 checkpoint; there are no three independent accuracy datasets.
+
+Use all seven models in the frozen order. CPU feature preparation is tabulated separately as a shared operation. Preserve all raw measurements; no filtering of slow points. Throughput is total case count divided by total elapsed time, not an inverse median. Batch amortization is never labelled single-query latency. Record per-round and crack-count summaries in companion data even when not plotted. Historical training costs remain a separate table with their existing non-isolated wall-time definition. Do not introduce a mixed-hardware FE speedup.
+
+Final export: 183 x 154 mm PDF/SVG with editable vector text, minimum 8 pt, white background, restrained blue/teal/grey palette, PNG preview at 220 dpi. Share model row positions and use model labels on the left panels only. Use zero-based linear axes that contain every value. Save every plotted number, summary, audited source hash and a copy of the raw timing records. The complete-data branch and actual visual layout remain untested until real timings exist.
+
+Gate: require a complete timing summary and independent real-record timing audit; bind every source hash in that audit before using timings. A retained failure record blocks rendering. Missing results return a waiting record and do not import plotting libraries, open raw timings or produce placeholder figures. After real rendering, an independent reviewer must recompute plotted values and inspect the PDF and embedded manuscript page.

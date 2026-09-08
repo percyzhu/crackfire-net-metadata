@@ -1,0 +1,22 @@
+{
+  "purpose": "ANALYTIC_HAND_CHECKS_ONLY_NOT_SCIENTIFIC_OUTCOMES",
+  "status": "PASS",
+  "checks": [
+    "q=.8 hand table: early event60s, one missed event, one false event, one true censor; all denominators explicit",
+    "Second threshold retained: q=.6 has different counts and zero joint timing error without hiding missed event",
+    "Censoring staysNaN; crossing exactlyat horizon180s is an event, not censoring",
+    "Neural recrossing is detected and not silently monotonized",
+    "Reference ties excluded, prediction tie earnshalf, exact hand correlations\u00b1sqrt(3)/2; constant target isNA",
+    "Equal-family comparison cannot silently omit a supported family when a model predicts constant scores",
+    "Analytic linear trajectory has timeaverage.5; constant+.1 prediction shift preserves exact.1 bias without clipping1.1",
+    "Nonfinite prediction rejected, never imputed",
+    "Paired bootstrap exact reproducibility for identical models, including undefined-class replicate masking",
+    "Incomplete35-run protocol returnswaiting without reading any prediction file"
+  ],
+  "count": 10,
+  "training_results_read": false,
+  "sources": {
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\check_engineering_proxy_metrics.py": "c405506cb9c86e9208a164068d3c7d9969eabd33ab4512f73b1cea89fd399fae",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\engineering_proxy_metrics.py": "290d81078de1fa408ed8251690ab81e425e8a785bfd61bbffb1357f967a253bc"
+  }
+}

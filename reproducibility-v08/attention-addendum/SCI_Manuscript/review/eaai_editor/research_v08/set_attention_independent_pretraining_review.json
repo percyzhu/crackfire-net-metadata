@@ -1,0 +1,42 @@
+{
+  "status": "INDEPENDENT_PRETRAINING_SOFTWARE_AND_PLAN_REVIEW_PASSED",
+  "software_review_passed": true,
+  "created_utc": "2026-09-07T09:19:09.053194+00:00",
+  "extension_plan_sha256": "8d21e13af116dc97556b37060daaf86afed5f7ba645a5bdae18e3d4ffb3b05a9",
+  "parameters": 194273,
+  "parameter_difference_from_original_graph": 96,
+  "new_training_cells": 60,
+  "original_comparator_runs_reused": 120,
+  "GPU": "NVIDIA GeForce RTX 3060 Ti",
+  "GPU_checks_maximum_absolute_difference": {
+    "batch_single": 8.940696716308594e-08,
+    "batch_permutation": 0.0,
+    "node_permutation": 8.940696716308594e-08,
+    "edges_ignored": 0.0
+  },
+  "GPU_backward_all_parameters_finite": true,
+  "optimizer_updates": 0,
+  "scientific_target_accuracy_read": false,
+  "examples_from_IID_training_only": [
+    "b004_0025",
+    "b004_0021",
+    "b004_0009",
+    "b005_0183"
+  ],
+  "manual_review": [
+    "Four shared attention blocks; no position embeddings or raw edge inputs; padded keys masked before softmax and padded outputs excluded from valid-node means.",
+    "Original 11-node/3-global/61x4 time interface, common branches and frozen targets/splits preserved.",
+    "Training loop matches original optimizer/scheduler/validation selection/order/patience and maximum budget. No test results enter selection.",
+    "Attention includes self keys and layer normalization. Capacity matching does not isolate an architectural mechanism causally.",
+    "One-to-fifteen count scope and padding capacity are explicit. No claim of arbitrary graph topology transfer follows from this set control.",
+    "Original420 files are read-only; new output must remain in extension directory and cannot overwrite an existing attempt.",
+    "Plan and four extension sources are frozen; original plan/source/split/checkpoint identities are independently bound.",
+    "Extension is explicitly after original test-results review, exploratory, and fixed to all12 protocols/5seeds before any training."
+  ],
+  "remaining_research_work": "Actual60 runs, full replay/statistics and independent scientific comparison; this is not manuscript acceptance.",
+  "source_sha256": {
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\review_attention_pretraining.py": "76d1081811e831a5513e25aea7c2683188ba6ac6daf6db1f2716cfd3d58d5e04",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\plan_set_attention_60_v1.json": "8d21e13af116dc97556b37060daaf86afed5f7ba645a5bdae18e3d4ffb3b05a9",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\software_smoke_cpu_final.json": "8e98d5914d1798e2db4473e78af03fbd0ce0d2363e036648ac5f0df177cbdaf7"
+  }
+}

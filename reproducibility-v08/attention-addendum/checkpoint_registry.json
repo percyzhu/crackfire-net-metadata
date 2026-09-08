@@ -1,0 +1,422 @@
+[
+  {
+    "protocol": "iid997",
+    "model": "set_attention",
+    "seed": 42,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/iid997/set_attention/seed_42",
+    "checkpoint_sha256": "a4868c1e94ce70210fca0b8ca02019e4b2a5442620254500cddc07b6155b5f75"
+  },
+  {
+    "protocol": "iid997",
+    "model": "set_attention",
+    "seed": 43,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/iid997/set_attention/seed_43",
+    "checkpoint_sha256": "1874be8cad949e53bb4abf2d424f234af495fc43627ccb8e0a27d230754fe02c"
+  },
+  {
+    "protocol": "iid997",
+    "model": "set_attention",
+    "seed": 44,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/iid997/set_attention/seed_44",
+    "checkpoint_sha256": "feb38dc9456a2a736102a99793c4bbad0878926156a4deb22eb1bc9e3abe6bf6"
+  },
+  {
+    "protocol": "iid997",
+    "model": "set_attention",
+    "seed": 45,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/iid997/set_attention/seed_45",
+    "checkpoint_sha256": "ae1001d3bf818e3e6bb68d4a1f0e26e5fbdcfde7f33dbecbe64aaafec613bb1e"
+  },
+  {
+    "protocol": "iid997",
+    "model": "set_attention",
+    "seed": 46,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/iid997/set_attention/seed_46",
+    "checkpoint_sha256": "7c573e5db3985f3ef4f3f8e3ad55457527a092fac36b144e19e3126d7bb3b44e"
+  },
+  {
+    "protocol": "lcro_9_15",
+    "model": "set_attention",
+    "seed": 42,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/lcro_9_15/set_attention/seed_42",
+    "checkpoint_sha256": "edd42b0fa9526277a113c23af52d57d74509879ba9e8cc5a47e5dfb0ccdc7c7b"
+  },
+  {
+    "protocol": "lcro_9_15",
+    "model": "set_attention",
+    "seed": 43,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/lcro_9_15/set_attention/seed_43",
+    "checkpoint_sha256": "4f3961ae5423d03c9df87c56f3145ae52edae36f35c136c2ff7f07c3a41a4595"
+  },
+  {
+    "protocol": "lcro_9_15",
+    "model": "set_attention",
+    "seed": 44,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/lcro_9_15/set_attention/seed_44",
+    "checkpoint_sha256": "20fad13e83b26e273a28c67573fbacea4c9f0a90cf614e497eaa38b8ba206f96"
+  },
+  {
+    "protocol": "lcro_9_15",
+    "model": "set_attention",
+    "seed": 45,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/lcro_9_15/set_attention/seed_45",
+    "checkpoint_sha256": "f47d8f1dc60c8ad2f8c572998043dac563875dae7790bd9af6c05e34982c1539"
+  },
+  {
+    "protocol": "lcro_9_15",
+    "model": "set_attention",
+    "seed": 46,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/lcro_9_15/set_attention/seed_46",
+    "checkpoint_sha256": "fe29846b6c9d8687811c6e3f0d5dcf361123ce9bceb9fca846d60f17cbb90f5e"
+  },
+  {
+    "protocol": "loco_iso834",
+    "model": "set_attention",
+    "seed": 42,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_iso834/set_attention/seed_42",
+    "checkpoint_sha256": "55ebf6bd44705dac2a7ed3978b438e7133fbafc4181afef02281a388fb778a19"
+  },
+  {
+    "protocol": "loco_iso834",
+    "model": "set_attention",
+    "seed": 43,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_iso834/set_attention/seed_43",
+    "checkpoint_sha256": "57bd89dda5ca0e7c756d6c77dfeee09d93972a5ffd9d23fba9231c658bd17d26"
+  },
+  {
+    "protocol": "loco_iso834",
+    "model": "set_attention",
+    "seed": 44,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_iso834/set_attention/seed_44",
+    "checkpoint_sha256": "2e2713645af784ab9e394921f71b007e1337ad1d8b5df5ad930c89dab8fca872"
+  },
+  {
+    "protocol": "loco_iso834",
+    "model": "set_attention",
+    "seed": 45,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_iso834/set_attention/seed_45",
+    "checkpoint_sha256": "4404e9396d111d8c2735db7ee5e5ca8d0fc28d3a1e5a8056376a22f5c107e595"
+  },
+  {
+    "protocol": "loco_iso834",
+    "model": "set_attention",
+    "seed": 46,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_iso834/set_attention/seed_46",
+    "checkpoint_sha256": "3cb0fb5f19c8d6a06ca060bcdd8b37a9c8dcc656f9f315554477ac5ef1065e1b"
+  },
+  {
+    "protocol": "loco_astm_e119",
+    "model": "set_attention",
+    "seed": 42,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_astm_e119/set_attention/seed_42",
+    "checkpoint_sha256": "2c00725f8e9173cf68d857bf5f371c8e2ffa171042a04a8e79b65efe8e127a7d"
+  },
+  {
+    "protocol": "loco_astm_e119",
+    "model": "set_attention",
+    "seed": 43,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_astm_e119/set_attention/seed_43",
+    "checkpoint_sha256": "5f23768d9955ad996e9229488749a69ed6665f83de751921ddf58e2a701e3b98"
+  },
+  {
+    "protocol": "loco_astm_e119",
+    "model": "set_attention",
+    "seed": 44,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_astm_e119/set_attention/seed_44",
+    "checkpoint_sha256": "f27632090b33b7bdb0b0e5d537bbe6b14ff34932e5b1c3f1f658992424a2a853"
+  },
+  {
+    "protocol": "loco_astm_e119",
+    "model": "set_attention",
+    "seed": 45,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_astm_e119/set_attention/seed_45",
+    "checkpoint_sha256": "7188fd641be25f071565ce7f5c0bf5a1d4aa6daae82f932156de6016e1c702b6"
+  },
+  {
+    "protocol": "loco_astm_e119",
+    "model": "set_attention",
+    "seed": 46,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_astm_e119/set_attention/seed_46",
+    "checkpoint_sha256": "b297635bf15c6386c284af22ce7ae876766e67fbd360451cbaef081a1b3b4bfc"
+  },
+  {
+    "protocol": "loco_perturbed_iso",
+    "model": "set_attention",
+    "seed": 42,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_perturbed_iso/set_attention/seed_42",
+    "checkpoint_sha256": "584ee3557d5a6ad9f3f3755145ae825993a89983e43098893cf9cb734956a52b"
+  },
+  {
+    "protocol": "loco_perturbed_iso",
+    "model": "set_attention",
+    "seed": 43,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_perturbed_iso/set_attention/seed_43",
+    "checkpoint_sha256": "8cf626ee4089b1d3b2a571d8e3ae2480ab7d1ab2d3409c124634ca9f0575fb0f"
+  },
+  {
+    "protocol": "loco_perturbed_iso",
+    "model": "set_attention",
+    "seed": 44,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_perturbed_iso/set_attention/seed_44",
+    "checkpoint_sha256": "d18c1dcd809d387eab500aa453b0c9407481798a863b85386d09f5a0f0df57d3"
+  },
+  {
+    "protocol": "loco_perturbed_iso",
+    "model": "set_attention",
+    "seed": 45,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_perturbed_iso/set_attention/seed_45",
+    "checkpoint_sha256": "72601bd0473c09bce5f1db28251623fd4a9697b0a34ad36325c0093bbc2fbf6c"
+  },
+  {
+    "protocol": "loco_perturbed_iso",
+    "model": "set_attention",
+    "seed": 46,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_perturbed_iso/set_attention/seed_46",
+    "checkpoint_sha256": "d9a5033c38cb76cb95d6e0cf89b96e6a01cb924d84656e31cbc2d839f0375030"
+  },
+  {
+    "protocol": "loco_plateau",
+    "model": "set_attention",
+    "seed": 42,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_plateau/set_attention/seed_42",
+    "checkpoint_sha256": "0318480745ff44ebf37150257d1cecdbc069d8ec07b73e4c695f449eddf534fc"
+  },
+  {
+    "protocol": "loco_plateau",
+    "model": "set_attention",
+    "seed": 43,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_plateau/set_attention/seed_43",
+    "checkpoint_sha256": "16f12a0491b2f37854ad8c4bafd84f2c60ece6efcd5dfb68ce01253469411bf9"
+  },
+  {
+    "protocol": "loco_plateau",
+    "model": "set_attention",
+    "seed": 44,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_plateau/set_attention/seed_44",
+    "checkpoint_sha256": "0b153f488b684dbbd394bfed96783bd9ad73bac777ec079e9332882ee6f18b73"
+  },
+  {
+    "protocol": "loco_plateau",
+    "model": "set_attention",
+    "seed": 45,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_plateau/set_attention/seed_45",
+    "checkpoint_sha256": "5f0aa82a9d336831adc6014e88b5c2b4b3429ec881cc68f04770dd05dd37ec1b"
+  },
+  {
+    "protocol": "loco_plateau",
+    "model": "set_attention",
+    "seed": 46,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_plateau/set_attention/seed_46",
+    "checkpoint_sha256": "56a5605429e98f217a60b7d0532595d6ae33708b289688f1351620215a6eec6d"
+  },
+  {
+    "protocol": "loco_decay",
+    "model": "set_attention",
+    "seed": 42,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_decay/set_attention/seed_42",
+    "checkpoint_sha256": "638b7704e61c1e45f1cbe700e9430852ab686de5e70a6f5df6c8e8caaf5a8129"
+  },
+  {
+    "protocol": "loco_decay",
+    "model": "set_attention",
+    "seed": 43,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_decay/set_attention/seed_43",
+    "checkpoint_sha256": "232d8adc68534daad1c3e044cc0d97b957d662c1984e8b6818e57550daf25c50"
+  },
+  {
+    "protocol": "loco_decay",
+    "model": "set_attention",
+    "seed": 44,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_decay/set_attention/seed_44",
+    "checkpoint_sha256": "80cc32b140653dd861a17734a38eb5dd3a3948370de7c26210a6067a983abbb3"
+  },
+  {
+    "protocol": "loco_decay",
+    "model": "set_attention",
+    "seed": 45,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_decay/set_attention/seed_45",
+    "checkpoint_sha256": "23ef127b29612ff3abf6e8d990bb015d8a99ac32f160848092cb0f1609c1a4e4"
+  },
+  {
+    "protocol": "loco_decay",
+    "model": "set_attention",
+    "seed": 46,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_decay/set_attention/seed_46",
+    "checkpoint_sha256": "30b65ff35ef9a6f92f70f3a7d9ec75129156c3433d7ee7f4b61f275f27fda7c5"
+  },
+  {
+    "protocol": "loco_log_variant",
+    "model": "set_attention",
+    "seed": 42,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_log_variant/set_attention/seed_42",
+    "checkpoint_sha256": "8e764eed4bfff0678b0406d3fd92b4db4311bad5f820186c67d9c47f2c0a8339"
+  },
+  {
+    "protocol": "loco_log_variant",
+    "model": "set_attention",
+    "seed": 43,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_log_variant/set_attention/seed_43",
+    "checkpoint_sha256": "e73acb0c1f109e3b2737027bfcdd65826c9b2eb96124936e2d76a277b8a04879"
+  },
+  {
+    "protocol": "loco_log_variant",
+    "model": "set_attention",
+    "seed": 44,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_log_variant/set_attention/seed_44",
+    "checkpoint_sha256": "8ab798576d6cfab704370ea89ad44edbcacb53992febde8cd16cd1e57e4e358f"
+  },
+  {
+    "protocol": "loco_log_variant",
+    "model": "set_attention",
+    "seed": 45,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_log_variant/set_attention/seed_45",
+    "checkpoint_sha256": "02e251f7e180277137051d9826c23ef8c8bbee390da241834db1970da6f8d231"
+  },
+  {
+    "protocol": "loco_log_variant",
+    "model": "set_attention",
+    "seed": 46,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_log_variant/set_attention/seed_46",
+    "checkpoint_sha256": "b563dbbb94c25891cf2c6742773b7d89d5d474d28eadf47c1934597f1bced3f3"
+  },
+  {
+    "protocol": "loco_external_fire",
+    "model": "set_attention",
+    "seed": 42,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_external_fire/set_attention/seed_42",
+    "checkpoint_sha256": "b033aea174987fa4cd5d9267edd1777c82b6eaeabf732f8a676445c6828e27aa"
+  },
+  {
+    "protocol": "loco_external_fire",
+    "model": "set_attention",
+    "seed": 43,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_external_fire/set_attention/seed_43",
+    "checkpoint_sha256": "d3768437b1702d05390ab2a792f03d6d7bae289fdb6ef09efc6112d26d3bce52"
+  },
+  {
+    "protocol": "loco_external_fire",
+    "model": "set_attention",
+    "seed": 44,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_external_fire/set_attention/seed_44",
+    "checkpoint_sha256": "c6b7b5ec83d751ee2c2b40da472ea47b8ff1c68ae00eab9731dcd428aaa4e8b7"
+  },
+  {
+    "protocol": "loco_external_fire",
+    "model": "set_attention",
+    "seed": 45,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_external_fire/set_attention/seed_45",
+    "checkpoint_sha256": "03acdbc7fb01af01ea225fa6dd9ccaff6b08d56d4b1adf628a687947f87b675b"
+  },
+  {
+    "protocol": "loco_external_fire",
+    "model": "set_attention",
+    "seed": 46,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_external_fire/set_attention/seed_46",
+    "checkpoint_sha256": "a5dea36b965236abd3553448886530e9ee24cf3e4b657af9df4bbb58bd8ecc62"
+  },
+  {
+    "protocol": "loco_bilinear",
+    "model": "set_attention",
+    "seed": 42,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_bilinear/set_attention/seed_42",
+    "checkpoint_sha256": "d7f2c68db273e1bfc3887ed7bccfbba590bc51808727eaecd06d6c285a4b8a61"
+  },
+  {
+    "protocol": "loco_bilinear",
+    "model": "set_attention",
+    "seed": 43,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_bilinear/set_attention/seed_43",
+    "checkpoint_sha256": "c2644c3ce566f789e44fb1dd8340c7acbbd7e5a762723196d376c6fa76b14628"
+  },
+  {
+    "protocol": "loco_bilinear",
+    "model": "set_attention",
+    "seed": 44,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_bilinear/set_attention/seed_44",
+    "checkpoint_sha256": "b5cad1887f6840c8fbd8036e9cff11695ebf1dec06dd9d7e8da076dfe17d6aa8"
+  },
+  {
+    "protocol": "loco_bilinear",
+    "model": "set_attention",
+    "seed": 45,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_bilinear/set_attention/seed_45",
+    "checkpoint_sha256": "909dd0eca8fee5c9684eb2f01a12c3be7a17dcbfcc8f59186eb9506774a08f76"
+  },
+  {
+    "protocol": "loco_bilinear",
+    "model": "set_attention",
+    "seed": 46,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_bilinear/set_attention/seed_46",
+    "checkpoint_sha256": "7d0ca6783c7c80c5ecbd9e586053c04a3376ef3b69974c4bec080a656637c601"
+  },
+  {
+    "protocol": "loco_linear",
+    "model": "set_attention",
+    "seed": 42,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_linear/set_attention/seed_42",
+    "checkpoint_sha256": "ce6101418ef3284d072958b455bbfd4011b5e8d1d0e07277c9c60d20679be8a3"
+  },
+  {
+    "protocol": "loco_linear",
+    "model": "set_attention",
+    "seed": 43,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_linear/set_attention/seed_43",
+    "checkpoint_sha256": "cbb405bc89d0ce1b249ea921145d4fab882e85a6f1be94b7a6a55f4205d18366"
+  },
+  {
+    "protocol": "loco_linear",
+    "model": "set_attention",
+    "seed": 44,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_linear/set_attention/seed_44",
+    "checkpoint_sha256": "b8ae8670e3b5e0de6ea147be6c30ad2941db51009f9666056de335e738f36491"
+  },
+  {
+    "protocol": "loco_linear",
+    "model": "set_attention",
+    "seed": 45,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_linear/set_attention/seed_45",
+    "checkpoint_sha256": "884aeee4cbddfb08efff31343811929581b8cc0168f75f99d764726a084db9b3"
+  },
+  {
+    "protocol": "loco_linear",
+    "model": "set_attention",
+    "seed": 46,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_linear/set_attention/seed_46",
+    "checkpoint_sha256": "9fa4f25d6d3b1427a9ed3e10746ebbbd72884d43b7f931c01b9770b3ed2d67a6"
+  },
+  {
+    "protocol": "loco_smoldering",
+    "model": "set_attention",
+    "seed": 42,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_smoldering/set_attention/seed_42",
+    "checkpoint_sha256": "b9f43a9d9d68d329709430c47e1a426d5836b01cb2334c19be80ab4471ac38eb"
+  },
+  {
+    "protocol": "loco_smoldering",
+    "model": "set_attention",
+    "seed": 43,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_smoldering/set_attention/seed_43",
+    "checkpoint_sha256": "9da064fa3fa1bb006fa607e79dd5cfa6120bd05510310bab683557029932c087"
+  },
+  {
+    "protocol": "loco_smoldering",
+    "model": "set_attention",
+    "seed": 44,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_smoldering/set_attention/seed_44",
+    "checkpoint_sha256": "a4ab8e0d24e572ac355e8555982d05eab5314829e38203e03a1dd4df18906852"
+  },
+  {
+    "protocol": "loco_smoldering",
+    "model": "set_attention",
+    "seed": 45,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_smoldering/set_attention/seed_45",
+    "checkpoint_sha256": "dbf17b5ad35d887d0445d9901f0c1720dcd55f1808d7536eb911a00dc6508e27"
+  },
+  {
+    "protocol": "loco_smoldering",
+    "model": "set_attention",
+    "seed": 46,
+    "relative_directory": "SCI_Manuscript/experiments/research_v09_set_attention/runs_set_attention_60/loco_smoldering/set_attention/seed_46",
+    "checkpoint_sha256": "1e8b6de2dc143eaa3498da50de2ce93e2e3ff47e648196dcfac4a6f695f50459"
+  }
+]

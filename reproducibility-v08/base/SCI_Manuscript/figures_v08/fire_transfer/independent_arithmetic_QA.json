@@ -1,0 +1,15 @@
+{
+  "status": "PASSED_INDEPENDENT_COMPLETE_PLOT_DATA_ARITHMETIC",
+  "source_per_case_rows": 34895,
+  "unique_cross_holdout_cases": 997,
+  "seed_MAE_values": 350,
+  "heatmap_cells": 84,
+  "paired_intervals": 20,
+  "descriptive_aggregate_seed_values": 70,
+  "smoldering_subgroup_seed_values": 70,
+  "percentage_point_scale": 100,
+  "primary_intervals_crossing_zero": 20,
+  "aggregate_CI_created": false,
+  "prediction_arrays_read": 0,
+  "bootstrap_recomputed": false
+}

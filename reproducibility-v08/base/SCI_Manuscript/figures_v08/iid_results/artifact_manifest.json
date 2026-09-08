@@ -1,0 +1,111 @@
+{
+  "status": "COMPLETE_IID_FIGURE_ONLY",
+  "created_utc": "2026-09-07T03:37:17.780821+00:00",
+  "files": [
+    {
+      "file": "audit_pdf_export.py",
+      "bytes": 1240,
+      "sha256": "7d9be328ec98fb26f40a81ed35a3a3a3d650819a1b27385f4e85b8314cdb02af"
+    },
+    {
+      "file": "caption_en.tex",
+      "bytes": 1339,
+      "sha256": "b894370d88930e1ebfcd2b1d4c128a3919c8d06b8bd59c6273a91437c15df793"
+    },
+    {
+      "file": "draw_iid_results_v08.py",
+      "bytes": 14759,
+      "sha256": "73970a667df4ea95faa9035ffffb9f304921a72f91e1d27222dfc3b18f3fddff"
+    },
+    {
+      "file": "figure_contract.md",
+      "bytes": 2207,
+      "sha256": "6aff3f902b0ea5332f5e791388f01f9cecac6dcfc55a3ec353b8b062ef475662"
+    },
+    {
+      "file": "figure_qa.json",
+      "bytes": 753,
+      "sha256": "bfbfd6aefc65a57ed9f11eb7292b7e3f6b61b4069de5ca2374add3377a93076c"
+    },
+    {
+      "file": "iid_results_v08.pdf",
+      "bytes": 58023,
+      "sha256": "7768cad41d6f1803d82ba23062b98c00a61c98cce6bb4434c3b6082c47dd83c2"
+    },
+    {
+      "file": "iid_results_v08.png",
+      "bytes": 257229,
+      "sha256": "cc1deb8633417fdcab3dd0d0a642ff9bf899e303d8a8fb231020bd5486b0754e"
+    },
+    {
+      "file": "iid_results_v08.svg",
+      "bytes": 72878,
+      "sha256": "5ed9a83b0d2f593955026876da8795fa0f294325a2643173e3a1bcc57f121b97"
+    },
+    {
+      "file": "pdf_export_QA.json",
+      "bytes": 303,
+      "sha256": "11a33fc743664a561c3e1aade91dfd3db64957ee3994125c34708b6cfc4d682b"
+    },
+    {
+      "file": "pdf_final_QA.png",
+      "bytes": 93150,
+      "sha256": "cbe79e9827756a4444d40b11e799a0f26f1bebf28bb5cd5f48bb581b1abdef1d"
+    },
+    {
+      "file": "plotted_case_ecdf.csv",
+      "bytes": 78451,
+      "sha256": "2d9f73808256d9f6ae03a393b979024afec09d26d6e1376ddd3acceee3d2da9b"
+    },
+    {
+      "file": "plotted_paired_contrasts.csv",
+      "bytes": 523,
+      "sha256": "a3a23b00086f6f8832c3c304a2cce2811101ed97122f531d1173cabab70dcf28"
+    },
+    {
+      "file": "plotted_seed_mae.csv",
+      "bytes": 2642,
+      "sha256": "6d9a97872da9c8d8c3003ea6ceff64bb753528c1b6f6e55b6c70a43a8e330d49"
+    },
+    {
+      "file": "provenance.json",
+      "bytes": 2197,
+      "sha256": "41ca4a88f820312810821dfd817b0f499dfc02bf648949c156238b7e7afa6b09"
+    },
+    {
+      "file": "QA.md",
+      "bytes": 2508,
+      "sha256": "9adafcd6a46259522b379b720b5bf876f4f238caf9750942d5ebb73b09f1d241"
+    },
+    {
+      "file": "source_comparison_plan_v08_420.json",
+      "bytes": 8630,
+      "sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068"
+    },
+    {
+      "file": "source_iid997.json",
+      "bytes": 18523,
+      "sha256": "1a9405cc3bab2cd58776d537771ee14f8ad13017b11a7cb1d552f15b8c3d0505"
+    },
+    {
+      "file": "source_iid997_independent_results_audit.json",
+      "bytes": 42094,
+      "sha256": "58db138bea4547ae84d825a6e97a52d263224f89188b24dbd2efaefa8b70f0c6"
+    },
+    {
+      "file": "source_per_case_metrics.csv",
+      "bytes": 1112211,
+      "sha256": "5418463ad70d424782c3dcedf24a5aea44676e3c685c2e67c419062b25c4bc33"
+    },
+    {
+      "file": "source_seal_manifest.json",
+      "bytes": 80580,
+      "sha256": "8f5fcadfb71f94228a1b40e65a8734a1fd91e5a6f69cc4e2594627dfd3067707"
+    },
+    {
+      "file": "source_summary.json",
+      "bytes": 50951,
+      "sha256": "584d10fe9ef276477ab05ae1315803508314f6c2c2ba79629bc4602ff2861aae"
+    }
+  ]
+}

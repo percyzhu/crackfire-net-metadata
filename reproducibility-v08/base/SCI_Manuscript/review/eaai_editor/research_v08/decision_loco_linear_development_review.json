@@ -1,0 +1,211 @@
+{
+  "decision": "COMPLETE_PROTOCOL_DEVELOPMENT_REVIEW_RECONCILED_WITH_SUBSTANTIAL_ENGINEERING_LIMITATIONS",
+  "protocol": "loco_linear",
+  "created_utc": "2026-09-07T08:09:44.568582+00:00",
+  "runs": 35,
+  "independent_geometries": 125,
+  "primary_contrasts": {
+    "graph_vs_capacity_matched": {
+      "point": 0.0009550008603783901,
+      "seed_effects": [
+        0.003512664124613902,
+        0.017175576131851944,
+        0.0014287918073232055,
+        -0.014764815219113086,
+        -0.0025772125427840184
+      ],
+      "two_way95": [
+        -0.007987824507057664,
+        0.010046564814765919
+      ],
+      "candidate_better_seeds": 3,
+      "relative_candidate_MAE_reduction": 0.03632158459540339
+    },
+    "mean_vs_sum": {
+      "point": -0.002313654546366363,
+      "seed_effects": [
+        -0.004462719673993157,
+        0.00187655162762423,
+        -8.534936435887013e-05,
+        -0.006823281217793948,
+        -0.002073474103310069
+      ],
+      "two_way95": [
+        -0.005188580312352688,
+        0.00035471831973458735
+      ],
+      "candidate_better_seeds": 1,
+      "relative_candidate_MAE_reduction": -0.09131190580348092
+    }
+  },
+  "all_primary_two_way_CI_include_zero": true,
+  "four_secondary_endpoint_J_CI_independently_recomputed": {
+    "graph_vs_capacity_matched": {
+      "final_MAE": {
+        "point_baseline_minus_candidate": 0.00672812681794166,
+        "percentile_95_paired_difference": [
+          -0.008265476203262801,
+          0.02352545106887817
+        ],
+        "baseline_defined_seeds": 5,
+        "candidate_defined_seeds": 5,
+        "required_seed_count": 5,
+        "point_uses_all_paired_seeds": true,
+        "common_valid_bootstrap_replicates": 1000,
+        "bootstrap_repetitions": 1000,
+        "valid_bootstrap_fraction": 1.0,
+        "status": "ESTIMATED",
+        "effect_direction": "Positive baseline-minus-candidate effect favors candidate for this lower-is-better metric",
+        "NA_policy": "Undefined class/ranking denominators are not zeros; require all five point-estimate seeds and common defined bootstrap replicates."
+      },
+      "time_average_MAE": {
+        "point_baseline_minus_candidate": 0.0004518571616709058,
+        "percentile_95_paired_difference": [
+          -0.010206247746450217,
+          0.012063463471062474
+        ],
+        "baseline_defined_seeds": 5,
+        "candidate_defined_seeds": 5,
+        "required_seed_count": 5,
+        "point_uses_all_paired_seeds": true,
+        "common_valid_bootstrap_replicates": 1000,
+        "bootstrap_repetitions": 1000,
+        "valid_bootstrap_fraction": 1.0,
+        "status": "ESTIMATED",
+        "effect_direction": "Positive baseline-minus-candidate effect favors candidate for this lower-is-better metric",
+        "NA_policy": "Undefined class/ranking denominators are not zeros; require all five point-estimate seeds and common defined bootstrap replicates."
+      }
+    },
+    "mean_vs_sum": {
+      "final_MAE": {
+        "point_baseline_minus_candidate": -0.007845214277505862,
+        "percentile_95_paired_difference": [
+          -0.02191066778719425,
+          0.00024150732874870628
+        ],
+        "baseline_defined_seeds": 5,
+        "candidate_defined_seeds": 5,
+        "required_seed_count": 5,
+        "point_uses_all_paired_seeds": true,
+        "common_valid_bootstrap_replicates": 1000,
+        "bootstrap_repetitions": 1000,
+        "valid_bootstrap_fraction": 1.0,
+        "status": "ESTIMATED",
+        "effect_direction": "Positive baseline-minus-candidate effect favors candidate for this lower-is-better metric",
+        "NA_policy": "Undefined class/ranking denominators are not zeros; require all five point-estimate seeds and common defined bootstrap replicates."
+      },
+      "time_average_MAE": {
+        "point_baseline_minus_candidate": -0.0025537547945479466,
+        "percentile_95_paired_difference": [
+          -0.0062971933179075444,
+          0.0007433840216062845
+        ],
+        "baseline_defined_seeds": 5,
+        "candidate_defined_seeds": 5,
+        "required_seed_count": 5,
+        "point_uses_all_paired_seeds": true,
+        "common_valid_bootstrap_replicates": 1000,
+        "bootstrap_repetitions": 1000,
+        "valid_bootstrap_fraction": 1.0,
+        "status": "ESTIMATED",
+        "effect_direction": "Positive baseline-minus-candidate effect favors candidate for this lower-is-better metric",
+        "NA_policy": "Undefined class/ranking denominators are not zeros; require all five point-estimate seeds and common defined bootstrap replicates."
+      }
+    }
+  },
+  "additional_crossing_rate_and_NA_point_checks": 70,
+  "primary_models_event_bounds": [
+    {
+      "model": "capacity_matched_deepsets",
+      "threshold": 0.8,
+      "reference_events": 122,
+      "reference_censored": 3,
+      "max_FN_single_seed": 12,
+      "max_FP_single_seed": 0,
+      "min_reference_prediction_common_events_single_seed": 110,
+      "recross_range_single_seed": [
+        0,
+        0
+      ]
+    },
+    {
+      "model": "capacity_matched_deepsets",
+      "threshold": 0.6,
+      "reference_events": 92,
+      "reference_censored": 33,
+      "max_FN_single_seed": 3,
+      "max_FP_single_seed": 0,
+      "min_reference_prediction_common_events_single_seed": 89,
+      "recross_range_single_seed": [
+        0,
+        0
+      ]
+    },
+    {
+      "model": "gnn",
+      "threshold": 0.8,
+      "reference_events": 122,
+      "reference_censored": 3,
+      "max_FN_single_seed": 12,
+      "max_FP_single_seed": 0,
+      "min_reference_prediction_common_events_single_seed": 110,
+      "recross_range_single_seed": [
+        0,
+        0
+      ]
+    },
+    {
+      "model": "gnn",
+      "threshold": 0.6,
+      "reference_events": 92,
+      "reference_censored": 33,
+      "max_FN_single_seed": 1,
+      "max_FP_single_seed": 2,
+      "min_reference_prediction_common_events_single_seed": 91,
+      "recross_range_single_seed": [
+        0,
+        0
+      ]
+    },
+    {
+      "model": "gnn_mean",
+      "threshold": 0.8,
+      "reference_events": 122,
+      "reference_censored": 3,
+      "max_FN_single_seed": 30,
+      "max_FP_single_seed": 0,
+      "min_reference_prediction_common_events_single_seed": 92,
+      "recross_range_single_seed": [
+        0,
+        0
+      ]
+    },
+    {
+      "model": "gnn_mean",
+      "threshold": 0.6,
+      "reference_events": 92,
+      "reference_censored": 33,
+      "max_FN_single_seed": 3,
+      "max_FP_single_seed": 1,
+      "min_reference_prediction_common_events_single_seed": 89,
+      "recross_range_single_seed": [
+        0,
+        0
+      ]
+    }
+  ],
+  "main_engineering_limitation": "Threshold misses, minutes of q0.8 timing error; conditional timing subsets vary and exclude missed events; high ranking does not imply reliable screening",
+  "unadjusted_secondary_findings_not_substitutes_for_primary_MAE": true,
+  "same_checkpoint_sparse_views_include_improvements_and_deteriorations": true,
+  "arbitrary_physical_topology_transfer_claim_allowed": false,
+  "raw_frozen_metrics_unchanged": true,
+  "source_files_sha256": {
+    "loco_linear_results_development_review_zh.md": "ae26cb66e0a1daa98f517245fd8f6c153ccd962a13f6057f613dea1bf963b9f5",
+    "loco_linear_independent_results_audit_v2.json": "c5a6c14efc4592db75695ae70c14d51ba752cbbf9c339ec70bf84cf4e536a822",
+    "loco_linear_same_weight_topology_audit.json": "b16915882cd6513371a8b428289110b228b2de6c03582572d52f9b49c4cdac14",
+    "loco_linear_snapshot_binding_review.json": "4c7454c3085234ada404a96bfa1375c5b30ed56ccae4bce1ea856f07ef8111df"
+  },
+  "uncompleted_family_scores_inspected": false,
+  "manuscript_training_workflow_existing_package_modified": false,
+  "submission_pass": false
+}

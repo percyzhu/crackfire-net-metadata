@@ -1,0 +1,31 @@
+{
+  "status": "INDEPENDENT_CHECKER_PREPARED_ANALYTIC_AND_REAL_INCOMPLETE_GATE_CHECKS_ONLY",
+  "created_utc": "2026-09-07T10:11:52.772307+00:00",
+  "checker_sha256": "9a42ca6e8dbc00bb39055db13928a7fd5a7aa736d81519e1b271d732e8e73902",
+  "syntax_AST_valid": true,
+  "analytic_tests_child_exitcode": 0,
+  "analytic_test_result": {
+    "status": "ANALYTIC_SIGN_CROSSED_RESAMPLING_CENSORING_TIE_TESTS_PASSED",
+    "actual_extension_performance_used": false
+  },
+  "incomplete_gate_child_exitcode": 2,
+  "incomplete_gate": {
+    "status": "WAITING_FOR_ALL60_COMPLETE",
+    "completed_metadata_runs": 30,
+    "required_new_runs": 60,
+    "aggregate_directory": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\evaluation_complete60",
+    "partial_performance_read": false,
+    "counters": {
+      "performance_JSON_reads": 0,
+      "prediction_array_loads": 0,
+      "tensor_array_loads": 0,
+      "model_inference": 0
+    }
+  },
+  "stderr_empty_both_calls": true,
+  "full60_branch_executed": false,
+  "partial_new_performance_read": false,
+  "numerical_result_PASS_file_created": false,
+  "new_model_inference_or_training": false,
+  "submission_pass": false
+}

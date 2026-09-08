@@ -1,0 +1,118 @@
+{
+  "review_type": "DEVELOPMENT_REVIEW",
+  "created_utc": "2026-09-07T03:09:05.081842+00:00",
+  "submission_pass": false,
+  "source_prose_only": true,
+  "pdf_snapshot": null,
+  "pdf_scope": "The manuscript PDF was not yet available for this source-prose review; no page-layout approval inferred.",
+  "trained_predictions_or_scores_read": false,
+  "issues": [
+    "D08-P01",
+    "D08-P02",
+    "D08-P03"
+  ],
+  "files": [
+    {
+      "source_path": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\main.tex",
+      "snapshot_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\development_prose_snapshot\\latex_v08\\main.tex",
+      "sha256": "69f7137dbc3050013c2f38995ba80b5013cbfd015213894c81deb850a88bd9d3",
+      "bytes": 3237
+    },
+    {
+      "source_path": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\01_introduction.tex",
+      "snapshot_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\development_prose_snapshot\\latex_v08\\sections\\01_introduction.tex",
+      "sha256": "07f169660d845a41872893b6e381ad66cc891c2dee33681135f749f91b7f543e",
+      "bytes": 3347
+    },
+    {
+      "source_path": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\01_related_work.tex",
+      "snapshot_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\development_prose_snapshot\\latex_v08\\sections\\01_related_work.tex",
+      "sha256": "3e4c7fdc85a500fe23b46b1c2de3bde08fda36361295150931dea7b2056c5f77",
+      "bytes": 15808
+    },
+    {
+      "source_path": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\02_engineering_data.tex",
+      "snapshot_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\development_prose_snapshot\\latex_v08\\sections\\02_engineering_data.tex",
+      "sha256": "6f27bf0e006396b4d7a685c71071b2b81011e3d18a0704dd8a872645171fda30",
+      "bytes": 6270
+    },
+    {
+      "source_path": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\03_learning.tex",
+      "snapshot_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\development_prose_snapshot\\latex_v08\\sections\\03_learning.tex",
+      "sha256": "e75424e3ce2cd39da7adcca91ace989e07894d509270afbf511906ae8c89ddcf",
+      "bytes": 5244
+    },
+    {
+      "source_path": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\04_evaluation.tex",
+      "snapshot_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\development_prose_snapshot\\latex_v08\\sections\\04_evaluation.tex",
+      "sha256": "6e65726ffae25c83c97e43e66c908e941f0c1fd274fbe69761227277bbd36019",
+      "bytes": 7828
+    },
+    {
+      "source_path": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\05_results.tex",
+      "snapshot_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\development_prose_snapshot\\latex_v08\\sections\\05_results.tex",
+      "sha256": "1638521258a7453b3f6b67812fefafbc89c449627771c8ec7901cfc7135f0502",
+      "bytes": 1282
+    },
+    {
+      "source_path": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\06_discussion.tex",
+      "snapshot_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\development_prose_snapshot\\latex_v08\\sections\\06_discussion.tex",
+      "sha256": "ac45c6f1cb2ce45d0e8da0f37a4f7dca9d8fd3989036e91f4f0fcf5bde496215",
+      "bytes": 2303
+    },
+    {
+      "source_path": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\07_conclusions.tex",
+      "snapshot_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\development_prose_snapshot\\latex_v08\\sections\\07_conclusions.tex",
+      "sha256": "204518d7c63c38931885a9b20765b71b9f829b7a4ea1dab63d8e81219083b550",
+      "bytes": 349
+    },
+    {
+      "source_path": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\08_reproducibility.tex",
+      "snapshot_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\development_prose_snapshot\\latex_v08\\sections\\08_reproducibility.tex",
+      "sha256": "64106c0191a64ff3dcaa24a6b895a31176761d0cd7acc3cf89ea48a10e6b5624",
+      "bytes": 1152
+    },
+    {
+      "source_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\AGENT_v08.md",
+      "snapshot_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\development_prose_snapshot\\review\\eaai_editor\\research_v08\\AGENT_v08.md",
+      "sha256": "e714e19937dc4e72d018f5226c8c6cd1195a00a12e049c5bbde9ddfa750f29d2",
+      "bytes": 2984
+    },
+    {
+      "source_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\development_prose_review_zh.md",
+      "snapshot_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\development_prose_snapshot\\review\\eaai_editor\\research_v08\\development_prose_review_zh.md",
+      "sha256": "e16000a8009f3fb187653c650eada19fad9d032a1548a5657843a7269bff4ce2",
+      "bytes": 4480
+    },
+    {
+      "source_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\comparison_plan_v08_420.json",
+      "snapshot_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\development_prose_snapshot\\experiments\\research_v08\\comparison_plan_v08_420.json",
+      "sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068",
+      "bytes": 8630
+    },
+    {
+      "source_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\aggregate_results.py",
+      "snapshot_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\development_prose_snapshot\\experiments\\research_v08\\aggregate_results.py",
+      "sha256": "bc2249a90d232ab09afbaebda66bfff69aab63af3302599ed7c890cefc42c536",
+      "bytes": 19051
+    },
+    {
+      "source_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\evaluation\\evaluation_stats.py",
+      "snapshot_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\development_prose_snapshot\\experiments\\evaluation\\evaluation_stats.py",
+      "sha256": "812ae58599ed0f36a7156a8af8b97dc8e804500eff483374aea322235adcab4e",
+      "bytes": 10395
+    },
+    {
+      "source_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\engineering_proxy_metrics.py",
+      "snapshot_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\development_prose_snapshot\\review\\eaai_editor\\research_v08\\engineering_proxy_metrics.py",
+      "sha256": "290d81078de1fa408ed8251690ab81e425e8a785bfd61bbffb1357f967a253bc",
+      "bytes": 15197
+    },
+    {
+      "source_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\engineering_proxy_metric_checks.json",
+      "snapshot_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\development_prose_snapshot\\review\\eaai_editor\\research_v08\\engineering_proxy_metric_checks.json",
+      "sha256": "03e239760fbc486194bb5c51398b2b7e5925905c8710620da91f47559073626c",
+      "bytes": 1537
+    }
+  ]
+}

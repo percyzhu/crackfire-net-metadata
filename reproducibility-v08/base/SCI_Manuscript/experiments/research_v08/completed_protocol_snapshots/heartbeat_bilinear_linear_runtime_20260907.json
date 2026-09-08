@@ -1,0 +1,32 @@
+{
+  "verified_utc": "2026-09-07T08:00:16.730079+00:00",
+  "all_12_frozen_sources_match": true,
+  "source_sha256": {
+    "SCI_Manuscript/experiments/research_v08/research_runner.py": "c1fe6b1d6ebcf0b11a9694f69077a16cefe1556a67631732fe2844cf926875f0",
+    "SCI_Manuscript/experiments/research_v08/prepare997.py": "66666a7dcbc97d54398bf51f7c917e03901e075745233c7951f98d0723292011",
+    "SCI_Manuscript/experiments/research_v08/make_plan.py": "8ac6d7fadf7ae8316209b6902441fb254f05136809d8afde4d66a58b0d24e031",
+    "SCI_Manuscript/experiments/research_v08/run_queue.py": "314b72203f33ea3bf6bc68beff866f44ee8fc2451cc13f1203e1ed84eedc8166",
+    "SCI_Manuscript/experiments/models.py": "0a96098f2d7b96e081f1ebe99a839007d56383d8cc1d6b5fe27331cc06426444",
+    "SCI_Manuscript/experiments/physical_features.py": "34452607a30b06fc7598e127c3cbce64ff2f7ae9882fd23bcec5f1d7aaab49cb",
+    "SCI_Manuscript/experiments/capacity_matched_set.py": "612eb2799536fcd149673ffda67c1d58cf4241627b5cf4a6c732b6d92b685adc",
+    "SCI_Manuscript/experiments/run_readiness.py": "62b702acebef6e150847e65bb4f590aeadc93f3d78effa22d1c8be6b53023abd",
+    "SCI_Manuscript/experiments/qualified_data.py": "bf429d1b161cba78c2297ea262ee4f70c4d755d4e9d6293667589143c60a50b3",
+    "SCI_Manuscript/figures_v06/topology/topology_extension.py": "18ff231f7bb8cd9010277582294953c3fd6de51b193cd4853dd40320342fe8c7",
+    "1_代码/src/data/dataset.py": "c303b9bb0c406bd14019080661ad0ac124b946fc4cd9774fe4438b76ff4f855f",
+    "1_代码/src/gnn/model.py": "808bf7c8d31ae4c76fc5e07c37244ddb18af54e84304603c06da2ec76ffd6752"
+  },
+  "plan_sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068",
+  "wrapper_sha256": "3e863d1c6f9e71cada06dd6ef9274e9c35343f7802faf4b70ad35320f9636566",
+  "amendment_sha256": "b861837f1f30ef1df0803118ef3cdee9c616721e1106674ad1c5b9318a5d7611",
+  "process_identity": {
+    "ProcessId": 28616,
+    "ParentProcessId": 34572,
+    "CommandLine": "\"C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" -X utf8 D:/Work/Abstract/SCI_Manuscript/experiments/research_v08/io_recovery_patch1.py queue --plan D:/Work/Abstract/SCI_Manuscript/experiments/research_v08/comparison_plan_v08_420.json"
+  },
+  "queue_status": "RUNNING",
+  "queue_completed_at_verification": 390,
+  "queue_active_protocol_at_verification": "loco_smoldering",
+  "current_stderr_bytes": 0,
+  "bilinear_completed": 35,
+  "linear_completed": 35
+}

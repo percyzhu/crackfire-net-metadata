@@ -1,0 +1,30 @@
+{
+  "status": "PREPARATION_API_AND_REAL_MISSING_DATA_GATE_CHECKS_PASSED_NOT_FULL_GENERATION_OR_LATEX_QA",
+  "created_utc": "2026-09-07T07:21:26.715974+00:00",
+  "generator_sha256": "d8ef80e36761cb77f387a7d8e98866f34a29986eed109913d070acbd20d767b8",
+  "checks": [
+    {
+      "protocol": "iid997",
+      "model_seed_records": 35,
+      "crossing_count_records_checked": 70,
+      "paired_final_and_J_points_checked": 2,
+      "metadata_header_boundaries_passed": 2,
+      "score_values_exported": false
+    },
+    {
+      "protocol": "loco_iso834",
+      "model_seed_records": 35,
+      "crossing_count_records_checked": 70,
+      "paired_final_and_J_points_checked": 2,
+      "metadata_header_boundaries_passed": 2,
+      "score_values_exported": false
+    }
+  ],
+  "real_gate_status": "WAITING_FOR_ALL12_COMPLETE_PROTOCOLS_CI_AND_INDEPENDENT_REVIEWS",
+  "real_gate_score_payloads_read": 0,
+  "actual_gate_command": "generate_engineering_tables.py --generate",
+  "formal_tables_created": false,
+  "full12_branch_executed": false,
+  "latex_compiled": false,
+  "rank_metrics_exported": false
+}

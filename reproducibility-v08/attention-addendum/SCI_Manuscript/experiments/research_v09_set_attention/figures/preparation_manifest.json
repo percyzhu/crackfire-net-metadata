@@ -1,0 +1,24 @@
+{
+  "status": "PREPARED_GATED_TWO_FIGURES_TWO_TABLES_COMPLETE_BRANCH_PENDING",
+  "created_utc": "2026-09-07T10:01:37.277925+00:00",
+  "plan_sha256": "8d21e13af116dc97556b37060daaf86afed5f7ba645a5bdae18e3d4ffb3b05a9",
+  "sources_sha256": {
+    "generate_extension_figures.py": "d667d4663861f5e73933e376d25913f6e894883c1a7c096a8b6bba06f0219bda",
+    "probe_incomplete_gate.py": "07394efa6f16c32ef54fe4d8eb079f5ec7d45cdc770be18705e6958720ef450f",
+    "FIGURE_CONTRACT.md": "e52a85e605b73cd72e7d9135e483f4db1366dfa95f07b70e47648a79599aa6a4",
+    "captions_en.tex": "ad3dba0aa6f21ea150cf81d469e58065f9ed3ce8378fa70acdf6461cbd2154b5",
+    "methods_extension_draft.tex": "1ff6c9665813d6e117501335d2a4c0d2735dd5c22939a0dcf7c4d064859fe553",
+    "README_zh.md": "e857fb3156f969d10d930930ef6a080596bc4a4f3510fbbc096e5ebb539a6137",
+    "incomplete_gate_probe_evidence.json": "a209df49c366be5f58ea6f2eaf0bb7edc4f26cb116757c977f916f1cfc725312",
+    "incomplete_gate_probe_evidence_v2.json": "d774ebbd48e92c6f1a141cf6ab07f73e084db8347a50671b05f81b058dcc3d9b"
+  },
+  "figure_backend": "Python matplotlib",
+  "matplotlib_available": "3.10.9",
+  "numpy_available": "2.4.4",
+  "actual_incomplete_gate_test_passed": true,
+  "complete_generation_branch_tested": false,
+  "visual_review_passed": false,
+  "LaTeX_compiled": false,
+  "fake_data_or_figures_generated": false,
+  "original420_evidence_replaced": false
+}

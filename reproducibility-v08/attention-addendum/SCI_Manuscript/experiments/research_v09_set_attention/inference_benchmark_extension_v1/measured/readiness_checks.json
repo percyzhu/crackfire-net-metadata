@@ -1,0 +1,508 @@
+[
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:36:32.328267+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:36:34.206793+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:36:34.953959+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:36:36.770188+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:36:39.240132+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:36:41.851381+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:36:44.182049+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:36:47.661165+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:36:51.233321+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:36:52.053605+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:36:55.488451+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:36:59.137294+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:37:01.271222+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:37:03.865951+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:37:06.540162+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:37:08.323929+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:37:09.111124+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:37:11.763297+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:37:13.606503+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:37:16.130185+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:37:19.895152+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:37:22.006810+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  {
+    "status": "READY_AUTHORIZED_SEPARATE_TIMING",
+    "checked_utc": "2026-09-07T11:37:25.272272+00:00",
+    "reasons": [],
+    "completed_extension_metadata_runs": 60,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {
+      "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+      "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+      "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+    },
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 42468,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  }
+]

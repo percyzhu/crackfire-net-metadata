@@ -1,0 +1,29 @@
+{
+  "status": "PASSED_INDEPENDENT_COMPLETE_BUDGET_FIGURE_ARITHMETIC_AND_EXPORT_PENDING_VISUAL_QA",
+  "source_seed_rows": 2520,
+  "all7_summary_rows": 504,
+  "summary_metrics_reconciled": 5,
+  "reference_budgets": 72,
+  "plotted_cells": 216,
+  "all12_protocols": true,
+  "all_endpoints_and_budgets": true,
+  "percentage_scale": 100,
+  "undefined_cells": 0,
+  "actual_raw_percent_range": [
+    -1.2880685368451417e-12,
+    100.00000000000537
+  ],
+  "no_raw_value_clipping": true,
+  "size_mm": [
+    183.00000559488933,
+    149.99999576144748
+  ],
+  "minimum_pdf_font_pt": 8.0,
+  "raster_objects": 0,
+  "pdf_sha256": "a4f05547c97acc918920f937030230c9dd38ffa53cccb0e772848797a4c7cf25",
+  "raw_prediction_arrays_read": 0,
+  "generator_functions_imported": false,
+  "statistical_CI_created": false,
+  "remaining": "Actual PDF visual review and manuscript placement review",
+  "submission_pass": false
+}

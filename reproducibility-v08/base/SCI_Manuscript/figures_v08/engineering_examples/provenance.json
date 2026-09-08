@@ -1,0 +1,1348 @@
+{
+  "status": "COMPLETE_REVIEWED_SELECTION_PENDING_VISUAL_QA",
+  "selection_plan_sha256": "1850acfce80828fa7db4cd7fc751e9c86b8c47f8366fa3c91cc24135ce5d8c1e",
+  "helper_sha256": "650a4e002615230ae3739ec084ac5ddab06aebc82bb113ad9f11bcd30ba2ef87",
+  "script_sha256": "0e12515ea72fd34c95335db3c8c7a2548c2d47138ab3e7bdffcc2f82efcccb5e",
+  "source_snapshot": [
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\comparison_plan_v08_420.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\comparison_plan_v08_420.json",
+      "sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\report.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\report.json",
+      "sha256": "534efdd6a569a675ddbfedbdcd32b6c4fc40f8ad09edcd51587b122d5e94e499"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\run_integrity.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\run_integrity.json",
+      "sha256": "ce4ebdc61f1626321aa115deb8a731f3ed7e241c32ec3dfdd69fe8e90b4d6cdb"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\manifest.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\archive997\\manifest.json",
+      "sha256": "7712ad86ab48f185c53a9ae276a9a7b2f6e6673a5d5faf6fc69b0f1bbb3dcdaf"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\aggregate_results.py",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\aggregate_results.py",
+      "sha256": "15928fa013713dbef0c103da4e1c802b1761bc6c0d64fe3cc8f7b75bbf560639"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\evaluation\\evaluation_stats.py",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\evaluation\\evaluation_stats.py",
+      "sha256": "812ae58599ed0f36a7156a8af8b97dc8e804500eff483374aea322235adcab4e"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_iso834\\summary.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_iso834\\summary.json",
+      "sha256": "616f8c18d352948051cbdb4f7abf7237042586843bbf8330d91d523b10e1f1bf"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_iso834\\per_case_metrics.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_iso834\\per_case_metrics.csv",
+      "sha256": "a7feecd1b509d9417af8cdb5a12ed5ce97a7961ad8af45cb818f397271a6f145"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_iso834.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_iso834.json",
+      "sha256": "63416c567ffc3781aea4d3f9ab58a5beb94eca2e32640ef8c4c687bbf538bc9d"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_astm_e119\\summary.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_astm_e119\\summary.json",
+      "sha256": "102bead09a30a73470cea0cd6b2113fb28aec19de3753f44d790fa365ea155a8"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_astm_e119\\per_case_metrics.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_astm_e119\\per_case_metrics.csv",
+      "sha256": "9be75ec38d6df02ac701836cf53ceba38e7bf41e86988eeaac6e64359f6a9835"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_astm_e119.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_astm_e119.json",
+      "sha256": "86d7beafadd5eb6b3cc8862fd9e53208fb0691f84339368fad809d20037a5c80"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_external_fire\\summary.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_external_fire\\summary.json",
+      "sha256": "9a2ad480a5b2811efe0c7cab09997b898d64340094267aec64fd8e14f1395250"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_external_fire\\per_case_metrics.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_external_fire\\per_case_metrics.csv",
+      "sha256": "97053401f8ae067c5ea90f3445bfdc5e6158cc9319322335950cb162eb9c6d77"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_external_fire.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_external_fire.json",
+      "sha256": "519d312c4af25ec3e92f73bd5339052477876c9a0f98750ac3ff1bb0e4c72962"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_linear\\summary.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_linear\\summary.json",
+      "sha256": "e1c89ebc6920cb56e0c855c3d23abc0e257535efeb07f9362f1d40a02920b2b5"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_linear\\per_case_metrics.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_linear\\per_case_metrics.csv",
+      "sha256": "7d8ba198f7fbff578fcd9f8b3a06a1a32d617b409a9f0e06590beda2332accd0"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_linear.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_linear.json",
+      "sha256": "6007a97faf5d91a463f0209a8572a9784dbd77f90482836c414ed0de7e869350"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_bilinear\\summary.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_bilinear\\summary.json",
+      "sha256": "c1387b959cca478269b2b118b576ff17c8453c8ca04ef335ec870d301e08c80d"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_bilinear\\per_case_metrics.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_bilinear\\per_case_metrics.csv",
+      "sha256": "e5c5508680f38706a41929bb9eb0d3def8aeb55e33d1ed623fb998667b8c32fd"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_bilinear.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_bilinear.json",
+      "sha256": "8946917a1984748d1631571ec03fb5816c9b7cd30a3d11787acdafaac4a5cbda"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_plateau\\summary.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_plateau\\summary.json",
+      "sha256": "81c41ec5b9ea601a0933255af828445779c457a04826187f1caa92b73352e594"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_plateau\\per_case_metrics.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_plateau\\per_case_metrics.csv",
+      "sha256": "00fa03924d906bb91b70a6bc94bd3772d5dc55c1867e2103f8be374398d66a01"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_plateau.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_plateau.json",
+      "sha256": "579cbc1c51ae4b88e6d082c9cbce13be469eb08123de2660fd014299b9259c47"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_decay\\summary.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_decay\\summary.json",
+      "sha256": "53cdd7944ca3a174069a7a7a93f0c666c2b7875d95f65667b11bd246c4d2cda6"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_decay\\per_case_metrics.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_decay\\per_case_metrics.csv",
+      "sha256": "8eb8e2003f8ec88510f49701017e54e08af545669996d025b012a9f83f4222c0"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_decay.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_decay.json",
+      "sha256": "f0006a5bf445186c7062b5093d17ccdc232d2defb937248445f4e35636bddfbd"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_perturbed_iso\\summary.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_perturbed_iso\\summary.json",
+      "sha256": "c266bd6b16e76176cea09e4dcee6c5229cf3bdf07bd84b13b25a2678c8ce0e7e"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_perturbed_iso\\per_case_metrics.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_perturbed_iso\\per_case_metrics.csv",
+      "sha256": "f065ec04e653e45a9de05459a2a59c6dd744487b1d8d33385464ac97b01d2a19"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_perturbed_iso.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_perturbed_iso.json",
+      "sha256": "212869a2a9026a605a505a3cabfe950985d0568de5efb72266a6f9d07f57ccf7"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_log_variant\\summary.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_log_variant\\summary.json",
+      "sha256": "54bc281cc3e0b27d165e823143d8312b90e7a1246970606a524cb2fcaf25bb1d"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_log_variant\\per_case_metrics.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_log_variant\\per_case_metrics.csv",
+      "sha256": "967b10be2dc7ff72975690f5df00a1ae458dbad7d4142c2eda49c96a3bccbfab"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_log_variant.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_log_variant.json",
+      "sha256": "d54470aebeddc2dd8dda1561147a8c0755a4b7b900cf73969e7b611b37249d39"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_smoldering\\summary.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_smoldering\\summary.json",
+      "sha256": "674c5b2ae1c4b8826efc36799a35f6bd3c7c6514b4b06508e80ebc60767529a6"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_smoldering\\per_case_metrics.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_smoldering\\per_case_metrics.csv",
+      "sha256": "814a38a03ee6800b21f23a8b77ae0e2e49ae0a60e615e930d55bf6d752cc8f41"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_smoldering.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_smoldering.json",
+      "sha256": "c856660731341ad101b11903f18a0b1efaebca19f8aecf7347ff76408223abdc"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_iso834_engineering_proxy_ci.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_iso834_engineering_proxy_ci.json",
+      "sha256": "84fa79687f162eeeee7e6bc7b26d799532ce7f64ebcd5f2df9080ff6f287ec2d"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_iso834_engineering_proxy_ci.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_iso834_engineering_proxy_ci.csv",
+      "sha256": "c5b2a5cd34dfe502e7b6ea5177f826943456c0186dad390f99be78512979acd2"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_iso834_independent_results_audit_v2.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_iso834_independent_results_audit_v2.json",
+      "sha256": "dd8cc0f45b61cd2b08e398dd1fd7f2c2cbe13463b39e13a6764f3b412e1c469e"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_iso834_results_development_review_zh.md",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_iso834_results_development_review_zh.md",
+      "sha256": "095f56e8d83eff040467096fde5bd0d7170f48609f5f54ec630bbd59baa013e9"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_astm_e119_engineering_proxy_ci.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_astm_e119_engineering_proxy_ci.json",
+      "sha256": "e35deb7c03b4f052ce83fba26b8f487768aa6e28100e33b64947151ee30c72e4"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_astm_e119_engineering_proxy_ci.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_astm_e119_engineering_proxy_ci.csv",
+      "sha256": "35daac32cd11b7e08a767fc757dac506d6c670b1befce1dc868b5cd30efc3109"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_astm_e119_independent_results_audit_v2.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_astm_e119_independent_results_audit_v2.json",
+      "sha256": "d5fc221229cdbf212eaefd2395d2c6b24029c7c7ff850a51584d35e594d6a58e"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_astm_e119_results_development_review_zh.md",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_astm_e119_results_development_review_zh.md",
+      "sha256": "a3df4953e45449d53c092075fc1e6c8f95d7b988393b325bb4f304f96518dcda"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_external_fire_engineering_proxy_ci.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_external_fire_engineering_proxy_ci.json",
+      "sha256": "eddac79e075dfe79d029f18fbdb33effcd951139989ec4fc31f12ed636860d83"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_external_fire_engineering_proxy_ci.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_external_fire_engineering_proxy_ci.csv",
+      "sha256": "2a179e940431e48dffb5ece9ea68f3b6e9487302b3d92e257087f2533bcbfee9"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_external_fire_independent_results_audit_v2.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_external_fire_independent_results_audit_v2.json",
+      "sha256": "33ad1e29d3f3061a8f6fd71d50d049767b85d335eb6cb2683d393439a5c88dde"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_external_fire_results_development_review_zh.md",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_external_fire_results_development_review_zh.md",
+      "sha256": "67e6de646d54cc8db0686e60a6fa7f49eb86e225bd7289d28bbc89ad9388ff4e"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_linear_engineering_proxy_ci.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_linear_engineering_proxy_ci.json",
+      "sha256": "4e63d72040c842fae089eef57d3d965ce1b6afb2113b82ed3bdaaf01241d7db7"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_linear_engineering_proxy_ci.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_linear_engineering_proxy_ci.csv",
+      "sha256": "71f9cef7178a3881b37c80ee5f71b316fd24428e80d237a5d5085578f405008c"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_linear_independent_results_audit_v2.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_linear_independent_results_audit_v2.json",
+      "sha256": "c5a6c14efc4592db75695ae70c14d51ba752cbbf9c339ec70bf84cf4e536a822"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_linear_results_development_review_zh.md",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_linear_results_development_review_zh.md",
+      "sha256": "ae26cb66e0a1daa98f517245fd8f6c153ccd962a13f6057f613dea1bf963b9f5"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_bilinear_engineering_proxy_ci.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_bilinear_engineering_proxy_ci.json",
+      "sha256": "368d436610025ec8f1f3c0cac1777ef422c918b9faa4af4b84081cf0fce744ec"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_bilinear_engineering_proxy_ci.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_bilinear_engineering_proxy_ci.csv",
+      "sha256": "4fc3abfbe396309380078230e11ebbe6b44e5942ab8afbb7bed4fc97338c2ffe"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_bilinear_independent_results_audit_v2.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_bilinear_independent_results_audit_v2.json",
+      "sha256": "dc1d7777c755f8d47ebe71250d3958aeb2ce1cc7fbfa12e6b3bc8631a0d496da"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_bilinear_results_development_review_zh.md",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_bilinear_results_development_review_zh.md",
+      "sha256": "5c88a1e68d8fc4865020f3514f748e2b48c459b14e7cbc0647e2cf3a24517206"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_plateau_engineering_proxy_ci.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_plateau_engineering_proxy_ci.json",
+      "sha256": "f5c2f1ce6a69036acaea55b11f673d65c3fd2e46b83aa47192716b5dcf3b7baf"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_plateau_engineering_proxy_ci.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_plateau_engineering_proxy_ci.csv",
+      "sha256": "2086fbdc2e1543598bfd7d720403b8b87a9bd2e06e86762e79ddafca18fd667b"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_plateau_independent_results_audit_v2.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_plateau_independent_results_audit_v2.json",
+      "sha256": "d469eb0595a4ffa85897621599ee4a9960014c7df0b3028820f062770faf5930"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_plateau_results_development_review_zh.md",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_plateau_results_development_review_zh.md",
+      "sha256": "6eefe746edc1e98026043ef70b03310abeabc8b4af967aa2f1cfed916a8241e2"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_decay_engineering_proxy_ci.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_decay_engineering_proxy_ci.json",
+      "sha256": "cafac0b0a0226a3535c8e3ad6e223b498518b76e7b44f321ace7c420d2c7c3e8"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_decay_engineering_proxy_ci.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_decay_engineering_proxy_ci.csv",
+      "sha256": "53aa9f5c7da3d5e8f2b591bcc2323ecef5883dd70dba67f0666a6c1cf4b18b43"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_decay_independent_results_audit_v2.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_decay_independent_results_audit_v2.json",
+      "sha256": "7a92d8acc6b4391ea6a8d90a17889a2ca6f426ad3f4f0e3438457a4ece0b8aa8"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_decay_results_development_review_zh.md",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_decay_results_development_review_zh.md",
+      "sha256": "3e64a0436c49a384d2521ca149e14f24ede29be912a4fca7f69ac40e0865ba1e"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_perturbed_iso_engineering_proxy_ci.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_perturbed_iso_engineering_proxy_ci.json",
+      "sha256": "1c237b4390329bd5d898ad19384755043ca99bdde9e642d4a6a59495b1a5d525"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_perturbed_iso_engineering_proxy_ci.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_perturbed_iso_engineering_proxy_ci.csv",
+      "sha256": "ea07001465a4322ff15bc849c2454aaf10fd157b852e940975acf5eaa75add7d"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_perturbed_iso_independent_results_audit_v2.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_perturbed_iso_independent_results_audit_v2.json",
+      "sha256": "8c144f7024de7118cd695315681ae071b12f475cb6bfec44679e9efb8aa2b0e0"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_perturbed_iso_results_development_review_zh.md",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_perturbed_iso_results_development_review_zh.md",
+      "sha256": "01c40a8512d677d6189785153bd100f147ab342563067f05f89d85f76fca9d5c"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_log_variant_engineering_proxy_ci.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_log_variant_engineering_proxy_ci.json",
+      "sha256": "b1aa9761d633ef38686ac3e131aecad996f3d5b71a62729f1fcdd9e6dd4921ae"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_log_variant_engineering_proxy_ci.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_log_variant_engineering_proxy_ci.csv",
+      "sha256": "61227984155adefae488d9c2f7b4dafd4a622c45ca92338ec54f1420e62164f3"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_log_variant_independent_results_audit_v2.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_log_variant_independent_results_audit_v2.json",
+      "sha256": "0c8079e3643105ee5b194586d304623a13b4122415492b35334e1fc241efb3e8"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_log_variant_results_development_review_zh.md",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_log_variant_results_development_review_zh.md",
+      "sha256": "79f6496e3c131638576de8e1700084712e6aa75065476d28ff64172d9f21cb14"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_smoldering_engineering_proxy_ci.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_smoldering_engineering_proxy_ci.json",
+      "sha256": "2fcb60e9b2d39b5912d87c2a5c7bc687afe7fbfe2e9b62cd80ccaf6c6c16afd7"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_smoldering_engineering_proxy_ci.csv",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_smoldering_engineering_proxy_ci.csv",
+      "sha256": "aa439aebe4d635c055906660c019cc3c86c196d91cad468813613ed1afed7971"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_smoldering_independent_results_audit_v2.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_smoldering_independent_results_audit_v2.json",
+      "sha256": "a85409102ce52830c68c79bbb2b012a18d53ffe81b94de2f341c8b800e52c61a"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_smoldering_results_development_review_zh.md",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_smoldering_results_development_review_zh.md",
+      "sha256": "19ce05e3c82adfdf30b66e18f9462f181d6d3cc7d99474abde206765cfb1a7f2"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\engineering_examples_selection_plan.json",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\figures_v08\\engineering_examples_selection_plan.json",
+      "sha256": "1850acfce80828fa7db4cd7fc751e9c86b8c47f8366fa3c91cc24135ce5d8c1e"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\fire_transfer\\draw_fire_transfer_v08.py",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\figures_v08\\fire_transfer\\draw_fire_transfer_v08.py",
+      "sha256": "650a4e002615230ae3739ec084ac5ddab06aebc82bb113ad9f11bcd30ba2ef87"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\1_代码\\src\\gnn\\model.py",
+      "snapshot_path": "source_snapshot\\1_代码\\src\\gnn\\model.py",
+      "sha256": "808bf7c8d31ae4c76fc5e07c37244ddb18af54e84304603c06da2ec76ffd6752"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\engineering_proxy_evaluation_prespecification.md",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\engineering_proxy_evaluation_prespecification.md",
+      "sha256": "8fffe3e3e45c9aa1ef0b121eca3b6dbf3bf199af692d43300f0e85f756ae01f6"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\engineering_examples\\draw_engineering_examples_v08.py",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\figures_v08\\engineering_examples\\draw_engineering_examples_v08.py",
+      "sha256": "0e12515ea72fd34c95335db3c8c7a2548c2d47138ab3e7bdffcc2f82efcccb5e"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\engineering_examples\\audit_engineering_examples.py",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\figures_v08\\engineering_examples\\audit_engineering_examples.py",
+      "sha256": "272fdd68763b34dbb1eb4eda03bc7db4ea19bf2dc6878f2a481e44b29de36e8e"
+    },
+    {
+      "original_path": "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\engineering_examples\\caption_en.tex",
+      "snapshot_path": "source_snapshot\\SCI_Manuscript\\figures_v08\\engineering_examples\\caption_en.tex",
+      "sha256": "c98c975768671d440d9ff79982471357ff1b7c16b8ae256484b92e6077c68843"
+    }
+  ],
+  "prediction_and_checkpoint_sources": [
+    {
+      "protocol": "loco_iso834",
+      "model": "capacity_matched_deepsets",
+      "seed": 42,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\capacity_matched_deepsets\\seed_42\\test_predictions.npz",
+      "prediction_sha256": "9326db42179d4791315521f743f959c9a8b019faa1e17c25cfe49fb2fd2ca83d",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\capacity_matched_deepsets\\seed_42\\best.pt",
+      "checkpoint_sha256": "f7135d6238234639c9495de893c01b6b0bfa6bd4c7fa05e5575dfe74ec7a7793"
+    },
+    {
+      "protocol": "loco_iso834",
+      "model": "capacity_matched_deepsets",
+      "seed": 43,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\capacity_matched_deepsets\\seed_43\\test_predictions.npz",
+      "prediction_sha256": "5f4eae64e5db128c7fcba28b77731facb72a0667738affe9cc0b030575345eac",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\capacity_matched_deepsets\\seed_43\\best.pt",
+      "checkpoint_sha256": "d6a14521493f6789f5728bf7a5b73f2167d07c3262e4d9ac16a98f14c26b5346"
+    },
+    {
+      "protocol": "loco_iso834",
+      "model": "capacity_matched_deepsets",
+      "seed": 44,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\capacity_matched_deepsets\\seed_44\\test_predictions.npz",
+      "prediction_sha256": "668fabea0a46cbbca21e842da043b75b3de8e3fff87474bc2b6650e040cf9b9a",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\capacity_matched_deepsets\\seed_44\\best.pt",
+      "checkpoint_sha256": "c082ebcffabc5565871bff9083bcea6a8bbf63bca648218b8fb9cfc619f1d5eb"
+    },
+    {
+      "protocol": "loco_iso834",
+      "model": "capacity_matched_deepsets",
+      "seed": 45,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\capacity_matched_deepsets\\seed_45\\test_predictions.npz",
+      "prediction_sha256": "b68445d2730ef84d1aac88e9c960487dbd7c76b64eaf682d445c0ad7224a81ac",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\capacity_matched_deepsets\\seed_45\\best.pt",
+      "checkpoint_sha256": "828972690029f2f77f8517b9c0b4a1d7d24dec7c6e199f20aa9275e0b0af2f2b"
+    },
+    {
+      "protocol": "loco_iso834",
+      "model": "capacity_matched_deepsets",
+      "seed": 46,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\capacity_matched_deepsets\\seed_46\\test_predictions.npz",
+      "prediction_sha256": "bdb9b0f2c6da48fa885570a407050063c9fc5161a7e7e8907e6794f6a41cbd90",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\capacity_matched_deepsets\\seed_46\\best.pt",
+      "checkpoint_sha256": "008bde40aa434d958811b403e348a10ec0a5fbc21f2fc5fffee7dc1d23a502b2"
+    },
+    {
+      "protocol": "loco_iso834",
+      "model": "gnn",
+      "seed": 42,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\gnn\\seed_42\\test_predictions.npz",
+      "prediction_sha256": "7ac6bb428d9a45ab9946056493b8ed146626bbbc7c9e35c2a9db803265f606a3",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\gnn\\seed_42\\best.pt",
+      "checkpoint_sha256": "1c299f7161b1e956bd6928ded83967e65c161b72abe46daaf4fc4e1cb0af724f"
+    },
+    {
+      "protocol": "loco_iso834",
+      "model": "gnn",
+      "seed": 43,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\gnn\\seed_43\\test_predictions.npz",
+      "prediction_sha256": "326b433c834a8aac7f1ff995e422208b7aacf03db39fe97cfaf3f79508c10e0f",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\gnn\\seed_43\\best.pt",
+      "checkpoint_sha256": "c44ef2a36097f472c7fc0cda8e095a6c083f03503ee422d411e8f0b17c48ca8a"
+    },
+    {
+      "protocol": "loco_iso834",
+      "model": "gnn",
+      "seed": 44,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\gnn\\seed_44\\test_predictions.npz",
+      "prediction_sha256": "7421b359634c9c60542a6b35e5c754b12fd87381b8f67dba2fc92822eb84e42a",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\gnn\\seed_44\\best.pt",
+      "checkpoint_sha256": "4c4e0e26ecd8ca006d2974954ea48e290b618be02d4fd6bbbd77a9a167c77283"
+    },
+    {
+      "protocol": "loco_iso834",
+      "model": "gnn",
+      "seed": 45,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\gnn\\seed_45\\test_predictions.npz",
+      "prediction_sha256": "f294d4ec915e19f564d195075b85a05cf1e16f380b465984f3d5009095758318",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\gnn\\seed_45\\best.pt",
+      "checkpoint_sha256": "572e14caf46f6bcd41097e367dc2dc6ad79e34b945f6ebccd4fa3b3782d9601d"
+    },
+    {
+      "protocol": "loco_iso834",
+      "model": "gnn",
+      "seed": 46,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\gnn\\seed_46\\test_predictions.npz",
+      "prediction_sha256": "825d7e19b9d9ae6d200460cf06ed4c6511560970299325e36a25a1f9bce4bac1",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_iso834\\gnn\\seed_46\\best.pt",
+      "checkpoint_sha256": "0b07e452745287edb9dcf3e7c054c0d34763984e0f316d2e121fa80340b8493f"
+    },
+    {
+      "protocol": "loco_astm_e119",
+      "model": "capacity_matched_deepsets",
+      "seed": 42,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_astm_e119\\capacity_matched_deepsets\\seed_42\\test_predictions.npz",
+      "prediction_sha256": "beb526d3febd710963f5076be357ac419ea1f84de4de893751a16f6ecf8504e7",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_astm_e119\\capacity_matched_deepsets\\seed_42\\best.pt",
+      "checkpoint_sha256": "d9e86cd1564d4f584178526b7ca390b8b3168a0d8505881dbee50bff42902898"
+    },
+    {
+      "protocol": "loco_astm_e119",
+      "model": "capacity_matched_deepsets",
+      "seed": 43,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_astm_e119\\capacity_matched_deepsets\\seed_43\\test_predictions.npz",
+      "prediction_sha256": "490487b313830a0fd3a638f053b98c08cc947bcaf40684dd6aada9a47622e38e",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_astm_e119\\capacity_matched_deepsets\\seed_43\\best.pt",
+      "checkpoint_sha256": "c77f73ad0e8cc390f2f64ebeb4ae70e3a2699e08602027c488722a1951b1a34e"
+    },
+    {
+      "protocol": "loco_astm_e119",
+      "model": "capacity_matched_deepsets",
+      "seed": 44,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_astm_e119\\capacity_matched_deepsets\\seed_44\\test_predictions.npz",
+      "prediction_sha256": "b0fc4ad7eb84c4690d53cdd555aed7f993e317b8671f4fae03926e36368f2361",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_astm_e119\\capacity_matched_deepsets\\seed_44\\best.pt",
+      "checkpoint_sha256": "9444dec9ed66fe6e4ff806590992d0e13bb12d5527ab531ebdc88fc03ec0e318"
+    },
+    {
+      "protocol": "loco_astm_e119",
+      "model": "capacity_matched_deepsets",
+      "seed": 45,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_astm_e119\\capacity_matched_deepsets\\seed_45\\test_predictions.npz",
+      "prediction_sha256": "ae61ada021e555f17afea1660756f3f65f1f4a17e81b24bef5c38b7bc43a303c",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_astm_e119\\capacity_matched_deepsets\\seed_45\\best.pt",
+      "checkpoint_sha256": "78537cfef487f716b3519db51678de0068defca9bc084f2c11b96d6638271d59"
+    },
+    {
+      "protocol": "loco_astm_e119",
+      "model": "capacity_matched_deepsets",
+      "seed": 46,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_astm_e119\\capacity_matched_deepsets\\seed_46\\test_predictions.npz",
+      "prediction_sha256": "3926686ef1a570b546500255015923c13ae794cdfc5e867d3eff66963cd46250",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_astm_e119\\capacity_matched_deepsets\\seed_46\\best.pt",
+      "checkpoint_sha256": "0ff9a1937b451ce58f85a5c5e5ef1506982e88702114d5a24ba6245777df9927"
+    },
+    {
+      "protocol": "loco_astm_e119",
+      "model": "gnn",
+      "seed": 42,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_astm_e119\\gnn\\seed_42\\test_predictions.npz",
+      "prediction_sha256": "737410d7a9309e5d57ddd0ac2d85a698b97232fb083f917e6fc68b551cf9426c",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_astm_e119\\gnn\\seed_42\\best.pt",
+      "checkpoint_sha256": "575e0417cbb63f60fe5d23377426236265ca1ff78ea8dc2fdcf531a83e95303d"
+    },
+    {
+      "protocol": "loco_astm_e119",
+      "model": "gnn",
+      "seed": 43,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_astm_e119\\gnn\\seed_43\\test_predictions.npz",
+      "prediction_sha256": "5afe0421381d8f929d9e5494af89c54ad3118e78e1a05bcca29959677b4ac792",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_astm_e119\\gnn\\seed_43\\best.pt",
+      "checkpoint_sha256": "968164d9706f933adc8168224aeccd1cf429e99a45bb3c2add2da4ff7d97487f"
+    },
+    {
+      "protocol": "loco_astm_e119",
+      "model": "gnn",
+      "seed": 44,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_astm_e119\\gnn\\seed_44\\test_predictions.npz",
+      "prediction_sha256": "38aa5fa57f923c17a0a6c37f740874d8ae9cdc5acee51500af13cdd21d7b9dbf",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_astm_e119\\gnn\\seed_44\\best.pt",
+      "checkpoint_sha256": "a5de3294bed54d104e2b36670d2cf5a125591f2802c1d18b7688b19154e5e1f3"
+    },
+    {
+      "protocol": "loco_astm_e119",
+      "model": "gnn",
+      "seed": 45,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_astm_e119\\gnn\\seed_45\\test_predictions.npz",
+      "prediction_sha256": "dccb1a304f2ae972f48ba16f0e137ed342a78839eb34761cf9c64fe086c9a1e3",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_astm_e119\\gnn\\seed_45\\best.pt",
+      "checkpoint_sha256": "6e5ff19dfed70378cbcf75fc3dd33cc9f0ed53525e2412710b481ca487848da8"
+    },
+    {
+      "protocol": "loco_astm_e119",
+      "model": "gnn",
+      "seed": 46,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_astm_e119\\gnn\\seed_46\\test_predictions.npz",
+      "prediction_sha256": "e7c1494aa683aeaf7e86df9bd209680ca9a824c19ab3f26781a8e9af37226b44",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_astm_e119\\gnn\\seed_46\\best.pt",
+      "checkpoint_sha256": "d7acbc19456032581a47cb338ef3a1dec5ea500192f6a6c2418e733c0e54a27b"
+    },
+    {
+      "protocol": "loco_external_fire",
+      "model": "capacity_matched_deepsets",
+      "seed": 42,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_external_fire\\capacity_matched_deepsets\\seed_42\\test_predictions.npz",
+      "prediction_sha256": "d8477336a4cff7067a0857d0ddbb513bd7c3f0d96508fef9e8bcce3e7b073eb5",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_external_fire\\capacity_matched_deepsets\\seed_42\\best.pt",
+      "checkpoint_sha256": "34bbdbf4ec0f5100e4c8733efafa7c12c26f31da05ed562d3f7b3021e5573d45"
+    },
+    {
+      "protocol": "loco_external_fire",
+      "model": "capacity_matched_deepsets",
+      "seed": 43,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_external_fire\\capacity_matched_deepsets\\seed_43\\test_predictions.npz",
+      "prediction_sha256": "589f86af0541f5afe5529fa641aef901145f8719b4c179f30019e7972abaf469",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_external_fire\\capacity_matched_deepsets\\seed_43\\best.pt",
+      "checkpoint_sha256": "6f6e977a4e77318f46a013016ef7847ab882ccef33cf043892011431e09c0427"
+    },
+    {
+      "protocol": "loco_external_fire",
+      "model": "capacity_matched_deepsets",
+      "seed": 44,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_external_fire\\capacity_matched_deepsets\\seed_44\\test_predictions.npz",
+      "prediction_sha256": "bc9394fdc3d8626a9b7cd91443cd0a7447f10438276f483115f59c860b34e404",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_external_fire\\capacity_matched_deepsets\\seed_44\\best.pt",
+      "checkpoint_sha256": "d9473d17db4ef19abd6201961edb25cb3c2bf26ae4f0fc4d0c3fd95c063bc14b"
+    },
+    {
+      "protocol": "loco_external_fire",
+      "model": "capacity_matched_deepsets",
+      "seed": 45,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_external_fire\\capacity_matched_deepsets\\seed_45\\test_predictions.npz",
+      "prediction_sha256": "37323c200646b48c479846ee5fff06dd98e3c4189896e588a7bc537b55fb2614",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_external_fire\\capacity_matched_deepsets\\seed_45\\best.pt",
+      "checkpoint_sha256": "c91bdade4d25de3cbed17bf522de964a43863216928dbc2666841a3bb3b344a3"
+    },
+    {
+      "protocol": "loco_external_fire",
+      "model": "capacity_matched_deepsets",
+      "seed": 46,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_external_fire\\capacity_matched_deepsets\\seed_46\\test_predictions.npz",
+      "prediction_sha256": "75f323057086123b18f5d7d2d1eac86d24df382d3effbc8f1ac6d28b9479b1b1",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_external_fire\\capacity_matched_deepsets\\seed_46\\best.pt",
+      "checkpoint_sha256": "90fb7e4d2f8ec9403e87b3ac3d829cf1e2f46dd0f6d805b34dde17e41054aff8"
+    },
+    {
+      "protocol": "loco_external_fire",
+      "model": "gnn",
+      "seed": 42,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_external_fire\\gnn\\seed_42\\test_predictions.npz",
+      "prediction_sha256": "60303dfdf79ab07c8ae6a2cf26ce881b95128571b47ac5d1a7da3b04b9182128",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_external_fire\\gnn\\seed_42\\best.pt",
+      "checkpoint_sha256": "2da826ecbfa38ce771499e2ef6f830d6943988a34250546e32c5beac58cb5844"
+    },
+    {
+      "protocol": "loco_external_fire",
+      "model": "gnn",
+      "seed": 43,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_external_fire\\gnn\\seed_43\\test_predictions.npz",
+      "prediction_sha256": "9d140e37d4791b0c88b9a9d75e4c9ab442381c91d56c980e6afe6cdc603f5571",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_external_fire\\gnn\\seed_43\\best.pt",
+      "checkpoint_sha256": "ba9dd98bbafc9cc31ca7cf2ce253a82204fce5193684839c423d9238eacbe671"
+    },
+    {
+      "protocol": "loco_external_fire",
+      "model": "gnn",
+      "seed": 44,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_external_fire\\gnn\\seed_44\\test_predictions.npz",
+      "prediction_sha256": "a584b32383c69412b632150c83fe97e7eeda60d60a0135e17abffcc05ddeec67",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_external_fire\\gnn\\seed_44\\best.pt",
+      "checkpoint_sha256": "8491006433ec30a5ff6740c58958b3846b19a65607ee89faa042c35b8ff4bff6"
+    },
+    {
+      "protocol": "loco_external_fire",
+      "model": "gnn",
+      "seed": 45,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_external_fire\\gnn\\seed_45\\test_predictions.npz",
+      "prediction_sha256": "5419fc2b743b83f3fd3862a597d23158e80f713d9557110278a24a75274cc61f",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_external_fire\\gnn\\seed_45\\best.pt",
+      "checkpoint_sha256": "40055d0f8ea3e9d0029a8c4cceb32b4e12addb627b64107046d4c2252fdb8841"
+    },
+    {
+      "protocol": "loco_external_fire",
+      "model": "gnn",
+      "seed": 46,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_external_fire\\gnn\\seed_46\\test_predictions.npz",
+      "prediction_sha256": "30deee7004c98476ede70715c5f91555b35bb4d2c4b7661ba57031c74a438660",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_external_fire\\gnn\\seed_46\\best.pt",
+      "checkpoint_sha256": "ebadc8b86e6a47700155f427e1f89f57fd08918a9c195cb5f9c100fc0d075604"
+    },
+    {
+      "protocol": "loco_linear",
+      "model": "capacity_matched_deepsets",
+      "seed": 42,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_linear\\capacity_matched_deepsets\\seed_42\\test_predictions.npz",
+      "prediction_sha256": "d96f8d66124832427a817dfa773d6910547ef9e7f4f3e0c7131291a7e4b3585e",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_linear\\capacity_matched_deepsets\\seed_42\\best.pt",
+      "checkpoint_sha256": "441e77752292673696ca1a3c71caa459a79213e4669908009944f9006ed5a330"
+    },
+    {
+      "protocol": "loco_linear",
+      "model": "capacity_matched_deepsets",
+      "seed": 43,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_linear\\capacity_matched_deepsets\\seed_43\\test_predictions.npz",
+      "prediction_sha256": "c8431161c336e6c6d009e8c4622408113a4bcd72525d092ca4205385b17d434f",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_linear\\capacity_matched_deepsets\\seed_43\\best.pt",
+      "checkpoint_sha256": "09227033ff158105c0db664dfbd79b69f471e7a8483d605b18cb82a6b291a8e6"
+    },
+    {
+      "protocol": "loco_linear",
+      "model": "capacity_matched_deepsets",
+      "seed": 44,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_linear\\capacity_matched_deepsets\\seed_44\\test_predictions.npz",
+      "prediction_sha256": "e977d3c618ba6a199cae952ce180492a9da9fcb6356fa7a355ba3b716f78c7e4",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_linear\\capacity_matched_deepsets\\seed_44\\best.pt",
+      "checkpoint_sha256": "cf2f06b847cb1d8b2f54909d7807631bac3ca77c749b492ac20e0d405d5af676"
+    },
+    {
+      "protocol": "loco_linear",
+      "model": "capacity_matched_deepsets",
+      "seed": 45,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_linear\\capacity_matched_deepsets\\seed_45\\test_predictions.npz",
+      "prediction_sha256": "10546aba6e4d696a507af6d9c4b64d2b04f470ed928392155ffc264fe47a7ba6",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_linear\\capacity_matched_deepsets\\seed_45\\best.pt",
+      "checkpoint_sha256": "b9351c311099c2c160ada5340e8c1be0fe3503de3d43296a57eddc0acd3a88c0"
+    },
+    {
+      "protocol": "loco_linear",
+      "model": "capacity_matched_deepsets",
+      "seed": 46,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_linear\\capacity_matched_deepsets\\seed_46\\test_predictions.npz",
+      "prediction_sha256": "bb7dfa74c250a74a70d38b3d44819f77d4cc4d3bac253d5910e84dd3b51b1f39",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_linear\\capacity_matched_deepsets\\seed_46\\best.pt",
+      "checkpoint_sha256": "731c42814bf97f75d765375a4cb2dd3905f586f4dcf04431817b79cd0b7dce09"
+    },
+    {
+      "protocol": "loco_linear",
+      "model": "gnn",
+      "seed": 42,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_linear\\gnn\\seed_42\\test_predictions.npz",
+      "prediction_sha256": "55f0258b193f9b04efa91579e754cb2fc3c8fbb788643b6e389285684396ea36",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_linear\\gnn\\seed_42\\best.pt",
+      "checkpoint_sha256": "e08d011b35d42bf9e64a1ecd559a8becc8798261152e0d483f954e892752a537"
+    },
+    {
+      "protocol": "loco_linear",
+      "model": "gnn",
+      "seed": 43,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_linear\\gnn\\seed_43\\test_predictions.npz",
+      "prediction_sha256": "18cea24a7f4dd48f16130daf7ca1a57cca979f941c9c15da904c22089ee7084a",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_linear\\gnn\\seed_43\\best.pt",
+      "checkpoint_sha256": "1bb767f4691d650b1cd91582c1379fd8da83a8767150971d070b2a1af4e1cb4c"
+    },
+    {
+      "protocol": "loco_linear",
+      "model": "gnn",
+      "seed": 44,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_linear\\gnn\\seed_44\\test_predictions.npz",
+      "prediction_sha256": "4b7f656e415744f54355d39e602fda6486363bd55906b49b0ef57e788dcfa18f",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_linear\\gnn\\seed_44\\best.pt",
+      "checkpoint_sha256": "1944aacd5195dc37b3fa1c125094001742c2b7ea5c21e46bdddfa39ea59dd5c7"
+    },
+    {
+      "protocol": "loco_linear",
+      "model": "gnn",
+      "seed": 45,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_linear\\gnn\\seed_45\\test_predictions.npz",
+      "prediction_sha256": "e87b1e14efd159afbc36fc8082fd3ce081c4c45ca5980b28364225eb987b0ded",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_linear\\gnn\\seed_45\\best.pt",
+      "checkpoint_sha256": "2538ca56907ddf25dcd715d94ee23be9ab8a8320a1ec9742791e5add6e19f0cc"
+    },
+    {
+      "protocol": "loco_linear",
+      "model": "gnn",
+      "seed": 46,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_linear\\gnn\\seed_46\\test_predictions.npz",
+      "prediction_sha256": "54681c37c389e26e10e3c8b6f0764dc57db891e7e573889f748a62f93ce38a2e",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_linear\\gnn\\seed_46\\best.pt",
+      "checkpoint_sha256": "371eb7a2c3afcf957c544a1685aac72ed8047ff45067c53ea2bacae2df4d50da"
+    },
+    {
+      "protocol": "loco_bilinear",
+      "model": "capacity_matched_deepsets",
+      "seed": 42,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_bilinear\\capacity_matched_deepsets\\seed_42\\test_predictions.npz",
+      "prediction_sha256": "b2a6938cb4fffef31217c3aafb5dd7e4348a3a050663a1c65a616ed76aaa664f",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_bilinear\\capacity_matched_deepsets\\seed_42\\best.pt",
+      "checkpoint_sha256": "bf076672dad51d9025ffdb4a61ed296f0476523620597d6a31fa74eafe67512e"
+    },
+    {
+      "protocol": "loco_bilinear",
+      "model": "capacity_matched_deepsets",
+      "seed": 43,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_bilinear\\capacity_matched_deepsets\\seed_43\\test_predictions.npz",
+      "prediction_sha256": "31f0ec5cc3daddc100e54d82e29cc9e952e3ed55b92dd14a63975fac3afa0a01",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_bilinear\\capacity_matched_deepsets\\seed_43\\best.pt",
+      "checkpoint_sha256": "eef661fb253a5189bcc58423adf39e5643df44f57fc94a135bd2140d9c79f794"
+    },
+    {
+      "protocol": "loco_bilinear",
+      "model": "capacity_matched_deepsets",
+      "seed": 44,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_bilinear\\capacity_matched_deepsets\\seed_44\\test_predictions.npz",
+      "prediction_sha256": "2e304f0b3267330e4572d19eb99b775b012bcff7229607d612c9f5fee147936d",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_bilinear\\capacity_matched_deepsets\\seed_44\\best.pt",
+      "checkpoint_sha256": "3ca36fb5029fdc4b3114a15e6729c0c2f7379ba14cfb327de86eaef7c59a36a6"
+    },
+    {
+      "protocol": "loco_bilinear",
+      "model": "capacity_matched_deepsets",
+      "seed": 45,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_bilinear\\capacity_matched_deepsets\\seed_45\\test_predictions.npz",
+      "prediction_sha256": "af06bd195a3586fcf3558b17fe8f74f18fa893841f00f433a79601884ed6bf07",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_bilinear\\capacity_matched_deepsets\\seed_45\\best.pt",
+      "checkpoint_sha256": "ef3867b9cab58eaac7fe24fdb139f70f6c992c622dec2c10a32c7e0c81196584"
+    },
+    {
+      "protocol": "loco_bilinear",
+      "model": "capacity_matched_deepsets",
+      "seed": 46,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_bilinear\\capacity_matched_deepsets\\seed_46\\test_predictions.npz",
+      "prediction_sha256": "927ad1a3799597538bf6201853ac9d53476d5d13003ad9ce9784ba4aa1491132",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_bilinear\\capacity_matched_deepsets\\seed_46\\best.pt",
+      "checkpoint_sha256": "41a199cc0af2c2a9d5dab6da32acd308bcedf6e3cf3636dcc89c17c3b197eb8c"
+    },
+    {
+      "protocol": "loco_bilinear",
+      "model": "gnn",
+      "seed": 42,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_bilinear\\gnn\\seed_42\\test_predictions.npz",
+      "prediction_sha256": "523076baa02651114de2a5c56274bda9cac069c215e01d87081492277a6e7056",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_bilinear\\gnn\\seed_42\\best.pt",
+      "checkpoint_sha256": "674c0041a36299cd44392d3b88772529256a6b2a7639ecfc5d92e22142951492"
+    },
+    {
+      "protocol": "loco_bilinear",
+      "model": "gnn",
+      "seed": 43,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_bilinear\\gnn\\seed_43\\test_predictions.npz",
+      "prediction_sha256": "95d3670c3f6d87de42db21d9990a40f2aebf95c30219ddea9ef28a0bac815e24",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_bilinear\\gnn\\seed_43\\best.pt",
+      "checkpoint_sha256": "14ee2e8246675b1ae930c290806047666a79f94a2ed355e381975a5fc2c99883"
+    },
+    {
+      "protocol": "loco_bilinear",
+      "model": "gnn",
+      "seed": 44,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_bilinear\\gnn\\seed_44\\test_predictions.npz",
+      "prediction_sha256": "5175b64d425924c5602f108bfb480b085364b1d35b71bda3417c4b9e4183c861",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_bilinear\\gnn\\seed_44\\best.pt",
+      "checkpoint_sha256": "b47510eb6a1271b2017f8abba80045927575835a0d59de0345f19f6734e2a733"
+    },
+    {
+      "protocol": "loco_bilinear",
+      "model": "gnn",
+      "seed": 45,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_bilinear\\gnn\\seed_45\\test_predictions.npz",
+      "prediction_sha256": "6ab8b25919998a83ef58d18feaa57ae84c2332b9010561f27a79dc4ba0d997a5",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_bilinear\\gnn\\seed_45\\best.pt",
+      "checkpoint_sha256": "c09d53f63f4a6a8938558b3b943c33823aa8156368c09a84ccf143f6f2b2f85e"
+    },
+    {
+      "protocol": "loco_bilinear",
+      "model": "gnn",
+      "seed": 46,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_bilinear\\gnn\\seed_46\\test_predictions.npz",
+      "prediction_sha256": "2f69de0800540f9108a048dff906cef05b98782dc2a1ffb96f3feef330f55f03",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_bilinear\\gnn\\seed_46\\best.pt",
+      "checkpoint_sha256": "07777a11396397900f423a7cd61d66beb297e15492a95018ccfd22b446951576"
+    },
+    {
+      "protocol": "loco_plateau",
+      "model": "capacity_matched_deepsets",
+      "seed": 42,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_plateau\\capacity_matched_deepsets\\seed_42\\test_predictions.npz",
+      "prediction_sha256": "081e25be8fe62af95ebc40a06d482d0a371193a5d19c7dfd51680291ef099065",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_plateau\\capacity_matched_deepsets\\seed_42\\best.pt",
+      "checkpoint_sha256": "66bc59c9493bd9342e904d136d274d9e7009593ef13d9bac1ace9b4ad775b973"
+    },
+    {
+      "protocol": "loco_plateau",
+      "model": "capacity_matched_deepsets",
+      "seed": 43,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_plateau\\capacity_matched_deepsets\\seed_43\\test_predictions.npz",
+      "prediction_sha256": "00c603a76c72faca848e1120e172303791e55abf29b56c70492e41f1e8ce843e",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_plateau\\capacity_matched_deepsets\\seed_43\\best.pt",
+      "checkpoint_sha256": "878056f785f60bf414b90b2d338eb2c16c888bd0e0659285936fe2d1907d0bcf"
+    },
+    {
+      "protocol": "loco_plateau",
+      "model": "capacity_matched_deepsets",
+      "seed": 44,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_plateau\\capacity_matched_deepsets\\seed_44\\test_predictions.npz",
+      "prediction_sha256": "27c70eb87d0ae00c5d4ada90a0caf8cc87766d08fd09958ef5145dfa627201f2",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_plateau\\capacity_matched_deepsets\\seed_44\\best.pt",
+      "checkpoint_sha256": "323e1fcc5e306022dda2127a001a33508ab65ba0628ac9d41fee798443375a56"
+    },
+    {
+      "protocol": "loco_plateau",
+      "model": "capacity_matched_deepsets",
+      "seed": 45,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_plateau\\capacity_matched_deepsets\\seed_45\\test_predictions.npz",
+      "prediction_sha256": "f3e192964c091f6f0c63520bbacc527a0fba9d9901540838925536126eb69fb7",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_plateau\\capacity_matched_deepsets\\seed_45\\best.pt",
+      "checkpoint_sha256": "d56c27da17fbcc352bd1040e76d2e66091d44a020549e23668b41324867b1f54"
+    },
+    {
+      "protocol": "loco_plateau",
+      "model": "capacity_matched_deepsets",
+      "seed": 46,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_plateau\\capacity_matched_deepsets\\seed_46\\test_predictions.npz",
+      "prediction_sha256": "1fb497f938a0499aec8cf412a1bfbe643c31279b093f14f20fe649e2bff82cf7",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_plateau\\capacity_matched_deepsets\\seed_46\\best.pt",
+      "checkpoint_sha256": "0e813759f8c0a0cf78f5b51ce8c49212a277009ebb78186bdcb820d91af8d186"
+    },
+    {
+      "protocol": "loco_plateau",
+      "model": "gnn",
+      "seed": 42,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_plateau\\gnn\\seed_42\\test_predictions.npz",
+      "prediction_sha256": "2d010388b17d3ef99c6f6e30be033430772d8d7fde84771c2f7589a490658b96",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_plateau\\gnn\\seed_42\\best.pt",
+      "checkpoint_sha256": "0f41d02292ed3a1796f3f529256ce840770a30baf5d2123a014bc982df5e2f8c"
+    },
+    {
+      "protocol": "loco_plateau",
+      "model": "gnn",
+      "seed": 43,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_plateau\\gnn\\seed_43\\test_predictions.npz",
+      "prediction_sha256": "c949d8a3adb2ac11420dbfc4917a3fb67d13a2c0e3fa87170cfa007668e19993",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_plateau\\gnn\\seed_43\\best.pt",
+      "checkpoint_sha256": "6e10d1f9c32c44b5dbc79edcaa7918abcdb3b84e91a4373ba8cc5f3024349e8d"
+    },
+    {
+      "protocol": "loco_plateau",
+      "model": "gnn",
+      "seed": 44,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_plateau\\gnn\\seed_44\\test_predictions.npz",
+      "prediction_sha256": "27bf9d0f2034b0b54ddd322000e80e232789f67a769a40933a0e2d45a61924fc",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_plateau\\gnn\\seed_44\\best.pt",
+      "checkpoint_sha256": "e72fd2c0d9cf631a2ddc64d516faa7d0250d8f8110c649daa30f28c77954f5bd"
+    },
+    {
+      "protocol": "loco_plateau",
+      "model": "gnn",
+      "seed": 45,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_plateau\\gnn\\seed_45\\test_predictions.npz",
+      "prediction_sha256": "01ba05e12249912983161cc67f80b43ffeecb8d19ec36396833825fb1e6f3e57",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_plateau\\gnn\\seed_45\\best.pt",
+      "checkpoint_sha256": "93d227ccb2a7985f7f7267906768810ab228b6845be3b990032b320da5e76f1e"
+    },
+    {
+      "protocol": "loco_plateau",
+      "model": "gnn",
+      "seed": 46,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_plateau\\gnn\\seed_46\\test_predictions.npz",
+      "prediction_sha256": "6d1e7d98c1620a0ee50a9eb70ce460762c68d4bcddb8ace01f99f220139964f1",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_plateau\\gnn\\seed_46\\best.pt",
+      "checkpoint_sha256": "9d2fd540afe37fead1d4e4cab77e4bad627e205c13f7782880da2f4f095b6667"
+    },
+    {
+      "protocol": "loco_decay",
+      "model": "capacity_matched_deepsets",
+      "seed": 42,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_decay\\capacity_matched_deepsets\\seed_42\\test_predictions.npz",
+      "prediction_sha256": "4022ae755d0ed997e2130cc4942471ca0550b2e9151dda24fc3ca912de6fce42",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_decay\\capacity_matched_deepsets\\seed_42\\best.pt",
+      "checkpoint_sha256": "6c08bf8d075090f4c9d1b000c49b1476a2685c740221d16d373ca0a70466609e"
+    },
+    {
+      "protocol": "loco_decay",
+      "model": "capacity_matched_deepsets",
+      "seed": 43,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_decay\\capacity_matched_deepsets\\seed_43\\test_predictions.npz",
+      "prediction_sha256": "8efb3a8051b0b8cda891f49442e0b0f0650c7e0a443a015bb28a5557d8896650",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_decay\\capacity_matched_deepsets\\seed_43\\best.pt",
+      "checkpoint_sha256": "7291396f5d49a8e28dc94f5e0d9975edb0651a83b2eaedf5c79e9260b5ff36fb"
+    },
+    {
+      "protocol": "loco_decay",
+      "model": "capacity_matched_deepsets",
+      "seed": 44,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_decay\\capacity_matched_deepsets\\seed_44\\test_predictions.npz",
+      "prediction_sha256": "85f0bee5876fffb6456a8269be1c0056fa670c5ac6f9bc5a85d8ed12e2d3f312",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_decay\\capacity_matched_deepsets\\seed_44\\best.pt",
+      "checkpoint_sha256": "36cae70927f3360ff1fedc7351902d54bfb41b2cb65d4964dbd706238d0bfef9"
+    },
+    {
+      "protocol": "loco_decay",
+      "model": "capacity_matched_deepsets",
+      "seed": 45,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_decay\\capacity_matched_deepsets\\seed_45\\test_predictions.npz",
+      "prediction_sha256": "96076f606c5f1f10150894823a85e62ae0465b8ad695ae180e0fb927b009bda4",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_decay\\capacity_matched_deepsets\\seed_45\\best.pt",
+      "checkpoint_sha256": "3c7624cf853c6a32dbe27b6f7535929810c8c2eb69809deed7a661e3c1c283b6"
+    },
+    {
+      "protocol": "loco_decay",
+      "model": "capacity_matched_deepsets",
+      "seed": 46,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_decay\\capacity_matched_deepsets\\seed_46\\test_predictions.npz",
+      "prediction_sha256": "a478f930e4cae05fe9c8866bb9651aba3eaadddfd0ba2658ada9f28475b306f6",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_decay\\capacity_matched_deepsets\\seed_46\\best.pt",
+      "checkpoint_sha256": "cf497e6d3396d6ff4847c83c46708f82f846d1dd9e60b27d2201ae6fe465bf4f"
+    },
+    {
+      "protocol": "loco_decay",
+      "model": "gnn",
+      "seed": 42,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_decay\\gnn\\seed_42\\test_predictions.npz",
+      "prediction_sha256": "a69f610d042af19d7705ccb3c6489b1bb98e49c5d4240844a10fc736463f5f8f",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_decay\\gnn\\seed_42\\best.pt",
+      "checkpoint_sha256": "ed8b8a6dd16098df094bebeaf5935c19003ff8d7f198b5d5263b7a9255d12971"
+    },
+    {
+      "protocol": "loco_decay",
+      "model": "gnn",
+      "seed": 43,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_decay\\gnn\\seed_43\\test_predictions.npz",
+      "prediction_sha256": "01fc71269def5a353f089b9f7d02f95d33ba5a4a8a7a9b5ff19b52e45e1ae8c0",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_decay\\gnn\\seed_43\\best.pt",
+      "checkpoint_sha256": "a388127cd5383b0c66f18c39e79a715e6f9150d0b5cf22414a6a370d2b02e048"
+    },
+    {
+      "protocol": "loco_decay",
+      "model": "gnn",
+      "seed": 44,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_decay\\gnn\\seed_44\\test_predictions.npz",
+      "prediction_sha256": "588bcc9bf3a1eddc09970d55825214b02295ee81251e0e140906393ed7731a2a",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_decay\\gnn\\seed_44\\best.pt",
+      "checkpoint_sha256": "b0d85ae20330d78509d86c8b5c3093de05d1b8b2ab02ff3e7a011f6cf4c274bb"
+    },
+    {
+      "protocol": "loco_decay",
+      "model": "gnn",
+      "seed": 45,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_decay\\gnn\\seed_45\\test_predictions.npz",
+      "prediction_sha256": "47156f4753a9bce7548882e5b3e7d8af56886784f17cb1f7d8f5bb5f499aba1e",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_decay\\gnn\\seed_45\\best.pt",
+      "checkpoint_sha256": "376882ebcd4878b761e07f98d3fdab3424fb653ed84c0318c66cb769274c751c"
+    },
+    {
+      "protocol": "loco_decay",
+      "model": "gnn",
+      "seed": 46,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_decay\\gnn\\seed_46\\test_predictions.npz",
+      "prediction_sha256": "19153fcf1bf7989ac2608047dc56ac14f1105dd7a1927d656e2a1f3de6911782",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_decay\\gnn\\seed_46\\best.pt",
+      "checkpoint_sha256": "b6090cd00dadb47916966f2b141688a2a63021f0079a21627539a39d9b1d4fff"
+    },
+    {
+      "protocol": "loco_perturbed_iso",
+      "model": "capacity_matched_deepsets",
+      "seed": 42,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_perturbed_iso\\capacity_matched_deepsets\\seed_42\\test_predictions.npz",
+      "prediction_sha256": "03bd71d9a25b6eb895912923c48fb52cb1735998134a9575cbca9e4b191e52d0",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_perturbed_iso\\capacity_matched_deepsets\\seed_42\\best.pt",
+      "checkpoint_sha256": "6a49c177e1db444fbe5f933eab2e966fbac4684ad9a3e0fc03a0405d0a58608b"
+    },
+    {
+      "protocol": "loco_perturbed_iso",
+      "model": "capacity_matched_deepsets",
+      "seed": 43,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_perturbed_iso\\capacity_matched_deepsets\\seed_43\\test_predictions.npz",
+      "prediction_sha256": "f2ac04398c65d40940b36ee0e43993c96e2f0048a5b9eb8b8d896f059945f444",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_perturbed_iso\\capacity_matched_deepsets\\seed_43\\best.pt",
+      "checkpoint_sha256": "1cef6c4f7b81ad49d4bccf96767ad983d4dbe2ae359a72474a6282de32494287"
+    },
+    {
+      "protocol": "loco_perturbed_iso",
+      "model": "capacity_matched_deepsets",
+      "seed": 44,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_perturbed_iso\\capacity_matched_deepsets\\seed_44\\test_predictions.npz",
+      "prediction_sha256": "5b3a94ba399dcd169df494233ff219d081bd5a9ec55b73cbcf094667afa1675a",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_perturbed_iso\\capacity_matched_deepsets\\seed_44\\best.pt",
+      "checkpoint_sha256": "4e303de21afabd09702f4f4a616990b771a1bb97e7cc506329ee72bfa659d6ea"
+    },
+    {
+      "protocol": "loco_perturbed_iso",
+      "model": "capacity_matched_deepsets",
+      "seed": 45,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_perturbed_iso\\capacity_matched_deepsets\\seed_45\\test_predictions.npz",
+      "prediction_sha256": "ef69115bedae0f0c2b8b9c1816e2e077ab3ba6fbef5c0b11e101f653453fb8f5",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_perturbed_iso\\capacity_matched_deepsets\\seed_45\\best.pt",
+      "checkpoint_sha256": "ca866a4b373ded0ac4630c86b5b4c17ddb960d826bda90c51ce8e1a7762ecadd"
+    },
+    {
+      "protocol": "loco_perturbed_iso",
+      "model": "capacity_matched_deepsets",
+      "seed": 46,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_perturbed_iso\\capacity_matched_deepsets\\seed_46\\test_predictions.npz",
+      "prediction_sha256": "efb3684f813cf9c0ac74696474eb94bc38eed925bc482b2a3c45859e3240090b",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_perturbed_iso\\capacity_matched_deepsets\\seed_46\\best.pt",
+      "checkpoint_sha256": "43645c4253255b7c36b07bdf1e90d9c1485e8ebfe4e6f95ea2bb6e46abf97d62"
+    },
+    {
+      "protocol": "loco_perturbed_iso",
+      "model": "gnn",
+      "seed": 42,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_perturbed_iso\\gnn\\seed_42\\test_predictions.npz",
+      "prediction_sha256": "5fc15e303bcb555e0ad6d81df4e5976f92a2344798a973c53113311d25e3ad43",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_perturbed_iso\\gnn\\seed_42\\best.pt",
+      "checkpoint_sha256": "a4cc411065755e8a9267d8f2cc3d78f5ebf2f39997055b70c877645c60af5f7c"
+    },
+    {
+      "protocol": "loco_perturbed_iso",
+      "model": "gnn",
+      "seed": 43,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_perturbed_iso\\gnn\\seed_43\\test_predictions.npz",
+      "prediction_sha256": "36345c7a0d2dee05cf241d7ac332b09ed9121f17119cbf8b154b0f415d4316c4",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_perturbed_iso\\gnn\\seed_43\\best.pt",
+      "checkpoint_sha256": "b92950966bae3c496fed54bea03bf289e619dd8a2c18cee246c9d2ec607e2a75"
+    },
+    {
+      "protocol": "loco_perturbed_iso",
+      "model": "gnn",
+      "seed": 44,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_perturbed_iso\\gnn\\seed_44\\test_predictions.npz",
+      "prediction_sha256": "3decddffad38825b0a624a9d2f0d73d6298382e2b8f94be9342ddc7014acb141",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_perturbed_iso\\gnn\\seed_44\\best.pt",
+      "checkpoint_sha256": "fb03b334a897f54909bac7e84015eeaabd520ca9792dc809ebc9569d9939a0d6"
+    },
+    {
+      "protocol": "loco_perturbed_iso",
+      "model": "gnn",
+      "seed": 45,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_perturbed_iso\\gnn\\seed_45\\test_predictions.npz",
+      "prediction_sha256": "5bc5af4af0bec1e844e3473853d287deeda7b1eef3f2e61049557e3e94d2c445",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_perturbed_iso\\gnn\\seed_45\\best.pt",
+      "checkpoint_sha256": "e2bd2e670bf9af1a398cfb99b034b48e405c5ae30ea6844e2ef93ec49a1843f0"
+    },
+    {
+      "protocol": "loco_perturbed_iso",
+      "model": "gnn",
+      "seed": 46,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_perturbed_iso\\gnn\\seed_46\\test_predictions.npz",
+      "prediction_sha256": "2da91c789083d105d8a6479544486947518a25ac5954984bd896514aa44010f3",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_perturbed_iso\\gnn\\seed_46\\best.pt",
+      "checkpoint_sha256": "7a08d7a2f0d3dbca1805b3e1c765939afbbd3509d09c1dddf7c87b6d2095584f"
+    },
+    {
+      "protocol": "loco_log_variant",
+      "model": "capacity_matched_deepsets",
+      "seed": 42,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_log_variant\\capacity_matched_deepsets\\seed_42\\test_predictions.npz",
+      "prediction_sha256": "f71ab157f4852e1d89beedb7cf967ad76664584329c96463375a4b4c561b554d",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_log_variant\\capacity_matched_deepsets\\seed_42\\best.pt",
+      "checkpoint_sha256": "92c567eea0110119c9b6c46a62f511e7d2d5b1e8cbe49bfc66893372fa833271"
+    },
+    {
+      "protocol": "loco_log_variant",
+      "model": "capacity_matched_deepsets",
+      "seed": 43,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_log_variant\\capacity_matched_deepsets\\seed_43\\test_predictions.npz",
+      "prediction_sha256": "fd426df96d62cb383b580a73205265967ec161a1d0a04b1afe2396bec80e2b99",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_log_variant\\capacity_matched_deepsets\\seed_43\\best.pt",
+      "checkpoint_sha256": "fb6110b1cefdcd369e06f3f3a762f2542f5889bbd1a74bf5724f36ceaa4d8ed7"
+    },
+    {
+      "protocol": "loco_log_variant",
+      "model": "capacity_matched_deepsets",
+      "seed": 44,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_log_variant\\capacity_matched_deepsets\\seed_44\\test_predictions.npz",
+      "prediction_sha256": "924532e1cfdd4c0d91ba5d5a4ace8c74fe376b98c8d43d96d288c44b81408258",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_log_variant\\capacity_matched_deepsets\\seed_44\\best.pt",
+      "checkpoint_sha256": "bff698edddf2e4457cd11c89bec811471b30ebfd5d4ad87f4527f257ee06b225"
+    },
+    {
+      "protocol": "loco_log_variant",
+      "model": "capacity_matched_deepsets",
+      "seed": 45,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_log_variant\\capacity_matched_deepsets\\seed_45\\test_predictions.npz",
+      "prediction_sha256": "31e8dc07b5813e6b98c0f6d390a472fa7798c6b648c552f7c7ac56bc0430c3c9",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_log_variant\\capacity_matched_deepsets\\seed_45\\best.pt",
+      "checkpoint_sha256": "d0356969f277a0a1edb43e90db965eb40511babee8303a7f7afc7609e97565aa"
+    },
+    {
+      "protocol": "loco_log_variant",
+      "model": "capacity_matched_deepsets",
+      "seed": 46,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_log_variant\\capacity_matched_deepsets\\seed_46\\test_predictions.npz",
+      "prediction_sha256": "ea7763fabd729d98679c65c8cd6dbea707e90f93b5b0b9067806584160a58802",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_log_variant\\capacity_matched_deepsets\\seed_46\\best.pt",
+      "checkpoint_sha256": "253f2fd021ca6b186fa1da3a8033c54d06ce73159213fb1bb4deddafd9145e7b"
+    },
+    {
+      "protocol": "loco_log_variant",
+      "model": "gnn",
+      "seed": 42,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_log_variant\\gnn\\seed_42\\test_predictions.npz",
+      "prediction_sha256": "3b88db3c6568692cf16a351c539a20332a8100dc5d54c941a1ddbf75b506959f",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_log_variant\\gnn\\seed_42\\best.pt",
+      "checkpoint_sha256": "e6462266517ff0f9cd82526a1d2baf35321b93db967a0bb5f2e69419cab1b8ef"
+    },
+    {
+      "protocol": "loco_log_variant",
+      "model": "gnn",
+      "seed": 43,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_log_variant\\gnn\\seed_43\\test_predictions.npz",
+      "prediction_sha256": "378247a566e59f32036db3d032e7925a30e5d742adb6e8bb79e9c792a15ed8b9",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_log_variant\\gnn\\seed_43\\best.pt",
+      "checkpoint_sha256": "69969218e12108edb0a3abf9e6e653073231c736f714e9c462355c15676ed07b"
+    },
+    {
+      "protocol": "loco_log_variant",
+      "model": "gnn",
+      "seed": 44,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_log_variant\\gnn\\seed_44\\test_predictions.npz",
+      "prediction_sha256": "aee47d562f2959095303352d151421880da4756235bfc9ff064e329d543f8fdc",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_log_variant\\gnn\\seed_44\\best.pt",
+      "checkpoint_sha256": "2d4f5276f49b566c37b587e597a33f715ca170dff29aba8be19971ddb462b424"
+    },
+    {
+      "protocol": "loco_log_variant",
+      "model": "gnn",
+      "seed": 45,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_log_variant\\gnn\\seed_45\\test_predictions.npz",
+      "prediction_sha256": "dcbcff1e45ae8086e48b74ddc0414d430ae10eb29bbbbada65b060596c16a51c",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_log_variant\\gnn\\seed_45\\best.pt",
+      "checkpoint_sha256": "6e6dcbb3e06db5055b3cc5687b419e4fb256dfab08a1fbe9538a96756e719c4e"
+    },
+    {
+      "protocol": "loco_log_variant",
+      "model": "gnn",
+      "seed": 46,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_log_variant\\gnn\\seed_46\\test_predictions.npz",
+      "prediction_sha256": "fa087e9382eb76d8ae3948f3d1f7bb3cd3be31092b4caba531ad45246220dd0b",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_log_variant\\gnn\\seed_46\\best.pt",
+      "checkpoint_sha256": "485bb9bf41c654784764217ab9f15866c23962c3759416a9d70b87795070c0bd"
+    },
+    {
+      "protocol": "loco_smoldering",
+      "model": "capacity_matched_deepsets",
+      "seed": 42,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\capacity_matched_deepsets\\seed_42\\test_predictions.npz",
+      "prediction_sha256": "c0bf75a95027ac65a7e26f0b2c2b61d4d57a87d1eca6e669f48979e0dd80d4e7",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\capacity_matched_deepsets\\seed_42\\best.pt",
+      "checkpoint_sha256": "695aad0dedba807d4ea0498a952c56ce0727053c60f0931f2b39bc00a6d775b1"
+    },
+    {
+      "protocol": "loco_smoldering",
+      "model": "capacity_matched_deepsets",
+      "seed": 43,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\capacity_matched_deepsets\\seed_43\\test_predictions.npz",
+      "prediction_sha256": "e25ddc365d5b60da8468fd098f8dcf7191f96ad435b56a494236c3ea0fad8789",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\capacity_matched_deepsets\\seed_43\\best.pt",
+      "checkpoint_sha256": "669393341a961bb3a9a02ebc0b4a26990fa62d8b6ae61e00e7f2985e1113b69a"
+    },
+    {
+      "protocol": "loco_smoldering",
+      "model": "capacity_matched_deepsets",
+      "seed": 44,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\capacity_matched_deepsets\\seed_44\\test_predictions.npz",
+      "prediction_sha256": "11799fc36ee8d87a6e0ee5331f543a3eba8b8403364b577040bc46577aad8940",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\capacity_matched_deepsets\\seed_44\\best.pt",
+      "checkpoint_sha256": "38132c144885fa4b430084c500529ce9db23ec6d69ed5ffd0d1a34b38ef8c477"
+    },
+    {
+      "protocol": "loco_smoldering",
+      "model": "capacity_matched_deepsets",
+      "seed": 45,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\capacity_matched_deepsets\\seed_45\\test_predictions.npz",
+      "prediction_sha256": "2b4558d300b006c479f73ac00752a4bbba5a4b62fb6e91f42b0439a107c09078",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\capacity_matched_deepsets\\seed_45\\best.pt",
+      "checkpoint_sha256": "6fc1e56fc89fdd49cd758b1e87da4fc6fa5ad832373719f7da22c2b6bfabeaa4"
+    },
+    {
+      "protocol": "loco_smoldering",
+      "model": "capacity_matched_deepsets",
+      "seed": 46,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\capacity_matched_deepsets\\seed_46\\test_predictions.npz",
+      "prediction_sha256": "b3e200ab81eee092fff57f3bdca3e992fdfd2f9a29bff8d9dbe058783753d9a4",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\capacity_matched_deepsets\\seed_46\\best.pt",
+      "checkpoint_sha256": "a164115b4ba9fec90132f01ddc04d76ac4c9e74cc29a4fab68ab544905913665"
+    },
+    {
+      "protocol": "loco_smoldering",
+      "model": "gnn",
+      "seed": 42,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn\\seed_42\\test_predictions.npz",
+      "prediction_sha256": "ba927d9c2a04ae3e295c502a380344be135e74e438835e02a2c3d170b1dd8eed",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn\\seed_42\\best.pt",
+      "checkpoint_sha256": "004725f27172479399db9475d409e0c6af5d01aa9e6b97d6bc556063bf673821"
+    },
+    {
+      "protocol": "loco_smoldering",
+      "model": "gnn",
+      "seed": 43,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn\\seed_43\\test_predictions.npz",
+      "prediction_sha256": "808cf719e7c1401f71c697449c05fda29a819e3e9687917150f9136b443960ae",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn\\seed_43\\best.pt",
+      "checkpoint_sha256": "8cbaed0f072ef9a4ddc8f96f2937c6009914460092b1e8c3ae5b5bd63617738a"
+    },
+    {
+      "protocol": "loco_smoldering",
+      "model": "gnn",
+      "seed": 44,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn\\seed_44\\test_predictions.npz",
+      "prediction_sha256": "dec43a493684d38fce313f3ef11753765cbf04eaae0d276a4c45cfcfba7b6338",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn\\seed_44\\best.pt",
+      "checkpoint_sha256": "81285d9146500068da81c38a6024f33e4e0bc74eb1238806d05f167b932d7c0a"
+    },
+    {
+      "protocol": "loco_smoldering",
+      "model": "gnn",
+      "seed": 45,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn\\seed_45\\test_predictions.npz",
+      "prediction_sha256": "bd28f77dcdc47a9367417913af17b830360ed39a8a3d962d72cfda0ed52253e5",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn\\seed_45\\best.pt",
+      "checkpoint_sha256": "36a370d8cfe1b55333c79b347412eaf4e5568fb8dddeabfe938cf50b480cbd2e"
+    },
+    {
+      "protocol": "loco_smoldering",
+      "model": "gnn",
+      "seed": 46,
+      "prediction_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn\\seed_46\\test_predictions.npz",
+      "prediction_sha256": "f9c2aef466b183c81dc2eb2fcdd73362a9abe7da832622cbea13b2b1a36443ac",
+      "checkpoint_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn\\seed_46\\best.pt",
+      "checkpoint_sha256": "dd570f2dd001cd8cb1d240196b429fa7ed3212ea92137ff210f4718391ef863f"
+    }
+  ],
+  "target_version": "archive-scalar-running-min-interp61-v1",
+  "feature_version": "fe-global-v2-prescribed-archive-time-v1",
+  "prescribed_fire_source_sha256": "808bf7c8d31ae4c76fc5e07c37244ddb18af54e84304603c06da2ec76ffd6752",
+  "population_cases": 997,
+  "prediction_archives_read": 100,
+  "full_temperature_payload_read": false,
+  "training_or_inference_run": false,
+  "selection_ranks_zero_based": [
+    498,
+    946,
+    996
+  ],
+  "band_definition": "Pointwise observed minimum/maximum over seeds42–46; no calibrated interval.",
+  "selection_scope": "All four cases are selected using GNN errors, so median and tail labels refer only to that model's five-seed mean case-error distribution. The matched-DeepSets curves provide paired context, not a representative sample of that baseline's typical/tail cases or an unbiased estimate of model advantage. Preserve the fixed display order: median, 95th percentile, maximum mean case MAE, largest remaining mean positive peak.",
+  "derived_artifact_sha256": {
+    "all_candidate_scores.csv": "0bf73999b4c55a6531af42e004e1b5227d92c96d67f8789c274ae900e4865a42",
+    "selection_score_components.csv": "106b4499588bc65838c7bf170b8b71656063099f5a068cfbe465cb602f15e577",
+    "selected_cases.csv": "2fca81f77daecb215784a0f53bba87400088b09beb6df7d0d915799c74e3550b",
+    "curve_data.csv": "018b34c1f73ec08d2d6684000be933520c5ce359abce57dd3ea21c58ad2d35f1",
+    "all_seed_curves.csv": "940e15e8bc03b779647335e34c76e7f6324bc116cbd6adb5373a194eb69e5553",
+    "threshold_events.csv": "44cddffc7614af8aa88c1c69ef5041745b1750e495ac7f70ba37d3583a0e32a5",
+    "selected_fire_parameters.json": "8514dc4465e6b7f64824e225b314ee55785f46fefa257154bf472b0f70465809"
+  }
+}

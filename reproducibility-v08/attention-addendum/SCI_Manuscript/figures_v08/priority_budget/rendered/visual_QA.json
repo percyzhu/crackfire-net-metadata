@@ -1,0 +1,29 @@
+{
+  "status": "PASSED_ACTUAL_COMPLETE_BUDGET_MATRIX_VISUAL_AND_INDEPENDENT_ARITHMETIC_QA",
+  "reviewer": "/root/engineering_validation_v08",
+  "reviewed_utc": "2026-09-07T09:43:04.109107+00:00",
+  "pdf_sha256": "0d1ad04db3d62a857c36ff057e224636419c6ccf97daf7f1ab0514384be671a8",
+  "inspected_preview_sha256": "0659e8e73ea8543b953469b06bb669d9af972af5ee8d07a52beeef6be8a39783",
+  "inspection": "Actual final PDF rendering inspected at original image detail.",
+  "dimensions_mm": [
+    183,
+    150
+  ],
+  "minimum_pdf_font_pt": 8,
+  "raster_objects": 0,
+  "checks": [
+    "All three fixed models, twelve protocols and six endpoint/budget columns are visible.",
+    "All216 numeric cells are legible; redundant .0 labels were removed after the initial visual check to improve cell spacing.",
+    "Panel titles, endpoint groups, nominal budget labels, test counts and shared colorbar do not overlap or clip.",
+    "Raw ranges include tiny floating-point excursions beyond0 and100; no source value is clipped.",
+    "No undefined cells occur; the NA handling rule remains stated.",
+    "The displayed percentage measures available oracle improvement, not risk reduction or time savings.",
+    "The caption maps manuscript eta_b to the unchanged source CSV metric L."
+  ],
+  "independent_checks": "2520seed rows,504all-model summaries×5metrics,72reference budgets and216shown cells reconciled without importing the generator.",
+  "all7_source_tables_retained": true,
+  "original420_or_sealed_package_modified": false,
+  "new_model_or_timing_executions": 0,
+  "manuscript_placement_QA": "Pending root integration",
+  "scientific_manuscript_or_submission_pass": false
+}

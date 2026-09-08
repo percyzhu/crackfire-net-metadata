@@ -1,0 +1,60 @@
+{
+  "created_utc": "2026-09-07T08:04:03.901954+00:00",
+  "aggregate_generated_utc": "2026-09-07T08:01:40Z",
+  "audited_completed_runs": 391,
+  "queue_completed": 395,
+  "complete_protocols": 11,
+  "independent_review_status": "PENDING_SIBLING_RECOMPUTATION",
+  "protocols": [
+    {
+      "protocol": "loco_bilinear",
+      "N": 77,
+      "contrasts": {
+        "graph_vs_capacity_matched": {
+          "point": 0.0005991318132843347,
+          "CI95_two_way": [
+            -0.006741032456855827,
+            0.0098716121602368
+          ]
+        },
+        "mean_vs_sum": {
+          "point": -0.0025634503044776524,
+          "CI95_two_way": [
+            -0.008187531200601417,
+            0.0023475910998898303
+          ]
+        }
+      },
+      "replay_checks_complete_and_sparse": 65,
+      "CPU_flags": 65,
+      "max_CPU_difference_all65": 0.0008781552314758301,
+      "snapshot": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\completed_protocol_snapshots\\loco_bilinear_35",
+      "manifest_sha256": "123428b205df72425ccf85ae7a7304e0f35bc3e829d277a1acaf1c688e33d1e5"
+    },
+    {
+      "protocol": "loco_linear",
+      "N": 125,
+      "contrasts": {
+        "graph_vs_capacity_matched": {
+          "point": 0.0009550008603783901,
+          "CI95_two_way": [
+            -0.007987824507057664,
+            0.010046564814765919
+          ]
+        },
+        "mean_vs_sum": {
+          "point": -0.002313654546366363,
+          "CI95_two_way": [
+            -0.005188580312352688,
+            0.00035471831973458735
+          ]
+        }
+      },
+      "replay_checks_complete_and_sparse": 65,
+      "CPU_flags": 0,
+      "max_CPU_difference_all65": 3.5762786865234375e-07,
+      "snapshot": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\completed_protocol_snapshots\\loco_linear_35",
+      "manifest_sha256": "8c445687fda4ddf16ee4a65ef825cbb5e8721a9a8d9196a52b4b6e003613140a"
+    }
+  ]
+}

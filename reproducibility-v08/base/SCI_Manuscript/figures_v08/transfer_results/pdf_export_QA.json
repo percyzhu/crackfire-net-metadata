@@ -1,0 +1,11 @@
+{
+  "status": "PASSED_VECTOR_AND_FINAL_SIZE_AUDIT",
+  "size_mm": [
+    183.00000559488933,
+    173.99999508327906
+  ],
+  "minimum_pdf_font_pt": 8.0,
+  "raster_objects": 0,
+  "sha256": "6273a0f523250b5fde3ce6be307c9209a941de17493e40bc1c1b9efa346f2caf",
+  "visual_preview": "pdf_final_QA.png"
+}

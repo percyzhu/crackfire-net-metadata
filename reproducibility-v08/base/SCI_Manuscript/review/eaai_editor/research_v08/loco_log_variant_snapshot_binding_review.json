@@ -1,0 +1,70 @@
+{
+  "status": "SNAPSHOT_BOUND_TO_INDEPENDENT_COMPLETE_PROTOCOL_AUDIT",
+  "protocol": "loco_log_variant",
+  "created_utc": "2026-09-07T07:01:02.644830+00:00",
+  "snapshot_sha256": "be58e84b431ac8708cf0611bbec41cf47ffb4d4898629686bff24cdbbd7c39e3",
+  "snapshot_files_checked": [
+    {
+      "name": "report.json",
+      "sha256": "9ea18e45dcd256a6d8e5d4e6add38e56834e0c9b4a99b4d26c79de65ed6271b0",
+      "bytes": 11627
+    },
+    {
+      "name": "run_integrity.json",
+      "sha256": "ec69efe9af99f386414bfff1a19f8f2e6872f33088f5f72be9ba011bd05b0b90",
+      "bytes": 833496
+    },
+    {
+      "name": "per_case_metrics.csv",
+      "sha256": "967b10be2dc7ff72975690f5df00a1ae458dbad7d4142c2eda49c96a3bccbfab",
+      "bytes": 515764
+    },
+    {
+      "name": "strata_by_seed.csv",
+      "sha256": "d2071982f9e2cfe943736a8b836c7e86c0b831c7d71bc31479a2d9451dbf4118",
+      "bytes": 267102
+    },
+    {
+      "name": "summary.json",
+      "sha256": "54bc281cc3e0b27d165e823143d8312b90e7a1246970606a524cb2fcaf25bb1d",
+      "bytes": 36324
+    },
+    {
+      "name": "time_metrics.csv",
+      "sha256": "b0616e760e70c3fee5f6cc23a746e2efef827a0671b9387f8b5836d50c9d344c",
+      "bytes": 214649
+    },
+    {
+      "name": "topology_by_seed.csv",
+      "sha256": "557de374840b3255c09539101bc693ed57ce453bcdb4a574e747a339d42a944f",
+      "bytes": 15288
+    },
+    {
+      "name": "loco_log_variant_engineering_proxy_ci.json",
+      "sha256": "b1aa9761d633ef38686ac3e131aecad996f3d5b71a62729f1fcdd9e6dd4921ae",
+      "bytes": 263685
+    },
+    {
+      "name": "loco_log_variant_engineering_proxy_ci.csv",
+      "sha256": "61227984155adefae488d9c2f7b4dafd4a622c45ca92338ec54f1420e62164f3",
+      "bytes": 11707
+    }
+  ],
+  "all7_protocol_outputs_identical_to_audited_live_files": true,
+  "current12_frozen_sources_plan_wrapper_amendment_verified": true,
+  "complete_runs": 35,
+  "primary_and_sparse_replay_calls": 65,
+  "replay_status_counts": {
+    "GPU_IDENTITY_EXACT_CPU_BACKEND_VARIATION_RECORDED": 65
+  },
+  "max_CPU_replay_difference": 9.449571371078491e-05,
+  "unique_prescribed_fire_parameter_objects": 46,
+  "other_family_prediction_scores_inspected": false,
+  "manuscript_or70run_package_modified": false,
+  "review_files_sha256": {
+    "loco_log_variant_independent_results_audit_v2.json": "0c8079e3643105ee5b194586d304623a13b4122415492b35334e1fc241efb3e8",
+    "loco_log_variant_same_weight_topology_audit.json": "19eff9b372f249df0fb6a3f4175f3962a5d270c3e2c4b8d0fb77dc21ddf0defc"
+  },
+  "auditor_script_sha256": "ba470020ab65b76bcb1f0f9fa4e1e1a0e24d87c68c3fe65cbd0392e65a4cf92a",
+  "submission_pass": false
+}

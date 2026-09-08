@@ -1,0 +1,67 @@
+{
+  "status": "INDEPENDENT_REAL_DEFERRED_TIMING_GATE_ZERO_MEASUREMENTS",
+  "created_utc": "2026-09-07T10:17:13.525288+00:00",
+  "benchmark_source_sha256": "a98585be1e4697f4d246cdbc64963270552d6470febcd65ea22b99377fe5395c",
+  "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+  "main_returncode": 2,
+  "forbidden_call_counts": {
+    "new_result_payload": 0,
+    "array_load": 0,
+    "weight_load": 0,
+    "dataset_load": 0,
+    "model_creation": 0,
+    "artifact_payload_validation": 0,
+    "timed_clock": 0
+  },
+  "gate": {
+    "status": "DEFERRED_NO_MEASUREMENTS",
+    "checked_utc": "2026-09-07T10:17:13.521083+00:00",
+    "reasons": [
+      "extension_queue_incomplete",
+      "extension_matrix_not60_unique",
+      "complete60_replay_aggregate_not_available",
+      "independent60_result_review_not_available",
+      "concurrent_project_compute",
+      "separate_root_timing_authorization_required"
+    ],
+    "completed_extension_metadata_runs": 33,
+    "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "evidence_hashes": {},
+    "latency_records_read": 0,
+    "latencies_measured": 0,
+    "matching_project_processes": [
+      {
+        "ProcessId": 43364,
+        "Name": "python.exe",
+        "CommandLine": "\"C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" -B -X utf8 D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\run_extension.py queue --plan D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\plan_set_attention_60_v1.json --authorization D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\execution_authorization_root.json"
+      },
+      {
+        "ProcessId": 57604,
+        "Name": "python.exe",
+        "CommandLine": "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -B -X utf8 D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\run_extension.py train --plan D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\plan_set_attention_60_v1.json --authorization D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\execution_authorization_root.json --protocol loco_decay --seed 45"
+      }
+    ],
+    "python_process_inventory": [
+      {
+        "ProcessId": 43364,
+        "Name": "python.exe",
+        "CommandLine": "\"C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" -B -X utf8 D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\run_extension.py queue --plan D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\plan_set_attention_60_v1.json --authorization D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\execution_authorization_root.json"
+      },
+      {
+        "ProcessId": 57604,
+        "Name": "python.exe",
+        "CommandLine": "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -B -X utf8 D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\run_extension.py train --plan D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\plan_set_attention_60_v1.json --authorization D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\execution_authorization_root.json --protocol loco_decay --seed 45"
+      },
+      {
+        "ProcessId": 55652,
+        "Name": "python.exe"
+      }
+    ],
+    "scope": "Known project paths and actual script basenames. Anonymous jobs and unrelated OS work are not proven absent."
+  },
+  "measurement_directory_exists": false,
+  "old7_summary_unchanged": true,
+  "model_latency_measurements": 0,
+  "complete_timing_branch_executed": false,
+  "submission_pass": false
+}

@@ -1,0 +1,77 @@
+{
+  "status": "PASS_INDEPENDENT_6435_THREE_MODEL_TIMING_RECORDS",
+  "created_utc": "2026-09-07T11:41:39.700842+00:00",
+  "timing_summary_sha256": "89d49c38d853081e69b89d7b1b5316194ee04de83d6ca092f22d1c3d9157771f",
+  "raw_timing_sha256": "8264c208d312e5c51debd713c905624b715c3d1773569e5c100a4108d3f9d0c0",
+  "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+  "raw_records": 6435,
+  "model_records": 5940,
+  "common_feature_records": 495,
+  "overall_groups": 26,
+  "round_groups": 78,
+  "single_query_N_groups": 195,
+  "fixed_IID_geometries": 160,
+  "fixed_checkpoint_seed": 42,
+  "whole_curve_points": 61,
+  "three_model_orders_and_device_order_and_all_case_coverage_verified": true,
+  "selected_actual_checkpoints_and_metadata_verified": 3,
+  "prior_independent_180_run_review_bound": true,
+  "quiet_gate_records_checked": 23,
+  "old7_14355_summary_and_review_hashes_unchanged": true,
+  "model_inference_or_new_latency_measurement_performed": false,
+  "arithmetic_tolerance": {
+    "relative": 1e-11,
+    "absolute": 1e-12
+  },
+  "main_text_common_interface_table": [
+    {
+      "model": "capacity_matched_deepsets",
+      "cpu_single_median_ms": 1.527649990748614,
+      "cpu_single_p95_ms": 2.074269962031394,
+      "cpu_batch32_cases_per_second": 3079.894388039664,
+      "cuda_single_median_ms": 1.934400002937764,
+      "cuda_single_p95_ms": 3.0933200381696224,
+      "cuda_batch32_cases_per_second": 3296.9387930574644
+    },
+    {
+      "model": "gnn",
+      "cpu_single_median_ms": 2.514749940019101,
+      "cpu_single_p95_ms": 3.501955006504431,
+      "cpu_batch32_cases_per_second": 2459.0957550139265,
+      "cuda_single_median_ms": 3.965649986639619,
+      "cuda_single_p95_ms": 5.550924997078254,
+      "cuda_batch32_cases_per_second": 2761.5600054718043
+    },
+    {
+      "model": "set_attention",
+      "cpu_single_median_ms": 2.5598499341867864,
+      "cpu_single_p95_ms": 3.211004997137934,
+      "cpu_batch32_cases_per_second": 2374.3111390604354,
+      "cuda_single_median_ms": 3.9070999482646585,
+      "cuda_single_p95_ms": 5.518434982514008,
+      "cuda_batch32_cases_per_second": 1948.6292631703293
+    }
+  ],
+  "CPU": "{\"Name\":\"13th Gen Intel(R) Core(TM) i5-13600KF\",\"NumberOfCores\":14,\"NumberOfLogicalProcessors\":20}",
+  "GPU": "NVIDIA GeForce RTX 3060 Ti",
+  "CPU_threads": 4,
+  "limitations": [
+    "Recorded project-process checks do not prove an idle operating system.",
+    "Three repetitions are timing variability, not independent accuracy samples or hardware-population uncertainty.",
+    "One entire61-point response query; excludes import/checkpoint/disk/network/FE costs.",
+    "No pooling with old seven-model session and no FE speedup ratio."
+  ],
+  "manuscript_submission_pass": false,
+  "source_sha256": {
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\inference_benchmark_extension_v1\\independent_review\\audit_timing_records.py": "f38b8992aa34475383135357bdf34f42918d4d40a36c728cdd202c80db7fe852",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\inference_benchmark_extension_v1\\timing_plan_v1.json": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\inference_benchmark_extension_v1\\benchmark_attention_extension.py": "a98585be1e4697f4d246cdbc64963270552d6470febcd65ea22b99377fe5395c",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\inference_benchmark_extension_v1\\execution_authorization_root.json": "198570b650f75fdd2c997458517fb6e17380cdcb9e3533c6df20fd829ba815a1",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\independent_full_matrix_review.json": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\inference_benchmark_extension_v1\\measured\\environment.json": "1bb9b16c7f111abfdc963347ffe83afbb4f7cda322c3f7dfa95b2a435d9c8f40",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\inference_benchmark_extension_v1\\measured\\premeasurement_artifact_binding.json": "e709e8b946cc6a326ffd9e4109645ec8ebb56b28fdb01e503ef930aa25ec0ed0",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\inference_benchmark_extension_v1\\measured\\readiness_checks.json": "445af3399b935746b395f56bf48e62eef8e787d64b71e24b86edaca714e7e6f8",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\inference_benchmark_extension_v1\\measured\\summary.json": "89d49c38d853081e69b89d7b1b5316194ee04de83d6ca092f22d1c3d9157771f",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\inference_benchmark_extension_v1\\measured\\raw_timings.csv": "8264c208d312e5c51debd713c905624b715c3d1773569e5c100a4108d3f9d0c0"
+  }
+}

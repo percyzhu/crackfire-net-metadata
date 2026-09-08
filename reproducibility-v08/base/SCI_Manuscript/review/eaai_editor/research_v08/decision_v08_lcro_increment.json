@@ -1,0 +1,68 @@
+{
+  "decision": "DEVELOPMENT_REVIEW_LCRO_INCREMENT_READY_FOR_WORKING_DRAFT",
+  "review_date_utc": "2026-09-07T04:08:00.350810+00:00",
+  "scope": "New abstract/LCRO Results/Table 3/Figure 4/Discussion and their IID context. Not LOCO predictions or final full-paper/journal review.",
+  "submission_pass": false,
+  "full_matrix_pass": false,
+  "reviewed_protocols": [
+    "iid997",
+    "lcro_9_15"
+  ],
+  "verified": {
+    "seven_LCRO_table_rows_MAE_SD_RMSE_times100": true,
+    "IID_table_preserved": true,
+    "245_count_plot_points": true,
+    "45_same_checkpoint_view_plot_points": true,
+    "relative_MAE_reduction_5_48_percent_vs_absolute_index_CI_distinct": true,
+    "five_seed_primary_effect_and_two_way_interval_match": true,
+    "same_weight_view_deterioration_and_zero_edge_exception_retained": true,
+    "source_batch_compound_shift_and_no_interaction_test_disclosed": true,
+    "conditional_event_coverage_censoring_recross_and60s_grid_correct": true,
+    "secondary_final_vs_time_average_differentiation_correct": true,
+    "abstract_target_scope_restricted_to_archive": true,
+    "figure_PDF_visual_inspection": true,
+    "embedded_figure_is_identical": true
+  },
+  "minor_text_corrections_applied": [
+    {
+      "file": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\main.tex",
+      "correction": "Explicitly include the fire-only baseline in the seven-representation description; previous phrasing could imply every model included geometry."
+    },
+    {
+      "file": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\05_results.tex",
+      "correction": "Attribute the time-average improvement to sum-graph versus matched-set prediction on the count test; avoid suggesting extrapolation itself improves accuracy."
+    }
+  ],
+  "open_recommendations": [],
+  "compilation_note": "Parent notified to rebuild the manuscript after the two small text changes. Figure PDF itself was unchanged and visually checked; no claim that the prior full-manuscript PDF already includes these wording corrections.",
+  "development_conclusion": "The reviewed increment can enter the working manuscript. It supports a bounded graph benefit on the prespecified N1–8 to N9–15/source005 compound shift, with explicit null IID, unstable degree-normalization gains and sparse-connectivity limitations. No old numerical or arbitrary relative-gain threshold was used to discard the observed effect.",
+  "source_sha256": {
+    "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\main.tex": "8e6f15a8e5db1e80f58c51ac091f5c205616798f88b783b70079a1ee0f306264",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\05_results.tex": "739b42a73433a869300555df55a3588ee8254a2d3f798e6821f1f0209b699b36",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\06_discussion.tex": "e799c95816af6af09b376e61199f4c7b1aac47d1b809640d124a73110039cde2",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\transfer_results\\transfer_results_v08.pdf": "6273a0f523250b5fde3ce6be307c9209a941de17493e40bc1c1b9efa346f2caf",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\figures\\transfer_results_v08.pdf": "6273a0f523250b5fde3ce6be307c9209a941de17493e40bc1c1b9efa346f2caf",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\transfer_results\\caption_en.tex": "939db4cbb6fa3a2892975344954427778b7c8e10024f2bd2066a3960393682ae",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\transfer_results\\pdf_final_QA.png": "c75aff99e450d2e043fe38a8479f97adefead802925c8c1133b7e5bd98468530",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\transfer_results\\source_summary.json": "51cbfe2046251b8aae063338451d98edf83ffca3d38d13fe5b60fb700ca6d000",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\transfer_results\\source_per_case_metrics.csv": "cedac209e5ad23baa7e33ebe6cc03c737ae03ea647bab39237e7a44ea95eb0b8",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\transfer_results\\plotted_crack_count_seed_mae.csv": "5e9f78d28bc88c7b4e5f3c2e1c19ce5987c5e49a3e008f7fbcd3aacdccabe22a",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\transfer_results\\plotted_same_checkpoint_connectivity.csv": "73e3933c5891ff70cd09cb950848a0515e64a2d02acafe28b12e630dad3332d4",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\lcro_9_15_independent_results_audit_v2.json": "e5b065326a580f54c0e16e72234db649f01066cb89242565efef1b95d12d74e3",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\lcro_9_15_same_weight_topology_audit.json": "c14cb66961494cc83270d2767f87e774aba70b86c2baecd3b0a461c2f01cec61",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\lcro_9_15_engineering_proxy_ci.json": "51b92e2861068e7907aaa414248f4b6f0791225e6fc32e13624993af9252432e",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\check_lcro_increment.py": "2b6a4b3548cc12a89526980487fabb356d72e6effbd21888fbbed832e854d203"
+  },
+  "progress_wording_update": {
+    "verified_utc": "2026-09-07T04:13:52.156939+00:00",
+    "file": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\main.tex",
+    "previous_sha256": "33119e7e1b55457439b2b3a2fc468aacf20d51d9b1a8a6a332cdce42410b5890",
+    "current_sha256": "8e6f15a8e5db1e80f58c51ac091f5c205616798f88b783b70079a1ee0f306264",
+    "old_wording": "Working abstract: 70 runs in two protocols are complete; 350 fire-family holdout runs and final review remain.",
+    "new_wording": "Working abstract: two primary protocols comprising 70 runs are complete; fire-family evaluation and final review remain in progress.",
+    "only_declared_sentence_changed": true,
+    "scientific_text_unchanged": true,
+    "recalculation_performed": false,
+    "development_decision_preserved": "DEVELOPMENT_REVIEW_LCRO_INCREMENT_READY_FOR_WORKING_DRAFT"
+  }
+}

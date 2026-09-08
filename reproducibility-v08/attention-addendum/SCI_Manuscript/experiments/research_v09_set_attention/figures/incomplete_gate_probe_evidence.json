@@ -1,0 +1,20 @@
+{
+  "status": "ACTUAL_INCOMPLETE_MATRIX_GENERATE_REFUSED_WITH_ZERO_QUANTITATIVE_READS",
+  "created_utc": "2026-09-07T09:59:59.070387+00:00",
+  "generator_sha256": "d667d4663861f5e73933e376d25913f6e894883c1a7c096a8b6bba06f0219bda",
+  "plan_sha256": "8d21e13af116dc97556b37060daaf86afed5f7ba645a5bdae18e3d4ffb3b05a9",
+  "entry": "generate with explicit audit/review/output arguments",
+  "returncode": 2,
+  "attempted_calls": {
+    "performance_files": 0,
+    "load_plot_data": 0,
+    "draw_figures": 0,
+    "write_tables": 0,
+    "mkdir": 0
+  },
+  "output_directory_created": false,
+  "plotting_backend_imported": false,
+  "fake_data_used": false,
+  "complete_generation_branch_tested": false,
+  "full_result_review_passed": false
+}

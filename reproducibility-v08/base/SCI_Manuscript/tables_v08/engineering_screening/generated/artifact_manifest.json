@@ -1,0 +1,100 @@
+{
+  "status": "ACTUAL_ARTIFACTS_GENERATED_AND_STANDALONE_QA_PASSED",
+  "created_utc": "2026-09-07T08:44:40.301762+00:00",
+  "files": [
+    {
+      "path": "actual_QA.md",
+      "bytes": 1414,
+      "sha256": "dcee81014a2c274520f66d69b1aab42455ad123d0cf5cff96f3f123ed39cd6c4"
+    },
+    {
+      "path": "captions.tex",
+      "bytes": 1481,
+      "sha256": "d2e0a64ea541898b7e8c12ac91510687e64a88af04e3bd6fe174ed9bbc89aceb"
+    },
+    {
+      "path": "generation_manifest.json",
+      "bytes": 198017,
+      "sha256": "00cd3b524e99e312673fbd168969359d034aac1c6d53fbfc46fee4658d04eaa7"
+    },
+    {
+      "path": "independent_arithmetic_QA.json",
+      "bytes": 1385,
+      "sha256": "19100abc498360b10e01208e362a7734dcb6bde032a80c76bd3ea82e8dd50a0f"
+    },
+    {
+      "path": "latex_export_QA.json",
+      "bytes": 368,
+      "sha256": "f3bb895d8c30fd22e518714698b8ffba1a3d53a6840b5c7debd05531831706f2"
+    },
+    {
+      "path": "matched_set_vs_sum_gnn_secondary_ci.csv",
+      "bytes": 3611,
+      "sha256": "00c3c1e9a9d117408c138df8dc8acea99713ada176fd95c7d19bab43d9e0cb78"
+    },
+    {
+      "path": "pdf_final_QA.png",
+      "bytes": 262526,
+      "sha256": "17bc05f293358812b393b7a2a978ec3822dd261bf69fe3911d65c2455756cde2"
+    },
+    {
+      "path": "preview.pdf",
+      "bytes": 89682,
+      "sha256": "698dfcab2151c758cb95df9a5473f2a3c795618252ec3993d8fa0f961dcfd009"
+    },
+    {
+      "path": "preview.tex",
+      "bytes": 258,
+      "sha256": "996f22fd9eefd0df95e9c2faab777cd68a8f99c28e9495824d65182076b153cc"
+    },
+    {
+      "path": "scalar_by_seed.csv",
+      "bytes": 50444,
+      "sha256": "ae4dca0e85cf89cd0243bbc23a658dd50094dc7bd82d54e842cdea75bcf2b4b5"
+    },
+    {
+      "path": "scalar_effects.tex",
+      "bytes": 1225,
+      "sha256": "df81b60ebeade457a54c3e5f5284b0543a250d5a704c953b44f0fae52f665909"
+    },
+    {
+      "path": "scalar_model_summary.csv",
+      "bytes": 17500,
+      "sha256": "e5f5ccf68be79098c6d162be810511639ed674ca0a3b830cd204198b54139fe3"
+    },
+    {
+      "path": "screening_by_seed.csv",
+      "bytes": 123729,
+      "sha256": "9ef1816eb4da9373c793786d71c35d1eb206b99c6d60e30ceac362e698240167"
+    },
+    {
+      "path": "screening_model_summary.csv",
+      "bytes": 24684,
+      "sha256": "ff4ac56c06298c7cf52e0b174779778c624b7a6ee3ef818445d2857cbed22c07"
+    },
+    {
+      "path": "threshold_screening.tex",
+      "bytes": 1963,
+      "sha256": "b337b1bb44e282b546b9eb702875ebf0e1afdab1c3d6647267e5a139a12bbe6f"
+    },
+    {
+      "path": "visual_QA.json",
+      "bytes": 1982,
+      "sha256": "bccdb72d879f3660bd2ed3b14a7e1b1f8454c5318f01aef9e10ee8ebbb286613"
+    }
+  ],
+  "external_code": [
+    {
+      "path": "../generate_engineering_tables.py",
+      "sha256": "d8ef80e36761cb77f387a7d8e98866f34a29986eed109913d070acbd20d767b8"
+    },
+    {
+      "path": "../audit_generated_tables.py",
+      "sha256": "f6e558ac6cb4f48f8f3fc7910d882751bf850774520a6a9c74bb0ba3de959e44"
+    }
+  ],
+  "source_binding": "The provenance or generation_manifest file binds the complete source snapshots and review evidence; nested snapshots are not duplicated in this top-level artifact list.",
+  "frozen_training_modified": false,
+  "timing_executed": false,
+  "manuscript_placement_checked": false
+}

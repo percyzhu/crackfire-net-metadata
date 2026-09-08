@@ -1,0 +1,79 @@
+{
+  "decision": "FULL420_ENGINEERING_PROSE_INCREMENT_RECONCILED_AFTER_CLAIM_CLARIFICATIONS_NOT_FINAL_PAPER_PASS",
+  "created_utc": "2026-09-07T08:40:50.717469+00:00",
+  "reviewer": "independent timber-fire and engineering-evaluation reviewer",
+  "scope": "Current complete420 accuracy/screening prose, abstract, discussion, conclusions and replay counts; source-backed engineering meaning. No inference timing/figure execution or final PDF review.",
+  "numerical_inconsistencies_found": [],
+  "unresolved_actionable_findings": [],
+  "resolved_findings": [
+    {
+      "id": "ENG-PROSE-01",
+      "priority": "P2",
+      "issue": "Abstract and conclusion5.48% wording could imply transfer itself lowers error rather than a paired architecture comparison.",
+      "resolution": "Both explicitly identify sum graph versus matched set on the count holdout.",
+      "verified": true
+    },
+    {
+      "id": "ENG-PROSE-02",
+      "priority": "P2",
+      "issue": "Measured domain of applicability could imply a calibrated deployment acceptance boundary absent from the experiment.",
+      "resolution": "Conclusion now states test-specific evidence for transfer and screening limitations; no automatic rejection rule claimed.",
+      "verified": true
+    },
+    {
+      "id": "ENG-PROSE-03",
+      "priority": "P3",
+      "issue": "Future extensions were described as not selected on heldout outcomes even though observed failures motivate them.",
+      "resolution": "Discussion now acknowledges failure-motivated suggestions, not implemented in reported experiments, requiring a new evaluation protocol.",
+      "verified": true
+    }
+  ],
+  "key_evidence_checks": [
+    "All20 family contrast intervals include0; global-statistics lowest mean onbilinear/decay andfire-only lowest onsmoldering are descriptive, not paired superiority claims.",
+    "LCRO5.48% primary effect andtwo-wayCI match; compoundcount/source shift andabsence oftested protocolinteraction retained.",
+    "Smoldering86/11 subgroupMAE,0.22964 nonflat terminal error,1/96 event count,12–25FP,912s single-event timing,617 valid draws and78.5% tied-pair exclusion match.",
+    "Smoldering q0.6 FPR0 isdefined, whereas recall/BA/timing remainNA; positiveerror0 correctly interpreted alongside response underprediction.",
+    "Linear122/3 q0.8 event population,7–12 sum-graph misses,292.82s conditionalMAE, andBilinear0.09878 terminalMAE/8–16 recrossing cases match.",
+    "Final replay326 CPU-tolerance files and454 original-GPU-exact flags,min4.53e-6/max8.78e-4 agree.",
+    "997-case family averages explicitly combine separately fitted holdouts; rankings andexample selections are not geometry-causal evidence or uncertainty coverage."
+  ],
+  "engineering_application_assessment": "The EAAI application line is coherent as controlled emulation and prioritization of an explicit archival numerical index. It does not establish structural safety, fire resistance, or a calibrated rule for accepting future queries. Failures must remain visible in final figures and prose.",
+  "not_new_issues": [
+    "In-progress figure/engineering-table execution andquantitative timing are already assigned.",
+    "No extraFE,hyperparameter search,newmodel orhypothetical deploymentvalidation requested."
+  ],
+  "final_PDF_reviewed_this_increment": false,
+  "long_computations_run": false,
+  "manuscript_edited_by_reviewer": false,
+  "workflow_or_continuation_edited": false,
+  "manuscript_source_sha256": {
+    "SCI_Manuscript\\latex_v08\\main.tex": "c0e153e00bcd7d1022acbaaeea80fd1e604b7b5b91ad96e062dc67c742663aa6",
+    "SCI_Manuscript\\latex_v08\\sections\\01_introduction.tex": "07f169660d845a41872893b6e381ad66cc891c2dee33681135f749f91b7f543e",
+    "SCI_Manuscript\\latex_v08\\sections\\02_engineering_data.tex": "7d4ef5917ed55aaa281f9b8266a59c9c384ac09714a26c6b018f8d3a5d726005",
+    "SCI_Manuscript\\latex_v08\\sections\\03_learning.tex": "f1d8df986fc303cf1d5a822a8ab1be8a371f3eb3ce3b95a46f11b833955534f4",
+    "SCI_Manuscript\\latex_v08\\sections\\04_evaluation.tex": "6a1551bb785b98e68a3b909d25795ba75bc9427f8e059420b81326da5a696e8f",
+    "SCI_Manuscript\\latex_v08\\sections\\05_results.tex": "dab562af8c6af79a741348d98b1904974a9f22b851772097179194c9c6258182",
+    "SCI_Manuscript\\latex_v08\\sections\\06_discussion.tex": "bf2af49366cc1526abbcb450734fa5718dda1d26e64f5e61da2b94af9eb53b7c",
+    "SCI_Manuscript\\latex_v08\\sections\\07_conclusions.tex": "a547553c96f1cf826a3211739760d2fd31219c842cb54fb5c8ee3fc41290846a",
+    "SCI_Manuscript\\latex_v08\\sections\\08_reproducibility.tex": "50f0e0d8fdb222220cde9bb38e828f49ab8b95fac2c555b454b97c073094c787"
+  },
+  "supporting_evidence_sha256": {
+    "SCI_Manuscript\\review\\eaai_editor\\research_v08\\final_matrix_420_independent_binding_review.json": "ad1d2f3b04faac3cef2980cb081df36a501e279d7c0b394c7c5f8ff7b2e71710",
+    "SCI_Manuscript\\review\\eaai_editor\\research_v08\\lcro_9_15_independent_results_audit_v2.json": "e5b065326a580f54c0e16e72234db649f01066cb89242565efef1b95d12d74e3",
+    "SCI_Manuscript\\review\\eaai_editor\\research_v08\\iid997_independent_results_audit.json": "58db138bea4547ae84d825a6e97a52d263224f89188b24dbd2efaefa8b70f0c6",
+    "SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_smoldering_constant_strata_audit.json": "c54217458c56c67b6d96283f69dd9d8de074e7f70784309a1253148ccd83f140",
+    "SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_bilinear_results_development_review_zh.md": "5c88a1e68d8fc4865020f3514f748e2b48c459b14e7cbc0647e2cf3a24517206",
+    "SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_linear_results_development_review_zh.md": "ae26cb66e0a1daa98f517245fd8f6c153ccd962a13f6057f613dea1bf963b9f5",
+    "SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_iso834_independent_results_audit_v2.json": "dd8cc0f45b61cd2b08e398dd1fd7f2c2cbe13463b39e13a6764f3b412e1c469e",
+    "SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_astm_e119_independent_results_audit_v2.json": "d5fc221229cdbf212eaefd2395d2c6b24029c7c7ff850a51584d35e594d6a58e",
+    "SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_perturbed_iso_independent_results_audit_v2.json": "8c144f7024de7118cd695315681ae071b12f475cb6bfec44679e9efb8aa2b0e0",
+    "SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_plateau_independent_results_audit_v2.json": "d469eb0595a4ffa85897621599ee4a9960014c7df0b3028820f062770faf5930",
+    "SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_decay_independent_results_audit_v2.json": "7a92d8acc6b4391ea6a8d90a17889a2ca6f426ad3f4f0e3438457a4ece0b8aa8",
+    "SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_log_variant_independent_results_audit_v2.json": "0c8079e3643105ee5b194586d304623a13b4122415492b35334e1fc241efb3e8",
+    "SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_external_fire_independent_results_audit_v2.json": "33ad1e29d3f3061a8f6fd71d50d049767b85d335eb6cb2683d393439a5c88dde",
+    "SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_bilinear_independent_results_audit_v2.json": "dc1d7777c755f8d47ebe71250d3958aeb2ce1cc7fbfa12e6b3bc8631a0d496da",
+    "SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_linear_independent_results_audit_v2.json": "c5a6c14efc4592db75695ae70c14d51ba752cbbf9c339ec70bf84cf4e536a822",
+    "SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_smoldering_independent_results_audit_v2.json": "a85409102ce52830c68c79bbb2b012a18d53ffe81b94de2f341c8b800e52c61a"
+  },
+  "submission_pass": false
+}

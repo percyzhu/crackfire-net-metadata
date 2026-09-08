@@ -1,0 +1,29 @@
+{
+  "status": "REAL_TIMING_RAW_RECORDS_COVERAGE_AND_ARITHMETIC_AUDIT_PASSED",
+  "created_utc": "2026-09-07T09:11:22.767278+00:00",
+  "raw_measurements_checked": 14355,
+  "actual_training_artifact_identities_checked": 420,
+  "summary_groups": 58,
+  "round_groups": 174,
+  "single_query_N_groups": 435,
+  "training_runs": 420,
+  "whole_61_time_curve_per_query": true,
+  "repeated_rounds_are_not_independent_accuracy_samples": true,
+  "scientific_manuscript_or_submission_pass": false,
+  "scope": "Independent source/coverage/statistical/unit audit binding the prior full420 computational replay; does not rerun models, independently measure another machine, or prove an idle OS.",
+  "source_sha256": {
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\audit_inference_timing.py": "cfb768af7addf6cf89095dd5f9a6e7ff2a5331238caf4cb3ee329a54310278f3",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\timing_plan.json": "e44ab414c6f7c56a8a400292d6c460bdfb90ba5d2b3636f76ff353575c5eb5a7",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\summary.json": "7fff40c8a951671de4c5f68f431505c9be293e7fe9c6be7953b1206820536666",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\raw_timings.csv": "73d6e336d92c2500c27f251e7f73348660ae04bbffa48b1f37374ee58065b4fb",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\training_costs_420.csv": "758306e68a7f0873c913525702b3e4ebb5a751a4e757770d2bd543f4716820dd",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\environment.json": "e5573a2a6db910e3d18eb37f644b0caa761cef2ee206b54d013b10b76787dbb5",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\premeasurement_artifact_binding.json": "080f15fc36dfed53776622ade66f6e17e9d4de892810699b1d42ec84b6065956",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\measured\\readiness_at_completion.json": "0692b1f8d5dd5b69b7868bfe0bc0e80cdba05a2be3957b006dd1c1c4887da1a6",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\comparison_plan_v08_420.json": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\benchmark_inference.py": "aad7de1e3e332a119adf5ea97f2813bf47dd8d3fe4d136a4ba60cb096f96bcf9",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\report.json": "534efdd6a569a675ddbfedbdcd32b6c4fc40f8ad09edcd51587b122d5e94e499",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\run_integrity.json": "ce4ebdc61f1626321aa115deb8a731f3ed7e241c32ec3dfdd69fe8e90b4d6cdb",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\manifest.json": "7712ad86ab48f185c53a9ae276a9a7b2f6e6673a5d5faf6fc69b0f1bbb3dcdaf"
+  }
+}

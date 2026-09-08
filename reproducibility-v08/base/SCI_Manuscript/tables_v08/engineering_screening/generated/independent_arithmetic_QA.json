@@ -1,0 +1,32 @@
+{
+  "status": "PASSED_ACTUAL_TABLE_ARITHMETIC_AND_LATEX_VALUES_PENDING_VISUAL_QA",
+  "CSV_rows_checked": [
+    420,
+    840,
+    84,
+    168,
+    24
+  ],
+  "LaTeX_table_rows_checked": [
+    12,
+    24
+  ],
+  "scale_factor": 1000,
+  "NA_preserved": true,
+  "reference_counts_not_multiplied_by_seeds": true,
+  "seed_extrema_not_one_checkpoint": true,
+  "prediction_arrays_read": 0,
+  "bootstrap_recomputed": false,
+  "visual_QA_passed": false,
+  "generated_file_hashes": {
+    "captions.tex": "d2e0a64ea541898b7e8c12ac91510687e64a88af04e3bd6fe174ed9bbc89aceb",
+    "matched_set_vs_sum_gnn_secondary_ci.csv": "00c3c1e9a9d117408c138df8dc8acea99713ada176fd95c7d19bab43d9e0cb78",
+    "preview.tex": "996f22fd9eefd0df95e9c2faab777cd68a8f99c28e9495824d65182076b153cc",
+    "scalar_by_seed.csv": "ae4dca0e85cf89cd0243bbc23a658dd50094dc7bd82d54e842cdea75bcf2b4b5",
+    "scalar_effects.tex": "df81b60ebeade457a54c3e5f5284b0543a250d5a704c953b44f0fae52f665909",
+    "scalar_model_summary.csv": "e5f5ccf68be79098c6d162be810511639ed674ca0a3b830cd204198b54139fe3",
+    "screening_by_seed.csv": "9ef1816eb4da9373c793786d71c35d1eb206b99c6d60e30ceac362e698240167",
+    "screening_model_summary.csv": "ff4ac56c06298c7cf52e0b174779778c624b7a6ee3ef818445d2857cbed22c07",
+    "threshold_screening.tex": "b337b1bb44e282b546b9eb702875ebf0e1afdab1c3d6647267e5a139a12bbe6f"
+  }
+}

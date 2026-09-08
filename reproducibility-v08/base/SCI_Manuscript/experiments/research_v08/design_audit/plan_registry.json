@@ -1,0 +1,12 @@
+{
+  "active_plan": "comparison_plan_v08_420.json",
+  "active_plan_sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068",
+  "superseded_unexecuted": [
+    {
+      "path": "comparison_plan_v08.json",
+      "reason": "Ten-family population requires smoldering LOCO too; corrected before first optimizer step.",
+      "optimizer_updates": 0
+    }
+  ],
+  "draft": "comparison_plan_draft.json"
+}

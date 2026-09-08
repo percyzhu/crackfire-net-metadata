@@ -1,0 +1,574 @@
+{
+  "status": "EXISTING_VALIDATION_CURVES_RECOVERED_AND_OBSERVATION_IDENTITIES_CROSSCHECKED",
+  "sources_sha256": {
+    "D:\\Work\\Abstract\\3_最终成果\\论文\\LaTeX源码\\cn\\figures\\mesh_sensitivity.pdf": "2901d844e4722e89626fff161ee3fea5a769eeb8b73145543d8aa14739961b81",
+    "D:\\Work\\Abstract\\1_代码\\src\\data\\T-t_experimental_curve.xlsx": "3a4632f3c5a8570a64a5fbf06bba74c2a9b1db863467423cea6a4382f30d116a",
+    "D:\\Work\\Abstract\\1_代码\\scripts\\figures\\ch3\\generate_fig_fem.py": "3749bb2f6ec76ff7ef2f93eb147e41db045ee7702347d1fb42fae38663408313",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\validation\\experimental_validation_final\\extract_archived_comparison.py": "e9ab8a660286ebcf1164ff20bb70ace338bea75e4888aa962aaaed0dff3e829b"
+  },
+  "axis_y_PDF_pt": [
+    273.6932678222656,
+    219.6996307373047,
+    165.7060089111328,
+    111.71238708496094,
+    57.71875
+  ],
+  "axis_y_temperature_C": [
+    0,
+    200,
+    400,
+    600,
+    800
+  ],
+  "temperature_from_PDF_y_coefficients": [
+    -3.7041407971408535,
+    1013.7983879391128
+  ],
+  "curves": [
+    {
+      "depth_mm": 15,
+      "label": "experimental_a",
+      "drawing_index": 34,
+      "vertices": 115,
+      "colour": [
+        0.5018997192382812,
+        0.5019760727882385,
+        0.5018844604492188
+      ],
+      "dashes": "[] 0",
+      "x_axis_PDF_pt": [
+        48.521873474121094,
+        386.67938232421875
+      ]
+    },
+    {
+      "depth_mm": 15,
+      "label": "experimental_b",
+      "drawing_index": 35,
+      "vertices": 109,
+      "colour": [
+        0.5018997192382812,
+        0.5019760727882385,
+        0.5018844604492188
+      ],
+      "dashes": "[] 0",
+      "x_axis_PDF_pt": [
+        48.521873474121094,
+        386.67938232421875
+      ]
+    },
+    {
+      "depth_mm": 15,
+      "label": "experimental_mean",
+      "drawing_index": 36,
+      "vertices": 87,
+      "colour": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dashes": "[] 0",
+      "x_axis_PDF_pt": [
+        48.521873474121094,
+        386.67938232421875
+      ]
+    },
+    {
+      "depth_mm": 15,
+      "label": "FE_50mm",
+      "drawing_index": 37,
+      "vertices": 107,
+      "colour": [
+        0.12156862765550613,
+        0.46666666865348816,
+        0.7058823704719543
+      ],
+      "dashes": "[] 0",
+      "x_axis_PDF_pt": [
+        48.521873474121094,
+        386.67938232421875
+      ]
+    },
+    {
+      "depth_mm": 15,
+      "label": "FE_30mm",
+      "drawing_index": 38,
+      "vertices": 66,
+      "colour": [
+        1.0,
+        0.49803921580314636,
+        0.054901961237192154
+      ],
+      "dashes": "[ 6.66 2.88 ] 0",
+      "x_axis_PDF_pt": [
+        48.521873474121094,
+        386.67938232421875
+      ]
+    },
+    {
+      "depth_mm": 15,
+      "label": "FE_20mm",
+      "drawing_index": 39,
+      "vertices": 66,
+      "colour": [
+        0.1725490242242813,
+        0.6274510025978088,
+        0.1725490242242813
+      ],
+      "dashes": "[ 11.52 2.88 1.8 2.88 ] 0",
+      "x_axis_PDF_pt": [
+        48.521873474121094,
+        386.67938232421875
+      ]
+    },
+    {
+      "depth_mm": 15,
+      "label": "FE_15mm",
+      "drawing_index": 40,
+      "vertices": 58,
+      "colour": [
+        0.8392156958580017,
+        0.15294118225574493,
+        0.1568627506494522
+      ],
+      "dashes": "[ 1.8 2.97 ] 0",
+      "x_axis_PDF_pt": [
+        48.521873474121094,
+        386.67938232421875
+      ]
+    },
+    {
+      "depth_mm": 15,
+      "label": "FE_10mm",
+      "drawing_index": 41,
+      "vertices": 57,
+      "colour": [
+        0.5490196347236633,
+        0.33725491166114807,
+        0.29411765933036804
+      ],
+      "dashes": "[] 0",
+      "x_axis_PDF_pt": [
+        48.521873474121094,
+        386.67938232421875
+      ]
+    },
+    {
+      "depth_mm": 30,
+      "label": "experimental_a",
+      "drawing_index": 106,
+      "vertices": 89,
+      "colour": [
+        0.5018997192382812,
+        0.5019760727882385,
+        0.5018844604492188
+      ],
+      "dashes": "[] 0",
+      "x_axis_PDF_pt": [
+        413.3393859863281,
+        751.4968872070312
+      ]
+    },
+    {
+      "depth_mm": 30,
+      "label": "experimental_b",
+      "drawing_index": 107,
+      "vertices": 77,
+      "colour": [
+        0.5018997192382812,
+        0.5019760727882385,
+        0.5018844604492188
+      ],
+      "dashes": "[] 0",
+      "x_axis_PDF_pt": [
+        413.3393859863281,
+        751.4968872070312
+      ]
+    },
+    {
+      "depth_mm": 30,
+      "label": "experimental_mean",
+      "drawing_index": 108,
+      "vertices": 65,
+      "colour": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dashes": "[] 0",
+      "x_axis_PDF_pt": [
+        413.3393859863281,
+        751.4968872070312
+      ]
+    },
+    {
+      "depth_mm": 30,
+      "label": "FE_30mm",
+      "drawing_index": 109,
+      "vertices": 60,
+      "colour": [
+        1.0,
+        0.49803921580314636,
+        0.054901961237192154
+      ],
+      "dashes": "[ 6.66 2.88 ] 0",
+      "x_axis_PDF_pt": [
+        413.3393859863281,
+        751.4968872070312
+      ]
+    },
+    {
+      "depth_mm": 30,
+      "label": "FE_20mm",
+      "drawing_index": 110,
+      "vertices": 42,
+      "colour": [
+        0.1725490242242813,
+        0.6274510025978088,
+        0.1725490242242813
+      ],
+      "dashes": "[ 11.52 2.88 1.8 2.88 ] 0",
+      "x_axis_PDF_pt": [
+        413.3393859863281,
+        751.4968872070312
+      ]
+    },
+    {
+      "depth_mm": 30,
+      "label": "FE_15mm",
+      "drawing_index": 111,
+      "vertices": 49,
+      "colour": [
+        0.8392156958580017,
+        0.15294118225574493,
+        0.1568627506494522
+      ],
+      "dashes": "[ 1.8 2.97 ] 0",
+      "x_axis_PDF_pt": [
+        413.3393859863281,
+        751.4968872070312
+      ]
+    },
+    {
+      "depth_mm": 30,
+      "label": "FE_10mm",
+      "drawing_index": 112,
+      "vertices": 45,
+      "colour": [
+        0.5490196347236633,
+        0.33725491166114807,
+        0.29411765933036804
+      ],
+      "dashes": "[] 0",
+      "x_axis_PDF_pt": [
+        413.3393859863281,
+        751.4968872070312
+      ]
+    },
+    {
+      "depth_mm": 40,
+      "label": "experimental_a",
+      "drawing_index": 174,
+      "vertices": 60,
+      "colour": [
+        0.5018997192382812,
+        0.5019760727882385,
+        0.5018844604492188
+      ],
+      "dashes": "[] 0",
+      "x_axis_PDF_pt": [
+        778.1568603515625,
+        1116.3143310546875
+      ]
+    },
+    {
+      "depth_mm": 40,
+      "label": "experimental_b",
+      "drawing_index": 175,
+      "vertices": 50,
+      "colour": [
+        0.5018997192382812,
+        0.5019760727882385,
+        0.5018844604492188
+      ],
+      "dashes": "[] 0",
+      "x_axis_PDF_pt": [
+        778.1568603515625,
+        1116.3143310546875
+      ]
+    },
+    {
+      "depth_mm": 40,
+      "label": "experimental_mean",
+      "drawing_index": 176,
+      "vertices": 62,
+      "colour": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dashes": "[] 0",
+      "x_axis_PDF_pt": [
+        778.1568603515625,
+        1116.3143310546875
+      ]
+    },
+    {
+      "depth_mm": 40,
+      "label": "FE_50mm",
+      "drawing_index": 177,
+      "vertices": 70,
+      "colour": [
+        0.12156862765550613,
+        0.46666666865348816,
+        0.7058823704719543
+      ],
+      "dashes": "[] 0",
+      "x_axis_PDF_pt": [
+        778.1568603515625,
+        1116.3143310546875
+      ]
+    },
+    {
+      "depth_mm": 40,
+      "label": "FE_30mm",
+      "drawing_index": 178,
+      "vertices": 44,
+      "colour": [
+        1.0,
+        0.49803921580314636,
+        0.054901961237192154
+      ],
+      "dashes": "[ 6.66 2.88 ] 0",
+      "x_axis_PDF_pt": [
+        778.1568603515625,
+        1116.3143310546875
+      ]
+    },
+    {
+      "depth_mm": 40,
+      "label": "FE_20mm",
+      "drawing_index": 179,
+      "vertices": 38,
+      "colour": [
+        0.1725490242242813,
+        0.6274510025978088,
+        0.1725490242242813
+      ],
+      "dashes": "[ 11.52 2.88 1.8 2.88 ] 0",
+      "x_axis_PDF_pt": [
+        778.1568603515625,
+        1116.3143310546875
+      ]
+    },
+    {
+      "depth_mm": 40,
+      "label": "FE_15mm",
+      "drawing_index": 180,
+      "vertices": 40,
+      "colour": [
+        0.8392156958580017,
+        0.15294118225574493,
+        0.1568627506494522
+      ],
+      "dashes": "[ 1.8 2.97 ] 0",
+      "x_axis_PDF_pt": [
+        778.1568603515625,
+        1116.3143310546875
+      ]
+    },
+    {
+      "depth_mm": 40,
+      "label": "FE_10mm",
+      "drawing_index": 181,
+      "vertices": 36,
+      "colour": [
+        0.5490196347236633,
+        0.33725491166114807,
+        0.29411765933036804
+      ],
+      "dashes": "[] 0",
+      "x_axis_PDF_pt": [
+        778.1568603515625,
+        1116.3143310546875
+      ]
+    }
+  ],
+  "observation_crosschecks": [
+    {
+      "depth_mm": 15,
+      "curve": "experimental_a",
+      "PDF_index": 34,
+      "max_absolute_difference_to_workbook_C": 0.7299768500521395,
+      "RMS_difference_to_workbook_C": 0.16145139605978256
+    },
+    {
+      "depth_mm": 15,
+      "curve": "experimental_b",
+      "PDF_index": 35,
+      "max_absolute_difference_to_workbook_C": 0.7083367043168209,
+      "RMS_difference_to_workbook_C": 0.15482130510628495
+    },
+    {
+      "depth_mm": 15,
+      "curve": "experimental_mean",
+      "PDF_index": 36,
+      "max_absolute_difference_to_workbook_C": 0.5393946610372495,
+      "RMS_difference_to_workbook_C": 0.16015753925486523
+    },
+    {
+      "depth_mm": 30,
+      "curve": "experimental_a",
+      "PDF_index": 106,
+      "max_absolute_difference_to_workbook_C": 0.7825663271433996,
+      "RMS_difference_to_workbook_C": 0.16915576190850012
+    },
+    {
+      "depth_mm": 30,
+      "curve": "experimental_b",
+      "PDF_index": 107,
+      "max_absolute_difference_to_workbook_C": 0.8518131023183741,
+      "RMS_difference_to_workbook_C": 0.16215199419293008
+    },
+    {
+      "depth_mm": 30,
+      "curve": "experimental_mean",
+      "PDF_index": 108,
+      "max_absolute_difference_to_workbook_C": 0.6043993527116527,
+      "RMS_difference_to_workbook_C": 0.18866330165806294
+    },
+    {
+      "depth_mm": 40,
+      "curve": "experimental_a",
+      "PDF_index": 174,
+      "max_absolute_difference_to_workbook_C": 0.5614087053438084,
+      "RMS_difference_to_workbook_C": 0.16440588640046622
+    },
+    {
+      "depth_mm": 40,
+      "curve": "experimental_b",
+      "PDF_index": 175,
+      "max_absolute_difference_to_workbook_C": 0.5077594526686369,
+      "RMS_difference_to_workbook_C": 0.19248577816702145
+    },
+    {
+      "depth_mm": 40,
+      "curve": "experimental_mean",
+      "PDF_index": 176,
+      "max_absolute_difference_to_workbook_C": 0.6234151490116346,
+      "RMS_difference_to_workbook_C": 0.18733251477295992
+    }
+  ],
+  "maximum_observation_vector_reconstruction_difference_C": 0.8518131023183741,
+  "main_curve_selection": "20 mm was the explicitly stated validation mesh before extraction, not selected by recalculated error.",
+  "all14_FE_curves_retained": true,
+  "all9_workbook_Abaqus_curves_retained": true,
+  "experimental_identity": "Both a and b are workbook-labelled experimental groups; neither is a model output.",
+  "unresolved_identity": "Group-to-specimen and exact TC coordinates remain unavailable; exp1/2/3 Abaqus mesh labels remain unknown.",
+  "endpoint_rule": "Retain native observation times below3600 and interpolate3600 inside the final observation segment; FE curves cover0..3600. No extrapolation.",
+  "new_FE_solver_runs": 0,
+  "new_measurements": 0,
+  "physics_or_curve_calibration": false,
+  "important_scope": "Recovered archived validation comparison, not regenerated FE labels or sensor-location-matched revalidation.",
+  "main_20mm_metrics": [
+    {
+      "depth_mm": 15,
+      "FE_mesh_label_mm": 20,
+      "comparison_group": "a",
+      "comparison_points": 361,
+      "sample_RMSE_C": 35.25069515368607,
+      "time_weighted_RMS_C": 35.29497010703885,
+      "time_weighted_bias_C": -7.797016018599414,
+      "maximum_absolute_difference_C": 75.20303333883382,
+      "source": "Recovered existing vector plot, not new FE solver output"
+    },
+    {
+      "depth_mm": 15,
+      "FE_mesh_label_mm": 20,
+      "comparison_group": "b",
+      "comparison_points": 361,
+      "sample_RMSE_C": 37.68470230721051,
+      "time_weighted_RMS_C": 37.72997904638947,
+      "time_weighted_bias_C": 3.408503165818084,
+      "maximum_absolute_difference_C": 75.22393002415498,
+      "source": "Recovered existing vector plot, not new FE solver output"
+    },
+    {
+      "depth_mm": 15,
+      "FE_mesh_label_mm": 20,
+      "comparison_group": "mean",
+      "comparison_points": 361,
+      "sample_RMSE_C": 35.42330795309711,
+      "time_weighted_RMS_C": 35.47083052524127,
+      "time_weighted_bias_C": -2.194256426390663,
+      "maximum_absolute_difference_C": 75.1337812686023,
+      "source": "Recovered existing vector plot, not new FE solver output"
+    },
+    {
+      "depth_mm": 30,
+      "FE_mesh_label_mm": 20,
+      "comparison_group": "a",
+      "comparison_points": 361,
+      "sample_RMSE_C": 45.78936669855186,
+      "time_weighted_RMS_C": 45.85009904854885,
+      "time_weighted_bias_C": -39.96356266082899,
+      "maximum_absolute_difference_C": 77.91388635686029,
+      "source": "Recovered existing vector plot, not new FE solver output"
+    },
+    {
+      "depth_mm": 30,
+      "FE_mesh_label_mm": 20,
+      "comparison_group": "b",
+      "comparison_points": 361,
+      "sample_RMSE_C": 45.231172487613456,
+      "time_weighted_RMS_C": 45.28765544993095,
+      "time_weighted_bias_C": -26.050833795978527,
+      "maximum_absolute_difference_C": 80.14330848975715,
+      "source": "Recovered existing vector plot, not new FE solver output"
+    },
+    {
+      "depth_mm": 30,
+      "FE_mesh_label_mm": 20,
+      "comparison_group": "mean",
+      "comparison_points": 361,
+      "sample_RMSE_C": 43.21516654950227,
+      "time_weighted_RMS_C": 43.27433611299336,
+      "time_weighted_bias_C": -33.00719822840376,
+      "maximum_absolute_difference_C": 77.19908167625985,
+      "source": "Recovered existing vector plot, not new FE solver output"
+    },
+    {
+      "depth_mm": 40,
+      "FE_mesh_label_mm": 20,
+      "comparison_group": "a",
+      "comparison_points": 361,
+      "sample_RMSE_C": 36.88863721266583,
+      "time_weighted_RMS_C": 36.93929971937277,
+      "time_weighted_bias_C": -29.54568247090249,
+      "maximum_absolute_difference_C": 66.62498237901157,
+      "source": "Recovered existing vector plot, not new FE solver output"
+    },
+    {
+      "depth_mm": 40,
+      "FE_mesh_label_mm": 20,
+      "comparison_group": "b",
+      "comparison_points": 361,
+      "sample_RMSE_C": 43.96012367923373,
+      "time_weighted_RMS_C": 43.964370779388574,
+      "time_weighted_bias_C": -30.211071954612642,
+      "maximum_absolute_difference_C": 71.01951398169241,
+      "source": "Recovered existing vector plot, not new FE solver output"
+    },
+    {
+      "depth_mm": 40,
+      "FE_mesh_label_mm": 20,
+      "comparison_group": "mean",
+      "comparison_points": 361,
+      "sample_RMSE_C": 39.94656766619433,
+      "time_weighted_RMS_C": 39.98609367553838,
+      "time_weighted_bias_C": -29.878377212757567,
+      "maximum_absolute_difference_C": 68.81284898169243,
+      "source": "Recovered existing vector plot, not new FE solver output"
+    }
+  ]
+}

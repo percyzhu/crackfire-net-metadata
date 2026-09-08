@@ -1,0 +1,16 @@
+{
+  "status": "SEPARATE_THREE_MODEL_TIMING_DECLARED_NOT_MEASURED",
+  "created_utc": "2026-09-07T10:15:07.798574+00:00",
+  "source_and_evidence_sha256": {
+    "benchmark_attention_extension.py": "a98585be1e4697f4d246cdbc64963270552d6470febcd65ea22b99377fe5395c",
+    "timing_plan_v1.json": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+    "probe_deferred_timing.py": "4e66c7157ebccc2e2ebd568ec119337a9482203e0b5995e83829897cc3221081",
+    "deferred_gate_probe_evidence.json": "e2cf005047cc19f45d101c5f4e82c05d7a3b3d1c32d4c6cec2110007bccdd547",
+    "README_zh.md": "8750d01134119feca51bb354daac47b5a75b82cab64cc5b7506a57ec1f35bed1"
+  },
+  "timing_records_measured": 0,
+  "expected_final_record_count": 6435,
+  "old14355_pooled_or_replaced": false,
+  "complete_branch_tested": false,
+  "independent_script_review_pending": true
+}

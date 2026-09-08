@@ -1,0 +1,70 @@
+{
+  "status": "SNAPSHOT_BOUND_TO_INDEPENDENT_COMPLETE_PROTOCOL_AUDIT",
+  "protocol": "loco_smoldering",
+  "created_utc": "2026-09-07T08:29:03.679493+00:00",
+  "snapshot_sha256": "2173b0ec0dd57a8815c9708f3fb03320c0fa99a43906e0e2734e46b726b9fbb9",
+  "snapshot_files_checked": [
+    {
+      "name": "report.json",
+      "sha256": "534efdd6a569a675ddbfedbdcd32b6c4fc40f8ad09edcd51587b122d5e94e499",
+      "bytes": 3304
+    },
+    {
+      "name": "run_integrity.json",
+      "sha256": "ce4ebdc61f1626321aa115deb8a731f3ed7e241c32ec3dfdd69fe8e90b4d6cdb",
+      "bytes": 1089481
+    },
+    {
+      "name": "per_case_metrics.csv",
+      "sha256": "814a38a03ee6800b21f23a8b77ae0e2e49ae0a60e615e930d55bf6d752cc8f41",
+      "bytes": 627972
+    },
+    {
+      "name": "strata_by_seed.csv",
+      "sha256": "9be07946c91c25067f74b2983e6d83279b7c4213e6c40a6c206283394ecb86bc",
+      "bytes": 191379
+    },
+    {
+      "name": "summary.json",
+      "sha256": "674c5b2ae1c4b8826efc36799a35f6bd3c7c6514b4b06508e80ebc60767529a6",
+      "bytes": 39082
+    },
+    {
+      "name": "time_metrics.csv",
+      "sha256": "234a72879c0f6d269fa21e9c051ee62070076cf40cbea6a91c83b994f245f9f4",
+      "bytes": 179797
+    },
+    {
+      "name": "topology_by_seed.csv",
+      "sha256": "d55682397d79c8ca6e847fdc46b75b9538f6429b1dfdfbc35d28cd557f91f471",
+      "bytes": 11851
+    },
+    {
+      "name": "loco_smoldering_engineering_proxy_ci.json",
+      "sha256": "2fcb60e9b2d39b5912d87c2a5c7bc687afe7fbfe2e9b62cd80ccaf6c6c16afd7",
+      "bytes": 268212
+    },
+    {
+      "name": "loco_smoldering_engineering_proxy_ci.csv",
+      "sha256": "aa439aebe4d635c055906660c019cc3c86c196d91cad468813613ed1afed7971",
+      "bytes": 11508
+    }
+  ],
+  "all7_protocol_outputs_identical_to_audited_live_files": true,
+  "current12_frozen_sources_plan_wrapper_amendment_verified": true,
+  "complete_runs": 35,
+  "primary_and_sparse_replay_calls": 65,
+  "replay_status_counts": {
+    "CPU_REPLAY_WITHIN_ORIGINAL_TOLERANCE": 65
+  },
+  "max_CPU_replay_difference": 7.748603820800781e-07,
+  "unique_prescribed_fire_parameter_objects": 94,
+  "other_family_prediction_scores_inspected": false,
+  "manuscript_or70run_package_modified": false,
+  "review_files_sha256": {
+    "loco_smoldering_independent_results_audit_v2.json": "a85409102ce52830c68c79bbb2b012a18d53ffe81b94de2f341c8b800e52c61a",
+    "loco_smoldering_same_weight_topology_audit.json": "11a4cc2f1bc42f3173fcff2f39b7a5018d5d6f396078a2fadcf17cdb7a68a78a"
+  },
+  "auditor_script_sha256": "dbdb85b5cbafbd2d3307b4e7b3016cc60fccc1574cbb8ae2b4af21689e042e67",
+  "submission_pass": false
+}

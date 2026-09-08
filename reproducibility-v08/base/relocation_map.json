@@ -1,0 +1,78 @@
+{
+  "original_plan_sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068",
+  "original_workspace_for_provenance_only": "D:\\Work\\Abstract",
+  "original_plan_modified": false,
+  "new_training_validated": false,
+  "entries": [
+    {
+      "field": "manifest_path",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\manifest.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/manifest.json"
+    },
+    {
+      "field": "runs_root",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420",
+      "relative": "SCI_Manuscript/experiments/research_v08/runs_frozen_v08_420"
+    },
+    {
+      "field": "protocols.iid997.split_path",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\iid997.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/iid997.json"
+    },
+    {
+      "field": "protocols.lcro_9_15.split_path",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\lcro_9_15.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/lcro_9_15.json"
+    },
+    {
+      "field": "protocols.loco_iso834.split_path",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_iso834.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/loco_iso834.json"
+    },
+    {
+      "field": "protocols.loco_astm_e119.split_path",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_astm_e119.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/loco_astm_e119.json"
+    },
+    {
+      "field": "protocols.loco_perturbed_iso.split_path",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_perturbed_iso.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/loco_perturbed_iso.json"
+    },
+    {
+      "field": "protocols.loco_plateau.split_path",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_plateau.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/loco_plateau.json"
+    },
+    {
+      "field": "protocols.loco_decay.split_path",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_decay.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/loco_decay.json"
+    },
+    {
+      "field": "protocols.loco_log_variant.split_path",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_log_variant.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/loco_log_variant.json"
+    },
+    {
+      "field": "protocols.loco_external_fire.split_path",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_external_fire.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/loco_external_fire.json"
+    },
+    {
+      "field": "protocols.loco_bilinear.split_path",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_bilinear.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/loco_bilinear.json"
+    },
+    {
+      "field": "protocols.loco_linear.split_path",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_linear.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/loco_linear.json"
+    },
+    {
+      "field": "protocols.loco_smoldering.split_path",
+      "original": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_smoldering.json",
+      "relative": "SCI_Manuscript/experiments/research_v08/archive997/splits/loco_smoldering.json"
+    }
+  ]
+}

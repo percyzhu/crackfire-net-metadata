@@ -1,0 +1,11 @@
+{
+  "status": "AUTHORIZED_AFTER_ORIGINAL_TIMING_AND_INDEPENDENT_SOFTWARE_REVIEW",
+  "created_utc": "2026-09-07T09:19:36.222254+00:00",
+  "authorizer": "root agent under the user-authorized continue-research-and-address-expert-review task",
+  "plan_sha256": "8d21e13af116dc97556b37060daaf86afed5f7ba645a5bdae18e3d4ffb3b05a9",
+  "independent_software_review_path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\set_attention_independent_pretraining_review.json",
+  "independent_software_review_sha256": "db61c891064cfe7b008b66c6583aa84ef7799c8687ee034a49887503abc1a6e0",
+  "original7_timing_summary_sha256": "7fff40c8a951671de4c5f68f431505c9be293e7fe9c6be7953b1206820536666",
+  "original7_timing_audit_sha256": "0a3e53dde147f0a562d529e273df1bd3db3ae185f493e836c2c2a5b157f4cf30",
+  "scope": "Run the single fixed60 exploratory set-attention extension in the frozen12-protocol5-seed order. No original420 mutation, no architecture/tuning changes based on results, no automatic failed-run overwrite or journal publication."
+}

@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-09-07T11:03:58.676711+08:00",
+  "files": [
+    {
+      "name": "caption_en.tex",
+      "sha256": "7e39d927f37f9e55e1f41ae05f1120dc8254798842c8eb1a1fe55b1d4b8e2f9b",
+      "bytes": 967
+    },
+    {
+      "name": "draw_population_v08.py",
+      "sha256": "d7765b100eb10a9e3a891b76c39887a4d417e974055abadceb82d1e793a15470",
+      "bytes": 10077
+    },
+    {
+      "name": "figure_contract.md",
+      "sha256": "269e5c03dde1a5ea031b93492ce130b221a2f7142d6fb5f9101ed775a005ba9a",
+      "bytes": 1442
+    },
+    {
+      "name": "fire_family_by_crack_count.csv",
+      "sha256": "9848857b13e65d4b280be7286f2deb2c672ae745b8b8309f249e68fa6fb75863",
+      "bytes": 2344
+    },
+    {
+      "name": "pdf_export_QA.json",
+      "sha256": "10636bc84f36ed6aec0eb9bb690ce90e2858df95ffac77917dbda9b86fc1ee4f",
+      "bytes": 337
+    },
+    {
+      "name": "pdf_final_QA.png",
+      "sha256": "31f6e93526eab902958e8aa02a6bccbe7879ba176ef5307699c3fc02c16ab167",
+      "bytes": 127915
+    },
+    {
+      "name": "population_case_identifiers.csv",
+      "sha256": "fe0448cb6ccdd0725765031c5f9577f28f73b538c2c31d90d621021cd55f794a",
+      "bytes": 108264
+    },
+    {
+      "name": "population_v08.pdf",
+      "sha256": "298d210b85694752d6c07d3af2c4ce1b9603e1d37b3b4fb3734f4ea390b94b6d",
+      "bytes": 67619
+    },
+    {
+      "name": "population_v08.png",
+      "sha256": "d904c21fcf93b546ae19580aacaab3d13b6efbcd21e9ec545f786edf7fabcfce",
+      "bytes": 300161
+    },
+    {
+      "name": "population_v08.svg",
+      "sha256": "0c6329d7673adf42033a0a468a90243b8854a37d4c9c3f8da32c54b4c34b2315",
+      "bytes": 164065
+    },
+    {
+      "name": "provenance.json",
+      "sha256": "eb1da3030c1d4da0178f7ff7cf83577fb124f5296906643e2c1ee984631cbaaa",
+      "bytes": 2568
+    },
+    {
+      "name": "QA.md",
+      "sha256": "4524272c1f64aa9d0c79ebee7aa4b821b6072f978390e9c22362e9c5dfea7e95",
+      "bytes": 1499
+    },
+    {
+      "name": "retained_and_restored_composition.csv",
+      "sha256": "f0657c66d6492f4709968843de232ae1eada6ce056470accb976a366789628fd",
+      "bytes": 194
+    },
+    {
+      "name": "source_batch_by_crack_count.csv",
+      "sha256": "38c949eb5fad903c1ea5f4acc95f188207bafd2e8c28a34757eb68dc808985c2",
+      "bytes": 517
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PASSED_ACTUAL_STANDALONE_VISUAL_AND_SOURCE_ARITHMETIC_QA",
+  "reviewed_utc": "2026-09-07T08:44:40.301762+00:00",
+  "reviewer": "/root/engineering_validation_v08",
+  "inspection": "Agent inspected the rasterized final PDF at original image detail; vector and source arithmetic were separately checked.",
+  "pdf_sha256": "698dfcab2151c758cb95df9a5473f2a3c795618252ec3993d8fa0f961dcfd009",
+  "inspected_render_sha256": "17bc05f293358812b393b7a2a978ec3822dd261bf69fe3911d65c2455756cde2",
+  "source_generator_modified_in_actual_generation": false,
+  "manuscript_placement_QA": "Pending integration; this record is standalone artifact QA, not manuscript acceptance.",
+  "pages": 1,
+  "body_font_TeX_pt": 9,
+  "body_font_min_PDF_bp": 8.966400146484375,
+  "math_subscript_min_PDF_bp": 5.97760009765625,
+  "checks": [
+    "Both tables and their captions fit on one page and remain readable.",
+    "No overfull boxes, out-of-page text, overlapping labels, or raster objects were detected.",
+    "The 10^-3 effect scale, confidence limits, counts, and NA entries agree with the checked source values.",
+    "Smoldering q=0.6 has zero reference events and NA event coverage; counts are not multiplied by five seeds."
+  ],
+  "arithmetic_evidence": "independent_arithmetic_QA.json",
+  "limits": [
+    "Maximum FN/FP and minimum common-event counts may occur in different seeds.",
+    "Secondary intervals are unadjusted and do not replace the prespecified primary comparisons.",
+    "The 9-TeX-point body equals approximately 8.966 PDF big points; smaller mathematical subscripts are standard typography."
+  ],
+  "checker_corrections": [
+    "The new independent table checker initially referenced c instead of the defined cens variable; this checker-only typo was fixed before the successful audit.",
+    "The one-off export check threshold was corrected for the TeX-point/PDF-big-point conversion; the table font and layout were not changed."
+  ]
+}

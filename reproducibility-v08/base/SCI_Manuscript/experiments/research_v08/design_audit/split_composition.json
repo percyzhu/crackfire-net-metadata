@@ -1,0 +1,932 @@
+{
+  "iid997": {
+    "train": {
+      "cases": 693,
+      "by_batch": {
+        "batch_005": 459,
+        "batch_004": 234
+      },
+      "flat_cases": 58,
+      "legacy911_cases": 635,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "validation": {
+      "cases": 144,
+      "by_batch": {
+        "batch_004": 48,
+        "batch_005": 96
+      },
+      "flat_cases": 13,
+      "legacy911_cases": 131,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "test": {
+      "cases": 160,
+      "by_batch": {
+        "batch_005": 112,
+        "batch_004": 48
+      },
+      "flat_cases": 15,
+      "legacy911_cases": 145,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "lcro_9_15": {
+    "train": {
+      "cases": 620,
+      "by_batch": {
+        "batch_005": 342,
+        "batch_004": 278
+      },
+      "flat_cases": 45,
+      "legacy911_cases": 575,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "validation": {
+      "cases": 113,
+      "by_batch": {
+        "batch_005": 61,
+        "batch_004": 52
+      },
+      "flat_cases": 9,
+      "legacy911_cases": 104,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "test": {
+      "cases": 264,
+      "by_batch": {
+        "batch_005": 264
+      },
+      "flat_cases": 32,
+      "legacy911_cases": 232,
+      "crack_counts": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "loco_iso834": {
+    "train": {
+      "cases": 709,
+      "by_batch": {
+        "batch_005": 513,
+        "batch_004": 196
+      },
+      "flat_cases": 74,
+      "legacy911_cases": 635,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "validation": {
+      "cases": 130,
+      "by_batch": {
+        "batch_005": 93,
+        "batch_004": 37
+      },
+      "flat_cases": 12,
+      "legacy911_cases": 118,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "test": {
+      "cases": 158,
+      "by_batch": {
+        "batch_004": 97,
+        "batch_005": 61
+      },
+      "flat_cases": 0,
+      "legacy911_cases": 158,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15
+      ]
+    }
+  },
+  "loco_astm_e119": {
+    "train": {
+      "cases": 763,
+      "by_batch": {
+        "batch_005": 505,
+        "batch_004": 258
+      },
+      "flat_cases": 74,
+      "legacy911_cases": 689,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "validation": {
+      "cases": 139,
+      "by_batch": {
+        "batch_005": 92,
+        "batch_004": 47
+      },
+      "flat_cases": 12,
+      "legacy911_cases": 127,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "test": {
+      "cases": 95,
+      "by_batch": {
+        "batch_004": 25,
+        "batch_005": 70
+      },
+      "flat_cases": 0,
+      "legacy911_cases": 95,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    }
+  },
+  "loco_perturbed_iso": {
+    "train": {
+      "cases": 749,
+      "by_batch": {
+        "batch_005": 507,
+        "batch_004": 242
+      },
+      "flat_cases": 73,
+      "legacy911_cases": 676,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "validation": {
+      "cases": 137,
+      "by_batch": {
+        "batch_005": 99,
+        "batch_004": 38
+      },
+      "flat_cases": 13,
+      "legacy911_cases": 124,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "test": {
+      "cases": 111,
+      "by_batch": {
+        "batch_004": 50,
+        "batch_005": 61
+      },
+      "flat_cases": 0,
+      "legacy911_cases": 111,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14
+      ]
+    }
+  },
+  "loco_plateau": {
+    "train": {
+      "cases": 756,
+      "by_batch": {
+        "batch_005": 502,
+        "batch_004": 254
+      },
+      "flat_cases": 73,
+      "legacy911_cases": 683,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "validation": {
+      "cases": 138,
+      "by_batch": {
+        "batch_005": 101,
+        "batch_004": 37
+      },
+      "flat_cases": 13,
+      "legacy911_cases": 125,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "test": {
+      "cases": 103,
+      "by_batch": {
+        "batch_004": 39,
+        "batch_005": 64
+      },
+      "flat_cases": 0,
+      "legacy911_cases": 103,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "loco_decay": {
+    "train": {
+      "cases": 747,
+      "by_batch": {
+        "batch_005": 502,
+        "batch_004": 245
+      },
+      "flat_cases": 74,
+      "legacy911_cases": 673,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "validation": {
+      "cases": 137,
+      "by_batch": {
+        "batch_005": 98,
+        "batch_004": 39
+      },
+      "flat_cases": 12,
+      "legacy911_cases": 125,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "test": {
+      "cases": 113,
+      "by_batch": {
+        "batch_004": 46,
+        "batch_005": 67
+      },
+      "flat_cases": 0,
+      "legacy911_cases": 113,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "loco_log_variant": {
+    "train": {
+      "cases": 785,
+      "by_batch": {
+        "batch_005": 509,
+        "batch_004": 276
+      },
+      "flat_cases": 75,
+      "legacy911_cases": 710,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "validation": {
+      "cases": 143,
+      "by_batch": {
+        "batch_005": 103,
+        "batch_004": 40
+      },
+      "flat_cases": 11,
+      "legacy911_cases": 132,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "test": {
+      "cases": 69,
+      "by_batch": {
+        "batch_004": 14,
+        "batch_005": 55
+      },
+      "flat_cases": 0,
+      "legacy911_cases": 69,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "loco_external_fire": {
+    "train": {
+      "cases": 802,
+      "by_batch": {
+        "batch_005": 521,
+        "batch_004": 281
+      },
+      "flat_cases": 73,
+      "legacy911_cases": 729,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "validation": {
+      "cases": 146,
+      "by_batch": {
+        "batch_005": 97,
+        "batch_004": 49
+      },
+      "flat_cases": 13,
+      "legacy911_cases": 133,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "test": {
+      "cases": 49,
+      "by_batch": {
+        "batch_005": 49
+      },
+      "flat_cases": 0,
+      "legacy911_cases": 49,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "loco_bilinear": {
+    "train": {
+      "cases": 778,
+      "by_batch": {
+        "batch_005": 498,
+        "batch_004": 280
+      },
+      "flat_cases": 74,
+      "legacy911_cases": 704,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "validation": {
+      "cases": 142,
+      "by_batch": {
+        "batch_005": 92,
+        "batch_004": 50
+      },
+      "flat_cases": 12,
+      "legacy911_cases": 130,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "test": {
+      "cases": 77,
+      "by_batch": {
+        "batch_005": 77
+      },
+      "flat_cases": 0,
+      "legacy911_cases": 77,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "loco_linear": {
+    "train": {
+      "cases": 737,
+      "by_batch": {
+        "batch_005": 508,
+        "batch_004": 229
+      },
+      "flat_cases": 74,
+      "legacy911_cases": 663,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "validation": {
+      "cases": 135,
+      "by_batch": {
+        "batch_005": 93,
+        "batch_004": 42
+      },
+      "flat_cases": 12,
+      "legacy911_cases": 123,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "test": {
+      "cases": 125,
+      "by_batch": {
+        "batch_004": 59,
+        "batch_005": 66
+      },
+      "flat_cases": 0,
+      "legacy911_cases": 125,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "loco_smoldering": {
+    "train": {
+      "cases": 761,
+      "by_batch": {
+        "batch_005": 476,
+        "batch_004": 285
+      },
+      "flat_cases": 0,
+      "legacy911_cases": 761,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "validation": {
+      "cases": 139,
+      "by_batch": {
+        "batch_005": 94,
+        "batch_004": 45
+      },
+      "flat_cases": 0,
+      "legacy911_cases": 139,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "test": {
+      "cases": 97,
+      "by_batch": {
+        "batch_005": 97
+      },
+      "flat_cases": 86,
+      "legacy911_cases": 11,
+      "crack_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  }
+}

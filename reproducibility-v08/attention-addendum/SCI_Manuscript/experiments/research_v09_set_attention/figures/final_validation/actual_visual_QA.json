@@ -1,0 +1,19 @@
+{
+  "status": "PASS_ACTUAL_STANDALONE_VISUAL_AND_LATEX_QA",
+  "generated_artifact_manifest_sha256": "3e7cf34ff0121d9392824407943cdf59db15202dd995679cb3bdc7181f2864d6",
+  "effects_v3_png_actually_viewed": true,
+  "effects_v3_actual_pdf_render_actually_viewed": true,
+  "mae_visually_identical_v2_png_actually_viewed": true,
+  "final_figure_pdf_text_and_page_checks_passed": true,
+  "latex_compile_passes": 2,
+  "latex_overfull_boxes": 0,
+  "compiled_table_pages_actually_viewed": [1, 2],
+  "protocols_retained": 12,
+  "statistics_protocol_model_rows": 36,
+  "statistics_seeds_per_cell": 5,
+  "rmse_definition": "For each seed, sqrt(mean squared error over all case-time observations); then mean and sample SD over five seeds.",
+  "negative_and_inconclusive_results_retained": true,
+  "original_generation_manifest_modified": false,
+  "manuscript_placement_review_pending": true,
+  "submission_pass": false
+}

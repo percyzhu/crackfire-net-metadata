@@ -1,0 +1,98 @@
+{
+  "status": "ALL12_RUN_CI_REVIEW_METADATA_READY_FOR_SOURCE_BINDING",
+  "required_protocols": 12,
+  "required_runs": 420,
+  "protocol_statuses": [
+    {
+      "protocol": "iid997",
+      "complete_audited_runs": 35,
+      "actual_result_file_count": 35,
+      "complete_35": true,
+      "required_files_present": true
+    },
+    {
+      "protocol": "lcro_9_15",
+      "complete_audited_runs": 35,
+      "actual_result_file_count": 35,
+      "complete_35": true,
+      "required_files_present": true
+    },
+    {
+      "protocol": "loco_iso834",
+      "complete_audited_runs": 35,
+      "actual_result_file_count": 35,
+      "complete_35": true,
+      "required_files_present": true
+    },
+    {
+      "protocol": "loco_astm_e119",
+      "complete_audited_runs": 35,
+      "actual_result_file_count": 35,
+      "complete_35": true,
+      "required_files_present": true
+    },
+    {
+      "protocol": "loco_perturbed_iso",
+      "complete_audited_runs": 35,
+      "actual_result_file_count": 35,
+      "complete_35": true,
+      "required_files_present": true
+    },
+    {
+      "protocol": "loco_plateau",
+      "complete_audited_runs": 35,
+      "actual_result_file_count": 35,
+      "complete_35": true,
+      "required_files_present": true
+    },
+    {
+      "protocol": "loco_decay",
+      "complete_audited_runs": 35,
+      "actual_result_file_count": 35,
+      "complete_35": true,
+      "required_files_present": true
+    },
+    {
+      "protocol": "loco_log_variant",
+      "complete_audited_runs": 35,
+      "actual_result_file_count": 35,
+      "complete_35": true,
+      "required_files_present": true
+    },
+    {
+      "protocol": "loco_external_fire",
+      "complete_audited_runs": 35,
+      "actual_result_file_count": 35,
+      "complete_35": true,
+      "required_files_present": true
+    },
+    {
+      "protocol": "loco_bilinear",
+      "complete_audited_runs": 35,
+      "actual_result_file_count": 35,
+      "complete_35": true,
+      "required_files_present": true
+    },
+    {
+      "protocol": "loco_linear",
+      "complete_audited_runs": 35,
+      "actual_result_file_count": 35,
+      "complete_35": true,
+      "required_files_present": true
+    },
+    {
+      "protocol": "loco_smoldering",
+      "complete_audited_runs": 35,
+      "actual_result_file_count": 35,
+      "complete_35": true,
+      "required_files_present": true
+    }
+  ],
+  "complete_audited_protocols": 12,
+  "missing_requirements": [],
+  "score_payloads_read": 0,
+  "review_metadata_headers_read": 24,
+  "prediction_files_opened": 0,
+  "formal_tables_created": false,
+  "checked_utc": "2026-09-07T08:35:54.700406+00:00"
+}

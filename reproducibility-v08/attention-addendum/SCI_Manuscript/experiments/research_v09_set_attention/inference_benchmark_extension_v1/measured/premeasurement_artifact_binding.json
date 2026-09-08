@@ -1,0 +1,41 @@
+{
+  "status": "ALL60_NEW_AND120_REUSED_ARTIFACTS_BOUND_BEFORE_SEPARATE_TIMING",
+  "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+  "evidence_hashes": {
+    "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+    "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+    "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79"
+  },
+  "selected_checkpoints": [
+    {
+      "model": "capacity_matched_deepsets",
+      "checkpoint": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\iid997\\capacity_matched_deepsets\\seed_42\\best.pt",
+      "checkpoint_sha256": "db1fd7242c530ab974d0db4f3c61c3f3ea7b8f536e24d4497e4353ddaea6132d",
+      "run_metadata_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\iid997\\capacity_matched_deepsets\\seed_42\\run_metadata.json",
+      "run_metadata_sha256": "bac2810a6dad55f3007e5d0c5cc26c53ef88cf1dd5d5c09857211e85b33a7542",
+      "training_plan_sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068",
+      "parameters": 194913
+    },
+    {
+      "model": "gnn",
+      "checkpoint": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\iid997\\gnn\\seed_42\\best.pt",
+      "checkpoint_sha256": "f9820a6d7300c11863b6b6e73c1bbb1af849717da39185ffb3ea151173de0473",
+      "run_metadata_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\iid997\\gnn\\seed_42\\run_metadata.json",
+      "run_metadata_sha256": "d665209d42e63c03671c655f9c881cb2f1955f91c69d04b6f112a0b58f4b4dbb",
+      "training_plan_sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068",
+      "parameters": 194177
+    },
+    {
+      "model": "set_attention",
+      "checkpoint": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\runs_set_attention_60\\iid997\\set_attention\\seed_42\\best.pt",
+      "checkpoint_sha256": "a4868c1e94ce70210fca0b8ca02019e4b2a5442620254500cddc07b6155b5f75",
+      "run_metadata_path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\runs_set_attention_60\\iid997\\set_attention\\seed_42\\run_metadata.json",
+      "run_metadata_sha256": "1ecae4776d57ce3bb93cfc225756872a91622e4dc3fb9f14e6f32aaa0adf05ae",
+      "training_plan_sha256": "8d21e13af116dc97556b37060daaf86afed5f7ba645a5bdae18e3d4ffb3b05a9",
+      "parameters": 194273
+    }
+  ],
+  "new_artifact_runs_checked": 60,
+  "reused_artifact_runs_checked": 120,
+  "no_latency_measurements_in_binding": true
+}

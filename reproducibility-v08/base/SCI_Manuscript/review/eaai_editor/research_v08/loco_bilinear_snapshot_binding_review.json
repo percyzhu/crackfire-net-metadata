@@ -1,0 +1,70 @@
+{
+  "status": "SNAPSHOT_BOUND_TO_INDEPENDENT_COMPLETE_PROTOCOL_AUDIT",
+  "protocol": "loco_bilinear",
+  "created_utc": "2026-09-07T08:04:38.690198+00:00",
+  "snapshot_sha256": "123428b205df72425ccf85ae7a7304e0f35bc3e829d277a1acaf1c688e33d1e5",
+  "snapshot_files_checked": [
+    {
+      "name": "report.json",
+      "sha256": "865b6cb656ea3f7328641fc89219fd28ff1cc1ac16fb64735c5723712feb56bc",
+      "bytes": 5658
+    },
+    {
+      "name": "run_integrity.json",
+      "sha256": "5b55f30cc9b5b03b3cb64f95b495f049301a8201b6d9581fe3d16ee516cabc4f",
+      "bytes": 1020395
+    },
+    {
+      "name": "per_case_metrics.csv",
+      "sha256": "e5c5508680f38706a41929bb9eb0d3def8aeb55e33d1ed623fb998667b8c32fd",
+      "bytes": 556996
+    },
+    {
+      "name": "strata_by_seed.csv",
+      "sha256": "6dc6ccc968d65932b10e80b4e3e3430c6d7b0dad968c8b9961b8a4ae92feee1d",
+      "bytes": 246256
+    },
+    {
+      "name": "summary.json",
+      "sha256": "c1387b959cca478269b2b118b576ff17c8453c8ca04ef335ec870d301e08c80d",
+      "bytes": 37376
+    },
+    {
+      "name": "time_metrics.csv",
+      "sha256": "f6c61d3a05764ca8d9c0e3b85b4d3cd38b0042f87e8baca691320fe8224cc25c",
+      "bytes": 204095
+    },
+    {
+      "name": "topology_by_seed.csv",
+      "sha256": "406530b931ea88e7cbf661dc24a563b40061b713d4ee2e13afb3a39b93cdf182",
+      "bytes": 14910
+    },
+    {
+      "name": "loco_bilinear_engineering_proxy_ci.json",
+      "sha256": "368d436610025ec8f1f3c0cac1777ef422c918b9faa4af4b84081cf0fce744ec",
+      "bytes": 267246
+    },
+    {
+      "name": "loco_bilinear_engineering_proxy_ci.csv",
+      "sha256": "4fc3abfbe396309380078230e11ebbe6b44e5942ab8afbb7bed4fc97338c2ffe",
+      "bytes": 11661
+    }
+  ],
+  "all7_protocol_outputs_identical_to_audited_live_files": true,
+  "current12_frozen_sources_plan_wrapper_amendment_verified": true,
+  "complete_runs": 35,
+  "primary_and_sparse_replay_calls": 65,
+  "replay_status_counts": {
+    "GPU_IDENTITY_EXACT_CPU_BACKEND_VARIATION_RECORDED": 65
+  },
+  "max_CPU_replay_difference": 0.0008781552314758301,
+  "unique_prescribed_fire_parameter_objects": 77,
+  "other_family_prediction_scores_inspected": false,
+  "manuscript_or70run_package_modified": false,
+  "review_files_sha256": {
+    "loco_bilinear_independent_results_audit_v2.json": "dc1d7777c755f8d47ebe71250d3958aeb2ce1cc7fbfa12e6b3bc8631a0d496da",
+    "loco_bilinear_same_weight_topology_audit.json": "97109c6053e09927c56f5074013fc59b484ebabc557c073265334ea9d0c037cf"
+  },
+  "auditor_script_sha256": "dbdb85b5cbafbd2d3307b4e7b3016cc60fccc1574cbb8ae2b4af21689e042e67",
+  "submission_pass": false
+}

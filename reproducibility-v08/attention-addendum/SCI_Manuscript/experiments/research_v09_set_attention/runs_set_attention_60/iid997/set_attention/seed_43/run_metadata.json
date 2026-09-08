@@ -1,0 +1,79 @@
+{
+  "purpose": "ARCHIVAL_INTERACTION_SET_EXPLORATORY_EXTENSION_V09",
+  "epistemic_status": "AFTER_ORIGINAL_TEST_RESULTS_REVIEW_EXPLORATORY",
+  "model_version": "set-attention-h64-heads4-blocks4-ff104-v1",
+  "mode": "set_attention",
+  "protocol": "iid997",
+  "seed": 43,
+  "plan_sha256": "8d21e13af116dc97556b37060daaf86afed5f7ba645a5bdae18e3d4ffb3b05a9",
+  "original_plan_sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068",
+  "dataset_sha256": "7712ad86ab48f185c53a9ae276a9a7b2f6e6673a5d5faf6fc69b0f1bbb3dcdaf",
+  "split_sha256": "1a9405cc3bab2cd58776d537771ee14f8ad13017b11a7cb1d552f15b8c3d0505",
+  "target_version": "archive-scalar-running-min-interp61-v1",
+  "feature_version": "fe-global-v2-prescribed-archive-time-v1",
+  "feature_tensor_sha256": "377313989115580d6e0d3d5b141469cfc567eac86b03ee1b1f4fbc1cf8a2f812",
+  "target_tensor_sha256": "42cbdff25677c0ed9fddef4895a815c89457fd9d72984e87801ceddc56c9ee93",
+  "configuration": {
+    "device": "cuda",
+    "threads": 4,
+    "epochs_max": 300,
+    "batch_size": 32,
+    "patience": 50,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "optimizer": "AdamW",
+    "scheduler": "CosineAnnealingLR(T_max=epochs_max)",
+    "grad_clip_norm": 1.0,
+    "loss": "equal_case_time_mean_squared_error",
+    "validation_selection": "Earliest minimum validation MSE",
+    "deterministic_algorithms": true
+  },
+  "architecture": {
+    "hidden_dim": 64,
+    "heads": 4,
+    "attention_blocks": 4,
+    "feedforward_dim": 104,
+    "dropout": 0,
+    "position_encoding": false,
+    "activation": "ReLU",
+    "normalization": "pre-LayerNorm",
+    "pooling": "arithmetic mean of valid nodes",
+    "self_attention_diagonal": true,
+    "raw_edge_attributes_used": false,
+    "allowed_crack_counts": [
+      1,
+      15
+    ]
+  },
+  "parameters": 194273,
+  "original_source_sha256": {
+    "SCI_Manuscript/experiments/research_v08/research_runner.py": "c1fe6b1d6ebcf0b11a9694f69077a16cefe1556a67631732fe2844cf926875f0",
+    "SCI_Manuscript/experiments/research_v08/prepare997.py": "66666a7dcbc97d54398bf51f7c917e03901e075745233c7951f98d0723292011",
+    "SCI_Manuscript/experiments/research_v08/make_plan.py": "8ac6d7fadf7ae8316209b6902441fb254f05136809d8afde4d66a58b0d24e031",
+    "SCI_Manuscript/experiments/research_v08/run_queue.py": "314b72203f33ea3bf6bc68beff866f44ee8fc2451cc13f1203e1ed84eedc8166",
+    "SCI_Manuscript/experiments/models.py": "0a96098f2d7b96e081f1ebe99a839007d56383d8cc1d6b5fe27331cc06426444",
+    "SCI_Manuscript/experiments/physical_features.py": "34452607a30b06fc7598e127c3cbce64ff2f7ae9882fd23bcec5f1d7aaab49cb",
+    "SCI_Manuscript/experiments/capacity_matched_set.py": "612eb2799536fcd149673ffda67c1d58cf4241627b5cf4a6c732b6d92b685adc",
+    "SCI_Manuscript/experiments/run_readiness.py": "62b702acebef6e150847e65bb4f590aeadc93f3d78effa22d1c8be6b53023abd",
+    "SCI_Manuscript/experiments/qualified_data.py": "bf429d1b161cba78c2297ea262ee4f70c4d755d4e9d6293667589143c60a50b3",
+    "SCI_Manuscript/figures_v06/topology/topology_extension.py": "18ff231f7bb8cd9010277582294953c3fd6de51b193cd4853dd40320342fe8c7",
+    "1_代码/src/data/dataset.py": "c303b9bb0c406bd14019080661ad0ac124b946fc4cd9774fe4438b76ff4f855f",
+    "1_代码/src/gnn/model.py": "808bf7c8d31ae4c76fc5e07c37244ddb18af54e84304603c06da2ec76ffd6752"
+  },
+  "extension_source_sha256": {
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\attention_model.py": "4a08211c2c429231dfefab67307a12bb8463632b5eedc5234ad92cbde0ece7f6",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\run_extension.py": "b44f7aa2d2be33d21ab91b3fb6199e9f51ec3c8fe91c89aa43a3d97425de5d0a",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\smoke_cpu.py": "f48d1b456d7710c14bdc8f83f8b144981cda0f07edb80baa331636bc59fc8af5",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\prepare_extension.py": "dce5f6b65b6657645ecd6804e0bd340ef8fd02af9bf7527c70999214ea14ceef"
+  },
+  "execution_authorization_sha256": "9c56cea3a2310b0956ea7e6429ee1ec6a23f940d3af1b58842129043e6448908",
+  "backend_configuration": {
+    "float_dtype": "float32",
+    "cuda_matmul_allow_tf32": false,
+    "cudnn_allow_tf32": true,
+    "deterministic_algorithms": true
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "torch": "2.5.1+cu124",
+  "gpu": "NVIDIA GeForce RTX 3060 Ti"
+}

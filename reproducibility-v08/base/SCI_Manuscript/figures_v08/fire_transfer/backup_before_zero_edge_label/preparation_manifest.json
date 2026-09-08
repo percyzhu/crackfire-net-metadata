@@ -1,0 +1,46 @@
+{
+  "status": "PREPARED_GATE_TESTED_NO_FORMAL_FIGURE",
+  "created_utc": "2026-09-07T05:04:15.340885+00:00",
+  "files": [
+    {
+      "file": "audit_pdf_export.py",
+      "bytes": 1443,
+      "sha256": "8a30edc776c288a70ac3071350fdb1620af3f310b75721823c18794ef0a4364e"
+    },
+    {
+      "file": "caption_en.tex",
+      "bytes": 1607,
+      "sha256": "1fdf4556c1df28198b4b9ca04cf05efbff64ebc758bd261d7aff5236a32cb82c"
+    },
+    {
+      "file": "draw_fire_transfer_v08.py",
+      "bytes": 22780,
+      "sha256": "650a4e002615230ae3739ec084ac5ddab06aebc82bb113ad9f11bcd30ba2ef87"
+    },
+    {
+      "file": "figure_contract.md",
+      "bytes": 3399,
+      "sha256": "de1679a42795e7b29115a55bb7cad7f3cdcc6ce4200717b9822c40216e627b92"
+    },
+    {
+      "file": "gate_status.json",
+      "bytes": 2867,
+      "sha256": "d6f34932a82164439084ef754cc7ebf5732acc800cc55115577b5ed53f46363b"
+    },
+    {
+      "file": "gate_test.json",
+      "bytes": 1051,
+      "sha256": "f2523affd9c690bd4205f21c4e11bdd565c8467cb9ff39e89af7e994a942c752"
+    },
+    {
+      "file": "QA.md",
+      "bytes": 1311,
+      "sha256": "2159f9a9a7219e926187165c9cb466cdc522c4dc192265249d2c58902f153065"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2464,
+      "sha256": "b8c3b12a40cdd1f00d97855edff785e2be1902cd94c98e38fc2fbc84cd9a5802"
+    }
+  ]
+}

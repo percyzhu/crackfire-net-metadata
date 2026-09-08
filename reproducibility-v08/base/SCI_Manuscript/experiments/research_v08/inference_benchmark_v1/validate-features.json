@@ -1,0 +1,7 @@
+{
+  "status": "EXACT_INPUT_RECONSTRUCTION",
+  "cases": 160,
+  "tensors_per_case": 5,
+  "latencies_measured": false,
+  "source_sha256": "aad7de1e3e332a119adf5ea97f2813bf47dd8d3fe4d136a4ba60cb096f96bcf9"
+}

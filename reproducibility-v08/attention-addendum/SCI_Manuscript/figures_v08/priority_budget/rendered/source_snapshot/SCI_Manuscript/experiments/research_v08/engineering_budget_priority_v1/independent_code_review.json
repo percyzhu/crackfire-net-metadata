@@ -1,0 +1,20 @@
+{
+  "status": "PASSED_BOUNDED_INDEPENDENT_CODE_AND_STATISTICAL_SEMANTICS_REVIEW",
+  "reviewer": "/root/engineering_validation_v08",
+  "date": "2026-09-07",
+  "protocol_md_sha256": "77a8c53efe548b3cfde9620e81b36c089558e9a0e52cc7c86dddb152d12ba24d",
+  "protocol_json_sha256": "efeaf945c10c7f7563b460f34c82bf7658cb11ff01df1467f1e2c71685d4257d",
+  "implementation_sha256": "ef67d81d988545f3fd93ddc715901691a4daa5ff7ea908d3d33ae3d69be6fa32",
+  "analysis_report_sha256": "05710bae8a35daa8cf11913637526d4aea0d757bc07eb5bde4350e34b2a637a9",
+  "input_equivalence_gate_sha256": "838044dbe05a341e61d3700d1f90c1735441676fd0b8de8a91decaedaae892a5",
+  "mathematical_checks": ["integer_floor_budget", "uniform_exact_cutoff_ties", "same_budget_oracle", "finite_population_random_SD", "raw_nonnegative_regret_with_tolerance", "negative_gains_retained", "reference_shared_NA_fraction", "five_seed_sample_SD", "paired_difference_sign", "no_cross_protocol_pooling"],
+  "effective_model_inputs_inspected": ["models.py", "capacity_matched_set.py", "research_v08/research_runner.py"],
+  "no_blocking_issue_found": true,
+  "interpretation_notes": ["Canonicalization invariance is not a model-forward permutation test.", "Roundoff-scale constant-score gains do not convey geometric information.", "Post-review exploratory utility is not a new confirmatory primary analysis."],
+  "generator_reexecuted": false,
+  "models_executed": 0,
+  "numerical_output_rows_independently_recomputed_by_this_review": 0,
+  "source_or_results_modified": false,
+  "remaining": "Separate full arithmetic audit, actual figure QA and final manuscript review.",
+  "scientific_manuscript_or_submission_pass": false
+}

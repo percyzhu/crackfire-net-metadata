@@ -1,0 +1,10 @@
+{
+  "status": "AUTHORIZED_SEPARATE_ATTENTION_TIMING_AFTER_COMPLETE60_REPLAY_AND_QUIET",
+  "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+  "extension_plan_sha256": "8d21e13af116dc97556b37060daaf86afed5f7ba645a5bdae18e3d4ffb3b05a9",
+  "aggregate_report_sha256": "b4302ea95d71b44fbbaf83cbf574b22ea23f37d976a0e7620a4a5d13a44e1341",
+  "aggregate_run_integrity_sha256": "d392bff85b5556d4f8025502dec340b7b10bdcccbf0cd082e2e599075b7cc3c9",
+  "independent_review_sha256": "2f6d7e8e8ffb1b221800360d0400734042eb6de0f88b9b09503981f6bc0c4f79",
+  "authorized_by": "root",
+  "reason": "Complete60 verified; independent numerical review passed; all three collaborators paused project compute."
+}

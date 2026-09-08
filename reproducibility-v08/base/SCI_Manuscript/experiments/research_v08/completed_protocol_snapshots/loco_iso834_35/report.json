@@ -1,0 +1,1364 @@
+{
+  "status": "PENDING_MATRIX",
+  "purpose": "ARCHIVAL_SURROGATE_RESEARCH_V08",
+  "generated_utc": "2026-09-07T04:13:05Z",
+  "plan_sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068",
+  "protocols": {
+    "iid997": {
+      "status": "COMPLETE",
+      "audited_run_count": 35,
+      "expected_run_count": 35,
+      "missing_cells": [],
+      "scientific_summary_published": true
+    },
+    "lcro_9_15": {
+      "status": "COMPLETE",
+      "audited_run_count": 35,
+      "expected_run_count": 35,
+      "missing_cells": [],
+      "scientific_summary_published": true
+    },
+    "loco_iso834": {
+      "status": "COMPLETE",
+      "audited_run_count": 35,
+      "expected_run_count": 35,
+      "missing_cells": [],
+      "scientific_summary_published": true
+    },
+    "loco_astm_e119": {
+      "status": "PENDING",
+      "audited_run_count": 2,
+      "expected_run_count": 35,
+      "missing_cells": [
+        {
+          "model": "fire_only",
+          "seed": 43
+        },
+        {
+          "model": "fire_only",
+          "seed": 44
+        },
+        {
+          "model": "fire_only",
+          "seed": 45
+        },
+        {
+          "model": "fire_only",
+          "seed": 46
+        },
+        {
+          "model": "global_stats",
+          "seed": 43
+        },
+        {
+          "model": "global_stats",
+          "seed": 44
+        },
+        {
+          "model": "global_stats",
+          "seed": 45
+        },
+        {
+          "model": "global_stats",
+          "seed": 46
+        },
+        {
+          "model": "deepsets",
+          "seed": 42
+        },
+        {
+          "model": "deepsets",
+          "seed": 43
+        },
+        {
+          "model": "deepsets",
+          "seed": 44
+        },
+        {
+          "model": "deepsets",
+          "seed": 45
+        },
+        {
+          "model": "deepsets",
+          "seed": 46
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 42
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 43
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 44
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 45
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 46
+        },
+        {
+          "model": "gnn",
+          "seed": 42
+        },
+        {
+          "model": "gnn",
+          "seed": 43
+        },
+        {
+          "model": "gnn",
+          "seed": 44
+        },
+        {
+          "model": "gnn",
+          "seed": 45
+        },
+        {
+          "model": "gnn",
+          "seed": 46
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 42
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 43
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 44
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 45
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 46
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 42
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 43
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 44
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 45
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 46
+        }
+      ],
+      "scientific_summary_published": false
+    },
+    "loco_perturbed_iso": {
+      "status": "PENDING",
+      "audited_run_count": 0,
+      "expected_run_count": 35,
+      "missing_cells": [
+        {
+          "model": "fire_only",
+          "seed": 42
+        },
+        {
+          "model": "fire_only",
+          "seed": 43
+        },
+        {
+          "model": "fire_only",
+          "seed": 44
+        },
+        {
+          "model": "fire_only",
+          "seed": 45
+        },
+        {
+          "model": "fire_only",
+          "seed": 46
+        },
+        {
+          "model": "global_stats",
+          "seed": 42
+        },
+        {
+          "model": "global_stats",
+          "seed": 43
+        },
+        {
+          "model": "global_stats",
+          "seed": 44
+        },
+        {
+          "model": "global_stats",
+          "seed": 45
+        },
+        {
+          "model": "global_stats",
+          "seed": 46
+        },
+        {
+          "model": "deepsets",
+          "seed": 42
+        },
+        {
+          "model": "deepsets",
+          "seed": 43
+        },
+        {
+          "model": "deepsets",
+          "seed": 44
+        },
+        {
+          "model": "deepsets",
+          "seed": 45
+        },
+        {
+          "model": "deepsets",
+          "seed": 46
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 42
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 43
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 44
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 45
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 46
+        },
+        {
+          "model": "gnn",
+          "seed": 42
+        },
+        {
+          "model": "gnn",
+          "seed": 43
+        },
+        {
+          "model": "gnn",
+          "seed": 44
+        },
+        {
+          "model": "gnn",
+          "seed": 45
+        },
+        {
+          "model": "gnn",
+          "seed": 46
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 42
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 43
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 44
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 45
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 46
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 42
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 43
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 44
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 45
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 46
+        }
+      ],
+      "scientific_summary_published": false
+    },
+    "loco_plateau": {
+      "status": "PENDING",
+      "audited_run_count": 0,
+      "expected_run_count": 35,
+      "missing_cells": [
+        {
+          "model": "fire_only",
+          "seed": 42
+        },
+        {
+          "model": "fire_only",
+          "seed": 43
+        },
+        {
+          "model": "fire_only",
+          "seed": 44
+        },
+        {
+          "model": "fire_only",
+          "seed": 45
+        },
+        {
+          "model": "fire_only",
+          "seed": 46
+        },
+        {
+          "model": "global_stats",
+          "seed": 42
+        },
+        {
+          "model": "global_stats",
+          "seed": 43
+        },
+        {
+          "model": "global_stats",
+          "seed": 44
+        },
+        {
+          "model": "global_stats",
+          "seed": 45
+        },
+        {
+          "model": "global_stats",
+          "seed": 46
+        },
+        {
+          "model": "deepsets",
+          "seed": 42
+        },
+        {
+          "model": "deepsets",
+          "seed": 43
+        },
+        {
+          "model": "deepsets",
+          "seed": 44
+        },
+        {
+          "model": "deepsets",
+          "seed": 45
+        },
+        {
+          "model": "deepsets",
+          "seed": 46
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 42
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 43
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 44
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 45
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 46
+        },
+        {
+          "model": "gnn",
+          "seed": 42
+        },
+        {
+          "model": "gnn",
+          "seed": 43
+        },
+        {
+          "model": "gnn",
+          "seed": 44
+        },
+        {
+          "model": "gnn",
+          "seed": 45
+        },
+        {
+          "model": "gnn",
+          "seed": 46
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 42
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 43
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 44
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 45
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 46
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 42
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 43
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 44
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 45
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 46
+        }
+      ],
+      "scientific_summary_published": false
+    },
+    "loco_decay": {
+      "status": "PENDING",
+      "audited_run_count": 0,
+      "expected_run_count": 35,
+      "missing_cells": [
+        {
+          "model": "fire_only",
+          "seed": 42
+        },
+        {
+          "model": "fire_only",
+          "seed": 43
+        },
+        {
+          "model": "fire_only",
+          "seed": 44
+        },
+        {
+          "model": "fire_only",
+          "seed": 45
+        },
+        {
+          "model": "fire_only",
+          "seed": 46
+        },
+        {
+          "model": "global_stats",
+          "seed": 42
+        },
+        {
+          "model": "global_stats",
+          "seed": 43
+        },
+        {
+          "model": "global_stats",
+          "seed": 44
+        },
+        {
+          "model": "global_stats",
+          "seed": 45
+        },
+        {
+          "model": "global_stats",
+          "seed": 46
+        },
+        {
+          "model": "deepsets",
+          "seed": 42
+        },
+        {
+          "model": "deepsets",
+          "seed": 43
+        },
+        {
+          "model": "deepsets",
+          "seed": 44
+        },
+        {
+          "model": "deepsets",
+          "seed": 45
+        },
+        {
+          "model": "deepsets",
+          "seed": 46
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 42
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 43
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 44
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 45
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 46
+        },
+        {
+          "model": "gnn",
+          "seed": 42
+        },
+        {
+          "model": "gnn",
+          "seed": 43
+        },
+        {
+          "model": "gnn",
+          "seed": 44
+        },
+        {
+          "model": "gnn",
+          "seed": 45
+        },
+        {
+          "model": "gnn",
+          "seed": 46
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 42
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 43
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 44
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 45
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 46
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 42
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 43
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 44
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 45
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 46
+        }
+      ],
+      "scientific_summary_published": false
+    },
+    "loco_log_variant": {
+      "status": "PENDING",
+      "audited_run_count": 0,
+      "expected_run_count": 35,
+      "missing_cells": [
+        {
+          "model": "fire_only",
+          "seed": 42
+        },
+        {
+          "model": "fire_only",
+          "seed": 43
+        },
+        {
+          "model": "fire_only",
+          "seed": 44
+        },
+        {
+          "model": "fire_only",
+          "seed": 45
+        },
+        {
+          "model": "fire_only",
+          "seed": 46
+        },
+        {
+          "model": "global_stats",
+          "seed": 42
+        },
+        {
+          "model": "global_stats",
+          "seed": 43
+        },
+        {
+          "model": "global_stats",
+          "seed": 44
+        },
+        {
+          "model": "global_stats",
+          "seed": 45
+        },
+        {
+          "model": "global_stats",
+          "seed": 46
+        },
+        {
+          "model": "deepsets",
+          "seed": 42
+        },
+        {
+          "model": "deepsets",
+          "seed": 43
+        },
+        {
+          "model": "deepsets",
+          "seed": 44
+        },
+        {
+          "model": "deepsets",
+          "seed": 45
+        },
+        {
+          "model": "deepsets",
+          "seed": 46
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 42
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 43
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 44
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 45
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 46
+        },
+        {
+          "model": "gnn",
+          "seed": 42
+        },
+        {
+          "model": "gnn",
+          "seed": 43
+        },
+        {
+          "model": "gnn",
+          "seed": 44
+        },
+        {
+          "model": "gnn",
+          "seed": 45
+        },
+        {
+          "model": "gnn",
+          "seed": 46
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 42
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 43
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 44
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 45
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 46
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 42
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 43
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 44
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 45
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 46
+        }
+      ],
+      "scientific_summary_published": false
+    },
+    "loco_external_fire": {
+      "status": "PENDING",
+      "audited_run_count": 0,
+      "expected_run_count": 35,
+      "missing_cells": [
+        {
+          "model": "fire_only",
+          "seed": 42
+        },
+        {
+          "model": "fire_only",
+          "seed": 43
+        },
+        {
+          "model": "fire_only",
+          "seed": 44
+        },
+        {
+          "model": "fire_only",
+          "seed": 45
+        },
+        {
+          "model": "fire_only",
+          "seed": 46
+        },
+        {
+          "model": "global_stats",
+          "seed": 42
+        },
+        {
+          "model": "global_stats",
+          "seed": 43
+        },
+        {
+          "model": "global_stats",
+          "seed": 44
+        },
+        {
+          "model": "global_stats",
+          "seed": 45
+        },
+        {
+          "model": "global_stats",
+          "seed": 46
+        },
+        {
+          "model": "deepsets",
+          "seed": 42
+        },
+        {
+          "model": "deepsets",
+          "seed": 43
+        },
+        {
+          "model": "deepsets",
+          "seed": 44
+        },
+        {
+          "model": "deepsets",
+          "seed": 45
+        },
+        {
+          "model": "deepsets",
+          "seed": 46
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 42
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 43
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 44
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 45
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 46
+        },
+        {
+          "model": "gnn",
+          "seed": 42
+        },
+        {
+          "model": "gnn",
+          "seed": 43
+        },
+        {
+          "model": "gnn",
+          "seed": 44
+        },
+        {
+          "model": "gnn",
+          "seed": 45
+        },
+        {
+          "model": "gnn",
+          "seed": 46
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 42
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 43
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 44
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 45
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 46
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 42
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 43
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 44
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 45
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 46
+        }
+      ],
+      "scientific_summary_published": false
+    },
+    "loco_bilinear": {
+      "status": "PENDING",
+      "audited_run_count": 0,
+      "expected_run_count": 35,
+      "missing_cells": [
+        {
+          "model": "fire_only",
+          "seed": 42
+        },
+        {
+          "model": "fire_only",
+          "seed": 43
+        },
+        {
+          "model": "fire_only",
+          "seed": 44
+        },
+        {
+          "model": "fire_only",
+          "seed": 45
+        },
+        {
+          "model": "fire_only",
+          "seed": 46
+        },
+        {
+          "model": "global_stats",
+          "seed": 42
+        },
+        {
+          "model": "global_stats",
+          "seed": 43
+        },
+        {
+          "model": "global_stats",
+          "seed": 44
+        },
+        {
+          "model": "global_stats",
+          "seed": 45
+        },
+        {
+          "model": "global_stats",
+          "seed": 46
+        },
+        {
+          "model": "deepsets",
+          "seed": 42
+        },
+        {
+          "model": "deepsets",
+          "seed": 43
+        },
+        {
+          "model": "deepsets",
+          "seed": 44
+        },
+        {
+          "model": "deepsets",
+          "seed": 45
+        },
+        {
+          "model": "deepsets",
+          "seed": 46
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 42
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 43
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 44
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 45
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 46
+        },
+        {
+          "model": "gnn",
+          "seed": 42
+        },
+        {
+          "model": "gnn",
+          "seed": 43
+        },
+        {
+          "model": "gnn",
+          "seed": 44
+        },
+        {
+          "model": "gnn",
+          "seed": 45
+        },
+        {
+          "model": "gnn",
+          "seed": 46
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 42
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 43
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 44
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 45
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 46
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 42
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 43
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 44
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 45
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 46
+        }
+      ],
+      "scientific_summary_published": false
+    },
+    "loco_linear": {
+      "status": "PENDING",
+      "audited_run_count": 0,
+      "expected_run_count": 35,
+      "missing_cells": [
+        {
+          "model": "fire_only",
+          "seed": 42
+        },
+        {
+          "model": "fire_only",
+          "seed": 43
+        },
+        {
+          "model": "fire_only",
+          "seed": 44
+        },
+        {
+          "model": "fire_only",
+          "seed": 45
+        },
+        {
+          "model": "fire_only",
+          "seed": 46
+        },
+        {
+          "model": "global_stats",
+          "seed": 42
+        },
+        {
+          "model": "global_stats",
+          "seed": 43
+        },
+        {
+          "model": "global_stats",
+          "seed": 44
+        },
+        {
+          "model": "global_stats",
+          "seed": 45
+        },
+        {
+          "model": "global_stats",
+          "seed": 46
+        },
+        {
+          "model": "deepsets",
+          "seed": 42
+        },
+        {
+          "model": "deepsets",
+          "seed": 43
+        },
+        {
+          "model": "deepsets",
+          "seed": 44
+        },
+        {
+          "model": "deepsets",
+          "seed": 45
+        },
+        {
+          "model": "deepsets",
+          "seed": 46
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 42
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 43
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 44
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 45
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 46
+        },
+        {
+          "model": "gnn",
+          "seed": 42
+        },
+        {
+          "model": "gnn",
+          "seed": 43
+        },
+        {
+          "model": "gnn",
+          "seed": 44
+        },
+        {
+          "model": "gnn",
+          "seed": 45
+        },
+        {
+          "model": "gnn",
+          "seed": 46
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 42
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 43
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 44
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 45
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 46
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 42
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 43
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 44
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 45
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 46
+        }
+      ],
+      "scientific_summary_published": false
+    },
+    "loco_smoldering": {
+      "status": "PENDING",
+      "audited_run_count": 0,
+      "expected_run_count": 35,
+      "missing_cells": [
+        {
+          "model": "fire_only",
+          "seed": 42
+        },
+        {
+          "model": "fire_only",
+          "seed": 43
+        },
+        {
+          "model": "fire_only",
+          "seed": 44
+        },
+        {
+          "model": "fire_only",
+          "seed": 45
+        },
+        {
+          "model": "fire_only",
+          "seed": 46
+        },
+        {
+          "model": "global_stats",
+          "seed": 42
+        },
+        {
+          "model": "global_stats",
+          "seed": 43
+        },
+        {
+          "model": "global_stats",
+          "seed": 44
+        },
+        {
+          "model": "global_stats",
+          "seed": 45
+        },
+        {
+          "model": "global_stats",
+          "seed": 46
+        },
+        {
+          "model": "deepsets",
+          "seed": 42
+        },
+        {
+          "model": "deepsets",
+          "seed": 43
+        },
+        {
+          "model": "deepsets",
+          "seed": 44
+        },
+        {
+          "model": "deepsets",
+          "seed": 45
+        },
+        {
+          "model": "deepsets",
+          "seed": 46
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 42
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 43
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 44
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 45
+        },
+        {
+          "model": "capacity_matched_deepsets",
+          "seed": 46
+        },
+        {
+          "model": "gnn",
+          "seed": 42
+        },
+        {
+          "model": "gnn",
+          "seed": 43
+        },
+        {
+          "model": "gnn",
+          "seed": 44
+        },
+        {
+          "model": "gnn",
+          "seed": 45
+        },
+        {
+          "model": "gnn",
+          "seed": 46
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 42
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 43
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 44
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 45
+        },
+        {
+          "model": "gnn_zero_edge_features",
+          "seed": 46
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 42
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 43
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 44
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 45
+        },
+        {
+          "model": "gnn_mean",
+          "seed": 46
+        }
+      ],
+      "scientific_summary_published": false
+    }
+  },
+  "audited_completed_runs": 107,
+  "pending_protocols_have_no_model_performance_summaries": true,
+  "audit_source_sha256": {
+    "aggregate_results.py": "15928fa013713dbef0c103da4e1c802b1761bc6c0d64fe3cc8f7b75bbf560639",
+    "evaluation_stats.py": "812ae58599ed0f36a7156a8af8b97dc8e804500eff483374aea322235adcab4e"
+  },
+  "full_temperature_payload_read_this_check": false,
+  "cpu_prediction_replay_enabled": true,
+  "computational_replay_policy": "OriginalCPU3e-6 remains a diagnostic threshold. Flagged differences require bitwise exact original GPU replay and remain recorded as CPU backend variation.",
+  "no_training_or_model_changes": true,
+  "peer_review_pass": false
+}

@@ -1,0 +1,67 @@
+{
+  "status": "SNAPSHOT_BOUND_TO_INDEPENDENT_COMPLETE_PROTOCOL_AUDIT",
+  "protocol": "loco_iso834",
+  "created_utc": "2026-09-07T04:18:29.958220+00:00",
+  "snapshot_sha256": "a3dc4c165b8ff72783381be7f07db89382c22e7f42217e225652fb92b81b1932",
+  "snapshot_files_checked": [
+    {
+      "name": "report.json",
+      "sha256": "d2be40f353b31c62b8732dfe8f0ddc13f754fb2e2668458dd9346e02f8ac12ff",
+      "bytes": 28840
+    },
+    {
+      "name": "run_integrity.json",
+      "sha256": "a5df6565b688a8eb0771b49e15269fb4b716bec1d072570809c0ecf6e4d407ba",
+      "bytes": 262530
+    },
+    {
+      "name": "per_case_metrics.csv",
+      "sha256": "a7feecd1b509d9417af8cdb5a12ed5ce97a7961ad8af45cb818f397271a6f145",
+      "bytes": 1126968
+    },
+    {
+      "name": "strata_by_seed.csv",
+      "sha256": "0d31a1585aeac9f61ba7072c1068ea7cf8abc416c5e57e0d9d67fa9786cdead6",
+      "bytes": 252580
+    },
+    {
+      "name": "summary.json",
+      "sha256": "616f8c18d352948051cbdb4f7abf7237042586843bbf8330d91d523b10e1f1bf",
+      "bytes": 50644
+    },
+    {
+      "name": "time_metrics.csv",
+      "sha256": "4e571f57277267b2b20f5a2a7eaccc4c6ab2ef4e77b1aeb530bbe020df3e7ce9",
+      "bytes": 205102
+    },
+    {
+      "name": "topology_by_seed.csv",
+      "sha256": "3419bcf70cd6df215742490804f751cc4b525386494db315838754bf9f3925d7",
+      "bytes": 15199
+    },
+    {
+      "name": "loco_iso834_engineering_proxy_ci.json",
+      "sha256": "84fa79687f162eeeee7e6bc7b26d799532ce7f64ebcd5f2df9080ff6f287ec2d",
+      "bytes": 272470
+    },
+    {
+      "name": "loco_iso834_engineering_proxy_ci.csv",
+      "sha256": "c5b2a5cd34dfe502e7b6ea5177f826943456c0186dad390f99be78512979acd2",
+      "bytes": 11454
+    }
+  ],
+  "all7_protocol_outputs_identical_to_audited_live_files": true,
+  "complete_runs": 35,
+  "primary_and_sparse_replay_calls": 65,
+  "replay_status_counts": {
+    "CPU_REPLAY_WITHIN_ORIGINAL_TOLERANCE": 65
+  },
+  "max_CPU_replay_difference": 2.384185791015625e-07,
+  "other_family_prediction_scores_read": false,
+  "manuscript_or70run_package_modified": false,
+  "review_files_sha256": {
+    "loco_iso834_independent_results_audit_v2.json": "dd8cc0f45b61cd2b08e398dd1fd7f2c2cbe13463b39e13a6764f3b412e1c469e",
+    "loco_iso834_same_weight_topology_audit.json": "5b03161e60000f9c4a5e593e4dfe2d34a39c14d2255e3d8fb963bd77941d08c8"
+  },
+  "submission_pass": false
+}

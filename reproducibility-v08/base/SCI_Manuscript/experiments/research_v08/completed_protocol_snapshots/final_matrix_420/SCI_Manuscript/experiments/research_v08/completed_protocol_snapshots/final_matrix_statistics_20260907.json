@@ -1,0 +1,352 @@
+{
+  "status": "COMPLETE420_SOURCE_BOUND_DESCRIPTIVE_READOUT_PENDING_LAST_FAMILY_INDEPENDENT_REVIEW",
+  "created_utc": "2026-09-07T08:27:21.294926+00:00",
+  "aggregate_generated_utc": "2026-09-07T08:25:40Z",
+  "replay": {
+    "complete_graph": {
+      "calls": 420,
+      "CPU_flagged_original_GPU_bitwise_exact": 244,
+      "max_CPU_abs_difference_all": 0.0008746981620788574,
+      "min_flagged_CPU_abs_difference": 4.5299530029296875e-06,
+      "max_flagged_CPU_abs_difference": 0.0008746981620788574,
+      "max_same_GPU_difference": 0.0,
+      "CPU_within_original_tolerance": 176
+    },
+    "sparse_views": {
+      "calls": 360,
+      "CPU_flagged_original_GPU_bitwise_exact": 210,
+      "max_CPU_abs_difference_all": 0.0008781552314758301,
+      "min_flagged_CPU_abs_difference": 4.76837158203125e-06,
+      "max_flagged_CPU_abs_difference": 0.0008781552314758301,
+      "max_same_GPU_difference": 0.0,
+      "CPU_within_original_tolerance": 150
+    },
+    "all": {
+      "calls": 780,
+      "CPU_flagged_original_GPU_bitwise_exact": 454,
+      "max_CPU_abs_difference_all": 0.0008781552314758301,
+      "min_flagged_CPU_abs_difference": 4.5299530029296875e-06,
+      "max_flagged_CPU_abs_difference": 0.0008781552314758301,
+      "max_same_GPU_difference": 0.0,
+      "CPU_within_original_tolerance": 326
+    }
+  },
+  "LOCO_contrasts": [
+    {
+      "protocol": "loco_iso834",
+      "test_geometries": 158,
+      "contrast": "graph_vs_capacity_matched",
+      "difference_definition": "capacity_matched_deepsets MAE minus gnn MAE; positive favors gnn",
+      "point": 2.7164927478721272e-05,
+      "CI95_two_way_5000": [
+        -0.0005319894709347792,
+        0.000532841268296056
+      ],
+      "CI_classification": "includes_zero",
+      "candidate_lower_error_seed_count": 3,
+      "baseline_lower_error_seed_count": 2,
+      "seeds": 5
+    },
+    {
+      "protocol": "loco_iso834",
+      "test_geometries": 158,
+      "contrast": "mean_vs_sum",
+      "difference_definition": "gnn MAE minus gnn_mean MAE; positive favors gnn_mean",
+      "point": -1.1801734044112033e-05,
+      "CI95_two_way_5000": [
+        -0.00032108593975820163,
+        0.0003305802295364406
+      ],
+      "CI_classification": "includes_zero",
+      "candidate_lower_error_seed_count": 2,
+      "baseline_lower_error_seed_count": 3,
+      "seeds": 5
+    },
+    {
+      "protocol": "loco_astm_e119",
+      "test_geometries": 95,
+      "contrast": "graph_vs_capacity_matched",
+      "difference_definition": "capacity_matched_deepsets MAE minus gnn MAE; positive favors gnn",
+      "point": 0.00033712122682562356,
+      "CI95_two_way_5000": [
+        -0.00013044295488270937,
+        0.0008228129344133336
+      ],
+      "CI_classification": "includes_zero",
+      "candidate_lower_error_seed_count": 3,
+      "baseline_lower_error_seed_count": 2,
+      "seeds": 5
+    },
+    {
+      "protocol": "loco_astm_e119",
+      "test_geometries": 95,
+      "contrast": "mean_vs_sum",
+      "difference_definition": "gnn MAE minus gnn_mean MAE; positive favors gnn_mean",
+      "point": -0.00020830430019714384,
+      "CI95_two_way_5000": [
+        -0.0005823849571565033,
+        0.00013188373002708206
+      ],
+      "CI_classification": "includes_zero",
+      "candidate_lower_error_seed_count": 1,
+      "baseline_lower_error_seed_count": 4,
+      "seeds": 5
+    },
+    {
+      "protocol": "loco_perturbed_iso",
+      "test_geometries": 111,
+      "contrast": "graph_vs_capacity_matched",
+      "difference_definition": "capacity_matched_deepsets MAE minus gnn MAE; positive favors gnn",
+      "point": 8.230717169659268e-05,
+      "CI95_two_way_5000": [
+        -0.000318748070271786,
+        0.000489676751159522
+      ],
+      "CI_classification": "includes_zero",
+      "candidate_lower_error_seed_count": 3,
+      "baseline_lower_error_seed_count": 2,
+      "seeds": 5
+    },
+    {
+      "protocol": "loco_perturbed_iso",
+      "test_geometries": 111,
+      "contrast": "mean_vs_sum",
+      "difference_definition": "gnn MAE minus gnn_mean MAE; positive favors gnn_mean",
+      "point": -0.00022133732476732338,
+      "CI95_two_way_5000": [
+        -0.0005501972056244169,
+        0.00010705039915555109
+      ],
+      "CI_classification": "includes_zero",
+      "candidate_lower_error_seed_count": 1,
+      "baseline_lower_error_seed_count": 4,
+      "seeds": 5
+    },
+    {
+      "protocol": "loco_plateau",
+      "test_geometries": 103,
+      "contrast": "graph_vs_capacity_matched",
+      "difference_definition": "capacity_matched_deepsets MAE minus gnn MAE; positive favors gnn",
+      "point": 0.00046887750717061695,
+      "CI95_two_way_5000": [
+        -0.0002201876766148428,
+        0.0012964947780375734
+      ],
+      "CI_classification": "includes_zero",
+      "candidate_lower_error_seed_count": 4,
+      "baseline_lower_error_seed_count": 1,
+      "seeds": 5
+    },
+    {
+      "protocol": "loco_plateau",
+      "test_geometries": 103,
+      "contrast": "mean_vs_sum",
+      "difference_definition": "gnn MAE minus gnn_mean MAE; positive favors gnn_mean",
+      "point": 0.00014896002760714033,
+      "CI95_two_way_5000": [
+        -0.00033025082195577593,
+        0.0006950840775543751
+      ],
+      "CI_classification": "includes_zero",
+      "candidate_lower_error_seed_count": 2,
+      "baseline_lower_error_seed_count": 3,
+      "seeds": 5
+    },
+    {
+      "protocol": "loco_decay",
+      "test_geometries": 113,
+      "contrast": "graph_vs_capacity_matched",
+      "difference_definition": "capacity_matched_deepsets MAE minus gnn MAE; positive favors gnn",
+      "point": -0.0009679272507144286,
+      "CI95_two_way_5000": [
+        -0.002775039364235608,
+        0.0006039494926526849
+      ],
+      "CI_classification": "includes_zero",
+      "candidate_lower_error_seed_count": 2,
+      "baseline_lower_error_seed_count": 3,
+      "seeds": 5
+    },
+    {
+      "protocol": "loco_decay",
+      "test_geometries": 113,
+      "contrast": "mean_vs_sum",
+      "difference_definition": "gnn MAE minus gnn_mean MAE; positive favors gnn_mean",
+      "point": 0.00024419485307753243,
+      "CI95_two_way_5000": [
+        -0.0017240795598134464,
+        0.0021449215288777794
+      ],
+      "CI_classification": "includes_zero",
+      "candidate_lower_error_seed_count": 3,
+      "baseline_lower_error_seed_count": 2,
+      "seeds": 5
+    },
+    {
+      "protocol": "loco_log_variant",
+      "test_geometries": 69,
+      "contrast": "graph_vs_capacity_matched",
+      "difference_definition": "capacity_matched_deepsets MAE minus gnn MAE; positive favors gnn",
+      "point": -5.929125475115938e-05,
+      "CI95_two_way_5000": [
+        -0.0012770523926865836,
+        0.0010112840231476154
+      ],
+      "CI_classification": "includes_zero",
+      "candidate_lower_error_seed_count": 3,
+      "baseline_lower_error_seed_count": 2,
+      "seeds": 5
+    },
+    {
+      "protocol": "loco_log_variant",
+      "test_geometries": 69,
+      "contrast": "mean_vs_sum",
+      "difference_definition": "gnn MAE minus gnn_mean MAE; positive favors gnn_mean",
+      "point": 0.0007171731774117041,
+      "CI95_two_way_5000": [
+        -0.0005833244298727036,
+        0.0020665861386584485
+      ],
+      "CI_classification": "includes_zero",
+      "candidate_lower_error_seed_count": 3,
+      "baseline_lower_error_seed_count": 2,
+      "seeds": 5
+    },
+    {
+      "protocol": "loco_external_fire",
+      "test_geometries": 49,
+      "contrast": "graph_vs_capacity_matched",
+      "difference_definition": "capacity_matched_deepsets MAE minus gnn MAE; positive favors gnn",
+      "point": 0.0002733474413500695,
+      "CI95_two_way_5000": [
+        -0.0005394329677789894,
+        0.0010759025307134778
+      ],
+      "CI_classification": "includes_zero",
+      "candidate_lower_error_seed_count": 3,
+      "baseline_lower_error_seed_count": 2,
+      "seeds": 5
+    },
+    {
+      "protocol": "loco_external_fire",
+      "test_geometries": 49,
+      "contrast": "mean_vs_sum",
+      "difference_definition": "gnn MAE minus gnn_mean MAE; positive favors gnn_mean",
+      "point": 6.874113447413311e-05,
+      "CI95_two_way_5000": [
+        -0.0004572610924747646,
+        0.000614342944464104
+      ],
+      "CI_classification": "includes_zero",
+      "candidate_lower_error_seed_count": 3,
+      "baseline_lower_error_seed_count": 2,
+      "seeds": 5
+    },
+    {
+      "protocol": "loco_bilinear",
+      "test_geometries": 77,
+      "contrast": "graph_vs_capacity_matched",
+      "difference_definition": "capacity_matched_deepsets MAE minus gnn MAE; positive favors gnn",
+      "point": 0.0005991318132843347,
+      "CI95_two_way_5000": [
+        -0.006741032456855827,
+        0.0098716121602368
+      ],
+      "CI_classification": "includes_zero",
+      "candidate_lower_error_seed_count": 2,
+      "baseline_lower_error_seed_count": 3,
+      "seeds": 5
+    },
+    {
+      "protocol": "loco_bilinear",
+      "test_geometries": 77,
+      "contrast": "mean_vs_sum",
+      "difference_definition": "gnn MAE minus gnn_mean MAE; positive favors gnn_mean",
+      "point": -0.0025634503044776524,
+      "CI95_two_way_5000": [
+        -0.008187531200601417,
+        0.0023475910998898303
+      ],
+      "CI_classification": "includes_zero",
+      "candidate_lower_error_seed_count": 1,
+      "baseline_lower_error_seed_count": 4,
+      "seeds": 5
+    },
+    {
+      "protocol": "loco_linear",
+      "test_geometries": 125,
+      "contrast": "graph_vs_capacity_matched",
+      "difference_definition": "capacity_matched_deepsets MAE minus gnn MAE; positive favors gnn",
+      "point": 0.0009550008603783901,
+      "CI95_two_way_5000": [
+        -0.007987824507057664,
+        0.010046564814765919
+      ],
+      "CI_classification": "includes_zero",
+      "candidate_lower_error_seed_count": 3,
+      "baseline_lower_error_seed_count": 2,
+      "seeds": 5
+    },
+    {
+      "protocol": "loco_linear",
+      "test_geometries": 125,
+      "contrast": "mean_vs_sum",
+      "difference_definition": "gnn MAE minus gnn_mean MAE; positive favors gnn_mean",
+      "point": -0.002313654546366363,
+      "CI95_two_way_5000": [
+        -0.005188580312352688,
+        0.00035471831973458735
+      ],
+      "CI_classification": "includes_zero",
+      "candidate_lower_error_seed_count": 1,
+      "baseline_lower_error_seed_count": 4,
+      "seeds": 5
+    },
+    {
+      "protocol": "loco_smoldering",
+      "test_geometries": 97,
+      "contrast": "graph_vs_capacity_matched",
+      "difference_definition": "capacity_matched_deepsets MAE minus gnn MAE; positive favors gnn",
+      "point": 0.00050186912453777,
+      "CI95_two_way_5000": [
+        -0.0026381838538768786,
+        0.0036140001727778376
+      ],
+      "CI_classification": "includes_zero",
+      "candidate_lower_error_seed_count": 3,
+      "baseline_lower_error_seed_count": 2,
+      "seeds": 5
+    },
+    {
+      "protocol": "loco_smoldering",
+      "test_geometries": 97,
+      "contrast": "mean_vs_sum",
+      "difference_definition": "gnn MAE minus gnn_mean MAE; positive favors gnn_mean",
+      "point": -0.0008823567515030409,
+      "CI95_two_way_5000": [
+        -0.0025785968325136885,
+        0.0008790159895348741
+      ],
+      "CI_classification": "includes_zero",
+      "candidate_lower_error_seed_count": 2,
+      "baseline_lower_error_seed_count": 3,
+      "seeds": 5
+    }
+  ],
+  "scope": "Existing prespecified per-protocol contrasts, not a new pooled test; 5000 crossed geometry-seed percentile intervals are unadjusted diagnostics with five seeds. Full models/seeds/protocols retained.",
+  "source_sha256": {
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\report.json": "534efdd6a569a675ddbfedbdcd32b6c4fc40f8ad09edcd51587b122d5e94e499",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\run_integrity.json": "ce4ebdc61f1626321aa115deb8a731f3ed7e241c32ec3dfdd69fe8e90b4d6cdb",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_iso834\\summary.json": "616f8c18d352948051cbdb4f7abf7237042586843bbf8330d91d523b10e1f1bf",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_astm_e119\\summary.json": "102bead09a30a73470cea0cd6b2113fb28aec19de3753f44d790fa365ea155a8",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_perturbed_iso\\summary.json": "c266bd6b16e76176cea09e4dcee6c5229cf3bdf07bd84b13b25a2678c8ce0e7e",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_plateau\\summary.json": "81c41ec5b9ea601a0933255af828445779c457a04826187f1caa92b73352e594",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_decay\\summary.json": "53cdd7944ca3a174069a7a7a93f0c666c2b7875d95f65667b11bd246c4d2cda6",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_log_variant\\summary.json": "54bc281cc3e0b27d165e823143d8312b90e7a1246970606a524cb2fcaf25bb1d",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_external_fire\\summary.json": "9a2ad480a5b2811efe0c7cab09997b898d64340094267aec64fd8e14f1395250",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_bilinear\\summary.json": "c1387b959cca478269b2b118b576ff17c8453c8ca04ef335ec870d301e08c80d",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_linear\\summary.json": "e1c89ebc6920cb56e0c855c3d23abc0e257535efeb07f9362f1d40a02920b2b5",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_smoldering\\summary.json": "674c5b2ae1c4b8826efc36799a35f6bd3c7c6514b4b06508e80ebc60767529a6"
+  },
+  "original_CPU_tolerance": 3e-06
+}

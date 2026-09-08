@@ -1,0 +1,649 @@
+{
+  "status": "COMPLETE_PROTOCOL_TOPOLOGY_BINDINGS_AND_ARITHMETIC_CHECKED",
+  "protocol": "loco_smoldering",
+  "test_cases": 97,
+  "created_utc": "2026-09-07T08:28:56.403155+00:00",
+  "graph_runs": 15,
+  "paired_sparse_views": 30,
+  "radius_training_only_independent": 0.25470749955742017,
+  "symmetric_knn_k": 3,
+  "topology_counts": {
+    "complete": {
+      "directed_edges": 6582,
+      "isolated_nodes": 8,
+      "min_degree": 0,
+      "max_degree": 14
+    },
+    "radius": {
+      "directed_edges": 3468,
+      "isolated_nodes": 37,
+      "min_degree": 0,
+      "max_degree": 11
+    },
+    "symmetric_knn": {
+      "directed_edges": 2588,
+      "isolated_nodes": 8,
+      "min_degree": 0,
+      "max_degree": 6
+    }
+  },
+  "per_seed": [
+    {
+      "model": "gnn",
+      "seed": 42,
+      "rule": "radius",
+      "complete_MAE": 0.011886936517831178,
+      "view_MAE": 0.012231146692927472,
+      "MAE_change_vs_complete": 0.0003442101750962944,
+      "mean_absolute_prediction_change_float32": 0.00046049404772929847,
+      "max_absolute_prediction_change": 0.01915198564529419,
+      "checkpoint_sha256": "004725f27172479399db9475d409e0c6af5d01aa9e6b97d6bc556063bf673821",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn",
+      "seed": 42,
+      "rule": "symmetric_knn",
+      "complete_MAE": 0.011886936517831178,
+      "view_MAE": 0.012228930320855792,
+      "MAE_change_vs_complete": 0.0003419938030246143,
+      "mean_absolute_prediction_change_float32": 0.00039264990482479334,
+      "max_absolute_prediction_change": 0.015030980110168457,
+      "checkpoint_sha256": "004725f27172479399db9475d409e0c6af5d01aa9e6b97d6bc556063bf673821",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn",
+      "seed": 43,
+      "rule": "radius",
+      "complete_MAE": 0.012100574533863206,
+      "view_MAE": 0.012449198132212428,
+      "MAE_change_vs_complete": 0.0003486235983492219,
+      "mean_absolute_prediction_change_float32": 0.0005468401359394193,
+      "max_absolute_prediction_change": 0.042909204959869385,
+      "checkpoint_sha256": "8cbaed0f072ef9a4ddc8f96f2937c6009914460092b1e8c3ae5b5bd63617738a",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn",
+      "seed": 43,
+      "rule": "symmetric_knn",
+      "complete_MAE": 0.012100574533863206,
+      "view_MAE": 0.01247863117174178,
+      "MAE_change_vs_complete": 0.00037805663787857276,
+      "mean_absolute_prediction_change_float32": 0.00043422015733085573,
+      "max_absolute_prediction_change": 0.030742287635803223,
+      "checkpoint_sha256": "8cbaed0f072ef9a4ddc8f96f2937c6009914460092b1e8c3ae5b5bd63617738a",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn",
+      "seed": 44,
+      "rule": "radius",
+      "complete_MAE": 0.010291771246449295,
+      "view_MAE": 0.010529281008338252,
+      "MAE_change_vs_complete": 0.00023750976188895677,
+      "mean_absolute_prediction_change_float32": 0.00042838341323658824,
+      "max_absolute_prediction_change": 0.037770748138427734,
+      "checkpoint_sha256": "81285d9146500068da81c38a6024f33e4e0bc74eb1238806d05f167b932d7c0a",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn",
+      "seed": 44,
+      "rule": "symmetric_knn",
+      "complete_MAE": 0.010291771246449295,
+      "view_MAE": 0.010395141354641924,
+      "MAE_change_vs_complete": 0.00010337010819262867,
+      "mean_absolute_prediction_change_float32": 0.0003494737611617893,
+      "max_absolute_prediction_change": 0.035358428955078125,
+      "checkpoint_sha256": "81285d9146500068da81c38a6024f33e4e0bc74eb1238806d05f167b932d7c0a",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn",
+      "seed": 45,
+      "rule": "radius",
+      "complete_MAE": 0.01344998091967984,
+      "view_MAE": 0.01374583432092968,
+      "MAE_change_vs_complete": 0.0002958534012498411,
+      "mean_absolute_prediction_change_float32": 0.0006934115081094205,
+      "max_absolute_prediction_change": 0.04088091850280762,
+      "checkpoint_sha256": "36a370d8cfe1b55333c79b347412eaf4e5568fb8dddeabfe938cf50b480cbd2e",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn",
+      "seed": 45,
+      "rule": "symmetric_knn",
+      "complete_MAE": 0.01344998091967984,
+      "view_MAE": 0.013689023760982072,
+      "MAE_change_vs_complete": 0.00023904284130223281,
+      "mean_absolute_prediction_change_float32": 0.0004635798395611346,
+      "max_absolute_prediction_change": 0.03609132766723633,
+      "checkpoint_sha256": "36a370d8cfe1b55333c79b347412eaf4e5568fb8dddeabfe938cf50b480cbd2e",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn",
+      "seed": 46,
+      "rule": "radius",
+      "complete_MAE": 0.01028722169049914,
+      "view_MAE": 0.010835764737312145,
+      "MAE_change_vs_complete": 0.0005485430468130052,
+      "mean_absolute_prediction_change_float32": 0.000666360545437783,
+      "max_absolute_prediction_change": 0.039243459701538086,
+      "checkpoint_sha256": "dd570f2dd001cd8cb1d240196b429fa7ed3212ea92137ff210f4718391ef863f",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn",
+      "seed": 46,
+      "rule": "symmetric_knn",
+      "complete_MAE": 0.01028722169049914,
+      "view_MAE": 0.01083340911984504,
+      "MAE_change_vs_complete": 0.0005461874293459009,
+      "mean_absolute_prediction_change_float32": 0.0006039869622327387,
+      "max_absolute_prediction_change": 0.04230618476867676,
+      "checkpoint_sha256": "dd570f2dd001cd8cb1d240196b429fa7ed3212ea92137ff210f4718391ef863f",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn_zero_edge_features",
+      "seed": 42,
+      "rule": "radius",
+      "complete_MAE": 0.012007154301451089,
+      "view_MAE": 0.011982452986267383,
+      "MAE_change_vs_complete": -2.470131518370576e-05,
+      "mean_absolute_prediction_change_float32": 0.0002486496523488313,
+      "max_absolute_prediction_change": 0.02319568395614624,
+      "checkpoint_sha256": "98521e49f9bf06658c4f47234adecd4a4f545004616e4b925a27be8b208b3ed4",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn_zero_edge_features",
+      "seed": 42,
+      "rule": "symmetric_knn",
+      "complete_MAE": 0.012007154301451089,
+      "view_MAE": 0.01194678882861915,
+      "MAE_change_vs_complete": -6.036547283193826e-05,
+      "mean_absolute_prediction_change_float32": 0.0001753608521539718,
+      "max_absolute_prediction_change": 0.012363553047180176,
+      "checkpoint_sha256": "98521e49f9bf06658c4f47234adecd4a4f545004616e4b925a27be8b208b3ed4",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn_zero_edge_features",
+      "seed": 43,
+      "rule": "radius",
+      "complete_MAE": 0.01373190014108887,
+      "view_MAE": 0.013704407793334837,
+      "MAE_change_vs_complete": -2.7492347754032656e-05,
+      "mean_absolute_prediction_change_float32": 0.00018256089242640883,
+      "max_absolute_prediction_change": 0.02001321315765381,
+      "checkpoint_sha256": "0909149b84dadf6ff21a52852b50de166bd1c11c048810e2b74c1bbe63b575ed",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn_zero_edge_features",
+      "seed": 43,
+      "rule": "symmetric_knn",
+      "complete_MAE": 0.01373190014108887,
+      "view_MAE": 0.01373099457760286,
+      "MAE_change_vs_complete": -9.055634860102857e-07,
+      "mean_absolute_prediction_change_float32": 0.0001221556740347296,
+      "max_absolute_prediction_change": 0.009197652339935303,
+      "checkpoint_sha256": "0909149b84dadf6ff21a52852b50de166bd1c11c048810e2b74c1bbe63b575ed",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn_zero_edge_features",
+      "seed": 44,
+      "rule": "radius",
+      "complete_MAE": 0.013703645353525177,
+      "view_MAE": 0.014239874455460185,
+      "MAE_change_vs_complete": 0.0005362291019350082,
+      "mean_absolute_prediction_change_float32": 0.0005659222370013595,
+      "max_absolute_prediction_change": 0.02497345209121704,
+      "checkpoint_sha256": "2804284e983e86068eff5fa704adbc678e96e6fe673bae37766dc8fa7ed847fd",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn_zero_edge_features",
+      "seed": 44,
+      "rule": "symmetric_knn",
+      "complete_MAE": 0.013703645353525177,
+      "view_MAE": 0.014023299512980817,
+      "MAE_change_vs_complete": 0.0003196541594556405,
+      "mean_absolute_prediction_change_float32": 0.0003452374367043376,
+      "max_absolute_prediction_change": 0.01597762107849121,
+      "checkpoint_sha256": "2804284e983e86068eff5fa704adbc678e96e6fe673bae37766dc8fa7ed847fd",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn_zero_edge_features",
+      "seed": 45,
+      "rule": "radius",
+      "complete_MAE": 0.011396877846646112,
+      "view_MAE": 0.011766165358927154,
+      "MAE_change_vs_complete": 0.00036928751228104163,
+      "mean_absolute_prediction_change_float32": 0.0005549714551307261,
+      "max_absolute_prediction_change": 0.029020845890045166,
+      "checkpoint_sha256": "cf02afed661a3677bc14b3ccc89a0f8505bb9344e936b7361c27b584f6e26835",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn_zero_edge_features",
+      "seed": 45,
+      "rule": "symmetric_knn",
+      "complete_MAE": 0.011396877846646112,
+      "view_MAE": 0.011622461733512626,
+      "MAE_change_vs_complete": 0.00022558388686651394,
+      "mean_absolute_prediction_change_float32": 0.0003802369465120137,
+      "max_absolute_prediction_change": 0.01509314775466919,
+      "checkpoint_sha256": "cf02afed661a3677bc14b3ccc89a0f8505bb9344e936b7361c27b584f6e26835",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn_zero_edge_features",
+      "seed": 46,
+      "rule": "radius",
+      "complete_MAE": 0.010903586754227522,
+      "view_MAE": 0.010763206986815255,
+      "MAE_change_vs_complete": -0.00014037976741226692,
+      "mean_absolute_prediction_change_float32": 0.0003602340002544224,
+      "max_absolute_prediction_change": 0.04000216722488403,
+      "checkpoint_sha256": "b09777e6260d09d4debcdd3f19bb610d8aeb3c46cbfd222f00aeb875d7da72b0",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn_zero_edge_features",
+      "seed": 46,
+      "rule": "symmetric_knn",
+      "complete_MAE": 0.010903586754227522,
+      "view_MAE": 0.010716310964961178,
+      "MAE_change_vs_complete": -0.0001872757892663439,
+      "mean_absolute_prediction_change_float32": 0.000301259831758216,
+      "max_absolute_prediction_change": 0.02720928192138672,
+      "checkpoint_sha256": "b09777e6260d09d4debcdd3f19bb610d8aeb3c46cbfd222f00aeb875d7da72b0",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn_mean",
+      "seed": 42,
+      "rule": "radius",
+      "complete_MAE": 0.01444884379691362,
+      "view_MAE": 0.014888696993285787,
+      "MAE_change_vs_complete": 0.00043985319637216726,
+      "mean_absolute_prediction_change_float32": 0.0007962841191329062,
+      "max_absolute_prediction_change": 0.052458226680755615,
+      "checkpoint_sha256": "9b4cb7836a5c68267565fa03f83e211f35fa7e4937ce5ac66cddee2a1b8502ec",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn_mean",
+      "seed": 42,
+      "rule": "symmetric_knn",
+      "complete_MAE": 0.01444884379691362,
+      "view_MAE": 0.014748687939162751,
+      "MAE_change_vs_complete": 0.0002998441422491314,
+      "mean_absolute_prediction_change_float32": 0.000598222017288208,
+      "max_absolute_prediction_change": 0.03790968656539917,
+      "checkpoint_sha256": "9b4cb7836a5c68267565fa03f83e211f35fa7e4937ce5ac66cddee2a1b8502ec",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn_mean",
+      "seed": 43,
+      "rule": "radius",
+      "complete_MAE": 0.013617855150272098,
+      "view_MAE": 0.013787410237891097,
+      "MAE_change_vs_complete": 0.00016955508761899891,
+      "mean_absolute_prediction_change_float32": 0.00046639933134429157,
+      "max_absolute_prediction_change": 0.037970542907714844,
+      "checkpoint_sha256": "5d0a856a822001fc8f6a3f1da8f55291ac4cd06c4e674bfc0415d40323a677c9",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn_mean",
+      "seed": 43,
+      "rule": "symmetric_knn",
+      "complete_MAE": 0.013617855150272098,
+      "view_MAE": 0.01375671001791813,
+      "MAE_change_vs_complete": 0.00013885486764603217,
+      "mean_absolute_prediction_change_float32": 0.0002905365836340934,
+      "max_absolute_prediction_change": 0.018427014350891113,
+      "checkpoint_sha256": "5d0a856a822001fc8f6a3f1da8f55291ac4cd06c4e674bfc0415d40323a677c9",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn_mean",
+      "seed": 44,
+      "rule": "radius",
+      "complete_MAE": 0.009757690923689829,
+      "view_MAE": 0.009926404424347909,
+      "MAE_change_vs_complete": 0.00016871350065808012,
+      "mean_absolute_prediction_change_float32": 0.0004259101115167141,
+      "max_absolute_prediction_change": 0.018005073070526123,
+      "checkpoint_sha256": "ec38ccd7613ad67251d70a3abcebf8eb2cfd103d4248b35442961d935f811af9",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn_mean",
+      "seed": 44,
+      "rule": "symmetric_knn",
+      "complete_MAE": 0.009757690923689829,
+      "view_MAE": 0.009961161658593443,
+      "MAE_change_vs_complete": 0.0002034707349036144,
+      "mean_absolute_prediction_change_float32": 0.00036625517532229424,
+      "max_absolute_prediction_change": 0.021698415279388428,
+      "checkpoint_sha256": "ec38ccd7613ad67251d70a3abcebf8eb2cfd103d4248b35442961d935f811af9",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn_mean",
+      "seed": 45,
+      "rule": "radius",
+      "complete_MAE": 0.011357011818414366,
+      "view_MAE": 0.01153177250594087,
+      "MAE_change_vs_complete": 0.00017476068752650398,
+      "mean_absolute_prediction_change_float32": 0.00045168405631557107,
+      "max_absolute_prediction_change": 0.024807512760162354,
+      "checkpoint_sha256": "dbb79f7bbb92702d95faec4a89840b0953670e5a22a3881ab744bfd9e4057bdb",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn_mean",
+      "seed": 45,
+      "rule": "symmetric_knn",
+      "complete_MAE": 0.011357011818414366,
+      "view_MAE": 0.011489935112257392,
+      "MAE_change_vs_complete": 0.00013292329384302637,
+      "mean_absolute_prediction_change_float32": 0.0003046326746698469,
+      "max_absolute_prediction_change": 0.02258443832397461,
+      "checkpoint_sha256": "dbb79f7bbb92702d95faec4a89840b0953670e5a22a3881ab744bfd9e4057bdb",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn_mean",
+      "seed": 46,
+      "rule": "radius",
+      "complete_MAE": 0.01324686697654795,
+      "view_MAE": 0.013717046466171086,
+      "MAE_change_vs_complete": 0.00047017948962313656,
+      "mean_absolute_prediction_change_float32": 0.0006935475394129753,
+      "max_absolute_prediction_change": 0.03401106595993042,
+      "checkpoint_sha256": "f80c5e6365d0b16a5ad47133775208e0178996e7bedbfd733dfc90b0de538260",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    },
+    {
+      "model": "gnn_mean",
+      "seed": 46,
+      "rule": "symmetric_knn",
+      "complete_MAE": 0.01324686697654795,
+      "view_MAE": 0.01362964390539853,
+      "MAE_change_vs_complete": 0.0003827769288505811,
+      "mean_absolute_prediction_change_float32": 0.0005394250620156527,
+      "max_absolute_prediction_change": 0.030278027057647705,
+      "checkpoint_sha256": "f80c5e6365d0b16a5ad47133775208e0178996e7bedbfd733dfc90b0de538260",
+      "same_checkpoint_binding": true,
+      "refitting": false
+    }
+  ],
+  "five_seed_summaries": [
+    {
+      "model": "gnn",
+      "rule": "radius",
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "seed_count": 5,
+      "test_cases": 97,
+      "complete_MAE": {
+        "mean": 0.011603296981664532,
+        "seed_sample_sd": 0.0013407210600521273
+      },
+      "view_MAE": {
+        "mean": 0.011958244978343998,
+        "seed_sample_sd": 0.0013050752777065565
+      },
+      "MAE_change_vs_complete": {
+        "mean": 0.0003549479966794639,
+        "seed_sample_sd": 0.00011717321842309038
+      },
+      "mean_absolute_prediction_change_float32": {
+        "mean": 0.000559097930090502,
+        "seed_sample_sd": 0.00011885355478685458
+      },
+      "view_lower_MAE_seeds": 0
+    },
+    {
+      "model": "gnn",
+      "rule": "symmetric_knn",
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "seed_count": 5,
+      "test_cases": 97,
+      "complete_MAE": {
+        "mean": 0.011603296981664532,
+        "seed_sample_sd": 0.0013407210600521273
+      },
+      "view_MAE": {
+        "mean": 0.011925027145613321,
+        "seed_sample_sd": 0.0013269042038047548
+      },
+      "MAE_change_vs_complete": {
+        "mean": 0.00032173016394878987,
+        "seed_sample_sd": 0.00016468352832007562
+      },
+      "mean_absolute_prediction_change_float32": {
+        "mean": 0.00044878212502226235,
+        "seed_sample_sd": 9.686658612376517e-05
+      },
+      "view_lower_MAE_seeds": 0
+    },
+    {
+      "model": "gnn_zero_edge_features",
+      "rule": "radius",
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "seed_count": 5,
+      "test_cases": 97,
+      "complete_MAE": {
+        "mean": 0.012348632879387754,
+        "seed_sample_sd": 0.001309588741527413
+      },
+      "view_MAE": {
+        "mean": 0.012491221516160963,
+        "seed_sample_sd": 0.0014405028728733424
+      },
+      "MAE_change_vs_complete": {
+        "mean": 0.0001425886367732089,
+        "seed_sample_sd": 0.00029297174909028817
+      },
+      "mean_absolute_prediction_change_float32": {
+        "mean": 0.00038246764743234964,
+        "seed_sample_sd": 0.00017448313075794935
+      },
+      "view_lower_MAE_seeds": 3
+    },
+    {
+      "model": "gnn_zero_edge_features",
+      "rule": "symmetric_knn",
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "seed_count": 5,
+      "test_cases": 97,
+      "complete_MAE": {
+        "mean": 0.012348632879387754,
+        "seed_sample_sd": 0.001309588741527413
+      },
+      "view_MAE": {
+        "mean": 0.012407971123535326,
+        "seed_sample_sd": 0.0014187234639656211
+      },
+      "MAE_change_vs_complete": {
+        "mean": 5.93382441475724e-05,
+        "seed_sample_sd": 0.0002086736490188054
+      },
+      "mean_absolute_prediction_change_float32": {
+        "mean": 0.00026485014823265376,
+        "seed_sample_sd": 0.00011121144444109951
+      },
+      "view_lower_MAE_seeds": 3
+    },
+    {
+      "model": "gnn_mean",
+      "rule": "radius",
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "seed_count": 5,
+      "test_cases": 97,
+      "complete_MAE": {
+        "mean": 0.012485653733167573,
+        "seed_sample_sd": 0.0018994113916430708
+      },
+      "view_MAE": {
+        "mean": 0.01277026612552735,
+        "seed_sample_sd": 0.002002507198576894
+      },
+      "MAE_change_vs_complete": {
+        "mean": 0.0002846123923597774,
+        "seed_sample_sd": 0.00015594308925360637
+      },
+      "mean_absolute_prediction_change_float32": {
+        "mean": 0.0005667650315444916,
+        "seed_sample_sd": 0.0001672646323951868
+      },
+      "view_lower_MAE_seeds": 0
+    },
+    {
+      "model": "gnn_mean",
+      "rule": "symmetric_knn",
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "seed_count": 5,
+      "test_cases": 97,
+      "complete_MAE": {
+        "mean": 0.012485653733167573,
+        "seed_sample_sd": 0.0018994113916430708
+      },
+      "view_MAE": {
+        "mean": 0.01271722772666605,
+        "seed_sample_sd": 0.0019456364411780426
+      },
+      "MAE_change_vs_complete": {
+        "mean": 0.0002315739934984771,
+        "seed_sample_sd": 0.00010798348352240054
+      },
+      "mean_absolute_prediction_change_float32": {
+        "mean": 0.00041981430258601903,
+        "seed_sample_sd": 0.00014052060576359948
+      },
+      "view_lower_MAE_seeds": 0
+    }
+  ],
+  "prediction_hashes": {
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn\\seed_42\\topology_radius.npz": "f05ea42b994bea433c2d128a63f87c38c2177d8585b3fc31d200774cac7db3b1",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn\\seed_42\\topology_symmetric_knn.npz": "9b74b566711474bf624ab5b78915da443e4ea1979f9bbfc244f8f8267652b3a7",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn\\seed_43\\topology_radius.npz": "5dda9881dfa07ae52082e0248782f1e397ab8e275df4a49bdb8cfede93e1ec65",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn\\seed_43\\topology_symmetric_knn.npz": "e78a6699f6821e475989264184d77193513c47b16de5ff4bf421060bb4c7e523",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn\\seed_44\\topology_radius.npz": "4f3d292124a72f3002f3c3ab0edc67b39112707cbf5eff9e275f5473269dc48b",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn\\seed_44\\topology_symmetric_knn.npz": "0967fa91aa4e3181d133fefde193416febb206f70e987d5e6e10f6bca3ceeda1",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn\\seed_45\\topology_radius.npz": "f9a73b23150fd03b63ee4f61717131afdec1e10f769432af67f492b5de819937",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn\\seed_45\\topology_symmetric_knn.npz": "f25fed5c243dbaa625cd0d3981e361e22538c7eba5120e47134ebdcb2c3073fb",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn\\seed_46\\topology_radius.npz": "25a8e45ce12a27f37c7ac59c96cb171182fa996af91ec67f0a7a3c4190f26e0d",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn\\seed_46\\topology_symmetric_knn.npz": "d7e06fbd2f3a93e011cf4500bc0e795ad4da1c95872f2c8c060a06926a417296",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn_zero_edge_features\\seed_42\\topology_radius.npz": "bfe74cb2cd07fc935857c911bf3d9e637015b3a454913bcb37162364b61ed22f",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn_zero_edge_features\\seed_42\\topology_symmetric_knn.npz": "88d4b9d7b86a52c4c124a0caee33c705ca786dadadc48fb0d9613ae2507a8bb1",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn_zero_edge_features\\seed_43\\topology_radius.npz": "dadbce0504465920f4a84fdcc6d964d1cb95f68f7afa2e1fc216cbda9a1eb050",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn_zero_edge_features\\seed_43\\topology_symmetric_knn.npz": "0d95266197855217ac5ab14b66485d1a8227b05234910c1ede026fc0977ce6c4",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn_zero_edge_features\\seed_44\\topology_radius.npz": "33e81113094b1151c814158d4cb5ed3522d0f04ca26cc600df7b3cc0020f9c3b",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn_zero_edge_features\\seed_44\\topology_symmetric_knn.npz": "ac946332efaf8d6e6348ec7eca03e58ba9d4f36f17c4f289702d39fb13f31629",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn_zero_edge_features\\seed_45\\topology_radius.npz": "3ee4f46ab7cf5ae16ae7d47a41b6ea729b6de67c7789302d25979075cba9f18f",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn_zero_edge_features\\seed_45\\topology_symmetric_knn.npz": "ff517798bff75fc04d9c745c42887e57d6b35c0505f8b78a93a60b598e567c04",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn_zero_edge_features\\seed_46\\topology_radius.npz": "99d3ef1174dc61a5f5685fab8b9fb70d3ebc8d1708069a1bfab5e938c165c4a0",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn_zero_edge_features\\seed_46\\topology_symmetric_knn.npz": "a4e7d58c0d5035d272eedaaa47a5e5c636bf6e7484f05065c184beddb7692b0c",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn_mean\\seed_42\\topology_radius.npz": "28966b5ba140f94157dfd99acfa8db43100750e058ec43dc7b1d12acc2587f0c",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn_mean\\seed_42\\topology_symmetric_knn.npz": "e4b8e48b7183a4fe5214ff60cda722f22c0b880c5f92a959ad9af19aa85d3fa8",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn_mean\\seed_43\\topology_radius.npz": "719e2a13a86e0bfaf0ae727a30ca5d5bd97ab8fbf532ca8bc12377e852ca9a83",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn_mean\\seed_43\\topology_symmetric_knn.npz": "f26eeaa25fb7c39083038291aa6cf5886ed5aeb97d4bd5ee2c6e327932bc15f5",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn_mean\\seed_44\\topology_radius.npz": "507aaa2cc2051c367833bc42ea77a7f26932284e689d96bd0249faf691f18617",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn_mean\\seed_44\\topology_symmetric_knn.npz": "15d61a83f8b8a7cb2603f1ac48f1d67c1033e0973b7233563d35b490c5b67057",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn_mean\\seed_45\\topology_radius.npz": "ffa16c2abe389cbdf3ccfb256049e54d33e7128f428911ea7788b3a770d8611e",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn_mean\\seed_45\\topology_symmetric_knn.npz": "917c949e554db326d133c05b8e053275ad870919c2394b69325ffc95b4d5179b",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn_mean\\seed_46\\topology_radius.npz": "a9cb92021fea5854b23e6e09f3c240ced4c7347605cd44f7c02729e6e4d27730",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\runs_frozen_v08_420\\loco_smoldering\\gnn_mean\\seed_46\\topology_symmetric_knn.npz": "f48cbb86206d39fb1f930e9dccec6e00469f594adb7fb3a0829dceb03a244633"
+  },
+  "source_hashes": {
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\comparison_plan_v08_420.json": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\manifest.json": "7712ad86ab48f185c53a9ae276a9a7b2f6e6673a5d5faf6fc69b0f1bbb3dcdaf",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\loco_smoldering.json": "c856660731341ad101b11903f18a0b1efaebca19f8aecf7347ff76408223abdc",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_smoldering\\topology_by_seed.csv": "d55682397d79c8ca6e847fdc46b75b9538f6429b1dfdfbc35d28cd557f91f471",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\audit_same_weight_topology.py": "30a33652e669e87dae59bf7e383eb5cd057f11dd44a147e64719cb8864d5a563"
+  },
+  "proof_scope": "Independent source geometry/edge counts and artifact/CSV arithmetic; same-checkpoint hash declarations plus inspected frozen runner code. CPU/GPU prediction replay remains the upstream aggregate --replay audit responsibility.",
+  "interpretation": "Same learned weights on complete/radius/symmetric-kNN representations of identical physical cases. This is representation-connectivity stress, not independent FE mesh/discretization transfer or altered physical crack interactions.",
+  "source_confound": null,
+  "other_protocol_predictions_read": false,
+  "model_refitted": false,
+  "journal_or_submission_pass": false
+}

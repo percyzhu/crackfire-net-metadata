@@ -1,0 +1,7 @@
+# Actual budget-priority figure QA
+
+Passed independent arithmetic, vector export and actual standalone visual review. The three fixed panels retain all12 protocols, both endpoints and all3 budgets (216 cells). Font size is at least8pt at183×150mm. All7 models remain in companion seed/summary tables containing U, regret, gain and oracle-improvement fraction. The separate checker reconciled2520seed rows,504summaries over5metrics,72references and all216plotted numbers without importing the generator or reading prediction arrays.
+
+The actual raw percentage range is approximately −1.288×10^-12 to100.00000000000537, reflecting only machine-rounding excursions; the common scale includes these raw values. No undefined ratios occur. Cells are rounded for display only. The first rendering was preserved in backup_initial_decimal_labels; redundant trailing .0 was then omitted to improve adjacent-cell spacing. No statistical value or selected model/protocol changed.
+
+The PDF rendering was inspected at original detail: labels, numbers, endpoint/budget groups, common colorbar and footnotes are legible, with no overlap or clipping. Manuscript eta_b corresponds to unchanged CSV L. Exact-tie expected selection and post-review exploratory status are explicit. The figure does not claim geometric uncertainty intervals, risk reduction, wall-time savings or one common checkpoint across protocol holdouts. Final manuscript placement is a separate root check.

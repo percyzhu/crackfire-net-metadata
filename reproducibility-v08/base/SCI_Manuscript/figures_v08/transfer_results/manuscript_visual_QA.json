@@ -1,0 +1,127 @@
+{
+  "pdf_sha256": "cbfb7d115d3bb4376a90d71513d20ac3c2bc6fb4fff950b98a1d1dec722b97de",
+  "pages": 25,
+  "page_checks": [
+    {
+      "page": 15,
+      "page_size_mm": [
+        210.00014478895397,
+        297.0000885009765
+      ],
+      "figure_Arial_min_pt": 8.000800132751465,
+      "figure_Arial_max_pt": 8.000800132751465,
+      "text_outside_page": [],
+      "figure_or_table_caption_present": true
+    },
+    {
+      "page": 16,
+      "page_size_mm": [
+        210.00014478895397,
+        297.0000885009765
+      ],
+      "figure_Arial_min_pt": null,
+      "figure_Arial_max_pt": null,
+      "text_outside_page": [],
+      "figure_or_table_caption_present": true
+    },
+    {
+      "page": 17,
+      "page_size_mm": [
+        210.00014478895397,
+        297.0000885009765
+      ],
+      "figure_Arial_min_pt": 8.000800132751465,
+      "figure_Arial_max_pt": 8.000800132751465,
+      "text_outside_page": [],
+      "figure_or_table_caption_present": true
+    }
+  ],
+  "table4_expected_percentage_points": [
+    {
+      "model": "fire_only",
+      "MAE_mean": "1.786",
+      "MAE_sd": "0.104",
+      "RMSE_mean": "2.772"
+    },
+    {
+      "model": "global_stats",
+      "MAE_mean": "1.319",
+      "MAE_sd": "0.121",
+      "RMSE_mean": "2.134"
+    },
+    {
+      "model": "deepsets",
+      "MAE_mean": "1.292",
+      "MAE_sd": "0.149",
+      "RMSE_mean": "2.165"
+    },
+    {
+      "model": "capacity_matched_deepsets",
+      "MAE_mean": "1.178",
+      "MAE_sd": "0.062",
+      "RMSE_mean": "1.928"
+    },
+    {
+      "model": "gnn",
+      "MAE_mean": "1.114",
+      "MAE_sd": "0.035",
+      "RMSE_mean": "1.858"
+    },
+    {
+      "model": "gnn_zero_edge_features",
+      "MAE_mean": "1.115",
+      "MAE_sd": "0.038",
+      "RMSE_mean": "1.832"
+    },
+    {
+      "model": "gnn_mean",
+      "MAE_mean": "1.110",
+      "MAE_sd": "0.070",
+      "RMSE_mean": "1.940"
+    }
+  ],
+  "figure_copy_hashes": {
+    "iid_results_v08.pdf": "7768cad41d6f1803d82ba23062b98c00a61c98cce6bb4434c3b6082c47dd83c2",
+    "transfer_results_v08.pdf": "6273a0f523250b5fde3ce6be307c9209a941de17493e40bc1c1b9efa346f2caf"
+  },
+  "render_report": [
+    {
+      "name": "main",
+      "pages": 25,
+      "pdf_sha256": "cbfb7d115d3bb4376a90d71513d20ac3c2bc6fb4fff950b98a1d1dec722b97de",
+      "figure_or_table_pages": [
+        9,
+        10,
+        14,
+        15,
+        16,
+        17
+      ],
+      "all_pages_rendered": true,
+      "visual_review_pending": false,
+      "visual_review_scope": "All pages rendered and contact-sheet reviewed; full-resolution title, main figure/table pages and supplement inspected; new result figures independently checked."
+    },
+    {
+      "name": "supplement",
+      "pages": 3,
+      "pdf_sha256": "7c0c12e1a3b1735cad954bc12a13dc968c4bee2590f09a14911fd11131c98ee7",
+      "figure_or_table_pages": [
+        1,
+        2
+      ],
+      "all_pages_rendered": true,
+      "visual_review_pending": false,
+      "visual_review_scope": "All pages rendered and contact-sheet reviewed; full-resolution title, main figure/table pages and supplement inspected; new result figures independently checked."
+    }
+  ],
+  "status": "PASSED_FIGURE_PLACEMENT_AND_TABLE4_UNITS",
+  "scope": "Current 25-page main build and current renders; not submission acceptance",
+  "previous_reviewed_pdf_sha256": "2ca01ec6601b07e37a9d467170f1d23fb2c45b842b0c97ccf4d05ba661b591bc",
+  "rebuild_check": "Root reports only homepage progress sentence changed. New sentence verified; original vector figure hashes, page dimensions, figure fonts, caption presence and text boundaries on reviewed pages unchanged.",
+  "current_reviewed_page_png_sha256": {
+    "15": "0e09be3fccf6d02f9b2f419634d85ab640c279820381953899bce41b402ee534",
+    "16": "9baedde6bf7ef44ad7012dba090d9e9a8338cfcef826d1a3f1473df6f3e65c5a",
+    "17": "58704e49552309c2b5401b166e54d78190c721ea5f6ef1f7bee8f9d417eb6465"
+  },
+  "pixel_comparison_scope": "Previous page PNG hashes were not retained; no claim of bytewise or pixelwise equality. Rebinding uses unchanged figure-source hashes and identical recorded page checks."
+}

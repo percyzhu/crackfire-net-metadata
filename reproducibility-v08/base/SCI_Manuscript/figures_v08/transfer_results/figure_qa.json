@@ -1,0 +1,15 @@
+{
+  "status": "GENERATED_PENDING_VISUAL_QA",
+  "size_mm": [
+    183,
+    174
+  ],
+  "minimum_font_pt": 8.0,
+  "overflow": [],
+  "verified_runs": 35,
+  "test_cases": 264,
+  "count_seed_points": 245,
+  "connectivity_seed_points": 45,
+  "same_checkpoint_views": true,
+  "confidence_intervals_not_invented": true
+}

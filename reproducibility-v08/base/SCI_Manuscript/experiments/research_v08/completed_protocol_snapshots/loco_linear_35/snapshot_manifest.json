@@ -1,0 +1,100 @@
+{
+  "purpose": "COMPLETE_PROTOCOL_AND_FULL_CURRENT_AUDIT_SNAPSHOT",
+  "protocol": "loco_linear",
+  "protocol_runs": 35,
+  "all_current_audited_runs": 391,
+  "checked_utc": "2026-09-07T08:01:40Z",
+  "plan_sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068",
+  "files": [
+    {
+      "name": "report.json",
+      "sha256": "865b6cb656ea3f7328641fc89219fd28ff1cc1ac16fb64735c5723712feb56bc",
+      "bytes": 5658,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\report.json"
+    },
+    {
+      "name": "run_integrity.json",
+      "sha256": "5b55f30cc9b5b03b3cb64f95b495f049301a8201b6d9581fe3d16ee516cabc4f",
+      "bytes": 1020395,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\run_integrity.json"
+    },
+    {
+      "name": "per_case_metrics.csv",
+      "sha256": "7d8ba198f7fbff578fcd9f8b3a06a1a32d617b409a9f0e06590beda2332accd0",
+      "bytes": 884382,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_linear\\per_case_metrics.csv"
+    },
+    {
+      "name": "strata_by_seed.csv",
+      "sha256": "b3aa965173847b245e20d299186e0f66b1f9b6c6924d51c3b9f955cf36b8a244",
+      "bytes": 258819,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_linear\\strata_by_seed.csv"
+    },
+    {
+      "name": "summary.json",
+      "sha256": "e1c89ebc6920cb56e0c855c3d23abc0e257535efeb07f9362f1d40a02920b2b5",
+      "bytes": 45099,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_linear\\summary.json"
+    },
+    {
+      "name": "time_metrics.csv",
+      "sha256": "4360cdb035a63b4bacd6e630e50669a09fc0c65ade18eeca50fadcc575da2fd4",
+      "bytes": 195420,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_linear\\time_metrics.csv"
+    },
+    {
+      "name": "topology_by_seed.csv",
+      "sha256": "8520b17f18c8b5841a4ca7d51c00dbf208d1ab613a997ce10322896cfb285e9a",
+      "bytes": 14943,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_linear\\topology_by_seed.csv"
+    },
+    {
+      "name": "loco_linear_engineering_proxy_ci.json",
+      "sha256": "4e63d72040c842fae089eef57d3d965ce1b6afb2113b82ed3bdaaf01241d7db7",
+      "bytes": 274363,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_linear_engineering_proxy_ci.json"
+    },
+    {
+      "name": "loco_linear_engineering_proxy_ci.csv",
+      "sha256": "71f9cef7178a3881b37c80ee5f71b316fd24428e80d237a5d5085578f405008c",
+      "bytes": 11870,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_linear_engineering_proxy_ci.csv"
+    }
+  ],
+  "does_not_summarize_incomplete_later_families": true,
+  "engineering_CI_status": "COMPLETE_35_RUN_PAIRED_ENGINEERING_PROXY_CI",
+  "engineering_CI_source": "review/eaai_editor/research_v08/loco_linear_engineering_proxy_ci.json",
+  "complete_protocol_only": true,
+  "runtime_verification": {
+    "verified_utc": "2026-09-07T08:04:03.901954+00:00",
+    "all_12_frozen_sources_match": true,
+    "source_sha256": {
+      "SCI_Manuscript/experiments/research_v08/research_runner.py": "c1fe6b1d6ebcf0b11a9694f69077a16cefe1556a67631732fe2844cf926875f0",
+      "SCI_Manuscript/experiments/research_v08/prepare997.py": "66666a7dcbc97d54398bf51f7c917e03901e075745233c7951f98d0723292011",
+      "SCI_Manuscript/experiments/research_v08/make_plan.py": "8ac6d7fadf7ae8316209b6902441fb254f05136809d8afde4d66a58b0d24e031",
+      "SCI_Manuscript/experiments/research_v08/run_queue.py": "314b72203f33ea3bf6bc68beff866f44ee8fc2451cc13f1203e1ed84eedc8166",
+      "SCI_Manuscript/experiments/models.py": "0a96098f2d7b96e081f1ebe99a839007d56383d8cc1d6b5fe27331cc06426444",
+      "SCI_Manuscript/experiments/physical_features.py": "34452607a30b06fc7598e127c3cbce64ff2f7ae9882fd23bcec5f1d7aaab49cb",
+      "SCI_Manuscript/experiments/capacity_matched_set.py": "612eb2799536fcd149673ffda67c1d58cf4241627b5cf4a6c732b6d92b685adc",
+      "SCI_Manuscript/experiments/run_readiness.py": "62b702acebef6e150847e65bb4f590aeadc93f3d78effa22d1c8be6b53023abd",
+      "SCI_Manuscript/experiments/qualified_data.py": "bf429d1b161cba78c2297ea262ee4f70c4d755d4e9d6293667589143c60a50b3",
+      "SCI_Manuscript/figures_v06/topology/topology_extension.py": "18ff231f7bb8cd9010277582294953c3fd6de51b193cd4853dd40320342fe8c7",
+      "1_代码/src/data/dataset.py": "c303b9bb0c406bd14019080661ad0ac124b946fc4cd9774fe4438b76ff4f855f",
+      "1_代码/src/gnn/model.py": "808bf7c8d31ae4c76fc5e07c37244ddb18af54e84304603c06da2ec76ffd6752"
+    },
+    "plan_sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068",
+    "wrapper_sha256": "3e863d1c6f9e71cada06dd6ef9274e9c35343f7802faf4b70ad35320f9636566",
+    "amendment_sha256": "b861837f1f30ef1df0803118ef3cdee9c616721e1106674ad1c5b9318a5d7611",
+    "process_identity": {
+      "ProcessId": 28616,
+      "ParentProcessId": 34572,
+      "CommandLine": "\"C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" -X utf8 D:/Work/Abstract/SCI_Manuscript/experiments/research_v08/io_recovery_patch1.py queue --plan D:/Work/Abstract/SCI_Manuscript/experiments/research_v08/comparison_plan_v08_420.json"
+    },
+    "queue_status": "RUNNING",
+    "queue_completed_at_verification": 395,
+    "queue_active_protocol_at_verification": "loco_smoldering",
+    "current_stderr_bytes": 0,
+    "bilinear_completed": 35,
+    "linear_completed": 35
+  }
+}

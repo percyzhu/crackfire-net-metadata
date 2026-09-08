@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this metadata, please cite the associated manuscript and this repository."
-title: "CrackFireNet study metadata"
+title: "CrackFireNet study data, code and reproducibility materials"
 type: dataset
 authors:
   - family-names: Zheng
@@ -11,7 +11,7 @@ authors:
     given-names: Shaojun
     email: zhushaojun@tongji.edu.cn
 license: CC-BY-4.0
-abstract: "Metadata and aggregate integrity records for crack-graph thermal-response screening of fire-exposed timber beams."
+abstract: "Data, code, checkpoints and integrity records for crack-graph thermal-response screening of fire-exposed timber beams."
 keywords:
   - fire-exposed timber beams
   - graph neural networks

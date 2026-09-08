@@ -1,0 +1,12 @@
+{
+  "status": "PASSED_EXPORT_PENDING_VISUAL_REVIEW",
+  "size_mm": [
+    183.00000559488933,
+    190.00000898573134
+  ],
+  "minimum_pdf_font_pt": 8.0,
+  "raster_objects": 0,
+  "pdf_sha256": "e00b1197190ef09b142a8e606c62205bca213f0766ad2048802442d3c9530d3e",
+  "preview": "pdf_final_QA.png",
+  "requires_human_or_agent_visual_review": true
+}

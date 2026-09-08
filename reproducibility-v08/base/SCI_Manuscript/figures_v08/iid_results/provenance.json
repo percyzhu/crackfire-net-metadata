@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-09-07T03:36:34.175062+00:00",
+  "source_files": [
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\replay_precision_diagnostic\\sealed_iid35\\summary.json",
+      "sha256": "584d10fe9ef276477ab05ae1315803508314f6c2c2ba79629bc4602ff2861aae"
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\replay_precision_diagnostic\\sealed_iid35\\per_case_metrics.csv",
+      "sha256": "5418463ad70d424782c3dcedf24a5aea44676e3c685c2e67c419062b25c4bc33"
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\replay_precision_diagnostic\\sealed_iid35\\seal_manifest.json",
+      "sha256": "8f5fcadfb71f94228a1b40e65a8734a1fd91e5a6f69cc4e2594627dfd3067707"
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\iid997_independent_results_audit.json",
+      "sha256": "58db138bea4547ae84d825a6e97a52d263224f89188b24dbd2efaefa8b70f0c6"
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\comparison_plan_v08_420.json",
+      "sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068"
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\iid997.json",
+      "sha256": "1a9405cc3bab2cd58776d537771ee14f8ad13017b11a7cb1d552f15b8c3d0505"
+    }
+  ],
+  "script_sha256": "73970a667df4ea95faa9035ffffb9f304921a72f91e1d27222dfc3b18f3fddff",
+  "purpose": "ARCHIVAL_SURROGATE_RESEARCH_V08",
+  "protocol": "iid997",
+  "target_version": "archive-scalar-running-min-interp61-v1",
+  "feature_version": "fe-global-v2-prescribed-archive-time-v1",
+  "unit_conversion": "All plotted MAE and contrast values are source dimensionless values multiplied by 100, i.e. percentage points.",
+  "distribution_estimand": "Across cases, empirical distribution of each case MAE averaged over five independently trained seeds; not ensemble-prediction error.",
+  "bootstrap": "Existing two-way geometry/seed percentile 95% intervals, 5000 resamples, random seed 20260907; no interval recomputed by this script."
+}

@@ -1,0 +1,15 @@
+{
+  "status": "WAITING_FOR_ALL60_COMPLETE",
+  "completed_metadata_runs": 29,
+  "required_new_runs": 60,
+  "aggregate_directory": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v09_set_attention\\evaluation_complete60",
+  "partial_performance_read": false,
+  "counters": {
+    "performance_JSON_reads": 0,
+    "prediction_array_loads": 0,
+    "tensor_array_loads": 0,
+    "model_inference": 0
+  },
+  "created_utc": "2026-09-07T10:10:23.152406+00:00",
+  "checker_sha256": "9a42ca6e8dbc00bb39055db13928a7fd5a7aa736d81519e1b271d732e8e73902"
+}

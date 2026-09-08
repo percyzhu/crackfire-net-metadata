@@ -1,0 +1,241 @@
+{
+  "purpose": "COMPLETE_PROTOCOL_AND_FULL_CURRENT_AUDIT_SNAPSHOT",
+  "protocol": "loco_perturbed_iso",
+  "protocol_runs": 35,
+  "all_current_audited_runs": 180,
+  "checked_utc": "2026-09-07T05:07:13Z",
+  "sealed_utc": "2026-09-07T05:10:01.192628+00:00",
+  "plan_sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068",
+  "files": [
+    {
+      "name": "report.json",
+      "sha256": "99ccdfe7a3e3f51b2618be4c638dc123998f7bd87e06b46de93dbc43881efae9",
+      "bytes": 22885,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\report.json"
+    },
+    {
+      "name": "run_integrity.json",
+      "sha256": "1f9d3199bf663fb99702934219a40202f08318ece38d2c50a9d7e43c0b6bdc60",
+      "bytes": 450823,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\run_integrity.json"
+    },
+    {
+      "name": "per_case_metrics.csv",
+      "sha256": "f065ec04e653e45a9de05459a2a59c6dd744487b1d8d33385464ac97b01d2a19",
+      "bytes": 845392,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_perturbed_iso\\per_case_metrics.csv"
+    },
+    {
+      "name": "strata_by_seed.csv",
+      "sha256": "de922a1e10e29971c81d1aa4939a77a3077fceaa4997050e84689bbcfa6e2733",
+      "bytes": 243002,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_perturbed_iso\\strata_by_seed.csv"
+    },
+    {
+      "name": "summary.json",
+      "sha256": "c266bd6b16e76176cea09e4dcee6c5229cf3bdf07bd84b13b25a2678c8ce0e7e",
+      "bytes": 43131,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_perturbed_iso\\summary.json"
+    },
+    {
+      "name": "time_metrics.csv",
+      "sha256": "8cd282d024e664aca4f5a52c75c349e0d19ad852ced5a798f20ae919c7b28a9d",
+      "bytes": 219818,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_perturbed_iso\\time_metrics.csv"
+    },
+    {
+      "name": "topology_by_seed.csv",
+      "sha256": "6f59d1eb6a527ac4e30137a3eb03fb172b40f03f5eb9c23c69cdaf9d36e1a14b",
+      "bytes": 15371,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_perturbed_iso\\topology_by_seed.csv"
+    },
+    {
+      "name": "loco_perturbed_iso_engineering_proxy_ci.json",
+      "sha256": "1c237b4390329bd5d898ad19384755043ca99bdde9e642d4a6a59495b1a5d525",
+      "bytes": 269252,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_perturbed_iso_engineering_proxy_ci.json"
+    },
+    {
+      "name": "loco_perturbed_iso_engineering_proxy_ci.csv",
+      "sha256": "ea07001465a4322ff15bc849c2454aaf10fd157b852e940975acf5eaa75add7d",
+      "bytes": 11760,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_perturbed_iso_engineering_proxy_ci.csv"
+    }
+  ],
+  "does_not_summarize_incomplete_later_families": true,
+  "engineering_CI_status": "COMPLETE_35_RUN_PAIRED_ENGINEERING_PROXY_CI",
+  "engineering_CI_source": "review/eaai_editor/research_v08/loco_perturbed_iso_engineering_proxy_ci.json",
+  "complete_protocol_only": true,
+  "runtime_verification": {
+    "all12_frozen_sources_match": true,
+    "source_sha256": {
+      "SCI_Manuscript/experiments/research_v08/research_runner.py": "c1fe6b1d6ebcf0b11a9694f69077a16cefe1556a67631732fe2844cf926875f0",
+      "SCI_Manuscript/experiments/research_v08/prepare997.py": "66666a7dcbc97d54398bf51f7c917e03901e075745233c7951f98d0723292011",
+      "SCI_Manuscript/experiments/research_v08/make_plan.py": "8ac6d7fadf7ae8316209b6902441fb254f05136809d8afde4d66a58b0d24e031",
+      "SCI_Manuscript/experiments/research_v08/run_queue.py": "314b72203f33ea3bf6bc68beff866f44ee8fc2451cc13f1203e1ed84eedc8166",
+      "SCI_Manuscript/experiments/models.py": "0a96098f2d7b96e081f1ebe99a839007d56383d8cc1d6b5fe27331cc06426444",
+      "SCI_Manuscript/experiments/physical_features.py": "34452607a30b06fc7598e127c3cbce64ff2f7ae9882fd23bcec5f1d7aaab49cb",
+      "SCI_Manuscript/experiments/capacity_matched_set.py": "612eb2799536fcd149673ffda67c1d58cf4241627b5cf4a6c732b6d92b685adc",
+      "SCI_Manuscript/experiments/run_readiness.py": "62b702acebef6e150847e65bb4f590aeadc93f3d78effa22d1c8be6b53023abd",
+      "SCI_Manuscript/experiments/qualified_data.py": "bf429d1b161cba78c2297ea262ee4f70c4d755d4e9d6293667589143c60a50b3",
+      "SCI_Manuscript/figures_v06/topology/topology_extension.py": "18ff231f7bb8cd9010277582294953c3fd6de51b193cd4853dd40320342fe8c7",
+      "1_\u4ee3\u7801/src/data/dataset.py": "c303b9bb0c406bd14019080661ad0ac124b946fc4cd9774fe4438b76ff4f855f",
+      "1_\u4ee3\u7801/src/gnn/model.py": "808bf7c8d31ae4c76fc5e07c37244ddb18af54e84304603c06da2ec76ffd6752"
+    },
+    "wrapper_sha256": "3e863d1c6f9e71cada06dd6ef9274e9c35343f7802faf4b70ad35320f9636566",
+    "amendment_sha256": "b861837f1f30ef1df0803118ef3cdee9c616721e1106674ad1c5b9318a5d7611",
+    "protocol_model_seed_pairs": [
+      [
+        "fire_only",
+        42
+      ],
+      [
+        "fire_only",
+        43
+      ],
+      [
+        "fire_only",
+        44
+      ],
+      [
+        "fire_only",
+        45
+      ],
+      [
+        "fire_only",
+        46
+      ],
+      [
+        "global_stats",
+        42
+      ],
+      [
+        "global_stats",
+        43
+      ],
+      [
+        "global_stats",
+        44
+      ],
+      [
+        "global_stats",
+        45
+      ],
+      [
+        "global_stats",
+        46
+      ],
+      [
+        "deepsets",
+        42
+      ],
+      [
+        "deepsets",
+        43
+      ],
+      [
+        "deepsets",
+        44
+      ],
+      [
+        "deepsets",
+        45
+      ],
+      [
+        "deepsets",
+        46
+      ],
+      [
+        "capacity_matched_deepsets",
+        42
+      ],
+      [
+        "capacity_matched_deepsets",
+        43
+      ],
+      [
+        "capacity_matched_deepsets",
+        44
+      ],
+      [
+        "capacity_matched_deepsets",
+        45
+      ],
+      [
+        "capacity_matched_deepsets",
+        46
+      ],
+      [
+        "gnn",
+        42
+      ],
+      [
+        "gnn",
+        43
+      ],
+      [
+        "gnn",
+        44
+      ],
+      [
+        "gnn",
+        45
+      ],
+      [
+        "gnn",
+        46
+      ],
+      [
+        "gnn_zero_edge_features",
+        42
+      ],
+      [
+        "gnn_zero_edge_features",
+        43
+      ],
+      [
+        "gnn_zero_edge_features",
+        44
+      ],
+      [
+        "gnn_zero_edge_features",
+        45
+      ],
+      [
+        "gnn_zero_edge_features",
+        46
+      ],
+      [
+        "gnn_mean",
+        42
+      ],
+      [
+        "gnn_mean",
+        43
+      ],
+      [
+        "gnn_mean",
+        44
+      ],
+      [
+        "gnn_mean",
+        45
+      ],
+      [
+        "gnn_mean",
+        46
+      ]
+    ],
+    "primary_and_sparse_replay_calls": 65,
+    "replay_status_counts": {
+      "GPU_IDENTITY_EXACT_CPU_BACKEND_VARIATION_RECORDED": 65
+    },
+    "max_CPU_difference": 0.00013011693954467773,
+    "replay_policy": "Original CPU tolerance3e-6 retained. Any exceeding call must reproduce saved outputs bitwise on original CUDA/cuDNN configuration; failures remain failures.",
+    "model_training_or_predictions_changed": false
+  },
+  "independent_review_sha256": {
+    "loco_perturbed_iso_independent_results_audit_v2.json": "8c144f7024de7118cd695315681ae071b12f475cb6bfec44679e9efb8aa2b0e0",
+    "loco_perturbed_iso_same_weight_topology_audit.json": "776f4430572e5d7f6f5a4fe2101fc6602211eb6a61aede5cb9cbb31142997aac"
+  }
+}

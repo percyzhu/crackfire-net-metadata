@@ -1,0 +1,521 @@
+{
+  "status": "COMPLETE_EXPLORATORY_PROTOCOL_5_NEW_PLUS10_REUSED_RUNS",
+  "protocol": "loco_bilinear",
+  "purpose": "ARCHIVAL_INTERACTION_SET_EXPLORATORY_EXTENSION_V09",
+  "epistemic_status": "AFTER_ORIGINAL_TEST_RESULTS_REVIEW_EXPLORATORY",
+  "models": [
+    "capacity_matched_deepsets",
+    "gnn",
+    "set_attention"
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "test_case_count": 77,
+  "independent_geometry_clusters": 77,
+  "model_summaries": [
+    {
+      "model": "capacity_matched_deepsets",
+      "seed_count": 5,
+      "test_case_count": 77,
+      "parameters": 194913,
+      "metrics": {
+        "equal_case_MAE": {
+          "mean": 0.031602561385334106,
+          "sample_sd": 0.005586754627182373
+        },
+        "equal_case_RMSE": {
+          "mean": 0.07842514991520988,
+          "sample_sd": 0.012847882914486047
+        },
+        "mean_case_RMSE": {
+          "mean": 0.04978273772261431,
+          "sample_sd": 0.00792950792292872
+        },
+        "R2_pooled": {
+          "mean": 0.898778151044057,
+          "sample_sd": 0.0333665448368257
+        },
+        "maximum_positive_error": {
+          "mean": 0.6606013417243958,
+          "sample_sd": 0.043837269226248435
+        },
+        "maximum_absolute_error": {
+          "mean": 0.6606013417243958,
+          "sample_sd": 0.043837269226248435
+        },
+        "case_time_positive_error_q95": {
+          "mean": 0.07839566111564632,
+          "sample_sd": 0.04725321192408146
+        },
+        "case_time_positive_error_q99": {
+          "mean": 0.4364383511543274,
+          "sample_sd": 0.04100662528778525
+        },
+        "per_case_MAE_q50": {
+          "mean": 0.019234044239169263,
+          "sample_sd": 0.0019124649367247499
+        },
+        "per_case_MAE_q90": {
+          "mean": 0.07579269622193015,
+          "sample_sd": 0.03455014388878939
+        },
+        "per_case_MAE_q95": {
+          "mean": 0.11432612233474611,
+          "sample_sd": 0.02581515301199527
+        },
+        "per_case_MAE_q99": {
+          "mean": 0.14960544497849498,
+          "sample_sd": 0.02177278228077743
+        },
+        "per_case_max_positive_error_q50": {
+          "mean": 0.07755727767944336,
+          "sample_sd": 0.008619825260191128
+        },
+        "per_case_max_positive_error_q90": {
+          "mean": 0.4250343489646912,
+          "sample_sd": 0.03569091319180123
+        },
+        "per_case_max_positive_error_q95": {
+          "mean": 0.4684062337875366,
+          "sample_sd": 0.01693222085054548
+        },
+        "per_case_max_positive_error_q99": {
+          "mean": 0.6200994396209714,
+          "sample_sd": 0.03480114485289001
+        }
+      },
+      "training_wall_s": {
+        "mean": 37.71289397997316,
+        "sample_sd": 10.918518686868564
+      }
+    },
+    {
+      "model": "gnn",
+      "seed_count": 5,
+      "test_case_count": 77,
+      "parameters": 194177,
+      "metrics": {
+        "equal_case_MAE": {
+          "mean": 0.031003429572049775,
+          "sample_sd": 0.005286978418805168
+        },
+        "equal_case_RMSE": {
+          "mean": 0.07097971983801636,
+          "sample_sd": 0.009740952679831837
+        },
+        "mean_case_RMSE": {
+          "mean": 0.04763143588588585,
+          "sample_sd": 0.00709987169342703
+        },
+        "R2_pooled": {
+          "mean": 0.9176049824747071,
+          "sample_sd": 0.02065926060653412
+        },
+        "maximum_positive_error": {
+          "mean": 0.5644323945045471,
+          "sample_sd": 0.10173486756206165
+        },
+        "maximum_absolute_error": {
+          "mean": 0.5644323945045471,
+          "sample_sd": 0.10173486756206165
+        },
+        "case_time_positive_error_q95": {
+          "mean": 0.07616532683372497,
+          "sample_sd": 0.020309217013342446
+        },
+        "case_time_positive_error_q99": {
+          "mean": 0.4122534070014954,
+          "sample_sd": 0.027720032571353533
+        },
+        "per_case_MAE_q50": {
+          "mean": 0.020682928674533717,
+          "sample_sd": 0.003771522565596248
+        },
+        "per_case_MAE_q90": {
+          "mean": 0.06680588864889306,
+          "sample_sd": 0.019176116130569434
+        },
+        "per_case_MAE_q95": {
+          "mean": 0.10462534587891377,
+          "sample_sd": 0.026375208787711664
+        },
+        "per_case_MAE_q99": {
+          "mean": 0.14002973554173442,
+          "sample_sd": 0.020289962950568778
+        },
+        "per_case_max_positive_error_q50": {
+          "mean": 0.07917787432670594,
+          "sample_sd": 0.0044928091555176035
+        },
+        "per_case_max_positive_error_q90": {
+          "mean": 0.35453893184661905,
+          "sample_sd": 0.08486721269070811
+        },
+        "per_case_max_positive_error_q95": {
+          "mean": 0.4424840593338013,
+          "sample_sd": 0.02268509735273634
+        },
+        "per_case_max_positive_error_q99": {
+          "mean": 0.5399148211479186,
+          "sample_sd": 0.08599584995188626
+        }
+      },
+      "training_wall_s": {
+        "mean": 60.56744595998898,
+        "sample_sd": 6.056379030456692
+      }
+    },
+    {
+      "model": "set_attention",
+      "seed_count": 5,
+      "test_case_count": 77,
+      "parameters": 194273,
+      "metrics": {
+        "equal_case_MAE": {
+          "mean": 0.027889808854740527,
+          "sample_sd": 0.0016316986955971112
+        },
+        "equal_case_RMSE": {
+          "mean": 0.0614346634087005,
+          "sample_sd": 0.009586150438571497
+        },
+        "mean_case_RMSE": {
+          "mean": 0.04236918818328942,
+          "sample_sd": 0.00247514609717077
+        },
+        "R2_pooled": {
+          "mean": 0.9380069965164047,
+          "sample_sd": 0.01916352059338655
+        },
+        "maximum_positive_error": {
+          "mean": 0.5588637709617614,
+          "sample_sd": 0.15263269378331612
+        },
+        "maximum_absolute_error": {
+          "mean": 0.5588637709617614,
+          "sample_sd": 0.15263269378331612
+        },
+        "case_time_positive_error_q95": {
+          "mean": 0.07077630341053003,
+          "sample_sd": 0.011339048228487032
+        },
+        "case_time_positive_error_q99": {
+          "mean": 0.34999866867065416,
+          "sample_sd": 0.08313829535540426
+        },
+        "per_case_MAE_q50": {
+          "mean": 0.019635932611637427,
+          "sample_sd": 0.0032008603998788707
+        },
+        "per_case_MAE_q90": {
+          "mean": 0.058566157485617984,
+          "sample_sd": 0.01133475505520506
+        },
+        "per_case_MAE_q95": {
+          "mean": 0.08920977666729787,
+          "sample_sd": 0.015803791321115365
+        },
+        "per_case_MAE_q99": {
+          "mean": 0.11197367780325829,
+          "sample_sd": 0.021417995433091495
+        },
+        "per_case_max_positive_error_q50": {
+          "mean": 0.0779473751783371,
+          "sample_sd": 0.011164216157029913
+        },
+        "per_case_max_positive_error_q90": {
+          "mean": 0.30833599805831924,
+          "sample_sd": 0.11863055388101303
+        },
+        "per_case_max_positive_error_q95": {
+          "mean": 0.4005366349220276,
+          "sample_sd": 0.07991976704395604
+        },
+        "per_case_max_positive_error_q99": {
+          "mean": 0.5315003542900083,
+          "sample_sd": 0.13624621785195368
+        }
+      },
+      "training_wall_s": {
+        "mean": 115.49249420000706,
+        "sample_sd": 16.677099822397707
+      }
+    }
+  ],
+  "paired_contrasts": {
+    "attention_vs_matched_set": {
+      "contrast": "capacity_matched_deepsets MAE minus set_attention MAE; positive favors set_attention",
+      "point_estimate_equal_case_seed_mean": 0.0037127525305935796,
+      "paired_effect_by_seed": [
+        0.0007658079266548157,
+        -0.00047341536842357966,
+        0.004605190307758502,
+        0.0019308343888192016,
+        0.011735345398158958
+      ],
+      "paired_effect_seed_sample_sd": 0.004861639588303831,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "seed_count": 5,
+      "independent_geometry_clusters": 77,
+      "test_cases": 77,
+      "cluster_sizes": {
+        "02c5b4cea8a7f8d0326d192e2b3c0b71ed63f83462872432e55bbace86e406ec": 1,
+        "056a923c812da53b89a1edab52a670b505e384386e4ab3f5da8ed5a3fe4b9c44": 1,
+        "0f1e86c0dcb0319466cc6170ac1fc80e79a0a86f3cec74ed0946ad92c0c9dd55": 1,
+        "10f4acd7ecb8c2e4eb0c7c20f62796e37bff40389f067d2b54a6a146446d387f": 1,
+        "11389e417774581855600f06710b1cd4ca36349c94fb3a618632194acb8bb3e4": 1,
+        "123995ae2240ad20be0745850831b3b3ccd0dccc505dafe469aaaab595bb5396": 1,
+        "13be896e4e44ac5a85142e19cab16be98383db1505cac7322f52e5d316b7c1d6": 1,
+        "19211c8e9a928558b42278b7bcb5f34db7246d40baf51c36cbecfd49a8ae5773": 1,
+        "1a1f3dfe6d82f4fcb62fd24123319262ae3473659b2b7f8391738de83206c5a4": 1,
+        "1dc7132eeee3b00a8b97744d5f7b2ce25ee1e5b9585eb8079cacbd6389068fb2": 1,
+        "298bc4cd884624f9a62a0e52c0cb9ff830158ddd72438575f9104b6cb39ba904": 1,
+        "2cb4bf25ab033f514f5e44667253599d752a36c9bbf520e8443d1f27d855f5d9": 1,
+        "2f49a3bd3fa1331d4e1e7d5abde19ff5df550d22ea271d2169b66e1022c71b19": 1,
+        "36f4a99c3066fb990f86cca0c0c331b270b3b6688a7c0d46818908f1e8bd298b": 1,
+        "3d2bde91f4b9fbe882b7c627e2f5cbefd515eb7243ad3cbee85aa6abad5e9619": 1,
+        "3e4e5cd84a861b9a0be242f81debf7d0bd6cb11afbc53f9171166820dcad98a7": 1,
+        "407acae96c8ecf105f6360065d304b9b54c3f9deb44709cb056c989216011031": 1,
+        "45d31a356d8f8f1e5d58fc21b00971d11967d982e6b69d1b1fb1edc4d8dd75ad": 1,
+        "468712e2a2cfa28bbfa96ee8a5051663b180b5f3c9723dc1e5de97f77861e10a": 1,
+        "468a1e616ee184e0dc67acb04ea98fdaf974fe33c5906a1d7964bde5e6dbe445": 1,
+        "494713b2a11c221a4b6b85fd5eac30f91d95e94a024c441a86ef46fe1b047f1e": 1,
+        "4e27252ae3d82a4360b94f87627f1f360f354c1507db9e65fdfe6a6ba4a0266b": 1,
+        "5075fdd99ae95f63d6784afd7a0201901a442126623a4b2383ab4f1821791b64": 1,
+        "542b137ad838f734ed94b3137c68ee0de05921f0ba3bdc057191bc75945d376c": 1,
+        "5729b4d5aa7017ff45466114d0231f7b2a575d022e1c888a707cd5b7a43231b1": 1,
+        "5c145c73b58afdb271e76512b612e9147c6a963d23a9b257eb83d372c5a39718": 1,
+        "5d8c1f39b395ba81b7d358a557290bdf32ae9cf9cb146281bdd4160c7f276c7c": 1,
+        "603ef30490526fd891951527c1bb0e736184bfe7b455224d62dcfb9376a38159": 1,
+        "65a569119d515e140f05b214bacd08e112b70cb5263b469ddfe2a432a2cc3958": 1,
+        "6aaf3c3aeb09c3ac925f73bf7f2a8b79300f4c219e3eac2b505fcd2d027b3a1a": 1,
+        "6de7f08e8a097a56902dd07986c4a200ad4750a1829b80436de10e61cac5d4a0": 1,
+        "780c296c1722f5c45bdb236af67debc10f0b3e5b7b288c3ff56f05c77b3b3e74": 1,
+        "78c333b8d8449f7cb71078ccb2001a79fb10dd7fac0dfa8c5d8e28861b4d25f8": 1,
+        "798efcfd823281779200c24b091f02058a25f648672651941fa5febcfd481c6b": 1,
+        "79addc25355d96070d9f4dbcd60dc1931137b1d4a972a39eaa234ba0436071cd": 1,
+        "7c3398f3899fcf54afc16057c5b72147a5a0c0c02f7b5f99d84ececb7bb5f4ff": 1,
+        "7cadb428102b45cfe0b5b97297c1909c1ccde61b93829d3b2589c511d68f5e6d": 1,
+        "7dfd6001f893fa215975c846a322c29bbc1d85aa2d4d0e45d8f78fe123b308d4": 1,
+        "7fb438949d0eb29ebdd210f78203d8d86b230990f1edfbe8821067113fc4792d": 1,
+        "83215b075995162d9b3022bf517a28c6505ef7a5558ec2b43e7af0dada594857": 1,
+        "84f99d131b63c203b08bdf883e7ed257cf5de222b66fe142e0b1ce336b0e328d": 1,
+        "857cd921c5c18b9582dd35cc0acb84ae53c5d2e537dcde4cdf39b2231ca10968": 1,
+        "89dc962c47ff3e9102e058248e3f47149aad2aa1fc355492045b65bbe8dc3923": 1,
+        "8d0f5ba8fae0269664b49b029a6fd176943cd3ece6b2cde01725c50acf3a2ed3": 1,
+        "8dbba299246eda7404a091a6f2a42feecd4cf165bb99049313415dbd004b2050": 1,
+        "93145b855b230772dd90793acbd8178a098b4fc3fff94eb8bee328917ab18cbd": 1,
+        "93b3e779e4df531ade2d4c5dc25778afa6c6a7dc1518c32435c97ef04b519de3": 1,
+        "9750cf429e938afbf5521b8bf44ef9e16ba9cbb080b2c0a41989e6a3de161d01": 1,
+        "987748434d72e8ab0a8da0e2ebbead4e5ddd833420d7222dc4f9fdc6a291d033": 1,
+        "99793b05b17ebb51858110160f5ba6eef1a2801d9958130556332250d90a4d1a": 1,
+        "9aa939144617450b8ff78176a232017a36512936ea166fd37bdfcd0b6c06d95d": 1,
+        "9e0cd19083a3f8979b1ccd5a1e2c94f584cd19b29bb2f8090e1b1f5bdf66f6ec": 1,
+        "a0c14c90e07b77c6c0c4c5377737c10363967a2cd05704b676659e7ba7ec8554": 1,
+        "a600ef064b2492537add7991e0f84a2f05a8f99aa76db76af216c7c3141b0923": 1,
+        "b09af298ce173a113754d7496e1567d734d38c1a79b6d21a61abedb0ab5e70da": 1,
+        "be763a3c6d0ede325fa90adf5d05e13e5567759af4146ea3091f059b7325438e": 1,
+        "bf783c7386dc8958835f9751e22441e5de75f41d796716a07dd333a689b29b4d": 1,
+        "c2c001202a8c28c746d959710863eac06ac82ced0c8dca50f7a3f84fc3016514": 1,
+        "c2dbab5d9111fca735228a56b75831723834bca2e759024130429f98ffdd2f21": 1,
+        "c9d110cdd796a6ceafeac10d508c70cf5906fd1c50d0ee62375671379d46dd7a": 1,
+        "cde241fdf68803422b96faca8abdd511d5d30d58431b6b25ab546fefa980ef84": 1,
+        "d685d5a69fcc4bab9d14944e095ff2fe10821a805d30307bca334983eb4bc652": 1,
+        "d830373e7a1ced5f0e9557533ed0a88e8a96c414e1c1e471729f5aed5590abce": 1,
+        "de84f8c7126fb833ed169877af5a41a38106e45915dde3164ec345115b2673bb": 1,
+        "e0972ac40e920e243358190ed8fc04ed14175f4d89da09987ca77d21d82e24d7": 1,
+        "e16f2cf138facf560a80735296dc81181b7daa8cc9be2476a364fa46054337e4": 1,
+        "e1d4ce85ea09b6c71f286c70ac29a33a42548e1db46c9d5c3e010c9f5ac7243a": 1,
+        "e6605607f89f69822009cfd6e2c71c4c837264a332d18be582234f009b8b1761": 1,
+        "e7afe4e7545292d2c7cd00be7fbec7959fa856022b4a1d44b2b408a173e36824": 1,
+        "e9a357d33c601c246d2ce0e18ec430904e386ea9706c04b3583c3133cb4f8540": 1,
+        "efdcea39ada92fb72e19ea5a805fb016a3456258854219ba4c971d603cc202c6": 1,
+        "f02da7fd0ff215fad2bd931e2104cf90c64bb824879796b47af7303e1361ead8": 1,
+        "f2b0a7e68f99caf7f2d3ac6c08f489be159798eb054aefa7ee5d9ef9d82f12e1": 1,
+        "f8d8ef2ece5e47d43c3cabe11cae3af49653829fe5302425f0d3366d3731bfaf": 1,
+        "fd9bd7cc9f4c89ac3e01f5e1bb5200a850b5dbf00515b643c2457dec52232498": 1,
+        "ffb71b711beb2d8ec4ed1e26e5127551d814984115541c7508a0f5a06c317bed": 1,
+        "ffe9fa61dc7f9c04875cc36b45b5c957d7781d09c438f3f4d02d874291303538": 1
+      },
+      "bootstrap_repeats": 5000,
+      "bootstrap_random_seed": 20260907,
+      "intervals": {
+        "geometry_only": {
+          "status": "ESTIMATED",
+          "percentile_95": [
+            0.0014641448164908766,
+            0.006227940125844951
+          ],
+          "bootstrap_sd": 0.001214314496647724
+        },
+        "seed_only": {
+          "status": "ESTIMATED",
+          "percentile_95": [
+            0.0005031239010563346,
+            0.007867562226762359
+          ],
+          "bootstrap_sd": 0.0019414967866590081
+        },
+        "two_way": {
+          "status": "ESTIMATED",
+          "percentile_95": [
+            -0.0005862925051913151,
+            0.008992850845713348
+          ],
+          "bootstrap_sd": 0.002469345642362136
+        }
+      },
+      "estimand": "Mean across training seeds of equal-case time-mean absolute-error difference. Geometry resampling retains each selected cluster whole; unequal cluster sizes use sum of errors / sampled case count.",
+      "limitations": "Five training seeds give limited information about the seed distribution. Crossed product-resampling is an approximate diagnostic, not an exact finite-sample confidence procedure or a model-uncertainty interval. No time points are resampled.",
+      "purpose": "ARCHIVAL_INTERACTION_SET_EXPLORATORY_EXTENSION_V09",
+      "epistemic_status": "AFTER_ORIGINAL_TEST_RESULTS_REVIEW_EXPLORATORY"
+    },
+    "attention_vs_sum_GNN": {
+      "contrast": "gnn MAE minus set_attention MAE; positive favors set_attention",
+      "point_estimate_equal_case_seed_mean": 0.0031136207173092455,
+      "paired_effect_by_seed": [
+        0.009826145035131243,
+        0.00036849156069659195,
+        0.00952443779181084,
+        0.0018993551147499308,
+        -0.00605032591584238
+      ],
+      "paired_effect_seed_sample_sd": 0.006692246469149345,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "seed_count": 5,
+      "independent_geometry_clusters": 77,
+      "test_cases": 77,
+      "cluster_sizes": {
+        "02c5b4cea8a7f8d0326d192e2b3c0b71ed63f83462872432e55bbace86e406ec": 1,
+        "056a923c812da53b89a1edab52a670b505e384386e4ab3f5da8ed5a3fe4b9c44": 1,
+        "0f1e86c0dcb0319466cc6170ac1fc80e79a0a86f3cec74ed0946ad92c0c9dd55": 1,
+        "10f4acd7ecb8c2e4eb0c7c20f62796e37bff40389f067d2b54a6a146446d387f": 1,
+        "11389e417774581855600f06710b1cd4ca36349c94fb3a618632194acb8bb3e4": 1,
+        "123995ae2240ad20be0745850831b3b3ccd0dccc505dafe469aaaab595bb5396": 1,
+        "13be896e4e44ac5a85142e19cab16be98383db1505cac7322f52e5d316b7c1d6": 1,
+        "19211c8e9a928558b42278b7bcb5f34db7246d40baf51c36cbecfd49a8ae5773": 1,
+        "1a1f3dfe6d82f4fcb62fd24123319262ae3473659b2b7f8391738de83206c5a4": 1,
+        "1dc7132eeee3b00a8b97744d5f7b2ce25ee1e5b9585eb8079cacbd6389068fb2": 1,
+        "298bc4cd884624f9a62a0e52c0cb9ff830158ddd72438575f9104b6cb39ba904": 1,
+        "2cb4bf25ab033f514f5e44667253599d752a36c9bbf520e8443d1f27d855f5d9": 1,
+        "2f49a3bd3fa1331d4e1e7d5abde19ff5df550d22ea271d2169b66e1022c71b19": 1,
+        "36f4a99c3066fb990f86cca0c0c331b270b3b6688a7c0d46818908f1e8bd298b": 1,
+        "3d2bde91f4b9fbe882b7c627e2f5cbefd515eb7243ad3cbee85aa6abad5e9619": 1,
+        "3e4e5cd84a861b9a0be242f81debf7d0bd6cb11afbc53f9171166820dcad98a7": 1,
+        "407acae96c8ecf105f6360065d304b9b54c3f9deb44709cb056c989216011031": 1,
+        "45d31a356d8f8f1e5d58fc21b00971d11967d982e6b69d1b1fb1edc4d8dd75ad": 1,
+        "468712e2a2cfa28bbfa96ee8a5051663b180b5f3c9723dc1e5de97f77861e10a": 1,
+        "468a1e616ee184e0dc67acb04ea98fdaf974fe33c5906a1d7964bde5e6dbe445": 1,
+        "494713b2a11c221a4b6b85fd5eac30f91d95e94a024c441a86ef46fe1b047f1e": 1,
+        "4e27252ae3d82a4360b94f87627f1f360f354c1507db9e65fdfe6a6ba4a0266b": 1,
+        "5075fdd99ae95f63d6784afd7a0201901a442126623a4b2383ab4f1821791b64": 1,
+        "542b137ad838f734ed94b3137c68ee0de05921f0ba3bdc057191bc75945d376c": 1,
+        "5729b4d5aa7017ff45466114d0231f7b2a575d022e1c888a707cd5b7a43231b1": 1,
+        "5c145c73b58afdb271e76512b612e9147c6a963d23a9b257eb83d372c5a39718": 1,
+        "5d8c1f39b395ba81b7d358a557290bdf32ae9cf9cb146281bdd4160c7f276c7c": 1,
+        "603ef30490526fd891951527c1bb0e736184bfe7b455224d62dcfb9376a38159": 1,
+        "65a569119d515e140f05b214bacd08e112b70cb5263b469ddfe2a432a2cc3958": 1,
+        "6aaf3c3aeb09c3ac925f73bf7f2a8b79300f4c219e3eac2b505fcd2d027b3a1a": 1,
+        "6de7f08e8a097a56902dd07986c4a200ad4750a1829b80436de10e61cac5d4a0": 1,
+        "780c296c1722f5c45bdb236af67debc10f0b3e5b7b288c3ff56f05c77b3b3e74": 1,
+        "78c333b8d8449f7cb71078ccb2001a79fb10dd7fac0dfa8c5d8e28861b4d25f8": 1,
+        "798efcfd823281779200c24b091f02058a25f648672651941fa5febcfd481c6b": 1,
+        "79addc25355d96070d9f4dbcd60dc1931137b1d4a972a39eaa234ba0436071cd": 1,
+        "7c3398f3899fcf54afc16057c5b72147a5a0c0c02f7b5f99d84ececb7bb5f4ff": 1,
+        "7cadb428102b45cfe0b5b97297c1909c1ccde61b93829d3b2589c511d68f5e6d": 1,
+        "7dfd6001f893fa215975c846a322c29bbc1d85aa2d4d0e45d8f78fe123b308d4": 1,
+        "7fb438949d0eb29ebdd210f78203d8d86b230990f1edfbe8821067113fc4792d": 1,
+        "83215b075995162d9b3022bf517a28c6505ef7a5558ec2b43e7af0dada594857": 1,
+        "84f99d131b63c203b08bdf883e7ed257cf5de222b66fe142e0b1ce336b0e328d": 1,
+        "857cd921c5c18b9582dd35cc0acb84ae53c5d2e537dcde4cdf39b2231ca10968": 1,
+        "89dc962c47ff3e9102e058248e3f47149aad2aa1fc355492045b65bbe8dc3923": 1,
+        "8d0f5ba8fae0269664b49b029a6fd176943cd3ece6b2cde01725c50acf3a2ed3": 1,
+        "8dbba299246eda7404a091a6f2a42feecd4cf165bb99049313415dbd004b2050": 1,
+        "93145b855b230772dd90793acbd8178a098b4fc3fff94eb8bee328917ab18cbd": 1,
+        "93b3e779e4df531ade2d4c5dc25778afa6c6a7dc1518c32435c97ef04b519de3": 1,
+        "9750cf429e938afbf5521b8bf44ef9e16ba9cbb080b2c0a41989e6a3de161d01": 1,
+        "987748434d72e8ab0a8da0e2ebbead4e5ddd833420d7222dc4f9fdc6a291d033": 1,
+        "99793b05b17ebb51858110160f5ba6eef1a2801d9958130556332250d90a4d1a": 1,
+        "9aa939144617450b8ff78176a232017a36512936ea166fd37bdfcd0b6c06d95d": 1,
+        "9e0cd19083a3f8979b1ccd5a1e2c94f584cd19b29bb2f8090e1b1f5bdf66f6ec": 1,
+        "a0c14c90e07b77c6c0c4c5377737c10363967a2cd05704b676659e7ba7ec8554": 1,
+        "a600ef064b2492537add7991e0f84a2f05a8f99aa76db76af216c7c3141b0923": 1,
+        "b09af298ce173a113754d7496e1567d734d38c1a79b6d21a61abedb0ab5e70da": 1,
+        "be763a3c6d0ede325fa90adf5d05e13e5567759af4146ea3091f059b7325438e": 1,
+        "bf783c7386dc8958835f9751e22441e5de75f41d796716a07dd333a689b29b4d": 1,
+        "c2c001202a8c28c746d959710863eac06ac82ced0c8dca50f7a3f84fc3016514": 1,
+        "c2dbab5d9111fca735228a56b75831723834bca2e759024130429f98ffdd2f21": 1,
+        "c9d110cdd796a6ceafeac10d508c70cf5906fd1c50d0ee62375671379d46dd7a": 1,
+        "cde241fdf68803422b96faca8abdd511d5d30d58431b6b25ab546fefa980ef84": 1,
+        "d685d5a69fcc4bab9d14944e095ff2fe10821a805d30307bca334983eb4bc652": 1,
+        "d830373e7a1ced5f0e9557533ed0a88e8a96c414e1c1e471729f5aed5590abce": 1,
+        "de84f8c7126fb833ed169877af5a41a38106e45915dde3164ec345115b2673bb": 1,
+        "e0972ac40e920e243358190ed8fc04ed14175f4d89da09987ca77d21d82e24d7": 1,
+        "e16f2cf138facf560a80735296dc81181b7daa8cc9be2476a364fa46054337e4": 1,
+        "e1d4ce85ea09b6c71f286c70ac29a33a42548e1db46c9d5c3e010c9f5ac7243a": 1,
+        "e6605607f89f69822009cfd6e2c71c4c837264a332d18be582234f009b8b1761": 1,
+        "e7afe4e7545292d2c7cd00be7fbec7959fa856022b4a1d44b2b408a173e36824": 1,
+        "e9a357d33c601c246d2ce0e18ec430904e386ea9706c04b3583c3133cb4f8540": 1,
+        "efdcea39ada92fb72e19ea5a805fb016a3456258854219ba4c971d603cc202c6": 1,
+        "f02da7fd0ff215fad2bd931e2104cf90c64bb824879796b47af7303e1361ead8": 1,
+        "f2b0a7e68f99caf7f2d3ac6c08f489be159798eb054aefa7ee5d9ef9d82f12e1": 1,
+        "f8d8ef2ece5e47d43c3cabe11cae3af49653829fe5302425f0d3366d3731bfaf": 1,
+        "fd9bd7cc9f4c89ac3e01f5e1bb5200a850b5dbf00515b643c2457dec52232498": 1,
+        "ffb71b711beb2d8ec4ed1e26e5127551d814984115541c7508a0f5a06c317bed": 1,
+        "ffe9fa61dc7f9c04875cc36b45b5c957d7781d09c438f3f4d02d874291303538": 1
+      },
+      "bootstrap_repeats": 5000,
+      "bootstrap_random_seed": 20260907,
+      "intervals": {
+        "geometry_only": {
+          "status": "ESTIMATED",
+          "percentile_95": [
+            0.0017331779370517054,
+            0.004710667557778043
+          ],
+          "bootstrap_sd": 0.000758977150939486
+        },
+        "seed_only": {
+          "status": "ESTIMATED",
+          "percentile_95": [
+            -0.0018928627191083292,
+            0.008120104153726819
+          ],
+          "bootstrap_sd": 0.002644002458784006
+        },
+        "two_way": {
+          "status": "ESTIMATED",
+          "percentile_95": [
+            -0.002298255622520176,
+            0.008764381707031876
+          ],
+          "bootstrap_sd": 0.002849706408621375
+        }
+      },
+      "estimand": "Mean across training seeds of equal-case time-mean absolute-error difference. Geometry resampling retains each selected cluster whole; unequal cluster sizes use sum of errors / sampled case count.",
+      "limitations": "Five training seeds give limited information about the seed distribution. Crossed product-resampling is an approximate diagnostic, not an exact finite-sample confidence procedure or a model-uncertainty interval. No time points are resampled.",
+      "purpose": "ARCHIVAL_INTERACTION_SET_EXPLORATORY_EXTENSION_V09",
+      "epistemic_status": "AFTER_ORIGINAL_TEST_RESULTS_REVIEW_EXPLORATORY"
+    }
+  },
+  "no_mechanism_causality_claim": true,
+  "all_original420_retained": true,
+  "quantile_scope": "per_case_MAE_qXX uses time-mean absolute error per case; per_case_max_positive_error_qXX uses each case maximum over time, then case quantile; case_time_positive_error quantiles use all entries including zeros."
+}

@@ -1,0 +1,98 @@
+{
+  "status": "ALL_TEN_PROTOCOLS_COMPLETE_READY_FOR_SOURCE_VALIDATION",
+  "required_protocols": 10,
+  "required_runs": 350,
+  "complete_protocols": 10,
+  "waiting_protocols": [],
+  "protocol_statuses": [
+    {
+      "family": "iso834",
+      "protocol": "loco_iso834",
+      "evaluation_status": "COMPLETE",
+      "audited_runs": 35,
+      "required_runs": 35,
+      "ready": true
+    },
+    {
+      "family": "astm_e119",
+      "protocol": "loco_astm_e119",
+      "evaluation_status": "COMPLETE",
+      "audited_runs": 35,
+      "required_runs": 35,
+      "ready": true
+    },
+    {
+      "family": "external_fire",
+      "protocol": "loco_external_fire",
+      "evaluation_status": "COMPLETE",
+      "audited_runs": 35,
+      "required_runs": 35,
+      "ready": true
+    },
+    {
+      "family": "linear",
+      "protocol": "loco_linear",
+      "evaluation_status": "COMPLETE",
+      "audited_runs": 35,
+      "required_runs": 35,
+      "ready": true
+    },
+    {
+      "family": "bilinear",
+      "protocol": "loco_bilinear",
+      "evaluation_status": "COMPLETE",
+      "audited_runs": 35,
+      "required_runs": 35,
+      "ready": true
+    },
+    {
+      "family": "plateau",
+      "protocol": "loco_plateau",
+      "evaluation_status": "COMPLETE",
+      "audited_runs": 35,
+      "required_runs": 35,
+      "ready": true
+    },
+    {
+      "family": "decay",
+      "protocol": "loco_decay",
+      "evaluation_status": "COMPLETE",
+      "audited_runs": 35,
+      "required_runs": 35,
+      "ready": true
+    },
+    {
+      "family": "perturbed_iso",
+      "protocol": "loco_perturbed_iso",
+      "evaluation_status": "COMPLETE",
+      "audited_runs": 35,
+      "required_runs": 35,
+      "ready": true
+    },
+    {
+      "family": "log_variant",
+      "protocol": "loco_log_variant",
+      "evaluation_status": "COMPLETE",
+      "audited_runs": 35,
+      "required_runs": 35,
+      "ready": true
+    },
+    {
+      "family": "smoldering",
+      "protocol": "loco_smoldering",
+      "evaluation_status": "COMPLETE",
+      "audited_runs": 35,
+      "required_runs": 35,
+      "ready": true
+    }
+  ],
+  "source_report_sha256": "534efdd6a569a675ddbfedbdcd32b6c4fc40f8ad09edcd51587b122d5e94e499",
+  "source_plan_sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068",
+  "performance_files_opened": 0,
+  "no_formal_figure_created": true,
+  "requested_mode": "render",
+  "read_files": [
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\comparison_plan_v08_420.json",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\report.json"
+  ]
+}

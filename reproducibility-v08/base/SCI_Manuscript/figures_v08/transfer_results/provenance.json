@@ -1,0 +1,53 @@
+{
+  "created_utc": "2026-09-08T04:40:41.992710+00:00",
+  "source_files": [
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\deliverables\\EAAI_reproducibility_v08_complete\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\lcro_9_15\\summary.json",
+      "sha256": "51cbfe2046251b8aae063338451d98edf83ffca3d38d13fe5b60fb700ca6d000"
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\deliverables\\EAAI_reproducibility_v08_complete\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\lcro_9_15\\per_case_metrics.csv",
+      "sha256": "cedac209e5ad23baa7e33ebe6cc03c737ae03ea647bab39237e7a44ea95eb0b8"
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\deliverables\\EAAI_reproducibility_v08_complete\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\lcro_9_15\\strata_by_seed.csv",
+      "sha256": "6f6108dfb8924e71e7d185ec19692a3daad0ac6be1f5bfd118ddeffae96e58de"
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\deliverables\\EAAI_reproducibility_v08_complete\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\lcro_9_15\\topology_by_seed.csv",
+      "sha256": "8fe0b154a1db394bf1c73d833cd56a334be95c2ac199d7f8e0b24ad287bb2767"
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\deliverables\\EAAI_reproducibility_v08_complete\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\report.json",
+      "sha256": "534efdd6a569a675ddbfedbdcd32b6c4fc40f8ad09edcd51587b122d5e94e499"
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\deliverables\\EAAI_reproducibility_v08_complete\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\run_integrity.json",
+      "sha256": "ce4ebdc61f1626321aa115deb8a731f3ed7e241c32ec3dfdd69fe8e90b4d6cdb"
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\deliverables\\EAAI_reproducibility_v08_complete\\SCI_Manuscript\\experiments\\research_v08\\comparison_plan_v08_420.json",
+      "sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068"
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\archive997\\splits\\lcro_9_15.json",
+      "sha256": "dbf9620ae4d56ace506fa2b6c949ff4018989c916c0b7850fa3924369d1f6f6a"
+    }
+  ],
+  "script_sha256": "c38e1a0fd18bcca045a2c8a4a976bcbe91d58171ac5a7103278ed546a8fc02a7",
+  "manifest_sha256": "7712ad86ab48f185c53a9ae276a9a7b2f6e6673a5d5faf6fc69b0f1bbb3dcdaf",
+  "protocol": "lcro_9_15",
+  "target_version": "archive-scalar-running-min-interp61-v1",
+  "feature_version": "fe-global-v2-prescribed-archive-time-v1",
+  "source_batch_holdout": "batch_005 only; source and high crack count are confounded",
+  "connectivity_recipe": {
+    "radius": 0.25701273800611935,
+    "radius_fit_quantile": 0.5,
+    "radius_fit_only_training": true,
+    "symmetric_knn_k": 3,
+    "radius_fit_geometry_count": 620
+  },
+  "uncertainty_display": "Individual seed values only. No confidence interval; no timepoint resampling.",
+  "normalization_interpretation": "Comparison of prespecified GNN variants under identical changed-connectivity inputs; no causal degree-effect estimate.",
+  "unit_conversion": "Source dimensionless MAE multiplied by 100, i.e. percentage points."
+}

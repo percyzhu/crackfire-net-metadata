@@ -1,0 +1,4 @@
+{
+  "status": "FIGURE_GENERATION_FAILED_NO_VISUAL_PASS",
+  "error": "ValueError(\"Text outside canvas: ['60']\")"
+}

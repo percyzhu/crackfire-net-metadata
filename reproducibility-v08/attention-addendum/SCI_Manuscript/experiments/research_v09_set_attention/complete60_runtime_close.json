@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-09-07T11:16:52.2234665Z",
+  "queue_status": "COMPLETE_60_EXPLORATORY_EXTENSION",
+  "completed": 60,
+  "active": null,
+  "queue_updated_utc": "2026-09-07T11:14:59Z",
+  "active_training_or_queue_processes": 0,
+  "worker_stderr_bytes": 0,
+  "queue_log_bytes": 0,
+  "plan_sha256": "8d21e13af116dc97556b37060daaf86afed5f7ba645a5bdae18e3d4ffb3b05a9",
+  "queue_sha256": "5ea802497f168a7711c3887fafea30f3110492b8684b294dee67df2dfe53ae4f",
+  "aggregate_source_sha256": "aa06a3280fed95be571f1b39677c84c20d193804897d4f4d55ec7a99053a2e7a"
+}

@@ -1,0 +1,11 @@
+{
+  "cases": 997,
+  "exact_geometry_groups": 997,
+  "provenance": "Source batch/crack-count/fire-family strata fixed before outcomes.",
+  "count_ood_confounding": "All test cases N9–15 are batch005; batch004 contains N1–8 only. Evaluate batch005 subset within development/IID strata; count OOD is not isolated from source-batch effects.",
+  "legacy_subset": "911 mapped retained cases plus86 restored constant responses; separately report strata, do not multiply sample size.",
+  "target": "One explicit archival envelope transformation across both native source versions. This is not proof that underlying FE/label-generating software was identical across production batches.",
+  "scenario": "The entire prescribed exposure is known as input; not online unknown-future prediction.",
+  "topology": "N change is complete-graph-family size transfer. Sparse-view same-weight tests measure representation-connectivity stress, not independently simulated physical adjacency changes.",
+  "near_duplicate_scope": "Exact permutation-invariant crack geometry verified; approximate/mirror geometries not collapsed."
+}

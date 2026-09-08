@@ -1,0 +1,123 @@
+{
+  "sample_id": "b004_0006",
+  "geometry_id": "2924d0a2874ea770ebac7588514ed0db2a93565dbcbaafeea9be21eeb43a2e4e",
+  "selection": "Unique exact geometry match to previous three-slot illustration; no outcome/prediction selection",
+  "same_case_in_all_panels": true,
+  "fire": {
+    "type": "iso834",
+    "params": {}
+  },
+  "native_points": 571,
+  "target_points": 61,
+  "native_max_cumulative_minimum_change": 0.017800591173411373,
+  "native_max_change_time_s": 1287.8260498046875,
+  "target_operation": "native monotone identity or native cumulative minimum; linear interpolation at 0:60:3600; float32",
+  "scalar_member": "charring_ratios",
+  "actual_read_arrays": [
+    "time_steps",
+    "charring_ratios",
+    "crack_params",
+    "beam_dims"
+  ],
+  "node_temperature_arrays_read": false,
+  "prediction_results_read": false,
+  "source_case": {
+    "sample_id": "b004_0006",
+    "beam": {
+      "L": 1.5,
+      "W": 0.14,
+      "H": 0.2
+    },
+    "cracks": [
+      {
+        "face": 0,
+        "z": 1.175,
+        "h": -0.0044,
+        "w": 0.00221,
+        "l": 0.2548,
+        "d": 0.0144
+      },
+      {
+        "face": 2,
+        "z": 0.8425,
+        "h": -0.0049,
+        "w": 0.00326,
+        "l": 0.1443,
+        "d": 0.024
+      },
+      {
+        "face": 0,
+        "z": 0.8235,
+        "h": 0.0086,
+        "w": 0.0043,
+        "l": 0.1898,
+        "d": 0.0177
+      }
+    ],
+    "fire": {
+      "type": "iso834",
+      "params": {}
+    },
+    "num_cracks": 3,
+    "fire_family": "iso834",
+    "source_batch": "batch_004",
+    "source_id": 6,
+    "legacy_final_id": "sample_0006",
+    "source_npz": "Abaqus_Archive_20260906/abaqus/data/batch_004/sample_0006.npz",
+    "source_npz_sha256_prior_full_audit": "348ece64f8737f2365a7ba668df244b26e6d89b0b71482fc51d0ed0ada1aeb5d",
+    "source_npz_bytes": 1426142,
+    "source_scalar_arrays_sha256_current": "a15382bb5810092ddf6f0f99b7b4d8c589971d75647671561cd602bad1bbe37d",
+    "native_time_count": 571,
+    "native_history_already_nonincreasing": false,
+    "target_operation": "native cumulative minimum -> linear interpolation",
+    "flat_response": false,
+    "all_ones_response": false,
+    "legacy_envelope_change_max": 0.01545609273001286,
+    "geometry_id": "2924d0a2874ea770ebac7588514ed0db2a93565dbcbaafeea9be21eeb43a2e4e"
+  },
+  "models": [
+    "fire_only",
+    "global_stats",
+    "deepsets",
+    "capacity_matched_deepsets",
+    "gnn",
+    "gnn_zero_edge_features",
+    "gnn_mean"
+  ],
+  "source_files": [
+    {
+      "path": "SCI_Manuscript\\experiments\\research_v08\\archive997\\manifest.json",
+      "sha256": "7712ad86ab48f185c53a9ae276a9a7b2f6e6673a5d5faf6fc69b0f1bbb3dcdaf"
+    },
+    {
+      "path": "SCI_Manuscript\\experiments\\research_v08\\comparison_plan_v08_420.json",
+      "sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068"
+    },
+    {
+      "path": "Abaqus_Archive_20260906\\abaqus\\data\\batch_004\\sample_0006.npz",
+      "sha256": "348ece64f8737f2365a7ba668df244b26e6d89b0b71482fc51d0ed0ada1aeb5d"
+    },
+    {
+      "path": "SCI_Manuscript\\figures_v07\\method\\draw_method_v07.py",
+      "sha256": "b64e49e913706e80ac220b213ac87a206bac45f8f459d4f5dcb057e4a76d0571"
+    },
+    {
+      "path": "SCI_Manuscript\\figures_v07\\method\\geometry_source.csv",
+      "sha256": "508d209816c2095543c9c0908ef15186699e3947b42b9b22b1db8a1ab8b47a55"
+    },
+    {
+      "path": "SCI_Manuscript\\figures_v07\\method\\graph_nodes.csv",
+      "sha256": "66e9abd257c086ad0cf58339ebced6b40425b1bb6d50eee49274e9bc1f97b98f"
+    },
+    {
+      "path": "SCI_Manuscript\\figures_v07\\method\\graph_edges.csv",
+      "sha256": "ee6fe987eb907787c6abb8c5143d07851ce09b8988b6bb4a9782782164993940"
+    },
+    {
+      "path": "SCI_Manuscript\\experiments\\research_v08\\prepare997.py",
+      "sha256": "66666a7dcbc97d54398bf51f7c917e03901e075745233c7951f98d0723292011"
+    }
+  ],
+  "scope": "Archival scalar prediction; not correctedP1history/capacity labels",
+  "target_float32_SHA256": "791e47a3682712481510d29936f5f9f5d60f8bdd93bd6dc5bd9c4e0c4e36dcf3"
+}

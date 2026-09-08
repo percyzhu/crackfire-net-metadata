@@ -1,0 +1,74 @@
+{
+  "review_id": "v08-application-first-independent-scope-recommendation",
+  "date": "2026-09-07",
+  "role": "Independent internal scope-amendment review; no journal authority",
+  "decision": "ENDORSE_SCOPE_AMENDMENT_WITH_CONDITIONS",
+  "submission_pass": false,
+  "submission_review": "NOT_PERFORMED",
+  "manuscript_snapshot": null,
+  "manuscript_snapshot_reason": "Review of a proposed research-scope amendment and supporting records, not a final PDF review",
+  "old_rubric_path": "SCI_Manuscript/review/eaai_editor/rubric.json",
+  "old_rubric_sha256": "5dbc41d195fb6c4117e4cd8f0f723e1efd517f85c12116dd5eee25ac8d6d6a81",
+  "old_rubric_modified": false,
+  "old_decisions_retroactively_changed": false,
+  "user_basis": "Parent reports explicit user direction to prioritize engineering AI applications, use available thesis validation, and stop treating the study-specific 0.005 threshold as an official journal rule. Root must retain exact instruction in its final amendment record.",
+  "suggested_target_name": "Fixed archival response index / scalar envelope",
+  "suggested_notation": "alpha_archive",
+  "target_scope": "Emulation of a frozen archival numerical-response dataset and a fully documented common scalar transformation; not validated physical section capacity",
+  "old_tolerances": {
+    "max_target_refinement_difference": 0.005,
+    "max_numerical_uncertainty_fraction_of_claimed_model_gain": 0.2,
+    "authority": "study_specific_not_official",
+    "proposal": "Not unconditional blockers for archival-response training. Preserve failed historical comparisons. Claims of true physical improvement still need appropriate reference-error evidence."
+  },
+  "population": {
+    "original_subset": 911,
+    "proposed_extended_total": 997,
+    "proposed_restored_constant_cases": 86,
+    "extended_count_independently_confirmed": false,
+    "admission_requires": ["source compatibility", "unique provenance groups", "successful non-fallback scalar histories", "finite and complete time series", "documented constant-case eligibility"]
+  },
+  "evidence_tiers": [
+    {
+      "tier": "A",
+      "description": "Fixed archival learning target; historical process versions and missing void/history semantics disclosed",
+      "not_claimed": "Uniformly regenerated qualified physical simulator"
+    },
+    {
+      "tier": "B",
+      "description": "11 retained archival cases with same-source mask/history diagnostics; old nearest-neighbor and center integration retained",
+      "max_combined_alpha_difference": 0.03188020179174522,
+      "csv_sha256": "256802257b3a3c0a8d194f3a4d4e8e912b8b8b15ec1bdb4fd9b0b9b7bb37223f",
+      "not_claimed": "Fully corrected high-fidelity population labels or a random population error sample"
+    },
+    {
+      "tier": "C",
+      "description": "11 controlled FE settings covering V0/V1/V2, distinct from the 11 archival cases",
+      "V1_medium_refined_max_gap": 0.019510057843829365,
+      "V2_medium_refined_max_gap": 0.011052841230132948,
+      "diagnosis_sha256": "0cdcd266c5707192c4608084e620e0e58bc8dcfc3890e8ca42b5e096e3e39c19",
+      "not_claimed": "Fine-mesh true error, convergence, or a global error bound"
+    }
+  ],
+  "nonwaived_requirements": [
+    "Exact archival target and input semantics in main methods",
+    "Population inclusion and grouped split provenance",
+    "Common-input fair baselines and capacity-matched set comparison",
+    "Five training seeds 42,43,44,45,46 and comparable tuning budgets",
+    "Locked tests, OOD and paired independent-geometry statistics",
+    "Same trained weights for claimed topology transfer",
+    "Batch/fire/count confounding assessment",
+    "Genuine engineering use and modest physical interpretation",
+    "Measured comparable efficiency when claimed",
+    "Public reproducibility, permissions/licenses and final official-guide check",
+    "Completed accurate manuscript and independent final review"
+  ],
+  "main_unresolved_items": [
+    "997 cases and 86 recovered constant histories not independently confirmed in this review",
+    "Main AI experiments not yet assessed",
+    "Actual graph advantage and engineering contribution not established",
+    "Boundary descriptor versus realized amplitude binding incomplete",
+    "Public benchmark release not established",
+    "Final manuscript not reviewed"
+  ]
+}

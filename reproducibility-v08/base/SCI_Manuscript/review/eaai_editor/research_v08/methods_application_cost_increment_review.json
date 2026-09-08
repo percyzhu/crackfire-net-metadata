@@ -1,0 +1,53 @@
+{
+  "decision": "DEVELOPMENT_METHODS_APPLICATION_COST_INCREMENT_RECONCILED",
+  "created_utc": "2026-09-07T08:13:35.870277+00:00",
+  "scope": [
+    "section3.4 Intended screening workflow",
+    "section5.6 Computational cost",
+    "released-to-versioned neighbour wording",
+    "page8/page14 supplied render visual check"
+  ],
+  "substantive_unresolved_findings": [],
+  "proposed_use_not_physical_validation": true,
+  "unmeasured_timing_not_presented_as_measured_results": true,
+  "timing_plan_and_source_SHA_reconciled": true,
+  "checked_timing_definitions": {
+    "models": 7,
+    "seed": 42,
+    "test_geometries": 160,
+    "trajectory_points": 61,
+    "CPU_threads": 4,
+    "rounds": 3,
+    "batch_sizes": [
+      1,
+      32
+    ],
+    "warmup_full_population_passes": 1,
+    "additional_warmup_batches_per_shape": 10,
+    "common_interface": "feature construction plus collation plus transfers plus model evaluation plus host return",
+    "forward_interface": "device-resident input model evaluation, no host return",
+    "throughput": "total cases / total measured seconds",
+    "training_cost": "successful run host wall times; not total project time or isolated architecture speed",
+    "FE_inference_speedup_claim": false
+  },
+  "visual_QA": {
+    "page8": "Section3.4 full text readable, no clipping/overlap",
+    "page14": "Section5.6 full text readable, no clipping/overlap"
+  },
+  "versioned_wording_confirmed": true,
+  "source_sha256": {
+    "SCI_Manuscript\\latex_v08\\build\\main.pdf": "fedbadb975dbcc23acedb3892587df5c805b45e0a9e989945fe5a8093205df60",
+    "SCI_Manuscript\\latex_v08\\sections\\02_engineering_data.tex": "7d4ef5917ed55aaa281f9b8266a59c9c384ac09714a26c6b018f8d3a5d726005",
+    "SCI_Manuscript\\latex_v08\\sections\\04_evaluation.tex": "451dc701b5c12fdc1ed3adb4c5cae024cb6ad5f85509cd4f0f0c1e49c4be4fd7",
+    "SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\timing_plan.json": "e44ab414c6f7c56a8a400292d6c460bdfb90ba5d2b3636f76ff353575c5eb5a7",
+    "SCI_Manuscript\\experiments\\research_v08\\benchmark_inference.py": "aad7de1e3e332a119adf5ea97f2813bf47dd8d3fe4d136a4ba60cb096f96bcf9",
+    "SCI_Manuscript\\qa_v08\\new_methods_page_8.png": "b548d2af14c4a745c04c90d8888c3da155eed8162deeff68ff24c4d4935d5b94",
+    "SCI_Manuscript\\qa_v08\\new_methods_page_14.png": "afdb94718240ccb069c8817e883aea8e61323857267d5598388b17e1430a029e"
+  },
+  "actual_benchmark_executed_by_reviewer": false,
+  "timing_results_validated": false,
+  "full_manuscript_review_performed": false,
+  "manuscript_or_workflow_or_continuation_edited": false,
+  "submission_pass": false,
+  "remaining": "After final matrix/quiet-machine gate, execute timing; independently reconcile measured results and integrate complete12 accuracy/engineering findings."
+}

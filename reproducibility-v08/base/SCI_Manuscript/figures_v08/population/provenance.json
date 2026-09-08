@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-07T11:03:58.423721+08:00",
+  "source_files": [
+    {
+      "path": "experiments\\research_v08\\archive997\\manifest.json",
+      "sha256": "7712ad86ab48f185c53a9ae276a9a7b2f6e6673a5d5faf6fc69b0f1bbb3dcdaf"
+    },
+    {
+      "path": "experiments\\research_v08\\design_audit\\population_batch_family_count.csv",
+      "sha256": "33abb46b703aea6ba9d6cc8c7d83f6afd2f8ce236cb51ae60ddfe44cba8320ea"
+    },
+    {
+      "path": "experiments\\research_v08\\design_audit\\split_composition.json",
+      "sha256": "5ebbb7928b9824c50d8e5333b9506e821e97f413d041e38fb2d2745eb437f874"
+    },
+    {
+      "path": "experiments\\research_v08\\design_audit\\design_limitations.json",
+      "sha256": "5e808d6fc4b33e1318d7cab57f6c716de7fb3905b1318f8a2c84701b698dbfe7"
+    }
+  ],
+  "cases": 997,
+  "unique_sample_ids": 997,
+  "unique_geometry_groups": 997,
+  "legacy_cases": 911,
+  "restored_cases": 86,
+  "smoldering_cases": 97,
+  "source_batches": {
+    "batch_005": 667,
+    "batch_004": 330
+  },
+  "development_N1_8": 733,
+  "test_N9_15": 264,
+  "all_N9_15_from_batch005": true,
+  "all_cells_annotated": true,
+  "design_audit_aggregation_exactly_matched": true,
+  "prediction_or_result_or_tensor_files_read": false,
+  "scope": {
+    "cases": 997,
+    "exact_geometry_groups": 997,
+    "provenance": "Source batch/crack-count/fire-family strata fixed before outcomes.",
+    "count_ood_confounding": "All test cases N9–15 are batch005; batch004 contains N1–8 only. Evaluate batch005 subset within development/IID strata; count OOD is not isolated from source-batch effects.",
+    "legacy_subset": "911 mapped retained cases plus86 restored constant responses; separately report strata, do not multiply sample size.",
+    "target": "One explicit archival envelope transformation across both native source versions. This is not proof that underlying FE/label-generating software was identical across production batches.",
+    "scenario": "The entire prescribed exposure is known as input; not online unknown-future prediction.",
+    "topology": "N change is complete-graph-family size transfer. Sparse-view same-weight tests measure representation-connectivity stress, not independently simulated physical adjacency changes.",
+    "near_duplicate_scope": "Exact permutation-invariant crack geometry verified; approximate/mirror geometries not collapsed."
+  },
+  "figure_size_mm": [
+    183,
+    164
+  ],
+  "font_sizes_pt": [
+    8.0
+  ],
+  "text_outside_canvas": [],
+  "backend": "Python/matplotlib"
+}

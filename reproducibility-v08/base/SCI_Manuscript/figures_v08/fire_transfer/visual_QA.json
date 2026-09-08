@@ -1,0 +1,36 @@
+{
+  "status": "PASSED_ACTUAL_STANDALONE_VISUAL_AND_SOURCE_ARITHMETIC_QA",
+  "reviewed_utc": "2026-09-07T08:50:40.574558+00:00",
+  "reviewer": "/root/engineering_validation_v08",
+  "inspection": "Agent inspected the rasterized final PDF at original image detail; vector and source arithmetic were separately checked.",
+  "pdf_sha256": "e00b1197190ef09b142a8e606c62205bca213f0766ad2048802442d3c9530d3e",
+  "inspected_render_sha256": "0d5d15a4b6984d99df5e5bc091a2c27fb9274d0fe12bffd3061df7991ed6beee",
+  "source_generator_modified_in_actual_generation": true,
+  "manuscript_placement_QA": "Pending integration; this record is standalone artifact QA, not manuscript acceptance.",
+  "size_mm": [
+    183,
+    190
+  ],
+  "minimum_font_PDF_pt": 8.0,
+  "checks": [
+    "All 84 heatmap cells and seven model labels are legible.",
+    "The 20 primary intervals share a symmetric axis and are all included without clipping.",
+    "The percentage-point scale and 86/97 smoldering flat-case annotation are explicit.",
+    "No overlapping labels, clipped marks, or raster objects were observed.",
+    "Wide linear/bilinear intervals compress small effects near zero; the shared scale is retained faithfully.",
+    "The revised Zero edge / features column header fits on two lines; the caption explicitly states that graph connectivity is retained."
+  ],
+  "arithmetic_evidence": "independent_arithmetic_QA.json",
+  "limits": [
+    "The descriptive case-weighted and equal-family aggregates have no invented confidence interval.",
+    "All 20 family-specific primary intervals cross zero; this figure does not establish uniform model superiority."
+  ],
+  "label_revision": {
+    "old": "GNN / zero-edge",
+    "new": "Zero edge / features",
+    "all_source_CSVs_byte_identical": true,
+    "source_CSV_count": 5,
+    "backup": "backup_before_zero_edge_label",
+    "scope": "Column display label and caption clarification only; no frozen training or scores changed."
+  }
+}

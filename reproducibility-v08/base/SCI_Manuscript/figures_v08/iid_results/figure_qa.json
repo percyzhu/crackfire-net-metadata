@@ -1,0 +1,27 @@
+{
+  "status": "PASSED_DATA_VECTOR_AND_VISUAL_QA",
+  "size_mm": [
+    183,
+    146
+  ],
+  "minimum_font_pt": 8.0,
+  "figure_boundary_overflow": [],
+  "source_protocol_complete": true,
+  "verified_run_count": 35,
+  "test_cases": 160,
+  "model_order": [
+    "fire_only",
+    "global_stats",
+    "deepsets",
+    "capacity_matched_deepsets",
+    "gnn",
+    "gnn_zero_edge_features",
+    "gnn_mean"
+  ],
+  "seed_count": 5,
+  "source_results_not_reordered": true,
+  "intervals_copied_from_existing_5000_resample_summary": true,
+  "per_case_timepoints_not_resampled": true,
+  "complete_ecdf_range": true,
+  "visual_QA": "PNG and PDF-derived render inspected: no clipping or overlap; both complete prespecified intervals cross zero"
+}

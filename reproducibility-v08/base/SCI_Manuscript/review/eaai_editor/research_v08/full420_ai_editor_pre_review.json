@@ -1,0 +1,624 @@
+{
+  "status": "DEVELOPMENT_REVIEW",
+  "decision": "NEEDS_REVISION",
+  "stage": "FULL420_APPLICATION_AI_EDITOR_PRE_REVIEW_NOT_FINAL",
+  "created_utc": "2026-09-07T08:38:14Z",
+  "reviewer_scope": "Internal simulated EAAI application-AI reviewer/editor; no claim of appointment, blinded process, or acceptance probability",
+  "independence_disclosure": "Agent participated in execution tooling; this review is role-separated from main manuscript editing. Statistical recomputation was performed by a different agent.",
+  "sources": [
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\main.tex",
+      "sha256": "0ff97522fb169f96933ec7b9fc2e0208d1b6ddb378caf1280c8a4c6c3438806a",
+      "read_utc": "2026-09-07T08:32:40.718934+00:00",
+      "line_count": 44
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\01_introduction.tex",
+      "sha256": "07f169660d845a41872893b6e381ad66cc891c2dee33681135f749f91b7f543e",
+      "read_utc": "2026-09-07T08:32:40.718934+00:00",
+      "line_count": 10
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\01_related_work.tex",
+      "sha256": "8c7397de9c5bd8d2f8c62ed82c0d8857b129333f58298216b97c797cc411397c",
+      "read_utc": "2026-09-07T08:32:40.718934+00:00",
+      "line_count": 60
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\02_engineering_data.tex",
+      "sha256": "7d4ef5917ed55aaa281f9b8266a59c9c384ac09714a26c6b018f8d3a5d726005",
+      "read_utc": "2026-09-07T08:32:40.718934+00:00",
+      "line_count": 50
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\03_learning.tex",
+      "sha256": "f1d8df986fc303cf1d5a822a8ab1be8a371f3eb3ce3b95a46f11b833955534f4",
+      "read_utc": "2026-09-07T08:32:40.718934+00:00",
+      "line_count": 54
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\04_evaluation.tex",
+      "sha256": "6a1551bb785b98e68a3b909d25795ba75bc9427f8e059420b81326da5a696e8f",
+      "read_utc": "2026-09-07T08:32:40.719939+00:00",
+      "line_count": 42
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\05_results.tex",
+      "sha256": "dab562af8c6af79a741348d98b1904974a9f22b851772097179194c9c6258182",
+      "read_utc": "2026-09-07T08:32:40.719939+00:00",
+      "line_count": 111
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\06_discussion.tex",
+      "sha256": "8f93b757b621e1cb62600c26422a81f1296f0e6719d8475df05b42a4b93c093f",
+      "read_utc": "2026-09-07T08:32:40.719939+00:00",
+      "line_count": 17
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\07_conclusions.tex",
+      "sha256": "2466112e72077831ef29ce3931c70eb37bd0ec4479297574daebf76e45dd3225",
+      "read_utc": "2026-09-07T08:32:40.719939+00:00",
+      "line_count": 6
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\sections\\08_reproducibility.tex",
+      "sha256": "50f0e0d8fdb222220cde9bb38e828f49ab8b95fac2c555b454b97c073094c787",
+      "read_utc": "2026-09-07T08:32:40.719939+00:00",
+      "line_count": 22
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\latex_v08\\supplement.tex",
+      "sha256": "e4a3ee9633034533aa7a340fb6e9c29ca53744ea2f7b044d48b5c347eb80b435",
+      "read_utc": "2026-09-07T08:32:40.719939+00:00",
+      "line_count": 61
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\AGENT_v08.md",
+      "sha256": "e714e19937dc4e72d018f5226c8c6cd1195a00a12e049c5bbde9ddfa750f29d2",
+      "read_utc": "2026-09-07T08:32:40.719939+00:00",
+      "line_count": 22
+    },
+    {
+      "path": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\scope_amendment_adopted_20260907.md",
+      "sha256": "d54befde6d6e03f036882dcafcb92387d17495fbe084a3de59f48a378a809a95",
+      "read_utc": "2026-09-07T08:32:40.719939+00:00",
+      "line_count": 46
+    }
+  ],
+  "evidence_sha256": {
+    "read_utc": "2026-09-07T08:37:26.960074+00:00",
+    "files": {
+      "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\report.json": "534efdd6a569a675ddbfedbdcd32b6c4fc40f8ad09edcd51587b122d5e94e499",
+      "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\run_integrity.json": "ce4ebdc61f1626321aa115deb8a731f3ed7e241c32ec3dfdd69fe8e90b4d6cdb",
+      "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\comparison_plan_v08_420.json": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068",
+      "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\completed_protocol_snapshots\\final_matrix_statistics_20260907.json": "a8e780c4fb6c308b5bfe90e327989ff1d8bdfd55fd4b2bf0e6d01fae10921295",
+      "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\completed_protocol_snapshots\\final_matrix_420\\snapshot_manifest.json": "3c5d15ab71c296347d62790a329d3db1bfcc46e34d14d15dee45cc8bf0981af7",
+      "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_smoldering_results_development_review_zh.md": "19ce05e3c82adfdf30b66e18f9462f181d6d3cc7d99474abde206765cfb1a7f2",
+      "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_smoldering_independent_results_audit_v2.json": "a85409102ce52830c68c79bbb2b012a18d53ffe81b94de2f341c8b800e52c61a",
+      "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_smoldering_constant_strata_audit.json": "c54217458c56c67b6d96283f69dd9d8de074e7f70784309a1253148ccd83f140"
+    }
+  },
+  "engineering_sources": {
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_bilinear_engineering_proxy_ci.json": "368d436610025ec8f1f3c0cac1777ef422c918b9faa4af4b84081cf0fce744ec",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_linear_engineering_proxy_ci.json": "4e63d72040c842fae089eef57d3d965ce1b6afb2113b82ed3bdaaf01241d7db7",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_smoldering_engineering_proxy_ci.json": "2fcb60e9b2d39b5912d87c2a5c7bc687afe7fbfe2e9b62cd80ccaf6c6c16afd7"
+  },
+  "engineering_count_ranges_read": [
+    {
+      "protocol": "loco_bilinear",
+      "N": 77,
+      "thresholds": {
+        "0.8": {
+          "reference_events": 77,
+          "reference_censored": 0,
+          "models": {
+            "fire_only": {
+              "false_negative": [
+                0,
+                0
+              ],
+              "false_positive": [
+                0,
+                0
+              ],
+              "both_event_count": [
+                77,
+                77
+              ],
+              "recross_above_threshold_count": [
+                5,
+                12
+              ]
+            },
+            "capacity_matched_deepsets": {
+              "false_negative": [
+                0,
+                0
+              ],
+              "false_positive": [
+                0,
+                0
+              ],
+              "both_event_count": [
+                77,
+                77
+              ],
+              "recross_above_threshold_count": [
+                9,
+                15
+              ]
+            },
+            "gnn": {
+              "false_negative": [
+                0,
+                0
+              ],
+              "false_positive": [
+                0,
+                0
+              ],
+              "both_event_count": [
+                77,
+                77
+              ],
+              "recross_above_threshold_count": [
+                7,
+                13
+              ]
+            }
+          }
+        },
+        "0.6": {
+          "reference_events": 73,
+          "reference_censored": 4,
+          "models": {
+            "fire_only": {
+              "false_negative": [
+                0,
+                0
+              ],
+              "false_positive": [
+                4,
+                4
+              ],
+              "both_event_count": [
+                73,
+                73
+              ],
+              "recross_above_threshold_count": [
+                11,
+                16
+              ]
+            },
+            "capacity_matched_deepsets": {
+              "false_negative": [
+                0,
+                0
+              ],
+              "false_positive": [
+                2,
+                4
+              ],
+              "both_event_count": [
+                73,
+                73
+              ],
+              "recross_above_threshold_count": [
+                10,
+                16
+              ]
+            },
+            "gnn": {
+              "false_negative": [
+                0,
+                0
+              ],
+              "false_positive": [
+                2,
+                4
+              ],
+              "both_event_count": [
+                73,
+                73
+              ],
+              "recross_above_threshold_count": [
+                8,
+                16
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "protocol": "loco_linear",
+      "N": 125,
+      "thresholds": {
+        "0.8": {
+          "reference_events": 122,
+          "reference_censored": 3,
+          "models": {
+            "fire_only": {
+              "false_negative": [
+                10,
+                37
+              ],
+              "false_positive": [
+                0,
+                0
+              ],
+              "both_event_count": [
+                85,
+                112
+              ],
+              "recross_above_threshold_count": [
+                0,
+                0
+              ]
+            },
+            "capacity_matched_deepsets": {
+              "false_negative": [
+                5,
+                12
+              ],
+              "false_positive": [
+                0,
+                0
+              ],
+              "both_event_count": [
+                110,
+                117
+              ],
+              "recross_above_threshold_count": [
+                0,
+                0
+              ]
+            },
+            "gnn": {
+              "false_negative": [
+                7,
+                12
+              ],
+              "false_positive": [
+                0,
+                0
+              ],
+              "both_event_count": [
+                110,
+                115
+              ],
+              "recross_above_threshold_count": [
+                0,
+                0
+              ]
+            }
+          }
+        },
+        "0.6": {
+          "reference_events": 92,
+          "reference_censored": 33,
+          "models": {
+            "fire_only": {
+              "false_negative": [
+                6,
+                14
+              ],
+              "false_positive": [
+                0,
+                0
+              ],
+              "both_event_count": [
+                78,
+                86
+              ],
+              "recross_above_threshold_count": [
+                0,
+                0
+              ]
+            },
+            "capacity_matched_deepsets": {
+              "false_negative": [
+                1,
+                3
+              ],
+              "false_positive": [
+                0,
+                0
+              ],
+              "both_event_count": [
+                89,
+                91
+              ],
+              "recross_above_threshold_count": [
+                0,
+                0
+              ]
+            },
+            "gnn": {
+              "false_negative": [
+                1,
+                1
+              ],
+              "false_positive": [
+                0,
+                2
+              ],
+              "both_event_count": [
+                91,
+                91
+              ],
+              "recross_above_threshold_count": [
+                0,
+                0
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "protocol": "loco_smoldering",
+      "N": 97,
+      "thresholds": {
+        "0.8": {
+          "reference_events": 1,
+          "reference_censored": 96,
+          "models": {
+            "fire_only": {
+              "false_negative": [
+                0,
+                0
+              ],
+              "false_positive": [
+                0,
+                19
+              ],
+              "both_event_count": [
+                1,
+                1
+              ],
+              "recross_above_threshold_count": [
+                0,
+                0
+              ]
+            },
+            "capacity_matched_deepsets": {
+              "false_negative": [
+                0,
+                0
+              ],
+              "false_positive": [
+                10,
+                25
+              ],
+              "both_event_count": [
+                1,
+                1
+              ],
+              "recross_above_threshold_count": [
+                0,
+                0
+              ]
+            },
+            "gnn": {
+              "false_negative": [
+                0,
+                0
+              ],
+              "false_positive": [
+                12,
+                25
+              ],
+              "both_event_count": [
+                1,
+                1
+              ],
+              "recross_above_threshold_count": [
+                0,
+                0
+              ]
+            }
+          }
+        },
+        "0.6": {
+          "reference_events": 0,
+          "reference_censored": 97,
+          "models": {
+            "fire_only": {
+              "false_negative": [
+                0,
+                0
+              ],
+              "false_positive": [
+                0,
+                0
+              ],
+              "both_event_count": [
+                0,
+                0
+              ],
+              "recross_above_threshold_count": [
+                0,
+                0
+              ]
+            },
+            "capacity_matched_deepsets": {
+              "false_negative": [
+                0,
+                0
+              ],
+              "false_positive": [
+                0,
+                0
+              ],
+              "both_event_count": [
+                0,
+                0
+              ],
+              "recross_above_threshold_count": [
+                0,
+                0
+              ]
+            },
+            "gnn": {
+              "false_negative": [
+                0,
+                0
+              ],
+              "false_positive": [
+                0,
+                0
+              ],
+              "both_event_count": [
+                0,
+                0
+              ],
+              "recross_above_threshold_count": [
+                0,
+                0
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "findings": [
+    {
+      "id": "AI01",
+      "severity": "major",
+      "priority": "P1",
+      "title": "贡献应重构为经证据支持的应用比较，当前尚不足以放行",
+      "evidence": [
+        "Ordinary split matched-set-minus-sum MAE -1.96e-4; interval spans zero.",
+        "All ten LOCO primary graph-versus-set and sum-versus-mean intervals span zero.",
+        "LCRO matched-set-minus-sum improvement 6.45e-4 is positive under one compound count/source shift; explicit-edge ablation is nearly identical."
+      ],
+      "problem": "420运行证明工作量和可复现性，但不自动构成EAAI贡献；GNN+LSTM及可变N接口已有充分先例。目前证据支持特定应用下有条件收益与系统失效边界，不支持通用关系、手工边特征或族外优势。",
+      "revision": "重写贡献为source-aware variable-defect benchmark、在固定预算下何时几何/跨元素表示有用、工程错误方向及可迁移性边界；所有结论保留负结果。用实际筛查后续工作量/漏报/误报和经审计效率完成应用价值，而非以模型数量代替价值。",
+      "extra_experiment": "重构与既有数据整合本身不需新训练；是否足够仍须在完成应用结果后重审。"
+    },
+    {
+      "id": "AI02",
+      "severity": "major_conditional",
+      "priority": "P1",
+      "title": "缺少交互集合控制，图关系归因尚未闭合",
+      "evidence": [
+        "03_learning.tex:54 acknowledges missing interaction-capable sets.",
+        "The complete K_N GNN mixes all crack embeddings; matched DeepSets performs independent node mapping before pooling.",
+        "LCRO zero-edge-feature graph MAE 0.01115 vs sum graph 0.01114."
+      ],
+      "problem": "参数匹配不能同时控制跨元素混合方式、深度和优化性质；零边输入不等于无交互。现有结果不能证明图表示优于同等信息的交互集合。",
+      "revision": "对保留图关系增益为核心的投稿路线，优先增加一个参数近似匹配的set-attention/Set Transformer控制。与既有7模型共享输入、时间分支、输出、划分、种子及预算，验证集选型；形成独立的后续方案，不覆写420，不因测试结果追加调参。",
+      "extra_experiment": "建议1模型×12协议×5种子=60次新增训练，单一预定配置，作为看到420结果后的明确后续扩展。若选择有限基线负结果benchmark路线，缺该控制不是逻辑致命错误，但须彻底收窄归因并证明独立工程价值；不是声称EAAI普遍硬性要求这个模型。"
+    },
+    {
+      "id": "AI03",
+      "severity": "major_for_deployment_claims",
+      "priority": "P1",
+      "title": "归档响应预测与工程新查询之间仍须明确数据合同",
+      "evidence": [
+        "02_engineering_data.tex states prescribed exposure descriptors were not reconciled with every realized FE amplitude.",
+        "Target masks no initial cavities and standardizes scalar envelopes across historical processing batches.",
+        "Whole benchmark is correctly named an archival numerical-response index."
+      ],
+      "problem": "这不使同一冻结标签上的AI比较失效，也不要求重新生成997个物理标签。但若声称新梁/新场景可据此筛查，必须说明记录的场景输入与该归档输出约定如何对应，哪些版本可复现、哪些未知。",
+      "revision": "用已有元数据/生成代码给出紧凑的输入→归档处理版本→输出→后续动作合同；能对账处对账，未知处列为适用限制。把演示限定为该数值工作流的候选优先级辅助，不把两个指数阈值写成结构安全阈值。",
+      "extra_experiment": "不要求新FE、网格加密或全温度重生成。进一步宣称物理排序有效或耐火能力时才需独立结构/物理证据；保留本轮范围可不作该声明。"
+    },
+    {
+      "id": "AI04",
+      "severity": "major",
+      "priority": "P1",
+      "title": "必须从误差描述走到清楚的筛查操作和代价",
+      "evidence": [
+        "IID threshold classification is saturated for all models; no graph benefit.",
+        "Linear q=.8 sum GNN misses 7–12 of 122 events per seed.",
+        "Smoldering q=.8 has 1 event/96 censored but sum GNN gives 12–25 false alarms per seed; at q=.6 recall/timing are undefined.",
+        "Bilinear q=.6 sum GNN has 2–4 false positives among 4 censored cases and 8–16 recrossings per seed."
+      ],
+      "problem": "最新正文已如实加入这些失败，这是实质进步。但这仍不自动证明可部署的筛查策略，也不能由高rho、小均值或零正误差推断可靠。两模型工程图也不能代替对更简单候选的实用比较。",
+      "revision": "明确谁提供已知完整火灾场景、哪种模型/图规则被预先固定、输出何时仅用于排队或要求进一步计算；利用已有预测事件/FN/FP展示工作量与漏报交换，并指出最有竞争力简单模型。主文保留最有工程意义的失败，五种子不是5倍病例。以“已测试条件中的误差/失效图谱”代替“已校准适用域”。",
+      "extra_experiment": "既有预测即可完成描述性工作量展示与图表。若新增自动拒绝、置信阈值、风险承诺或校准策略，则必须另设验证/评估方案；不能在当前测试集挑阈值后当验证结果。"
+    },
+    {
+      "id": "AI05",
+      "severity": "major_if_claims_broaden",
+      "priority": "P1",
+      "title": "现有迁移测试充分支持有限主张，不能扩成拓扑泛化成功",
+      "evidence": [
+        "LCRO uses unchanged weights trained N<=8 on N=9..15; all 264 tests are batch_005.",
+        "All training graphs are complete K_N; fixed-N geometry changes attributes, not adjacency.",
+        "Radius and symmetric kNN evaluations preserve weights/physical case; sum and mean graphs generally deteriorate."
+      ],
+      "problem": "新规模、几何属性和连接视图是不同变化。当前数据可以回答它们，不能把唯一正向LCRO结果归因于纯规模或拓扑，也不能把稀疏图可运行写成准确迁移。",
+      "revision": "保留“对未见裂缝数的同权重应用，在指定数量+来源复合变化下观察到收益”；连接规则实验明确为压力测试及负结果。删去任何任意拓扑、FE网格、跨梁尺寸或普适适用域语言。五种子正差和未校正区间写成限定观察。",
+      "extra_experiment": "保留窄主张无需新实验。若要纯数量因果归因，另冻结同批次/相近家族构成的数量控制；若要跨非完整拓扑稳健准确，需包含明确训练/独立测试连接分布的新研究。均不是必须追加FE。"
+    },
+    {
+      "id": "AI06",
+      "severity": "integration_required",
+      "priority": "P2",
+      "title": "全文应统一完整统计范围，完成真实效率与可复现交付后再总审",
+      "evidence": [
+        "Complete matrix has 420 runs and 780 prediction replay calls.",
+        "454 CPU flags require original-GPU exact replay; 326 are CPU within the original 3e-6 criterion.",
+        "Current cost section and source package/declarations are still under integration."
+      ],
+      "problem": "旧IID/部分count回放表述不能代表全矩阵；真实延迟、图面和最终包尚不能由准备脚本的通过替代。本文预审没有执行它们。",
+      "revision": "更新全局回放数字；保留CPU差异范围而非抹平。只采用已审计真实效率与正确单例/批量单位，避免历史FE异构硬件加速倍数。完成最终同版本复现包、完整图表数值与视觉核查、投稿声明后，再做稿件独立总审。",
+      "extra_experiment": "需执行已冻结计时和既定交付验证，不需训练/FE新实验；公开许可/上传与科学审阅分开。"
+    },
+    {
+      "id": "AI07",
+      "severity": "editorial",
+      "priority": "P2",
+      "title": "综述与结果篇幅应服务核心应用问题",
+      "evidence": [
+        "Related work correctly distinguishes Mesh/graph/attention and exposure interfaces and cites verified EAAI examples.",
+        "Current text contains extensive interface qualifications and historical numerical records."
+      ],
+      "problem": "综述已不是纯罗列，但大量逐篇限定容易让中心应用问题被稀释。需要把读者带到具体比较/失败，而非不断解释本文不是哪一种物理模型。",
+      "revision": "保留三个论证轴：变量缺陷表示与交互控制、同权重迁移定义、已知曝光条件下的筛查误差。压缩不影响这些轴的逐篇说明与历史过程记录，必要内容入补充材料。无需为数量继续增加引用；标题/摘要突出应用比较与有限边界，不暗示新通用图算法。",
+      "extra_experiment": "无需新实验或文献检索。"
+    }
+  ],
+  "review_limits": {
+    "new_training": false,
+    "new_FE": false,
+    "new_bootstrap": false,
+    "formal_timing_run": false,
+    "final_PDF_visual_QA": false,
+    "new_literature_search": false,
+    "main_manuscript_edited": false,
+    "only_requested_review_files_written": true
+  },
+  "central_answers": {
+    "contribution_sufficient_for_internal_final_pass": false,
+    "interaction_set_baseline": "Substantive gap for a graph-relational-gain contribution; not invalidation of the chosen-DeepSets benchmark or a universal journal requirement. Add a controlled interaction baseline or fully reframe the finite-model negative/application-boundary study.",
+    "size_transfer": "Supported only as unchanged-weight application to unseen counts under the specified compound count/source distribution shift.",
+    "connectivity_transfer": "Same-checkpoint sensitivity test is valid; success on arbitrary graph topology is not established.",
+    "FE_priority": "No further FE refinement required for the explicitly archived-response benchmark. New physical claims would need separate evidence.",
+    "preferred_research_ethic": "Retain all negative findings; no test-based positive-result search."
+  },
+  "proposed_additional_experiments": [
+    {
+      "name": "One interaction-capable set comparator",
+      "conditional_on": "Keeping explicit relational benefit as the core EAAI AI contribution",
+      "runs": 60,
+      "configuration": "One newly declared architecture, parameter-approximately-matched, same features/temporal branch/output/budget, 12 protocols and 5 seeds; validation only",
+      "must_preserve_original420": true
+    },
+    {
+      "name": "Within-source count control",
+      "conditional_on": "Claiming isolated count/size causality rather than the current compound shift",
+      "runs": null
+    },
+    {
+      "name": "Noncomplete-connectivity training/testing",
+      "conditional_on": "Claiming robust topology generalization beyond current stress testing",
+      "runs": null
+    }
+  ],
+  "no_guarantee_of_journal_acceptance": true
+}

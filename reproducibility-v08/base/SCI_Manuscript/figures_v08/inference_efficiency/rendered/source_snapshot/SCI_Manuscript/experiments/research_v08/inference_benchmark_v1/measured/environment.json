@@ -1,0 +1,32 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "torch": "2.5.1+cu124",
+  "cuda": "12.4",
+  "numpy": "2.4.4",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "pid": 22992,
+  "CPU": "{\"Name\":\"13th Gen Intel(R) Core(TM) i5-13600KF\",\"NumberOfCores\":14,\"NumberOfLogicalProcessors\":20}",
+  "GPU": "NVIDIA GeForce RTX 3060 Ti",
+  "threads": 4,
+  "cudnn_enabled": true,
+  "cudnn_allow_tf32": true,
+  "matmul_allow_tf32": false,
+  "timing_plan_sha256": "e44ab414c6f7c56a8a400292d6c460bdfb90ba5d2b3636f76ff353575c5eb5a7",
+  "readiness": {
+    "status": "READY",
+    "reasons": [],
+    "completed_units": 420,
+    "matching_processes": [],
+    "python_process_inventory": [
+      {
+        "ProcessId": 22992,
+        "Name": "python.exe"
+      }
+    ],
+    "process_scope": "Known project paths and compute-script names; anonymous stdin jobs and unrelated OS activity are not proven absent.",
+    "checked_utc": "2026-09-07T09:01:36Z"
+  },
+  "precision": "float32 inputs/outputs; int64 graph indices",
+  "latency_unit": "one entire61-point trajectory per case",
+  "artifact_binding_sha256": "080f15fc36dfed53776622ade66f6e17e9d4de892810699b1d42ec84b6065956"
+}

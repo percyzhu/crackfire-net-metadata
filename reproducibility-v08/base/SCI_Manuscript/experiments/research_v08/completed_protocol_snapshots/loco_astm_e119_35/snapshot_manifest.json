@@ -1,0 +1,941 @@
+{
+  "purpose": "COMPLETE_PROTOCOL_AND_FULL_CURRENT_AUDIT_SNAPSHOT",
+  "protocol": "loco_astm_e119",
+  "protocol_runs": 35,
+  "all_current_audited_runs": 166,
+  "checked_utc": "2026-09-07T04:56:22Z",
+  "plan_sha256": "fd9088427cbc9234191b71e619626b188a98c43c9af248c9dd3e435afdb8f068",
+  "files": [
+    {
+      "name": "report.json",
+      "sha256": "5c3b1fc42071b044360a067552610bee7b3eb9da4ce6ddf3bb62c621146ee900",
+      "bytes": 24032,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\report.json"
+    },
+    {
+      "name": "run_integrity.json",
+      "sha256": "294c7188279efab84a7944a236a3042f62a3e3fe36c70c544fe6911e8e5ba659",
+      "bytes": 411965,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\run_integrity.json"
+    },
+    {
+      "name": "per_case_metrics.csv",
+      "sha256": "9be75ec38d6df02ac701836cf53ceba38e7bf41e86988eeaac6e64359f6a9835",
+      "bytes": 697964,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_astm_e119\\per_case_metrics.csv"
+    },
+    {
+      "name": "strata_by_seed.csv",
+      "sha256": "a5d282dfca11e51398005449c0d053b06cb7db9e864c941460c86e6b324e6363",
+      "bytes": 253994,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_astm_e119\\strata_by_seed.csv"
+    },
+    {
+      "name": "summary.json",
+      "sha256": "102bead09a30a73470cea0cd6b2113fb28aec19de3753f44d790fa365ea155a8",
+      "bytes": 40551,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_astm_e119\\summary.json"
+    },
+    {
+      "name": "time_metrics.csv",
+      "sha256": "89e2e687e2d731f5974020c4818e2c4ad445564139f2c30a737ced28060c450e",
+      "bytes": 211583,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_astm_e119\\time_metrics.csv"
+    },
+    {
+      "name": "topology_by_seed.csv",
+      "sha256": "76e0b8270afbf99908036b27a75530a6a33ee44e873bc3a3fb48fd3cbc35361a",
+      "bytes": 15266,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_astm_e119\\topology_by_seed.csv"
+    },
+    {
+      "name": "loco_astm_e119_engineering_proxy_ci.json",
+      "sha256": "e35deb7c03b4f052ce83fba26b8f487768aa6e28100e33b64947151ee30c72e4",
+      "bytes": 265473,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_astm_e119_engineering_proxy_ci.json"
+    },
+    {
+      "name": "loco_astm_e119_engineering_proxy_ci.csv",
+      "sha256": "35daac32cd11b7e08a767fc757dac506d6c670b1befce1dc868b5cd30efc3109",
+      "bytes": 11592,
+      "source": "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_astm_e119_engineering_proxy_ci.csv"
+    }
+  ],
+  "does_not_summarize_incomplete_later_families": true,
+  "engineering_CI_status": "COMPLETE_35_RUN_PAIRED_ENGINEERING_PROXY_CI",
+  "engineering_CI_source": "review/eaai_editor/research_v08/loco_astm_e119_engineering_proxy_ci.json",
+  "complete_protocol_only": true,
+  "runtime_verification": {
+    "verified_utc": "2026-09-07T04:57:56.076598+00:00",
+    "all_12_frozen_sources_match": true,
+    "source_sha256": {
+      "SCI_Manuscript/experiments/research_v08/research_runner.py": "c1fe6b1d6ebcf0b11a9694f69077a16cefe1556a67631732fe2844cf926875f0",
+      "SCI_Manuscript/experiments/research_v08/prepare997.py": "66666a7dcbc97d54398bf51f7c917e03901e075745233c7951f98d0723292011",
+      "SCI_Manuscript/experiments/research_v08/make_plan.py": "8ac6d7fadf7ae8316209b6902441fb254f05136809d8afde4d66a58b0d24e031",
+      "SCI_Manuscript/experiments/research_v08/run_queue.py": "314b72203f33ea3bf6bc68beff866f44ee8fc2451cc13f1203e1ed84eedc8166",
+      "SCI_Manuscript/experiments/models.py": "0a96098f2d7b96e081f1ebe99a839007d56383d8cc1d6b5fe27331cc06426444",
+      "SCI_Manuscript/experiments/physical_features.py": "34452607a30b06fc7598e127c3cbce64ff2f7ae9882fd23bcec5f1d7aaab49cb",
+      "SCI_Manuscript/experiments/capacity_matched_set.py": "612eb2799536fcd149673ffda67c1d58cf4241627b5cf4a6c732b6d92b685adc",
+      "SCI_Manuscript/experiments/run_readiness.py": "62b702acebef6e150847e65bb4f590aeadc93f3d78effa22d1c8be6b53023abd",
+      "SCI_Manuscript/experiments/qualified_data.py": "bf429d1b161cba78c2297ea262ee4f70c4d755d4e9d6293667589143c60a50b3",
+      "SCI_Manuscript/figures_v06/topology/topology_extension.py": "18ff231f7bb8cd9010277582294953c3fd6de51b193cd4853dd40320342fe8c7",
+      "1_代码/src/data/dataset.py": "c303b9bb0c406bd14019080661ad0ac124b946fc4cd9774fe4438b76ff4f855f",
+      "1_代码/src/gnn/model.py": "808bf7c8d31ae4c76fc5e07c37244ddb18af54e84304603c06da2ec76ffd6752"
+    },
+    "wrapper_sha256": "3e863d1c6f9e71cada06dd6ef9274e9c35343f7802faf4b70ad35320f9636566",
+    "amendment_sha256": "b861837f1f30ef1df0803118ef3cdee9c616721e1106674ad1c5b9318a5d7611",
+    "process_identity": {
+      "ProcessId": 28616,
+      "ParentProcessId": 34572,
+      "CommandLine": "\"C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" -X utf8 D:/Work/Abstract/SCI_Manuscript/experiments/research_v08/io_recovery_patch1.py queue --plan D:/Work/Abstract/SCI_Manuscript/experiments/research_v08/comparison_plan_v08_420.json"
+    },
+    "queue_status": "RUNNING",
+    "queue_completed_at_verification": 168,
+    "queue_active_protocol_at_verification": "loco_perturbed_iso",
+    "current_stderr_bytes": 0,
+    "queue_completed_cells_at_verification": [
+      {
+        "protocol": "iid997",
+        "seed": 42,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 42,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 42,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 42,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 42,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 42,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 42,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 43,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 43,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 43,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 43,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 43,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 43,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 43,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 44,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 44,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 44,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 44,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 44,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 44,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 44,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 45,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 45,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 45,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 45,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 45,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 45,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 45,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 46,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 46,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 46,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 46,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 46,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 46,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "iid997",
+        "seed": 46,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 42,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 42,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 42,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 42,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 42,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 42,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 42,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 43,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 43,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 43,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 43,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 43,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 43,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 43,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 44,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 44,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 44,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 44,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 44,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 44,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 44,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 45,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 45,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 45,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 45,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 45,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 45,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 45,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 46,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 46,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 46,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 46,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 46,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 46,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "lcro_9_15",
+        "seed": 46,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 42,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 42,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 42,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 42,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 42,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 42,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 42,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 43,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 43,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 43,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 43,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 43,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 43,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 43,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 44,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 44,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 44,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 44,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 44,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 44,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 44,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 45,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 45,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 45,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 45,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 45,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 45,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 45,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 46,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 46,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 46,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 46,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 46,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 46,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "loco_iso834",
+        "seed": 46,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 42,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 42,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 42,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 42,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 42,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 42,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 42,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 43,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 43,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 43,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 43,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 43,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 43,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 43,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 44,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 44,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 44,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 44,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 44,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 44,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 44,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 45,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 45,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 45,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 45,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 45,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 45,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 45,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 46,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 46,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 46,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 46,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 46,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 46,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "loco_astm_e119",
+        "seed": 46,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 42,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 42,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 42,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 42,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 42,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 42,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 42,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 43,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 43,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 43,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 43,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 43,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 43,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 43,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 44,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 44,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 44,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 44,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 44,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 44,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 44,
+        "mode": "gnn_mean"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 45,
+        "mode": "fire_only"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 45,
+        "mode": "global_stats"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 45,
+        "mode": "deepsets"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 45,
+        "mode": "capacity_matched_deepsets"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 45,
+        "mode": "gnn"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 45,
+        "mode": "gnn_zero_edge_features"
+      },
+      {
+        "protocol": "loco_perturbed_iso",
+        "seed": 45,
+        "mode": "gnn_mean"
+      }
+    ]
+  },
+  "independent_expert_protocol_review_status": "PENDING_SEPARATE_REVIEW",
+  "manuscript_and_existing_delivery_packages_modified": false
+}

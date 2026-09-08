@@ -1,0 +1,12 @@
+# Engineering trajectory examples: figure contract
+
+The reviewed selection plan is authoritative: `../engineering_examples_selection_plan.json`, SHA256 `1850acfce80828fa7db4cd7fc751e9c86b8c47f8366fa3c91cc24135ce5d8c1e`. This document adds no outcome-dependent selection choices.
+
+- **Question:** How do the archived response trajectories, training variation and error direction behave in explicitly selected typical and adverse GNN cases under held-out prescribed-fire families?
+- **Population and gate:** All 997 cases occur once across the ten completed fire-family holdouts. All 350 runs, primary replay/bindings, ten engineering-CI outputs and ten independent arithmetic reviews must pass before prediction arrays are read. Partial families are not inspected for selection.
+- **Selection:** GNN five-seed mean case MAE at zero-based ranks 498, 946 and 996; then the largest remaining five-seed mean positive peak. Exact ties and the all-zero fourth-score case follow the reviewed plan. These are GNN-conditioned examples, not a representative comparison sample for matched DeepSets.
+- **Display:** Four cases in fixed order on a 183 × 200 mm canvas, labels at least 8 pt. Each case has an aligned prescribed-temperature strip and a response panel. Show the reference, actual seed42 curves of both primary models, and a separate observed five-seed pointwise min/max envelope for each model. One shared legend; no dual temperature/response axis.
+- **Quantities:** Displayed response is the archived dimensionless index. Error annotations are percentage points. Distinguish five-seed selection scores from displayed seed42 errors. Mark only the first stored response at or below 0.8 and 0.6, preserving recrossings and right censoring.
+- **Interpretation:** Envelopes are training variation, not confidence/prediction intervals. Fire strips reproduce recorded prescribed inputs, not verified realized FE amplitudes. Error direction is not a verified structural safety assessment.
+- **Traceability:** Retain all candidate scores, seed score components, selected-case records, seed42/min/max curve tables, all individual seed curves, threshold events, fire parameters and source/checkpoint hashes. Export vector PDF/SVG and a PNG preview only after all prerequisites pass.
+- **Release QA:** Run the independent arithmetic/export audit and then inspect the actual final-size rendering. Preparation-time syntax and missing-data checks do not constitute a passed complete-data or visual review.

@@ -1,0 +1,22 @@
+{
+  "size_mm": [
+    183,
+    170
+  ],
+  "min_font_pt": 8.0,
+  "text_outside_canvas": [],
+  "same_case_geometry_and_target": true,
+  "native_points": 571,
+  "target_points": 61,
+  "no_temperature_map": true,
+  "no_prediction_curve": true,
+  "seven_variants": [
+    "fire_only",
+    "global_stats",
+    "deepsets",
+    "capacity_matched_deepsets",
+    "gnn",
+    "gnn_zero_edge_features",
+    "gnn_mean"
+  ]
+}

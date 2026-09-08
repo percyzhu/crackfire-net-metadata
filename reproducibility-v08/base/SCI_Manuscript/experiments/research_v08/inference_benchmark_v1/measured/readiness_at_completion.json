@@ -1,0 +1,14 @@
+{
+  "status": "READY",
+  "reasons": [],
+  "completed_units": 420,
+  "matching_processes": [],
+  "python_process_inventory": [
+    {
+      "ProcessId": 22992,
+      "Name": "python.exe"
+    }
+  ],
+  "process_scope": "Known project paths and compute-script names; anonymous stdin jobs and unrelated OS activity are not proven absent.",
+  "checked_utc": "2026-09-07T09:03:06Z"
+}

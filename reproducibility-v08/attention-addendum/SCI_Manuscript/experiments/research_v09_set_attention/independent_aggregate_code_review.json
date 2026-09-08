@@ -1,0 +1,43 @@
+{
+  "status": "BOUNDED_AGGREGATOR_CODE_API_STATISTICAL_REVIEW_NO_BLOCKING_ISSUES_COMPLETE60_EXECUTION_PENDING",
+  "review_date": "2026-09-07",
+  "reviewer": "numerical_gap_v08 independent of aggregate_extension author",
+  "candidate_path": "SCI_Manuscript/experiments/research_v09_set_attention/aggregate_extension.py",
+  "candidate_sha256": "aa06a3280fed95be571f1b39677c84c20d193804897d4f4d55ec7a99053a2e7a",
+  "extension_plan_sha256": "8d21e13af116dc97556b37060daaf86afed5f7ba645a5bdae18e3d4ffb3b05a9",
+  "observed_missing_matrix_evidence": {
+    "path": "SCI_Manuscript/experiments/research_v09_set_attention/aggregate_missing_matrix_gate.json",
+    "created_utc": "2026-09-07T09:25:52.901060+00:00",
+    "completed_metadata_runs": 1,
+    "status": "WAITING_FOR_ALL60_COMPLETE",
+    "result_performance_payloads_read": 0,
+    "prediction_arrays_read": 0
+  },
+  "reviewer_read_partial_new_performance": false,
+  "reviewer_ran_aggregate_training_or_inference": false,
+  "full60_execution_tested": false,
+  "checks": {
+    "all60_registered_identity_status_queue_gate_before_performance": true,
+    "new60_source_checkpoint_log_validation_minimum_and_schedule_bindings": true,
+    "original120_frozen_comparator_artifacts_bound_to_original420_audit": true,
+    "CPU_strict_less_than_3e_6_else_original_GPU_bitwise_identity": true,
+    "new_model_compatible_with_existing_prediction_replay_signature": true,
+    "paired_same_case_seed_5000_primary_bootstrap": true,
+    "common_resamples_and_direct_differences_1000_engineering_bootstrap": true,
+    "five_seed_not_fiveN_geometry": true,
+    "NA_and_common_valid_replicate_counts_preserved": true,
+    "model_specific_joint_event_cohort_scope_explicit": true,
+    "negative_results_and_flat_nonflat_strata_retained": true,
+    "exclusive_new_output_old420_untouched": true,
+    "post_results_exploratory_status_preserved": true
+  },
+  "unresolved_blocking_issues": [],
+  "remaining": [
+    "Wait for all60 registered runs and complete queue",
+    "Execute real complete replay/statistics branch without suppressing any failure",
+    "Independently reconcile new numerical effects, five-seed intervals and engineering censoring after completion",
+    "Check generated figures/manuscript and separately measure any eighth-model inference cost before claiming it"
+  ],
+  "original420_or_original7_budget_results_modified": false,
+  "submission_pass": false
+}

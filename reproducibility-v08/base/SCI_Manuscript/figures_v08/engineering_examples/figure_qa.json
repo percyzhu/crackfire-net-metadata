@@ -1,0 +1,19 @@
+{
+  "status": "GENERATED_PENDING_INDEPENDENT_NUMERICAL_AND_VISUAL_QA",
+  "size_mm": [
+    183,
+    200
+  ],
+  "minimum_font_pt": 8.0,
+  "overflow": [],
+  "selected_case_count": 4,
+  "raw_response_extrema": [
+    0.1196148693561554,
+    1.0
+  ],
+  "response_axis_limits": [
+    -0.04,
+    1.04
+  ],
+  "response_clipped_to_unit_interval": false
+}

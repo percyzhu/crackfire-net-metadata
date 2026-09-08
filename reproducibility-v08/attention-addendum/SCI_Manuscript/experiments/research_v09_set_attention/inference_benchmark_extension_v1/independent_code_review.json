@@ -1,0 +1,52 @@
+{
+  "status": "BOUNDED_THREE_MODEL_TIMING_CODE_REVIEW_PASSED_EXECUTION_NOT_AUTHORIZED",
+  "software_review_passed": true,
+  "review_date": "2026-09-07",
+  "benchmark_source_sha256": "a98585be1e4697f4d246cdbc64963270552d6470febcd65ea22b99377fe5395c",
+  "timing_plan_sha256": "128fa4a6f448937dbd688bec69fd651bcd4d451a1ead426fb58bf3f2d14cd71a",
+  "original_helper_sha256": "aad7de1e3e332a119adf5ea97f2813bf47dd8d3fe4d136a4ba60cb096f96bcf9",
+  "models": ["capacity_matched_deepsets", "gnn", "set_attention"],
+  "common_timing_session": true,
+  "protocol": "iid997",
+  "seed": 42,
+  "fixed_test_geometries": 160,
+  "rounds": 3,
+  "batch_sizes": [1, 32],
+  "devices": ["cpu", "cuda"],
+  "CPU_threads": 4,
+  "expected_counts_independently_derived": {
+    "model_measurements": 5940,
+    "common_feature_measurements": 495,
+    "total_records": 6435,
+    "overall_groups": 26,
+    "per_round_groups": 78
+  },
+  "verified": {
+    "three_model_rotating_order_and_alternating_device_order": true,
+    "full_population_plus10_batch_warmup_per_interface_shape": true,
+    "CUDA_synchronization_before_and_after_each_timed_call": true,
+    "resident_vs_common_host_output_interfaces_correct": true,
+    "whole61point_response_per_case_units": true,
+    "common_unused_features_included_for_all_models": true,
+    "checkpoint_import_disk_JSON_FE_excluded": true,
+    "all60_replay_review_and_separate_root_authorization_gate": true,
+    "initial_full_artifact_scan_and_subsequent_light_checks": true,
+    "failure_and_old_measurement_preservation": true,
+    "no_pooling_or_choice_between_original7_and_new3_sessions": true
+  },
+  "actual_incomplete_gate_evidence": {
+    "path": "independent_deferred_gate_probe_evidence.json",
+    "created_utc": "2026-09-07T10:17:13.525288+00:00",
+    "completed_metadata_runs": 33,
+    "main_returncode": 2,
+    "all_forbidden_calls_zero": true,
+    "measurement_directory_created": false,
+    "old7_summary_unchanged": true
+  },
+  "unresolved_blocking_issues": [],
+  "full_collection_branch_executed": false,
+  "new_accuracy_results_read": false,
+  "latencies_measured": 0,
+  "root_timing_execution_authorization_granted_by_this_review": false,
+  "submission_pass": false
+}

@@ -1,0 +1,28 @@
+{
+  "status": "PASSED_ACTUAL_INCOMPLETE_RUN_AND_REVIEW_GATE",
+  "tested_utc": "2026-09-07T06:59:50.268050+00:00",
+  "command": "draw_engineering_examples_v08.py --render",
+  "exit_code": 2,
+  "selection_plan_sha256": "1850acfce80828fa7db4cd7fc751e9c86b8c47f8366fa3c91cc24135ce5d8c1e",
+  "script_sha256": "0e12515ea72fd34c95335db3c8c7a2548c2d47138ab3e7bdffcc2f82efcccb5e",
+  "complete_audited_families": 7,
+  "required_families": 10,
+  "waiting_protocols": [
+    "loco_linear",
+    "loco_bilinear",
+    "loco_smoldering"
+  ],
+  "missing_review_or_engineering_file_count": 16,
+  "prediction_files_opened": 0,
+  "family_performance_files_opened": 0,
+  "review_performance_documents_opened": 0,
+  "metadata_files_read": [
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\engineering_examples_selection_plan.json",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\comparison_plan_v08_420.json",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\report.json"
+  ],
+  "formal_outputs_created": [],
+  "score_tables_created": [],
+  "source_snapshot_created": false,
+  "limitation": "Only actual incomplete-data gate and syntax tested; source/API review separately reads complete ISO metadata/NPZ headers and frozen inputs, never prediction values."
+}

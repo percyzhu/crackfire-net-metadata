@@ -1,0 +1,95 @@
+{
+  "created_at": "2026-09-07T11:20:40.346718+08:00",
+  "files": [
+    {
+      "name": "beam_vector_helpers.py",
+      "sha256": "63b3be431d501f82ace4f097ffff0649f715ad2f24a427b60d5592ff06098146",
+      "bytes": 2024
+    },
+    {
+      "name": "caption_en.tex",
+      "sha256": "4095436d7a83cab8fe7b3be0f6b83b09a8d3a340ac3facd219f40e11f4ee5780",
+      "bytes": 1133
+    },
+    {
+      "name": "draw_method_v08.py",
+      "sha256": "900f0e3491a6b1a3680950f32c35e3e7747b075500c939ce12a33ef1d1c7f333",
+      "bytes": 12943
+    },
+    {
+      "name": "figure_contract.md",
+      "sha256": "10bebd0a0b299326b0b0ebe770b7a3e95bbee3f33b74e87a89d988bd9f6d3594",
+      "bytes": 1302
+    },
+    {
+      "name": "figure_qa.json",
+      "sha256": "51a1c0bfe70500a292c6aee8bd972b8dd54a8eb9e461fed48fae5e6a36b8194f",
+      "bytes": 429
+    },
+    {
+      "name": "geometry_source.csv",
+      "sha256": "508d209816c2095543c9c0908ef15186699e3947b42b9b22b1db8a1ab8b47a55",
+      "bytes": 469
+    },
+    {
+      "name": "graph_edges.csv",
+      "sha256": "ee6fe987eb907787c6abb8c5143d07851ce09b8988b6bb4a9782782164993940",
+      "bytes": 419
+    },
+    {
+      "name": "graph_nodes.csv",
+      "sha256": "66e9abd257c086ad0cf58339ebced6b40425b1bb6d50eee49274e9bc1f97b98f",
+      "bytes": 144
+    },
+    {
+      "name": "method_v08.pdf",
+      "sha256": "353928202f2a5f726c36e3c1144307f91bbf0de8ef4ac447daa33097d8e334ef",
+      "bytes": 68952
+    },
+    {
+      "name": "method_v08.png",
+      "sha256": "f3ad6ec180e617fa27963abcd404c4cab792bd986052a43a047796ae991e704e",
+      "bytes": 406223
+    },
+    {
+      "name": "method_v08.svg",
+      "sha256": "dcc8866c606ca45931f5169f3d6941d181318e9af78ff65b7e6992f2673e4022",
+      "bytes": 77034
+    },
+    {
+      "name": "native_scalar_and_envelope.csv",
+      "sha256": "0f04cb39057b54b5a6a285936ee12fa8dfd3d2cd4125e17d09ce18e1e3234333",
+      "bytes": 31173
+    },
+    {
+      "name": "pdf_export_QA.json",
+      "sha256": "c00600b524f6c91e3211eccd60d3bc96f34f8c8cec5058c13e865bd5d83cf5df",
+      "bytes": 323
+    },
+    {
+      "name": "pdf_final_QA.png",
+      "sha256": "82c03c90097ed730439d1c293c7422c0cdd5a6a190ca494ad4d64caa8f8fce31",
+      "bytes": 138073
+    },
+    {
+      "name": "prescribed_iso834.csv",
+      "sha256": "e27d1bf768ab98c5c9148d8811a89af3b093a8b6dad17b5f28155a4f221320a4",
+      "bytes": 1573
+    },
+    {
+      "name": "QA.md",
+      "sha256": "4cf9b4f3a35bf65af8419651c581f682f57b9befac1bbf5b97d55097997a6352",
+      "bytes": 2080
+    },
+    {
+      "name": "source_provenance.json",
+      "sha256": "396614e53161783623db7545b12168c0ee9b65416f4177ef6e37da418b0f3f76",
+      "bytes": 4166
+    },
+    {
+      "name": "target_61.csv",
+      "sha256": "6604bcd89d88e1ecd34369b35c24c52ab988d0e6ad45e5335f24bf01275e575b",
+      "bytes": 1131
+    }
+  ]
+}

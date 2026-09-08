@@ -1,0 +1,103 @@
+{
+  "source": "D:\\Work\\Abstract\\1_代码\\src\\data\\T-t_experimental_curve.xlsx",
+  "sha256": "3a4632f3c5a8570a64a5fbf06bba74c2a9b1db863467423cea6a4382f30d116a",
+  "sheets": {
+    "Sheet1": {
+      "rows": 362,
+      "cols": 12,
+      "headers": [
+        "t",
+        "T15a",
+        "T30a",
+        "T40a",
+        "T15b",
+        "T30b",
+        "T40b",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "numeric_counts": null
+    },
+    "exp1": {
+      "rows": 1905,
+      "cols": 14,
+      "headers": [
+        "t",
+        "T15",
+        "T30",
+        "T40",
+        null,
+        "t",
+        "T15",
+        "T30",
+        "T40",
+        null,
+        "t",
+        "T15(aba)\n14.9482",
+        "T30(aba)\n30.9156",
+        "T40(aba)\n40.1667"
+      ],
+      "numeric_counts": {
+        "K": 1904,
+        "L": 1904,
+        "M": 1904,
+        "N": 1904
+      }
+    },
+    "exp2": {
+      "rows": 1346,
+      "cols": 14,
+      "headers": [
+        "t",
+        "T15",
+        "T30",
+        "T40",
+        null,
+        "t",
+        "T15",
+        "T30",
+        "T40",
+        null,
+        "t",
+        "T15(aba)\n15.1639",
+        "T30(aba)\n30.9583",
+        "T40(aba)\n40.1667"
+      ],
+      "numeric_counts": {
+        "K": 1345,
+        "L": 1345,
+        "M": 1345,
+        "N": 1345
+      }
+    },
+    "exp3": {
+      "rows": 2287,
+      "cols": 14,
+      "headers": [
+        "t",
+        "T15",
+        "T30",
+        "T40",
+        null,
+        "t",
+        "T15",
+        "T30",
+        "T40",
+        null,
+        "t",
+        "T15(aba)\n14.9467",
+        "T30(aba)\n29.9987",
+        "T40(aba)\n40.1859"
+      ],
+      "numeric_counts": {
+        "K": 2286,
+        "L": 2286,
+        "M": 2286,
+        "N": 2286
+      }
+    }
+  }
+}

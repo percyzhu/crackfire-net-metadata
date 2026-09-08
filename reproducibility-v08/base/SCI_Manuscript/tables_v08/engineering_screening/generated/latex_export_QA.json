@@ -1,0 +1,11 @@
+{
+  "status": "PASSED_LATEX_EXPORT_PENDING_VISUAL_REVIEW",
+  "pages": 1,
+  "body_font_TeX_pt": 9,
+  "body_font_min_PDF_bp": 8.966400146484375,
+  "math_subscript_min_PDF_bp": 5.97760009765625,
+  "overfull_boxes": 0,
+  "out_of_page_text": [],
+  "raster_objects": 0,
+  "preview_pdf_sha256": "698dfcab2151c758cb95df9a5473f2a3c795618252ec3993d8fa0f961dcfd009"
+}

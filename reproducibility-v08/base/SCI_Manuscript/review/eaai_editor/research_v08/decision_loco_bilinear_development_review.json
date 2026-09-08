@@ -1,0 +1,211 @@
+{
+  "decision": "COMPLETE_PROTOCOL_DEVELOPMENT_REVIEW_RECONCILED_WITH_SUBSTANTIAL_ENGINEERING_LIMITATIONS",
+  "protocol": "loco_bilinear",
+  "created_utc": "2026-09-07T08:09:44.561427+00:00",
+  "runs": 35,
+  "independent_geometries": 77,
+  "primary_contrasts": {
+    "graph_vs_capacity_matched": {
+      "point": 0.0005991318132843347,
+      "seed_effects": [
+        -0.00906033710847643,
+        -0.0008419069291201712,
+        -0.004919247484052335,
+        3.147927406927059e-05,
+        0.01778567131400134
+      ],
+      "two_way95": [
+        -0.006741032456855827,
+        0.0098716121602368
+      ],
+      "candidate_better_seeds": 2,
+      "relative_candidate_MAE_reduction": 0.018958330813095912
+    },
+    "mean_vs_sum": {
+      "point": -0.0025634503044776524,
+      "seed_effects": [
+        -0.011793570545015624,
+        -0.00032152030565445785,
+        0.0033948582513600883,
+        -0.0002063642747102199,
+        -0.003890654648368044
+      ],
+      "two_way95": [
+        -0.008187531200601417,
+        0.0023475910998898303
+      ],
+      "candidate_better_seeds": 1,
+      "relative_candidate_MAE_reduction": -0.08268279799563386
+    }
+  },
+  "all_primary_two_way_CI_include_zero": true,
+  "four_secondary_endpoint_J_CI_independently_recomputed": {
+    "graph_vs_capacity_matched": {
+      "final_MAE": {
+        "point_baseline_minus_candidate": 0.008161841255503816,
+        "percentile_95_paired_difference": [
+          -0.01055218780243938,
+          0.034486793205142
+        ],
+        "baseline_defined_seeds": 5,
+        "candidate_defined_seeds": 5,
+        "required_seed_count": 5,
+        "point_uses_all_paired_seeds": true,
+        "common_valid_bootstrap_replicates": 1000,
+        "bootstrap_repetitions": 1000,
+        "valid_bootstrap_fraction": 1.0,
+        "status": "ESTIMATED",
+        "effect_direction": "Positive baseline-minus-candidate effect favors candidate for this lower-is-better metric",
+        "NA_policy": "Undefined class/ranking denominators are not zeros; require all five point-estimate seeds and common defined bootstrap replicates."
+      },
+      "time_average_MAE": {
+        "point_baseline_minus_candidate": -0.00018577314252074192,
+        "percentile_95_paired_difference": [
+          -0.007133412306338073,
+          0.008086399896646876
+        ],
+        "baseline_defined_seeds": 5,
+        "candidate_defined_seeds": 5,
+        "required_seed_count": 5,
+        "point_uses_all_paired_seeds": true,
+        "common_valid_bootstrap_replicates": 1000,
+        "bootstrap_repetitions": 1000,
+        "valid_bootstrap_fraction": 1.0,
+        "status": "ESTIMATED",
+        "effect_direction": "Positive baseline-minus-candidate effect favors candidate for this lower-is-better metric",
+        "NA_policy": "Undefined class/ranking denominators are not zeros; require all five point-estimate seeds and common defined bootstrap replicates."
+      }
+    },
+    "mean_vs_sum": {
+      "final_MAE": {
+        "point_baseline_minus_candidate": -0.019898520603582465,
+        "percentile_95_paired_difference": [
+          -0.0360888480675685,
+          -0.006051429818783485
+        ],
+        "baseline_defined_seeds": 5,
+        "candidate_defined_seeds": 5,
+        "required_seed_count": 5,
+        "point_uses_all_paired_seeds": true,
+        "common_valid_bootstrap_replicates": 1000,
+        "bootstrap_repetitions": 1000,
+        "valid_bootstrap_fraction": 1.0,
+        "status": "ESTIMATED",
+        "effect_direction": "Positive baseline-minus-candidate effect favors candidate for this lower-is-better metric",
+        "NA_policy": "Undefined class/ranking denominators are not zeros; require all five point-estimate seeds and common defined bootstrap replicates."
+      },
+      "time_average_MAE": {
+        "point_baseline_minus_candidate": -0.0029527795422838454,
+        "percentile_95_paired_difference": [
+          -0.009964987699506872,
+          0.002728464250860009
+        ],
+        "baseline_defined_seeds": 5,
+        "candidate_defined_seeds": 5,
+        "required_seed_count": 5,
+        "point_uses_all_paired_seeds": true,
+        "common_valid_bootstrap_replicates": 1000,
+        "bootstrap_repetitions": 1000,
+        "valid_bootstrap_fraction": 1.0,
+        "status": "ESTIMATED",
+        "effect_direction": "Positive baseline-minus-candidate effect favors candidate for this lower-is-better metric",
+        "NA_policy": "Undefined class/ranking denominators are not zeros; require all five point-estimate seeds and common defined bootstrap replicates."
+      }
+    }
+  },
+  "additional_crossing_rate_and_NA_point_checks": 70,
+  "primary_models_event_bounds": [
+    {
+      "model": "capacity_matched_deepsets",
+      "threshold": 0.8,
+      "reference_events": 77,
+      "reference_censored": 0,
+      "max_FN_single_seed": 0,
+      "max_FP_single_seed": 0,
+      "min_reference_prediction_common_events_single_seed": 77,
+      "recross_range_single_seed": [
+        9,
+        15
+      ]
+    },
+    {
+      "model": "capacity_matched_deepsets",
+      "threshold": 0.6,
+      "reference_events": 73,
+      "reference_censored": 4,
+      "max_FN_single_seed": 0,
+      "max_FP_single_seed": 4,
+      "min_reference_prediction_common_events_single_seed": 73,
+      "recross_range_single_seed": [
+        10,
+        16
+      ]
+    },
+    {
+      "model": "gnn",
+      "threshold": 0.8,
+      "reference_events": 77,
+      "reference_censored": 0,
+      "max_FN_single_seed": 0,
+      "max_FP_single_seed": 0,
+      "min_reference_prediction_common_events_single_seed": 77,
+      "recross_range_single_seed": [
+        7,
+        13
+      ]
+    },
+    {
+      "model": "gnn",
+      "threshold": 0.6,
+      "reference_events": 73,
+      "reference_censored": 4,
+      "max_FN_single_seed": 0,
+      "max_FP_single_seed": 4,
+      "min_reference_prediction_common_events_single_seed": 73,
+      "recross_range_single_seed": [
+        8,
+        16
+      ]
+    },
+    {
+      "model": "gnn_mean",
+      "threshold": 0.8,
+      "reference_events": 77,
+      "reference_censored": 0,
+      "max_FN_single_seed": 0,
+      "max_FP_single_seed": 0,
+      "min_reference_prediction_common_events_single_seed": 77,
+      "recross_range_single_seed": [
+        10,
+        15
+      ]
+    },
+    {
+      "model": "gnn_mean",
+      "threshold": 0.6,
+      "reference_events": 73,
+      "reference_censored": 4,
+      "max_FN_single_seed": 0,
+      "max_FP_single_seed": 4,
+      "min_reference_prediction_common_events_single_seed": 73,
+      "recross_range_single_seed": [
+        11,
+        21
+      ]
+    }
+  ],
+  "main_engineering_limitation": "Large terminal and tail errors; all35 runs recross both thresholds; q0.6 has only4 reference negative cases and2–4FP per seed",
+  "unadjusted_secondary_findings_not_substitutes_for_primary_MAE": true,
+  "same_checkpoint_sparse_views_include_improvements_and_deteriorations": true,
+  "arbitrary_physical_topology_transfer_claim_allowed": false,
+  "raw_frozen_metrics_unchanged": true,
+  "source_files_sha256": {
+    "loco_bilinear_results_development_review_zh.md": "5c88a1e68d8fc4865020f3514f748e2b48c459b14e7cbc0647e2cf3a24517206",
+    "loco_bilinear_independent_results_audit_v2.json": "dc1d7777c755f8d47ebe71250d3958aeb2ce1cc7fbfa12e6b3bc8631a0d496da",
+    "loco_bilinear_same_weight_topology_audit.json": "97109c6053e09927c56f5074013fc59b484ebabc557c073265334ea9d0c037cf",
+    "loco_bilinear_snapshot_binding_review.json": "9c7f984ebbbd908c10219bea2c04f4b922477cb3a57886b332f7cabc919d6140"
+  },
+  "uncompleted_family_scores_inspected": false,
+  "manuscript_training_workflow_existing_package_modified": false,
+  "submission_pass": false
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASSED_ACTUAL_MISSING_DATA_GATE",
+  "tested_utc": "2026-09-07T05:02:56.948121+00:00",
+  "entry_point": "draw_fire_transfer_v08.py --render",
+  "return_code": 2,
+  "required_protocols": 10,
+  "complete_protocols_in_authoritative_report": 2,
+  "waiting_protocols": [
+    "loco_external_fire",
+    "loco_linear",
+    "loco_bilinear",
+    "loco_plateau",
+    "loco_decay",
+    "loco_perturbed_iso",
+    "loco_log_variant",
+    "loco_smoldering"
+  ],
+  "performance_files_opened": 0,
+  "read_files": [
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\comparison_plan_v08_420.json",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\report.json"
+  ],
+  "formal_figure_outputs_created": [],
+  "performance_source_snapshot_created": false,
+  "script_sha256": "650a4e002615230ae3739ec084ac5ddab06aebc82bb113ad9f11bcd30ba2ef87",
+  "limitation": "Only real incomplete-data gate executed; complete-data numerical/export branches await all ten audited family protocols."
+}

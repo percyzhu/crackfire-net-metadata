@@ -1,0 +1,47 @@
+{
+  "status": "CODE_AND_FROZEN_API_REVIEW_PASSED_AFTER_FIXES_NO_REAL_TIMING_OR_FIGURE",
+  "reviewed_utc": "2026-09-07T07:06:59.257937+00:00",
+  "API_sources": {
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\benchmark_inference.py": "aad7de1e3e332a119adf5ea97f2813bf47dd8d3fe4d136a4ba60cb096f96bcf9",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\audit_inference_timing.py": "cfb768af7addf6cf89095dd5f9a6e7ff2a5331238caf4cb3ee329a54310278f3",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\inference_benchmark_v1\\timing_plan.json": "e44ab414c6f7c56a8a400292d6c460bdfb90ba5d2b3636f76ff353575c5eb5a7",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\inference_efficiency\\draw_inference_efficiency_v08.py": "f3fd22b7b032f7517393f57ef841ebeb55e9004ad18cdd6ee17ec73b932b189f",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\figures_v08\\inference_efficiency\\audit_inference_figure.py": "a1e97010736967cb70023dbb797dc630677bd067fce53212e708bbcd6b187d21"
+  },
+  "expected_measurement_rows": 14355,
+  "expected_summary_groups": 58,
+  "expected_plotted_values": 56,
+  "record_count_derivation": "3 rounds * (160 single-query batches + 5 batches of 32) * (2 devices * 7 models * 2 stages + 1 common CPU preparation stage)",
+  "plotted_value_derivation": "2 devices * 7 models * (2 batch-one latency quantiles + 2 batch32 interface throughputs)",
+  "raw_values_used_by_selected_groups": {
+    "single_query_group_measurements": 480,
+    "single_query_group_case_instances": 480,
+    "batch32_group_measurements": 15,
+    "batch32_group_case_instances": 480
+  },
+  "fixes": [
+    "Bind exact audit/dependency hashes before and after raw reading, then before and after snapshot copying.",
+    "Retain every independently audited dependency as a collision-free workspace-relative snapshot.",
+    "Derive CUDA device title from measured environment rather than a hard-coded graphics-card name.",
+    "Add independent actual-figure arithmetic/export entry that waits without real inputs."
+  ],
+  "confirmed_semantics": [
+    "One query returns 61 times, not one scalar time step.",
+    "Batch-one milliseconds use actual median/p95 of 480 observations; p95 is not a confidence interval.",
+    "Batch32 throughput is sum(cases)/sum(elapsed_s), not inverse median or single-query latency.",
+    "Feature preparation is common to all models and separately preserved; no unused-attribute speed optimization is implied.",
+    "No missing slow timings are discarded; repeated rounds reuse the same 160 geometries and seed42 checkpoints.",
+    "Historical training-cost summaries are companions, not isolated architecture timing or mixed-hardware FE speedup."
+  ],
+  "benchmark_modified": false,
+  "timing_checker_modified": false,
+  "timing_declaration_modified": false,
+  "latencies_measured_or_simulated": 0,
+  "raw_timings_read": 0,
+  "formal_figures_created": 0,
+  "remaining": [
+    "Full real-data rendering branch",
+    "Independent 56-value/vector export execution",
+    "Actual final-size and manuscript-page visual QA"
+  ]
+}

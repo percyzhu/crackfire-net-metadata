@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\small
+\caption{A separate common-interface timing session for three models. Each query returns the full 61-point response trajectory. Serial-query median and 95th-percentile latencies use 480 measurements (160 IID geometries, three rounds); throughput uses fifteen batches of 32. The session uses the same seed-42 checkpoints, four CPU threads and an RTX 3060 Ti. Common geometry/fire input preparation, collation, transfers and host output are included; checkpoint/disk I/O and FE computation are excluded. Original seven-model measurements are not pooled.}
+\label{tab:attention_timing}
+\begin{tabular}{lrrrrrr}
+\toprule
+ & \multicolumn{3}{c}{CPU} & \multicolumn{3}{c}{GPU} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Model & Median & p95 & Batch-32 & Median & p95 & Batch-32 \\
+ & ms & ms & cases/s & ms & ms & cases/s \\
+\midrule
+Matched set & 1.528 & 2.074 & 3079.9 & 1.934 & 3.093 & 3296.9 \\
+Sum GNN & 2.515 & 3.502 & 2459.1 & 3.966 & 5.551 & 2761.6 \\
+Set attention & 2.560 & 3.211 & 2374.3 & 3.907 & 5.518 & 1948.6 \\
+\bottomrule
+\end{tabular}
+\end{table}

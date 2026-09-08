@@ -1,0 +1,57 @@
+{
+  "decision": "COMPLETE_PROTOCOL_DEVELOPMENT_REVIEW_RECONCILED_WITH_LIMITATIONS",
+  "protocol": "loco_external_fire",
+  "created_utc": "2026-09-07T07:05:59.129917+00:00",
+  "runs": 35,
+  "independent_geometries": 49,
+  "primary_contrasts": {
+    "graph_vs_capacity_matched": {
+      "point": 0.0002733474413500695,
+      "seed_effects": [
+        -0.00018146962136797925,
+        -0.00038669452534825885,
+        0.0006587881733239315,
+        0.0009235468904642647,
+        0.00035256628967839023
+      ],
+      "two_way95": [
+        -0.0005394329677789894,
+        0.0010759025307134778
+      ],
+      "candidate_better_seeds": 3,
+      "relative_candidate_MAE_reduction": 0.025967915227213513
+    },
+    "mean_vs_sum": {
+      "point": 6.874113447413311e-05,
+      "seed_effects": [
+        0.00021145992073258156,
+        0.00010068281393220257,
+        0.0005716035730187095,
+        -0.0004900405442048652,
+        -5.00000911079628e-05
+      ],
+      "two_way95": [
+        -0.0004572610924747646,
+        0.000614342944464104
+      ],
+      "candidate_better_seeds": 3,
+      "relative_candidate_MAE_reduction": 0.0067044862446000815
+    }
+  },
+  "all_primary_two_way_CI_include_zero": true,
+  "four_secondary_endpoint_J_CI_independently_recomputed": true,
+  "secondary_classification_FPR_and_balanced_accuracy": "NA: no reference non-events for either threshold",
+  "same_checkpoint_sparse_views_do_not_establish_arbitrary_physical_topology_transfer": true,
+  "raw_frozen_metrics_unchanged": true,
+  "external_fire_only_rank_precision_interpretation_required": true,
+  "source_files_sha256": {
+    "loco_external_fire_results_development_review_zh.md": "67e6de646d54cc8db0686e60a6fa7f49eb86e225bd7289d28bbc89ad9388ff4e",
+    "loco_external_fire_independent_results_audit_v2.json": "33ad1e29d3f3061a8f6fd71d50d049767b85d335eb6cb2683d393439a5c88dde",
+    "loco_external_fire_same_weight_topology_audit.json": "c356527c6c15e7668c42ca881a80b4c3f649cf8e7f73eb827be37aede001ce4e",
+    "loco_external_fire_snapshot_binding_review.json": "6cbb453fb79c158c9b91988b2679b7a955f1ad5046d7fae0c5c1ec6e2748bc02",
+    "loco_external_fire_fire_only_rank_precision_note.json": "49002f878dc314a37de55b4b68a5b567f5256feed4da81ac92301f814b353ba2"
+  },
+  "uncompleted_family_scores_inspected": false,
+  "manuscript_training_workflow_existing_package_modified": false,
+  "submission_pass": false
+}

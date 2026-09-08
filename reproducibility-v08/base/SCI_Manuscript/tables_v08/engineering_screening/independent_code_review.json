@@ -1,0 +1,63 @@
+{
+  "status": "INDEPENDENT_CODE_AND_COMPLETE_PROTOCOL_API_REVIEW_PASSED_FULL_TABLE_PENDING",
+  "created_utc": "2026-09-07T07:23:51.594806+00:00",
+  "reviewer": "numerical_gap_v08",
+  "final_generator_sha256": "d8ef80e36761cb77f387a7d8e98866f34a29986eed109913d070acbd20d767b8",
+  "source_hashes": {
+    "generate_engineering_tables.py": "d8ef80e36761cb77f387a7d8e98866f34a29986eed109913d070acbd20d767b8",
+    "contract.json": "2c74136975d11a9e715c5622f45d8fbc04c03e59da4654f631e4344e8ee9b247",
+    "captions.tex": "4e31adcca0d699b16c48111b4bd59029baf8a9b565481dff7d5a830b9a822b56",
+    "README_zh.md": "f3787ae879453fdf40bf26556a7acf2134caaa76293855805d22eaed59fba8dc"
+  },
+  "gate_test": {
+    "requested_generation_refused": true,
+    "complete_audited_protocols": 9,
+    "score_payloads_read_by_gate": 0,
+    "generated_directory_exists": false
+  },
+  "actual_completed_protocol_API_checks": [
+    {
+      "protocol": "iid997",
+      "geometries": 160,
+      "complete_seed_records_checked": 35,
+      "crossing_records_checked": 70,
+      "balanced_accuracy_NA_records": 0,
+      "scalar_point_contrasts_and_display_unit_checked": 2,
+      "metadata_header_boundaries_confirmed": true,
+      "source_CI_sha256": "7b055f9ba9a2d719f19ac405df0a67249ecbbf93938db3f44167b6019c518561"
+    },
+    {
+      "protocol": "loco_iso834",
+      "geometries": 158,
+      "complete_seed_records_checked": 35,
+      "crossing_records_checked": 70,
+      "balanced_accuracy_NA_records": 70,
+      "scalar_point_contrasts_and_display_unit_checked": 2,
+      "metadata_header_boundaries_confirmed": true,
+      "source_CI_sha256": "84fa79687f162eeeee7e6bc7b26d799532ce7f64ebcd5f2df9080ff6f287ec2d"
+    }
+  ],
+  "actual_primary_replay_records_checked": 70,
+  "independent_geometry_interpretation": "N is per-protocol unique test geometries, never5N or sum across overlapping protocols",
+  "counts_and_coverage": "Separate maxFN/maxFP and min reference-model both-event/E over five seeds; extrema may have different seeds; no common inter-model cohort implied",
+  "difference_units": "Matched-set minus sum-GNN scalar MAE, raw CSV response units; LaTeX values multiplied1000 and explicitly labelled10^-3 units; no percentage conversion",
+  "J_semantics": "Error of trapezoidal time-average response, not average pointwise error or common-event count",
+  "author_hardening_verified": [
+    "balanced_accuracy reconstructed from confusion counts; NA when either reference class absent",
+    "CPU replay status and strict3e-6 condition aligned with original aggregate; flagged case needs exact original GPU"
+  ],
+  "synthetic_data_used": false,
+  "uncompleted_family_performance_read": false,
+  "formal_result_tables_generated": false,
+  "full12_data_branch_executed": false,
+  "actual_LaTex_compilation_verified": false,
+  "source_binding_full420_branch_verified_by_execution": false,
+  "remaining": [
+    "Full12/420 plus all CI and independent reviews; run generator",
+    "Independently reconcile actual generated CSV/LaTeX rows and source hashes",
+    "Compile true result preview and inspect page overflow/readability",
+    "Actual no-reference-event and no-joint-event cohorts remain future real-data checks when applicable"
+  ],
+  "workflow_or_continuation_modified": false,
+  "submission_pass": false
+}

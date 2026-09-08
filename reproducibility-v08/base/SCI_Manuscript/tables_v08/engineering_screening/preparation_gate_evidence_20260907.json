@@ -1,0 +1,121 @@
+{
+  "status": "WAITING_FOR_ALL12_COMPLETE_PROTOCOLS_CI_AND_INDEPENDENT_REVIEWS",
+  "required_protocols": 12,
+  "required_runs": 420,
+  "protocol_statuses": [
+    {
+      "protocol": "iid997",
+      "complete_audited_runs": 35,
+      "actual_result_file_count": 35,
+      "complete_35": true,
+      "required_files_present": true
+    },
+    {
+      "protocol": "lcro_9_15",
+      "complete_audited_runs": 35,
+      "actual_result_file_count": 35,
+      "complete_35": true,
+      "required_files_present": true
+    },
+    {
+      "protocol": "loco_iso834",
+      "complete_audited_runs": 35,
+      "actual_result_file_count": 35,
+      "complete_35": true,
+      "required_files_present": true
+    },
+    {
+      "protocol": "loco_astm_e119",
+      "complete_audited_runs": 35,
+      "actual_result_file_count": 35,
+      "complete_35": true,
+      "required_files_present": true
+    },
+    {
+      "protocol": "loco_perturbed_iso",
+      "complete_audited_runs": 35,
+      "actual_result_file_count": 35,
+      "complete_35": true,
+      "required_files_present": true
+    },
+    {
+      "protocol": "loco_plateau",
+      "complete_audited_runs": 35,
+      "actual_result_file_count": 35,
+      "complete_35": true,
+      "required_files_present": true
+    },
+    {
+      "protocol": "loco_decay",
+      "complete_audited_runs": 35,
+      "actual_result_file_count": 35,
+      "complete_35": true,
+      "required_files_present": true
+    },
+    {
+      "protocol": "loco_log_variant",
+      "complete_audited_runs": 35,
+      "actual_result_file_count": 35,
+      "complete_35": true,
+      "required_files_present": true
+    },
+    {
+      "protocol": "loco_external_fire",
+      "complete_audited_runs": 35,
+      "actual_result_file_count": 35,
+      "complete_35": true,
+      "required_files_present": true
+    },
+    {
+      "protocol": "loco_bilinear",
+      "complete_audited_runs": 3,
+      "actual_result_file_count": 33,
+      "complete_35": false,
+      "required_files_present": false
+    },
+    {
+      "protocol": "loco_linear",
+      "complete_audited_runs": 0,
+      "actual_result_file_count": 0,
+      "complete_35": false,
+      "required_files_present": false
+    },
+    {
+      "protocol": "loco_smoldering",
+      "complete_audited_runs": 0,
+      "actual_result_file_count": 0,
+      "complete_35": false,
+      "required_files_present": false
+    }
+  ],
+  "complete_audited_protocols": 9,
+  "missing_requirements": [
+    "loco_bilinear: complete35 evaluation absent",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_bilinear\\summary.json",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_bilinear_independent_results_audit_v2.json",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_bilinear_results_development_review_zh.md",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_bilinear_engineering_proxy_ci.json",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_bilinear_engineering_proxy_ci.csv",
+    "loco_linear: complete35 evaluation absent",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_linear\\summary.json",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_linear_independent_results_audit_v2.json",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_linear_results_development_review_zh.md",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_linear_engineering_proxy_ci.json",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_linear_engineering_proxy_ci.csv",
+    "loco_smoldering: complete35 evaluation absent",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\experiments\\research_v08\\evaluation\\loco_smoldering\\summary.json",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_smoldering_independent_results_audit_v2.json",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_smoldering_results_development_review_zh.md",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_smoldering_engineering_proxy_ci.json",
+    "D:\\Work\\Abstract\\SCI_Manuscript\\review\\eaai_editor\\research_v08\\loco_smoldering_engineering_proxy_ci.csv",
+    "Final complete420 computational replay required"
+  ],
+  "score_payloads_read": 0,
+  "review_metadata_headers_read": 0,
+  "prediction_files_opened": 0,
+  "formal_tables_created": false,
+  "checked_utc": "2026-09-07T07:23:13.273961+00:00",
+  "command_exit_code": 2,
+  "generated_directory_exists": false,
+  "generator_sha256": "d8ef80e36761cb77f387a7d8e98866f34a29986eed109913d070acbd20d767b8"
+}

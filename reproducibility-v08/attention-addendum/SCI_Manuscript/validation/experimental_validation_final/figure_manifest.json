@@ -1,0 +1,24 @@
+{
+  "status": "RENDERED_AWAITING_INDEPENDENT_NUMERICAL_AND_ACTUAL_VISUAL_QA",
+  "width_mm": 183,
+  "height_mm": 152,
+  "minimum_requested_font_pt": 8,
+  "outside_canvas_text": [],
+  "data_sha256": "8fdce486d87aae310f4fa1e31c357ba5403a0ec4c51c07529d1e2655e024e31f",
+  "extraction_report_sha256": "7248a42d99d07a64e62a7d6ba50a500692f61ba3eb827533748c7971f8c26a3f",
+  "generator_sha256": "6c262c667210cbddf89d424e2a70faa428cdae99fda3f8bae41f93a8f5885bcf",
+  "figure_contract_sha256": "e144b368d1fe8bab4ea5db0ebc2632bfa4ba2bcff8d8397b4f380b126c22af15",
+  "output_sha256": {
+    "experimental_validation_final.pdf": "ec41f139076866f1d76215e1c1f65f165f63c7c0552c06686816b84c01f59f96",
+    "experimental_validation_final.svg": "4b5f6928328138e6dfaa8455801889859fe557a2ca059a903bab23e4dcf1521e",
+    "experimental_validation_final.png": "79974cee0d3373c34227c6123a90f9c46e9db57786cda14f9241c7bd3c103178"
+  },
+  "time_weighted_RMS_C": [
+    35.47083052524127,
+    43.27433611299336,
+    39.98609367553838
+  ],
+  "new_FE_runs": 0,
+  "actual_temperature_group_identity": "Both a and b are experimental groups; FE curves are separately identified by original mesh legend.",
+  "schematic_sensor_coordinates_assigned": false
+}

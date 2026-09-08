@@ -1,0 +1,15 @@
+\subsection{Thermal-model validation against standard-fire measurements}
+\label{sec:experimental-validation}
+
+The experimental reference is the standard-fire subset of the Douglas-fir glued-laminated-timber tests reported by Zheng et al.\ \citep{zheng2026largespace}. The specimens had a $140\times200$ mm cross-section and a length of $600$ mm, with reported mean air-dry density of approximately $525$ kg m$^{-3}$ and moisture content of approximately $12\%$. Four longitudinal faces were exposed to ISO~834 heating for $60$ min, while the ends were protected with fire-resistant boards. Embedded thermocouples recorded temperatures at nominal depths of $15$, $30$ and $40$ mm; the instrumented section was at least $200$ mm from either end.
+
+Figure~\ref{fig:experimental-validation} retains both supplied experimental groups, labelled a and b, together with their arithmetic mean. The corresponding archived validation used an EC5-based thermal model with the same cross-section, DC3D10 elements and a $20$ mm nominal mesh. Its existing temperature curves were recovered from the saved vector comparison; no new finite-element solution is represented here. Over $0$--$60$ min, the time-weighted root-mean-square differences from the experimental mean are approximately $35.5$, $43.3$ and $40.0\,{}^\circ$C at the three depths. The comparison reproduces the main heating trend, with delayed intermediate heating at the deeper locations.
+
+This evidence supports the thermal modelling route under four-face standard-fire exposure. It is a depth-group comparison: the supplied group labels do not fully identify individual specimens or exact thermocouple coordinates. The supporting data retain the curve-recovery and time-alignment details; this comparison does not constitute a new validation of every cracked-beam response.
+
+\begin{figure}[!htbp]
+\centering
+\widefigure{figures/experimental_validation_final.pdf}
+\caption{Standard-fire thermal-model comparison. (a) Experimental specimen and exposure configuration associated with the measurements of Zheng et al.\ \citep{zheng2026largespace}; the schematic does not assign thermocouple coordinates. (b--d) Supplied experimental groups a and b, their arithmetic mean and the archived $20$ mm mesh FE curves at three labelled depths. FE curves were recovered from the existing vector comparison, not newly solved. The displayed RMS differences use trapezoidal time weighting over $0$--$60$ min.}
+\label{fig:experimental-validation}
+\end{figure}
