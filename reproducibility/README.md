@@ -46,7 +46,7 @@ Supported models: `global_graph`, `global_contrast`, `local_graph`, `local_set`,
 - `metrics/`: complete published seed/case scores, bootstrap intervals and protocols.
 - `dense_queries/`: 7 selected cases, 4 coordinate grids, all 5 models x 3 seeds; separately supplied FE section labels and raw metrics. Five non-training cases enter Supplementary Figure S2/Table S8, with two training diagnostics separately identified.
 - `generation/`: exact production source snapshots, parameter generator, geometry/meshing/thermal solve/audit/export scripts, material tables, frozen manifests, actual input files, environment records and full-field readers. Start with `generation/multisize_reproducibility_addendum_v1/WORKDIR_RESTORE.md` to restore the HPC work-directory layout. Solver execution is a separate explicit action; it is not needed for paper reproduction.
-- `paper/`: LaTeX, figures, source values, plotting scripts and the manuscript's smaller forward example.
+- `visualization/`: reproducible figure scripts, figure source arrays and numerical table generators. Manuscript and supplementary LaTeX sources are kept separately by the authors.
 - `provenance/`: origin hashes and historical analysis records, including numerical qualification results retained without reclassification.
 
 ## Numerical target and usage
@@ -57,6 +57,10 @@ Learning, model selection and transfer evaluations use the common specified nume
 
 ## Public access and citation
 
-The complete package, manuscript PDFs and editable LaTeX source are available from the [GitHub release](https://github.com/percyzhu/crackfire-net-metadata/releases/tag/eaai-benchmark). Download `EAAI_reproducibility.zip` for the full learning data; GitHub's automatically generated source archives contain the repository checkout only.
+The complete package, manuscript PDFs are available from the [GitHub release](https://github.com/percyzhu/crackfire-net-metadata/releases/tag/eaai-benchmark). Download `EAAI_reproducibility.zip` for the full learning data; GitHub's automatically generated source archives contain the repository checkout only.
 
 Package names are unversioned for manuscript presentation. Original source identifiers, simulation versions, freeze records and hashes are retained to identify exactly which evidence generated the published results. See `CITATION.cff`, `LICENSE` and `THIRD_PARTY_NOTICES.md` for attribution and rights. No new rights are granted over third-party materials. Contact: zhushaojun@tongji.edu.cn.
+
+## Author-source separation
+
+This public package contains research data and computational code, including the scripts needed to reproduce tables and figures. It contains no manuscript or supplementary LaTeX sources, bibliography source, author editing documents, or author-source archive. The published PDFs remain separately available. Table generators create their numeric table outputs only when reproduction is explicitly run.

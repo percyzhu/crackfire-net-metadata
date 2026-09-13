@@ -1,0 +1,12 @@
+{
+  "public_materials": [
+    "learning data",
+    "simulation and preprocessing code",
+    "model and training code",
+    "predictions",
+    "computational figure/table reproduction"
+  ],
+  "manuscript_latex_sources_public": false,
+  "student_review_archive_public": false,
+  "author_sources_distributed_separately": true
+}

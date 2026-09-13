@@ -61,8 +61,8 @@ def main():
     report['score_max_abs_difference']=maximum;report['prediction_files']=90
     if not args.skip_figures:
         import shutil
-        # Build an output-only paper layout so source package hashes remain unchanged.
-        paper=OUT/'paper';shutil.copytree(R/'paper',paper,dirs_exist_ok=True)
+        # Build an output-only visualization workspace; manuscript sources are private.
+        paper=OUT/'visualization';shutil.copytree(R/'visualization',paper,dirs_exist_ok=True)
         for source,dest in [('combined_results','results'),('combined_demand_results','demand_results')]:
             primary=[r for r in json.loads((OUT/f'{source}.json').read_text(encoding='utf-8')) if r['model']!='local_no_contrast'];dump(paper/'reproducibility'/f'{dest}.json',primary)
         for script in ['reproducibility/reproduce_tables.py','figure_scripts/rebuild_all_figures.py']:

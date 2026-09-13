@@ -13,9 +13,9 @@ Given known crack geometry, member dimensions and a prescribed fire history, the
 | Complete learning data, models, selected weights, saved predictions and reproduction scripts | [EAAI_reproducibility.zip](https://github.com/percyzhu/crackfire-net-metadata/releases/download/eaai-benchmark/EAAI_reproducibility.zip) |
 | Main manuscript | [Manuscript.pdf](https://github.com/percyzhu/crackfire-net-metadata/releases/download/eaai-benchmark/Manuscript.pdf) |
 | Supplementary material | [Supplementary_material.pdf](https://github.com/percyzhu/crackfire-net-metadata/releases/download/eaai-benchmark/Supplementary_material.pdf) |
-| Editable LaTeX manuscript, figures and plotting source | [EAAI_manuscript_LaTeX.zip](https://github.com/percyzhu/crackfire-net-metadata/releases/download/eaai-benchmark/EAAI_manuscript_LaTeX.zip) |
-| Submission highlights | [Highlights.docx](https://github.com/percyzhu/crackfire-net-metadata/releases/download/eaai-benchmark/Highlights.docx) |
 | Asset SHA-256 checksums | [SHA256SUMS.txt](https://github.com/percyzhu/crackfire-net-metadata/releases/download/eaai-benchmark/SHA256SUMS.txt) |
+
+Manuscript and supplementary LaTeX sources are maintained privately for author/student editing. The public data package retains the computational and plotting code needed to reproduce the reported results.
 
 The complete learning package is distributed as a GitHub Release asset. **GitHub's automatically generated “Source code” archives contain only this repository checkout**, not the complete release dataset.
 
