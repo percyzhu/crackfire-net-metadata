@@ -1,0 +1,157 @@
+{
+  "training_cases": 860,
+  "validation_cases": 27,
+  "sample_unit": "one member, full 361-time by 31-section by 4-direction response",
+  "seeds": [
+    2601,
+    2602,
+    2603
+  ],
+  "models": [
+    "G",
+    "G+C",
+    "L-G",
+    "L-S",
+    "L-G0"
+  ],
+  "runs": 15,
+  "initialization": "new network with PyTorch layer defaults; new AdamW state per run",
+  "epochs": 100,
+  "minibatches_per_epoch": 54,
+  "batch_sizes": {
+    "15": 4,
+    "16": 50
+  },
+  "updates_per_run": 5400,
+  "shuffle": "NumPy Generator permutation without replacement each epoch; same seed gives same order across variants",
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.002,
+    "lr_schedule": "constant",
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0.0001,
+    "weight_decay_scope": "all trainable parameters",
+    "global_gradient_l2_clip": 1
+  },
+  "loss_weights": {
+    "section": 1,
+    "member": 0.5,
+    "contrast": {
+      "G": 0,
+      "G+C": 4,
+      "L-G": 4,
+      "L-S": 4,
+      "L-G0": 0
+    }
+  },
+  "loss_reduction": "mean over all entries of each applicable minibatch array",
+  "selection_score": "validation contrast MAE + 0.5 validation member MAE",
+  "selection_frequency": "after every epoch, full validation set, no gradients",
+  "selection_rule": "strict improvement; retain earlier checkpoint on ties",
+  "training_termination": "complete all 100 epochs; reload best validation weights afterward",
+  "normalization": "training-only means and population standard deviations, minimum std 1e-6; fixed crack/edge physical scales",
+  "environment": {
+    "torch": "2.5.1+cu124",
+    "python": "3.12.10",
+    "gpu": "NVIDIA GeForce RTX 3060 Ti"
+  },
+  "floating_point": "float32",
+  "torch_cpu_threads": 4,
+  "archived_run_checks": [
+    {
+      "run": "global_contrast_2601",
+      "epochs": 100,
+      "selected_epoch": 75,
+      "selection_score": 0.017019118182361126
+    },
+    {
+      "run": "global_contrast_2602",
+      "epochs": 100,
+      "selected_epoch": 100,
+      "selection_score": 0.016429214272648096
+    },
+    {
+      "run": "global_contrast_2603",
+      "epochs": 100,
+      "selected_epoch": 79,
+      "selection_score": 0.01706959353759885
+    },
+    {
+      "run": "global_graph_2601",
+      "epochs": 100,
+      "selected_epoch": 100,
+      "selection_score": 0.01710092229768634
+    },
+    {
+      "run": "global_graph_2602",
+      "epochs": 100,
+      "selected_epoch": 95,
+      "selection_score": 0.016690492630004883
+    },
+    {
+      "run": "global_graph_2603",
+      "epochs": 100,
+      "selected_epoch": 79,
+      "selection_score": 0.017725843470543623
+    },
+    {
+      "run": "local_graph_2601",
+      "epochs": 100,
+      "selected_epoch": 91,
+      "selection_score": 0.00873309513553977
+    },
+    {
+      "run": "local_graph_2602",
+      "epochs": 100,
+      "selected_epoch": 96,
+      "selection_score": 0.008539853617548943
+    },
+    {
+      "run": "local_graph_2603",
+      "epochs": 100,
+      "selected_epoch": 96,
+      "selection_score": 0.008997045690193772
+    },
+    {
+      "run": "local_no_contrast_2601",
+      "epochs": 100,
+      "selected_epoch": 93,
+      "selection_score": 0.009728749748319387
+    },
+    {
+      "run": "local_no_contrast_2602",
+      "epochs": 100,
+      "selected_epoch": 100,
+      "selection_score": 0.009626847226172686
+    },
+    {
+      "run": "local_no_contrast_2603",
+      "epochs": 100,
+      "selected_epoch": 91,
+      "selection_score": 0.010021391790360212
+    },
+    {
+      "run": "local_set_2601",
+      "epochs": 100,
+      "selected_epoch": 91,
+      "selection_score": 0.008867277763783932
+    },
+    {
+      "run": "local_set_2602",
+      "epochs": 100,
+      "selected_epoch": 96,
+      "selection_score": 0.009079234208911657
+    },
+    {
+      "run": "local_set_2603",
+      "epochs": 100,
+      "selected_epoch": 87,
+      "selection_score": 0.009517488535493612
+    }
+  ],
+  "pass": true
+}
