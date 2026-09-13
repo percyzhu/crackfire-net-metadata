@@ -1,0 +1,11 @@
+# Benchmark data card
+
+1,482 individually simulated timber members: 982 at L=1.5 m, b=0.14 m, h=0.20 m; 500 across ten additional sections and five additional lengths. Inputs comprise known cavity geometry, actual beam dimensions and prescribed 61-point exposure tables; material and boundary definitions are fixed. The learning task begins after crack measurement.
+
+The final geometry-family partition has 860 training, 27 validation, 208 count-transfer, 80 section-transfer, 70 length-transfer, 20 joint-transfer, 10 reserved and 207 isolated relatives. Count transfer has 12–15 cracks versus up to 11 in fitting; held-out length is 1.75 m within the available length range. Reserved cases are descriptive, not a new blind test. Related test groups may share families; train/validation families are isolated from all test families. Source lineage and the same-face matched near-duplicate grouping are indexed in the manifests.
+
+Each target has shape [361,31,4]. Time is 0–3600 s at 10 s spacing; z/L is linspace(1/60,59/60,31); directions are Wx_plus, Wx_minus, Wy_plus, Wy_minus. The target is an irreversible 300 C remaining geometric section-modulus ratio from the stated discretized simulator. Geometry and field provenance, compact first crossings and full learning tensors are supplied. No measured structural capacity is included. See README, schema.json and paper Methods for mathematical definitions.
+
+The package contains all 1,482 labels and first-crossing records, all five model implementations, fifteen selected weights and every standard-grid prediction used in evaluation. Seven selected dense-coordinate diagnostics are supplied separately and are not additional independent members. The five non-training members used for the dense summary are explicitly listed in the supplement.
+
+Machine-readable provenance connects every compact record to source mesh/field hashes. The original full fields remain in the recorded HPC archive. Reproduction operates locally from supplied arrays. Reproduction checks do not reclassify historical thermal accuracy qualification. The complete package is available from https://github.com/percyzhu/crackfire-net-metadata/releases/tag/eaai-benchmark. The release assets and checksums identify the distributed files.

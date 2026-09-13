@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use this metadata, please cite the associated manuscript and this repository."
-title: "CrackFireNet study data, code and reproducibility materials"
+message: "If you use these research materials, please cite the associated manuscript and this dataset."
+title: "CrackFireNet: remaining section-modulus prediction for fire-exposed timber beams"
 type: dataset
 authors:
   - family-names: Zheng
@@ -11,10 +11,12 @@ authors:
     given-names: Shaojun
     email: zhushaojun@tongji.edu.cn
 license: CC-BY-4.0
-abstract: "Data, code, checkpoints and integrity records for crack-graph thermal-response screening of fire-exposed timber beams."
+abstract: "1,482 simulated cracked timber members, complete learning tensors and compact threshold-crossing records, five model variants, fifteen selected checkpoints, predictions and reproduction code for remaining geometric section-modulus histories."
 keywords:
   - fire-exposed timber beams
   - graph neural networks
-  - inductive learning
+  - remaining section modulus
+  - geometric transfer
   - surrogate modelling
 repository-code: "https://github.com/percyzhu/crackfire-net-metadata"
+url: "https://github.com/percyzhu/crackfire-net-metadata/releases/tag/eaai-benchmark"

@@ -1,0 +1,33 @@
+{
+  "N": 1482,
+  "inputs": {
+    "nodes": "[N,15,14]: face one-hot; relative z,s,w,l,d; absolute z,s,w,l,d",
+    "mask": "[N,15] bool",
+    "edges": "[N,receiver,sender,4], scaled sender-minus-receiver dx,dy,dz and box gap",
+    "fire": "[N,361,3]: standardized gas temperature, historical gas peak, time",
+    "beam": "[N,3]: standardized L,b,h"
+  },
+  "labels": {
+    "section_eta": "[N,361,31,4], Wx_plus, Wx_minus, Wy_plus, Wy_minus",
+    "time_s": "0:10:3600",
+    "section_z_over_L": "linspace(1/60,59/60,31)",
+    "member": "section_eta.min(axis=2)",
+    "definition": "irreversible first 300 C crossing; remaining geometric I/c divided by gross rectangle W; includes cell own inertia and cell boundaries; empty section zero; no upper or monotonic clipping"
+  },
+  "split_roles": {
+    "count": 208,
+    "joint": 20,
+    "length": 70,
+    "quarantine": 207,
+    "reserved": 10,
+    "section": 80,
+    "train": 860,
+    "validation": 27
+  },
+  "first300": {
+    "outside_material": "material_mask false; never used",
+    "retained": "material_mask AND first_ge300_frame > frame",
+    "cell_size_m": 0.002,
+    "never_reached_code": 65535
+  }
+}

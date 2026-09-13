@@ -1,0 +1,15 @@
+{
+  "python": "3.12.10",
+  "numpy": "2.4.4",
+  "torch": "2.5.1+cu124",
+  "training_gpu": "NVIDIA GeForce RTX 3060 Ti",
+  "source_thermal_environment": "generation/multisize_reproducibility_addendum_v1/runtime_snapshot",
+  "paper_scope": "surrogate relative to fixed discretized numerical model; numerical audits retained separately",
+  "figure_reproduction": {
+    "backend": "Python / Matplotlib",
+    "font": "Arial (installed separately)",
+    "math": "TeX syntax / Computer Modern",
+    "pymupdf": "1.27.2.2",
+    "pillow": "12.2.0"
+  }
+}

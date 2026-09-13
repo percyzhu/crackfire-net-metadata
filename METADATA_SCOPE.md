@@ -1,3 +1,5 @@
+> Historical-study scope: this file describes the earlier experiment. For the current section-modulus benchmark, use README.md and the eaai-benchmark release.
+
 # Public data, code and reproducibility scope
 
 This repository supports reproduction and audit of the reported learning experiments. The root-level files retain their original metadata role. The complete public reproducibility release is in `reproducibility-v08/`.
