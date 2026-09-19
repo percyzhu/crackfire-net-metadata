@@ -1,3 +1,18 @@
+<!-- REFINED_THRESHOLD_RELEASE_POINTER -->
+# Current refined threshold benchmark
+
+The current study uses **1,471 independently simulated beams**, seven irreversible assessment thresholds and three freshly trained models with three seeds each. Download the [refined threshold research release](https://github.com/percyzhu/crackfire-net-metadata/releases/tag/refined-threshold-benchmark).
+
+Read **START_HERE.md** in that release. Download its eight archive parts and the small supporting files, then use `extract_release.py` to verify and extract without creating a second large archive. The release contains compact reconstruction labels, physical inputs, frozen family roles, learning code, nine checkpoints, per-case predictions and one-command result/figure reproduction. **The automatically generated repository source ZIP is not the research dataset.** Manuscript and supplementary LaTeX sources are not included.
+
+Learning/inference reproduction has passed. A small addendum linking the actual HPC solver dependencies and run-time input fingerprints remains tracked in `PROVENANCE_STATUS.json`; this does not require new thermal solves or model training.
+
+The earlier release and documentation below are preserved for their earlier data and results; do not mix those numbers or checkpoints with the refined threshold benchmark.
+
+---
+
+## Earlier benchmark documentation
+
 # CrackFireNet: fire-exposed timber beam benchmark
 
 Data and reproducibility materials accompanying **Local geometry-aware crack-graph learning for section-modulus prediction in fire-exposed timber beams**, by Xiuzhi Zheng, Bo Peng and Shaojun Zhu, Tongji University.
