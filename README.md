@@ -5,7 +5,7 @@ The current study uses **1,471 independently simulated beams**, seven irreversib
 
 Read **START_HERE.md** in that release. Download its eight archive parts and the small supporting files, then use `extract_release.py` to verify and extract without creating a second large archive. The release contains compact reconstruction labels, physical inputs, frozen family roles, learning code, nine checkpoints, per-case predictions and one-command result/figure reproduction. **The automatically generated repository source ZIP is not the research dataset.** Manuscript and supplementary LaTeX sources are not included.
 
-Learning/inference reproduction has passed. A small addendum linking the actual HPC solver dependencies and run-time input fingerprints remains tracked in `PROVENANCE_STATUS.json`; this does not require new thermal solves or model training.
+Learning/inference reproduction and actual core-source/input provenance have passed. Read **PROVENANCE_ADDENDUM_GUIDE.md** and download the verified `solver_provenance_addendum.zip` from the same release. Its 7,402 file checksums and all 1,471 case bindings passed independent checks; `PROVENANCE_COMPLETION.json` supersedes older pending-source metadata in the unchanged base archive. Historical submission-time driver/Slurm hashes were not recorded and remain documented. Paper sources remain private.
 
 The earlier release and documentation below are preserved for their earlier data and results; do not mix those numbers or checkpoints with the refined threshold benchmark.
 
